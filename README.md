@@ -189,6 +189,23 @@ Seven lemmas that prove its boundaries:
 13. **Accrual and eviction don't commute** — the precise boundary of confluence
 14. **Perception is determined by invariance** — the Umwelt is the quotient by funded distinctions
 
+## Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23837987.svg)](https://doi.org/10.5281/zenodo.23837987)
+
+If you use Gerundelle in your research, please cite:
+
+```bibtex
+@software{seto2026gerundelle,
+  author    = {Seto, Scott},
+  title     = {Gerundelle: A Formally Verified Architecture of Mind},
+  year      = {2026},
+  doi       = {10.5281/zenodo.23837987},
+  url       = {https://doi.org/10.5281/zenodo.23837987},
+  license   = {LGPL-2.1}
+}
+```
+
 ## License
 
 LGPL v2.1 (code, proofs, and reference implementation). See [LICENSE](LICENSE).
