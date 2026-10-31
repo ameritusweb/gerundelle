@@ -14,6 +14,23 @@ Each layer carries guarantees that a proof assistant (Lean 4) has checked for ev
 input, every possible sequence of operations, every possible interleaving. The development
 comprises **24 files**, **301 theorems**, and **no unfinished proofs**.
 
+### The twelve layers
+
+| | Layer | Question it answers |
+| --- | --- | --- |
+| **The machine** | 1. World | A physics that conserves its one quantity |
+| | 2. Perception | What the agent can distinguish |
+| | 3. Competition | Scarce attention slots |
+| | 4. Provenance | The difference between lived, told and imagined |
+| **The cognition** | 5. Memory | Thoughts that settle and reopen |
+| | 6. Understanding | Open questions with typed slots |
+| | 7. Self-awareness | Detecting its own loops and confusion |
+| **The will** | 8. Ownership | Territory: what the agent holds, contests and loses |
+| | 9. Affect | Emotions read off the territory register |
+| **The reach** | 10. Planning | Sub-wants, constraint convergence, the curriculum |
+| | 11. Social | Attestation, trust, the discount |
+| | 12. Selection | What is worth telling, and why |
+
 The architecture is domain-independent: one mind and one algebra run in story, code, chess
 and population worlds, with no domain-specific machinery. Only the world changes.
 
@@ -129,7 +146,9 @@ Three results:
 
 ## The book
 
-**Building Gerundelle: A Newtonian World Model**
+**The Museum of Gerundelle: A Cognitive Architecture of Competing Thought-Molecules,
+Structured Ignorance, Territorial Ownership, Scarce Attention, and the Market Forces
+That Drive a Mind to Learn, Explore, Grow, and Express Itself**
 
 Scott D. Seto. 262 pages.
 
@@ -172,7 +191,7 @@ Seven lemmas that prove its boundaries:
 
 ## License
 
-LGPL v3 (code, proofs, and reference implementation). See [LICENSE](LICENSE).
+LGPL v2.1 (code, proofs, and reference implementation). See [LICENSE](LICENSE).
 
 ## Author
 
