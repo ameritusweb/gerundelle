@@ -1,0 +1,853 @@
+\begin{thebibliography}{113}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abramsky and Brandenburger(2011)]{AbramskyBrandenburger2011}
+Samson Abramsky and Adam Brandenburger.
+\newblock The sheaf-theoretic structure of non-locality and contextuality.
+\newblock \emph{New Journal of Physics}, 13\penalty0 (11):\penalty0 113036,
+  2011.
+\newblock \doi{10.1088/1367-2630/13/11/113036}.
+
+\bibitem[Adam et~al.(2009)Adam, Herzig, and Longin]{AdamHerzigLongin2009}
+Carole Adam, Andreas Herzig, and Dominique Longin.
+\newblock A logical formalization of the {OCC} theory of emotions.
+\newblock \emph{Synthese}, 168\penalty0 (2):\penalty0 201--248, 2009.
+\newblock \doi{10.1007/s11229-009-9460-9}.
+
+\bibitem[Alchourr{\'o}n et~al.(1985)Alchourr{\'o}n, G{\"a}rdenfors, and
+  Makinson]{AlchourronGardenforsMakinson1985}
+Carlos~E. Alchourr{\'o}n, Peter G{\"a}rdenfors, and David Makinson.
+\newblock On the logic of theory change: Partial meet contraction and revision
+  functions.
+\newblock \emph{Journal of Symbolic Logic}, 50\penalty0 (2):\penalty0 510--530,
+  1985.
+\newblock \doi{10.2307/2274239}.
+
+\bibitem[Anderson et~al.(2004)Anderson, Bothell, Byrne, Douglass, Lebiere, and
+  Qin]{Anderson2004}
+John~R. Anderson, Daniel Bothell, Michael~D. Byrne, Scott Douglass, Christian
+  Lebiere, and Yulin Qin.
+\newblock An integrated theory of the mind.
+\newblock \emph{Psychological Review}, 111\penalty0 (4):\penalty0 1036--1060,
+  2004.
+\newblock \doi{10.1037/0033-295X.111.4.1036}.
+
+\bibitem[{Azevedo de Amorim} et~al.(2016){Azevedo de Amorim}, Collins, DeHon,
+  Demange, Hri{\c{t}}cu, Pichardie, Pierce, Pollack, and
+  Tolmach]{AzevedodeAmorim2016}
+Arthur {Azevedo de Amorim}, Nathan Collins, Andr{\'e} DeHon, Delphine Demange,
+  C{\u{a}}t{\u{a}}lin Hri{\c{t}}cu, David Pichardie, Benjamin~C. Pierce, Randy
+  Pollack, and Andrew Tolmach.
+\newblock A verified information-flow architecture.
+\newblock \emph{Journal of Computer Security}, 24\penalty0 (6):\penalty0
+  689--734, 2016.
+\newblock \doi{10.3233/JCS-15784}.
+
+\bibitem[Baars(1988)]{Baars1988}
+Bernard~J. Baars.
+\newblock \emph{A Cognitive Theory of Consciousness}.
+\newblock Cambridge University Press, Cambridge, 1988.
+\newblock ISBN 0-521-30133-5.
+
+\bibitem[Bae and Young(2008)]{BaeYoung2008}
+Byung-Chull Bae and R.~Michael Young.
+\newblock A use of flashback and foreshadowing for surprise arousal in
+  narrative using a plan-based approach.
+\newblock In \emph{Interactive Storytelling ({ICIDS} 2008)}, Lecture Notes in
+  Computer Science, pages 156--167. Springer, 2008.
+\newblock \doi{10.1007/978-3-540-89454-4_22}.
+
+\bibitem[Bancilhon and Spyratos(1981)]{BancilhonSpyratos1981}
+Fran{\c{c}}ois Bancilhon and Nicolas Spyratos.
+\newblock Update semantics of relational views.
+\newblock \emph{{ACM} Transactions on Database Systems}, 6\penalty0
+  (4):\penalty0 557--575, 1981.
+\newblock \doi{10.1145/319628.319634}.
+
+\bibitem[Baum(1999)]{Baum1999}
+Eric~B. Baum.
+\newblock Toward a model of intelligence as an economy of agents.
+\newblock \emph{Machine Learning}, 35\penalty0 (2):\penalty0 155--185, 1999.
+\newblock \doi{10.1023/A:1007593124513}.
+
+\bibitem[Bellemare et~al.(2016)Bellemare, Srinivasan, Ostrovski, Schaul,
+  Saxton, and Munos]{Bellemare2016}
+Marc~G. Bellemare, Sriram Srinivasan, Georg Ostrovski, Tom Schaul, David
+  Saxton, and R{\'e}mi Munos.
+\newblock Unifying count-based exploration and intrinsic motivation.
+\newblock In \emph{Advances in Neural Information Processing Systems 29 ({NIPS}
+  2016)}, pages 1471--1479, 2016.
+
+\bibitem[Blum and Blum(2022)]{BlumBlum2022}
+Lenore Blum and Manuel Blum.
+\newblock A theory of consciousness from a theoretical computer science
+  perspective: Insights from the {Conscious Turing Machine}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 119\penalty0
+  (21):\penalty0 e2115934119, 2022.
+\newblock \doi{10.1073/pnas.2115934119}.
+
+\bibitem[Bordini et~al.(2006)Bordini, Fisher, Visser, and
+  Wooldridge]{Bordini2006}
+Rafael~H. Bordini, Michael Fisher, Willem Visser, and Michael Wooldridge.
+\newblock Verifying multi-agent programs by model checking.
+\newblock \emph{Autonomous Agents and Multi-Agent Systems}, 12\penalty0
+  (2):\penalty0 239--256, 2006.
+\newblock \doi{10.1007/s10458-006-5955-7}.
+
+\bibitem[Bosse et~al.(2008)Bosse, Jonker, and Treur]{BosseJonkerTreur2008}
+Tibor Bosse, Catholijn~M. Jonker, and Jan Treur.
+\newblock Formalisation of {Damasio}'s theory of emotion, feeling and core
+  consciousness.
+\newblock \emph{Consciousness and Cognition}, 17\penalty0 (1):\penalty0
+  94--113, 2008.
+\newblock \doi{10.1016/j.concog.2007.06.006}.
+
+\bibitem[Bosser et~al.(2011)Bosser, Courtieu, Forest, and Cavazza]{Bosser2011}
+Anne-Gwenn Bosser, Pierre Courtieu, Julien Forest, and Marc Cavazza.
+\newblock Structural analysis of narratives with the {Coq} proof assistant.
+\newblock In \emph{Interactive Theorem Proving ({ITP} 2011)}, volume 6898 of
+  \emph{Lecture Notes in Computer Science}, pages 55--70. Springer, 2011.
+\newblock \doi{10.1007/978-3-642-22863-6_7}.
+
+\bibitem[Boyd and Richerson(1985)]{BoydRicherson1985}
+Robert Boyd and Peter~J. Richerson.
+\newblock \emph{Culture and the Evolutionary Process}.
+\newblock University of Chicago Press, Chicago, 1985.
+
+\bibitem[Br{\"a}nnstr{\"o}m and Nieves(2025)]{BrannstromNieves2025}
+Andreas Br{\"a}nnstr{\"o}m and Juan~Carlos Nieves.
+\newblock Human emotion verification by action languages via answer set
+  programming.
+\newblock \emph{Theory and Practice of Logic Programming}, 25\penalty0
+  (6):\penalty0 1047--1104, 2025.
+\newblock \doi{10.1017/S1471068426100416}.
+
+\bibitem[Bronstein et~al.(2021)Bronstein, Bruna, Cohen, and
+  Veli{\v{c}}kovi{\'c}]{Bronstein2021}
+Michael~M. Bronstein, Joan Bruna, Taco Cohen, and Petar Veli{\v{c}}kovi{\'c}.
+\newblock Geometric deep learning: Grids, groups, graphs, geodesics, and
+  gauges, 2021.
+
+\bibitem[Carey(1985)]{Carey1985}
+Susan Carey.
+\newblock \emph{Conceptual Change in Childhood}.
+\newblock MIT Press, Cambridge, MA, 1985.
+\newblock ISBN 0-262-03110-8.
+
+\bibitem[Cassirer(1944)]{Cassirer1944}
+Ernst Cassirer.
+\newblock The concept of group and the theory of perception.
+\newblock \emph{Philosophy and Phenomenological Research}, 5\penalty0
+  (1):\penalty0 1--36, 1944.
+\newblock \doi{10.2307/2102891}.
+
+\bibitem[Cohen and Welling(2016)]{CohenWelling2016}
+Taco Cohen and Max Welling.
+\newblock Group equivariant convolutional networks.
+\newblock In \emph{Proceedings of the 33rd International Conference on Machine
+  Learning}, volume~48 of \emph{Proceedings of Machine Learning Research},
+  pages 2990--2999. PMLR, 2016.
+
+\bibitem[Cosyn and Uzun(2009)]{CosynUzun2009}
+Eric Cosyn and Hasan~B. Uzun.
+\newblock Note on two necessary and sufficient axioms for a well-graded
+  knowledge space.
+\newblock \emph{Journal of Mathematical Psychology}, 53\penalty0 (1):\penalty0
+  40--42, 2009.
+\newblock \doi{10.1016/j.jmp.2008.09.005}.
+
+\bibitem[Cowan(2001)]{Cowan2001}
+Nelson Cowan.
+\newblock The magical number 4 in short-term memory: A reconsideration of
+  mental storage capacity.
+\newblock \emph{Behavioral and Brain Sciences}, 24\penalty0 (1):\penalty0
+  87--114, 2001.
+\newblock \doi{10.1017/S0140525X01003922}.
+
+\bibitem[Damasio(1994)]{Damasio1994}
+Antonio~R. Damasio.
+\newblock \emph{Descartes' Error: Emotion, Reason, and the Human Brain}.
+\newblock G. P. Putnam's Sons, New York, 1994.
+
+\bibitem[Darwiche and Pearl(1997)]{DarwichePearl1997}
+Adnan Darwiche and Judea Pearl.
+\newblock On the logic of iterated belief revision.
+\newblock \emph{Artificial Intelligence}, 89\penalty0 (1--2):\penalty0 1--29,
+  1997.
+\newblock \doi{10.1016/S0004-3702(96)00038-0}.
+
+\bibitem[de~Kleer(1986)]{deKleer1986}
+Johan de~Kleer.
+\newblock An assumption-based {TMS}.
+\newblock \emph{Artificial Intelligence}, 28\penalty0 (2):\penalty0 127--162,
+  1986.
+\newblock \doi{10.1016/0004-3702(86)90080-9}.
+
+\bibitem[de~Moura and Ullrich(2021)]{deMouraUllrich2021}
+Leonardo de~Moura and Sebastian Ullrich.
+\newblock The {Lean} 4 theorem prover and programming language.
+\newblock In Andr{\'e} Platzer and Geoff Sutcliffe, editors, \emph{Automated
+  Deduction -- {CADE} 28: 28th International Conference on Automated Deduction,
+  Virtual Event, July 12--15, 2021, Proceedings}, volume 12699 of \emph{Lecture
+  Notes in Computer Science}, pages 625--635, Cham, 2021. Springer.
+\newblock \doi{10.1007/978-3-030-79876-5_37}.
+
+\bibitem[Deci and Ryan(1985)]{DeciRyan1985}
+Edward~L. Deci and Richard~M. Ryan.
+\newblock \emph{Intrinsic Motivation and Self-Determination in Human Behavior}.
+\newblock Plenum, New York, 1985.
+\newblock ISBN 0-306-42022-8.
+
+\bibitem[Dehaene(2014)]{Dehaene2014}
+Stanislas Dehaene.
+\newblock \emph{Consciousness and the Brain: Deciphering How the Brain Codes
+  Our Thoughts}.
+\newblock Viking, New York, 2014.
+\newblock ISBN 978-0-670-02543-5.
+
+\bibitem[Dennis(2018)]{Dennis2018}
+Louise~A. Dennis.
+\newblock The {MCAPL} framework including the agent infrastructure layer and
+  agent {Java} pathfinder.
+\newblock \emph{Journal of Open Source Software}, 3\penalty0 (24):\penalty0
+  617, 2018.
+\newblock \doi{10.21105/joss.00617}.
+
+\bibitem[Dennis et~al.(2012)Dennis, Fisher, Webster, and Bordini]{Dennis2012}
+Louise~A. Dennis, Michael Fisher, Matthew~P. Webster, and Rafael~H. Bordini.
+\newblock Model checking agent programming languages.
+\newblock \emph{Automated Software Engineering}, 19\penalty0 (1):\penalty0
+  5--63, 2012.
+\newblock \doi{10.1007/s10515-011-0088-x}.
+
+\bibitem[Dennis et~al.(2016)Dennis, Fisher, Lincoln, Lisitsa, and
+  Veres]{Dennis2016}
+Louise~A. Dennis, Michael Fisher, Nicholas~K. Lincoln, Alexei Lisitsa, and
+  Sandor~M. Veres.
+\newblock Practical verification of decision-making in agent-based autonomous
+  systems.
+\newblock \emph{Automated Software Engineering}, 23\penalty0 (3):\penalty0
+  305--359, 2016.
+\newblock \doi{10.1007/s10515-014-0168-9}.
+
+\bibitem[Doignon and Falmagne(1985)]{DoignonFalmagne1985}
+Jean-Paul Doignon and Jean-Claude Falmagne.
+\newblock Spaces for the assessment of knowledge.
+\newblock \emph{International Journal of Man-Machine Studies}, 23\penalty0
+  (2):\penalty0 175--196, 1985.
+\newblock \doi{10.1016/S0020-7373(85)80031-6}.
+
+\bibitem[Doyle(1979)]{Doyle1979}
+Jon Doyle.
+\newblock A truth maintenance system.
+\newblock \emph{Artificial Intelligence}, 12\penalty0 (3):\penalty0 231--272,
+  1979.
+\newblock \doi{10.1016/0004-3702(79)90008-0}.
+
+\bibitem[Ely et~al.(2015)Ely, Frankel, and Kamenica]{ElyFrankelKamenica2015}
+Jeffrey Ely, Alexander Frankel, and Emir Kamenica.
+\newblock Suspense and surprise.
+\newblock \emph{Journal of Political Economy}, 123\penalty0 (1):\penalty0
+  215--260, 2015.
+\newblock \doi{10.1086/677350}.
+
+\bibitem[Evans and Short(2014)]{EvansShort2014}
+Richard Evans and Emily Short.
+\newblock Versu---a simulationist storytelling system.
+\newblock \emph{IEEE Transactions on Computational Intelligence and AI in
+  Games}, 6\penalty0 (2):\penalty0 113--130, 2014.
+\newblock \doi{10.1109/TCIAIG.2013.2287297}.
+
+\bibitem[Falmagne and Doignon(2011)]{FalmagneDoignon2011}
+Jean-Claude Falmagne and Jean-Paul Doignon.
+\newblock \emph{Learning Spaces: Interdisciplinary Applied Mathematics}.
+\newblock Springer, Berlin, Heidelberg, 2011.
+\newblock ISBN 978-3-642-01038-5.
+\newblock \doi{10.1007/978-3-642-01039-2}.
+
+\bibitem[Foster et~al.(2007)Foster, Greenwald, Moore, Pierce, and
+  Schmitt]{Foster2007}
+J.~Nathan Foster, Michael~B. Greenwald, Jonathan~T. Moore, Benjamin~C. Pierce,
+  and Alan Schmitt.
+\newblock Combinators for bidirectional tree transformations: A linguistic
+  approach to the view-update problem.
+\newblock \emph{{ACM} Transactions on Programming Languages and Systems},
+  29\penalty0 (3):\penalty0 17, 2007.
+\newblock \doi{10.1145/1232420.1232424}.
+
+\bibitem[Fouillard et~al.(2021)Fouillard, Taha, Boulanger, and
+  Sabouret]{Fouillard2021}
+Valentin Fouillard, Safouan Taha, Fr{\'e}d{\'e}ric Boulanger, and Nicolas
+  Sabouret.
+\newblock Belief revision theory.
+\newblock \emph{Archive of Formal Proofs}, October 2021.
+\newblock ISSN 2150-914x.
+\newblock \url{https://isa-afp.org/entries/Belief_Revision.html}, Formal proof
+  development.
+
+\bibitem[Franklin et~al.(2014)Franklin, Madl, D'Mello, and
+  Snaider]{Franklin2014}
+Stan Franklin, Tamas Madl, Sidney D'Mello, and Javier Snaider.
+\newblock {LIDA}: A systems-level architecture for cognition, emotion, and
+  learning.
+\newblock \emph{IEEE Transactions on Autonomous Mental Development}, 6\penalty0
+  (1):\penalty0 19--41, 2014.
+\newblock \doi{10.1109/TAMD.2013.2277589}.
+
+\bibitem[Friston(2010)]{Friston2010}
+Karl Friston.
+\newblock The free-energy principle: a unified brain theory?
+\newblock \emph{Nature Reviews Neuroscience}, 11\penalty0 (2):\penalty0
+  127--138, 2010.
+\newblock \doi{10.1038/nrn2787}.
+
+\bibitem[Fujii et~al.(2016)Fujii, Katsumata, and
+  Melli{\`e}s]{FujiiKatsumataMellies2016}
+Soichiro Fujii, Shin-ya Katsumata, and Paul-Andr{\'e} Melli{\`e}s.
+\newblock Towards a formal theory of graded monads.
+\newblock In \emph{Foundations of Software Science and Computation Structures
+  ({FoSSaCS} 2016)}, volume 9634 of \emph{Lecture Notes in Computer Science},
+  pages 513--530. Springer, 2016.
+\newblock \doi{10.1007/978-3-662-49630-5_30}.
+
+\bibitem[Gao et~al.(2021)Gao, Brodzki, and Mukherjee]{GaoBrodzkiMukherjee2021}
+Tingran Gao, Jacek Brodzki, and Sayan Mukherjee.
+\newblock The geometry of synchronization problems and learning group actions.
+\newblock \emph{Discrete \& Computational Geometry}, 65\penalty0 (1):\penalty0
+  150--211, 2021.
+\newblock \doi{10.1007/s00454-019-00100-2}.
+
+\bibitem[Gelder et~al.(1991)Gelder, Ross, and
+  Schlipf]{VanGelderRossSchlipf1991}
+Allen~Van Gelder, Kenneth~A. Ross, and John~S. Schlipf.
+\newblock The well-founded semantics for general logic programs.
+\newblock \emph{Journal of the {ACM}}, 38\penalty0 (3):\penalty0 619--649,
+  1991.
+\newblock \doi{10.1145/116825.116838}.
+
+\bibitem[Gibson(2014)]{Gibson2014}
+James~J. Gibson.
+\newblock \emph{The Ecological Approach to Visual Perception}.
+\newblock Psychology Press, 2014.
+\newblock \doi{10.4324/9781315740218}.
+\newblock Classic edition; originally published 1979.
+
+\bibitem[Giraud(1971)]{Giraud1971}
+Jean Giraud.
+\newblock \emph{Cohomologie non ab{\'e}lienne}, volume 179 of \emph{Grundlehren
+  der mathematischen Wissenschaften}.
+\newblock Springer, Berlin, Heidelberg, 1971.
+\newblock \doi{10.1007/978-3-662-62103-5}.
+
+\bibitem[Goguen and Meseguer(1982)]{GoguenMeseguer1982}
+Joseph~A. Goguen and Jos{\'e} Meseguer.
+\newblock Security policies and security models.
+\newblock In \emph{Proceedings of the 1982 {IEEE} Symposium on Security and
+  Privacy}, pages 11--20, Oakland, CA, USA, 1982. {IEEE} Computer Society.
+\newblock \doi{10.1109/SP.1982.10014}.
+
+\bibitem[Gratch and Marsella(2004)]{GratchMarsella2004}
+Jonathan Gratch and Stacy Marsella.
+\newblock A domain-independent framework for modeling emotion.
+\newblock \emph{Cognitive Systems Research}, 5\penalty0 (4):\penalty0 269--306,
+  2004.
+\newblock \doi{10.1016/j.cogsys.2004.02.002}.
+
+\bibitem[Green et~al.(2007)Green, Karvounarakis, and
+  Tannen]{GreenKarvounarakisTannen2007}
+Todd~J. Green, Grigoris Karvounarakis, and Val Tannen.
+\newblock Provenance semirings.
+\newblock In \emph{Proceedings of the Twenty-Sixth {ACM} {SIGMOD-SIGACT-SIGART}
+  Symposium on Principles of Database Systems ({PODS} '07)}, pages 31--40,
+  Beijing, China, 2007. ACM.
+\newblock \doi{10.1145/1265530.1265535}.
+
+\bibitem[Greshake et~al.(2023)Greshake, Abdelnabi, Mishra, Endres, Holz, and
+  Fritz]{Greshake2023}
+Kai Greshake, Sahar Abdelnabi, Shailesh Mishra, Christoph Endres, Thorsten
+  Holz, and Mario Fritz.
+\newblock Not what you've signed up for: Compromising real-world
+  {LLM}-integrated applications with indirect prompt injection.
+\newblock In \emph{Proceedings of the 16th ACM Workshop on Artificial
+  Intelligence and Security (AISec)}, pages 79--90, New York, NY, USA, 2023.
+  ACM.
+\newblock \doi{10.1145/3605764.3623985}.
+
+\bibitem[Hansen and Ghrist(2019)]{HansenGhrist2019}
+Jakob Hansen and Robert Ghrist.
+\newblock Toward a spectral theory of cellular sheaves.
+\newblock \emph{Journal of Applied and Computational Topology}, 3\penalty0
+  (4):\penalty0 315--358, 2019.
+\newblock \doi{10.1007/s41468-019-00038-7}.
+
+\bibitem[Howie(1966)]{Howie1966}
+John~M. Howie.
+\newblock The subsemigroup generated by the idempotents of a full
+  transformation semigroup.
+\newblock \emph{Journal of the London Mathematical Society}, s1-41\penalty0
+  (1):\penalty0 707--716, 1966.
+\newblock \doi{10.1112/jlms/s1-41.1.707}.
+
+\bibitem[Huang and Guibas(2013)]{HuangGuibas2013}
+Qi-Xing Huang and Leonidas Guibas.
+\newblock Consistent shape maps via semidefinite programming.
+\newblock \emph{Computer Graphics Forum}, 32\penalty0 (5):\penalty0 177--186,
+  2013.
+\newblock \doi{10.1111/cgf.12184}.
+
+\bibitem[Jensen(2021)]{Jensen2021}
+Alexander~Birch Jensen.
+\newblock Towards verifying {GOAL} agents in {Isabelle/HOL}.
+\newblock In \emph{Proceedings of the 13th International Conference on Agents
+  and Artificial Intelligence ({ICAART})}, pages 345--352. SciTePress, 2021.
+\newblock \doi{10.5220/0010268503450352}.
+
+\bibitem[Jensen(2022)]{Jensen2022}
+Alexander~Birch Jensen.
+\newblock Machine-checked verification of cognitive agents.
+\newblock In \emph{Proceedings of the 14th International Conference on Agents
+  and Artificial Intelligence ({ICAART}), Volume 1}, pages 245--256.
+  SciTePress, 2022.
+\newblock \doi{10.5220/0010838700003116}.
+
+\bibitem[Joffily and Coricelli(2013)]{JoffilyCoricelli2013}
+Mateus Joffily and Giorgio Coricelli.
+\newblock Emotional valence and the free-energy principle.
+\newblock \emph{PLoS Computational Biology}, 9\penalty0 (6):\penalty0 e1003094,
+  2013.
+\newblock \doi{10.1371/journal.pcbi.1003094}.
+
+\bibitem[J{\o}sang(2016)]{Josang2016}
+Audun J{\o}sang.
+\newblock \emph{Subjective Logic: A Formalism for Reasoning Under Uncertainty}.
+\newblock Artificial Intelligence: Foundations, Theory, and Algorithms.
+  Springer, 2016.
+\newblock \doi{10.1007/978-3-319-42337-1}.
+
+\bibitem[Karmiloff-Smith(1992)]{KarmiloffSmith1992}
+Annette Karmiloff-Smith.
+\newblock \emph{Beyond Modularity: A Developmental Perspective on Cognitive
+  Science}.
+\newblock MIT Press, Cambridge, MA, 1992.
+\newblock ISBN 0-262-11169-1.
+
+\bibitem[Katsumata(2014)]{Katsumata2014}
+Shin-ya Katsumata.
+\newblock Parametric effect monads and semantics of effect systems.
+\newblock In \emph{Proceedings of the 41st Annual {ACM} {SIGPLAN-SIGACT}
+  Symposium on Principles of Programming Languages ({POPL} '14)}, pages
+  633--645, San Diego, CA, USA, 2014. ACM.
+\newblock \doi{10.1145/2535838.2535846}.
+
+\bibitem[Klein(1893)]{Klein1893}
+Felix Klein.
+\newblock A comparative review of recent researches in geometry.
+\newblock \emph{Bulletin of the New York Mathematical Society}, 2\penalty0
+  (10):\penalty0 215--249, 1893.
+\newblock \doi{10.1090/S0002-9904-1893-00147-X}.
+\newblock Translated by M. W. Haskell.
+
+\bibitem[Kotseruba and Tsotsos(2020)]{KotserubaTsotsos2020}
+Iuliia Kotseruba and John~K. Tsotsos.
+\newblock 40 years of cognitive architectures: core cognitive abilities and
+  practical applications.
+\newblock \emph{Artificial Intelligence Review}, 53\penalty0 (1):\penalty0
+  17--94, 2020.
+\newblock \doi{10.1007/s10462-018-9646-y}.
+
+\bibitem[Kripke(1975)]{Kripke1975}
+Saul Kripke.
+\newblock Outline of a theory of truth.
+\newblock \emph{The Journal of Philosophy}, 72\penalty0 (19):\penalty0
+  690--716, 1975.
+\newblock \doi{10.2307/2024634}.
+
+\bibitem[Kronfeldner(2007)]{Kronfeldner2007}
+Maria~E. Kronfeldner.
+\newblock Is cultural evolution {Lamarckian}?
+\newblock \emph{Biology \& Philosophy}, 22\penalty0 (4):\penalty0 493--512,
+  2007.
+\newblock \doi{10.1007/s10539-006-9037-7}.
+
+\bibitem[Kuhn(1962)]{Kuhn1962}
+Thomas~S. Kuhn.
+\newblock \emph{The Structure of Scientific Revolutions}.
+\newblock University of Chicago Press, Chicago, 1962.
+
+\bibitem[Laird et~al.(2017)Laird, Lebiere, and
+  Rosenbloom]{LairdLebiereRosenbloom2017}
+John~E. Laird, Christian Lebiere, and Paul~S. Rosenbloom.
+\newblock A standard model of the mind: Toward a common computational framework
+  across artificial intelligence, cognitive science, neuroscience, and
+  robotics.
+\newblock \emph{AI Magazine}, 38\penalty0 (4):\penalty0 13--26, 2017.
+\newblock \doi{10.1609/aimag.v38i4.2744}.
+
+\bibitem[Langley et~al.(2009)Langley, Laird, and
+  Rogers]{LangleyLairdRogers2009}
+Pat Langley, John~E. Laird, and Seth Rogers.
+\newblock Cognitive architectures: Research issues and challenges.
+\newblock \emph{Cognitive Systems Research}, 10\penalty0 (2):\penalty0
+  141--160, 2009.
+\newblock \doi{10.1016/j.cogsys.2006.07.004}.
+
+\bibitem[Lazarus(1991)]{Lazarus1991}
+Richard~S. Lazarus.
+\newblock \emph{Emotion and Adaptation}.
+\newblock Oxford University Press, New York, 1991.
+\newblock ISBN 0-19-506994-3.
+
+\bibitem[Legg and Hutter(2007)]{LeggHutter2007}
+Shane Legg and Marcus Hutter.
+\newblock Universal intelligence: A definition of machine intelligence.
+\newblock \emph{Minds and Machines}, 17\penalty0 (4):\penalty0 391--444, 2007.
+\newblock \doi{10.1007/s11023-007-9079-x}.
+
+\bibitem[Lehmann and Romano(2005)]{LehmannRomano2005}
+E.~L. Lehmann and Joseph~P. Romano.
+\newblock \emph{Testing Statistical Hypotheses}.
+\newblock Springer Texts in Statistics. Springer, New York, 3rd edition, 2005.
+\newblock \doi{10.1007/0-387-27605-X}.
+
+\bibitem[Loewenstein(1994)]{Loewenstein1994}
+George Loewenstein.
+\newblock The psychology of curiosity: A review and reinterpretation.
+\newblock \emph{Psychological Bulletin}, 116\penalty0 (1):\penalty0 75--98,
+  1994.
+\newblock \doi{10.1037/0033-2909.116.1.75}.
+
+\bibitem[Lucassen and Gifford(1988)]{LucassenGifford1988}
+John~M. Lucassen and David~K. Gifford.
+\newblock Polymorphic effect systems.
+\newblock In \emph{Proceedings of the 15th {ACM} {SIGPLAN-SIGACT} Symposium on
+  Principles of Programming Languages ({POPL} '88)}, pages 47--57. ACM, 1988.
+\newblock \doi{10.1145/73560.73564}.
+
+\bibitem[Luckcuck et~al.(2019)Luckcuck, Farrell, Dennis, Dixon, and
+  Fisher]{Luckcuck2019}
+Matt Luckcuck, Marie Farrell, Louise~A. Dennis, Clare Dixon, and Michael
+  Fisher.
+\newblock Formal specification and verification of autonomous robotic systems:
+  A survey.
+\newblock \emph{ACM Computing Surveys}, 52\penalty0 (5):\penalty0 1--41, 2019.
+\newblock \doi{10.1145/3342355}.
+
+\bibitem[McCann(2026)]{McCann2026}
+McCann.
+\newblock Mechanized foundations of structural governance: Machine-checked
+  proofs for governed intelligence, 2026.
+
+\bibitem[Mech(1999)]{Mech1999}
+L.~David Mech.
+\newblock Alpha status, dominance, and division of labor in wolf packs.
+\newblock \emph{Canadian Journal of Zoology}, 77\penalty0 (8):\penalty0
+  1196--1203, 1999.
+\newblock \doi{10.1139/z99-099}.
+
+\bibitem[Miller(1956)]{Miller1956}
+George~A. Miller.
+\newblock The magical number seven, plus or minus two: Some limits on our
+  capacity for processing information.
+\newblock \emph{Psychological Review}, 63\penalty0 (2):\penalty0 81--97, 1956.
+\newblock \doi{10.1037/h0043158}.
+
+\bibitem[Murata(1989)]{Murata1989}
+Tadao Murata.
+\newblock Petri nets: Properties, analysis and applications.
+\newblock \emph{Proceedings of the {IEEE}}, 77\penalty0 (4):\penalty0 541--580,
+  1989.
+\newblock \doi{10.1109/5.24143}.
+
+\bibitem[Murray et~al.(2013)Murray, Matichuk, Brassil, Gammie, Bourke,
+  Seefried, Lewis, Gao, and Klein]{Murray2013}
+Toby Murray, Daniel Matichuk, Matthew Brassil, Peter Gammie, Timothy Bourke,
+  Sean Seefried, Corey Lewis, Xin Gao, and Gerwin Klein.
+\newblock {seL4}: From general purpose to a proof of information flow
+  enforcement.
+\newblock In \emph{Proceedings of the 2013 {IEEE} Symposium on Security and
+  Privacy}, pages 415--429. IEEE, 2013.
+\newblock \doi{10.1109/SP.2013.35}.
+
+\bibitem[Nolen-Hoeksema(1991)]{NolenHoeksema1991}
+Susan Nolen-Hoeksema.
+\newblock Responses to depression and their effects on the duration of
+  depressive episodes.
+\newblock \emph{Journal of Abnormal Psychology}, 100\penalty0 (4):\penalty0
+  569--582, 1991.
+\newblock \doi{10.1037/0021-843X.100.4.569}.
+
+\bibitem[O'Neill and Riedl(2014)]{ONeillRiedl2014}
+Brian O'Neill and Mark Riedl.
+\newblock Dramatis: A computational model of suspense.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume 28(1), 2014.
+\newblock \doi{10.1609/aaai.v28i1.8836}.
+
+\bibitem[Orchard and Petricek(2014)]{OrchardPetricek2014}
+Dominic Orchard and Tomas Petricek.
+\newblock Embedding effect systems in {Haskell}.
+\newblock In \emph{Proceedings of the 2014 {ACM} {SIGPLAN} Symposium on
+  {Haskell}}, pages 13--24. ACM, 2014.
+\newblock \doi{10.1145/2633357.2633368}.
+
+\bibitem[Oudeyer et~al.(2007)Oudeyer, Kaplan, and
+  Hafner]{OudeyerKaplanHafner2007}
+Pierre-Yves Oudeyer, Fr{\'e}d{\'e}ric Kaplan, and Verena~V. Hafner.
+\newblock Intrinsic motivation systems for autonomous mental development.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 11\penalty0
+  (2):\penalty0 265--286, 2007.
+\newblock \doi{10.1109/TEVC.2006.890271}.
+
+\bibitem[Pachauri et~al.(2013)Pachauri, Kondor, and
+  Singh]{PachauriKondorSingh2013}
+Deepti Pachauri, Risi Kondor, and Vikas Singh.
+\newblock Solving the multi-way matching problem by permutation
+  synchronization.
+\newblock In \emph{Advances in Neural Information Processing Systems 26 ({NIPS}
+  2013)}, pages 1860--1868, 2013.
+
+\bibitem[Pathak et~al.(2017)Pathak, Agrawal, Efros, and Darrell]{Pathak2017}
+Deepak Pathak, Pulkit Agrawal, Alexei~A. Efros, and Trevor Darrell.
+\newblock Curiosity-driven exploration by self-supervised prediction.
+\newblock In Doina Precup and Yee~Whye Teh, editors, \emph{Proceedings of the
+  34th International Conference on Machine Learning}, volume~70 of
+  \emph{Proceedings of Machine Learning Research}, pages 2778--2787. PMLR,
+  2017.
+
+\bibitem[Pereira et~al.(2008)Pereira, Oliveira, and
+  Moreira]{PereiraOliveiraMoreira2008}
+David Pereira, Eug{\'e}nio Oliveira, and Nelma Moreira.
+\newblock Formal modelling of emotions in {BDI} agents.
+\newblock In \emph{Computational Logic in Multi-Agent Systems ({CLIMA}
+  {VIII})}, Lecture Notes in Computer Science, pages 62--81. Springer, 2008.
+\newblock \doi{10.1007/978-3-540-88833-8_4}.
+
+\bibitem[Piaget(1952)]{Piaget1952}
+Jean Piaget.
+\newblock \emph{The Origins of Intelligence in Children}.
+\newblock International Universities Press, New York, 1952.
+
+\bibitem[Reisenzein et~al.(2013)Reisenzein, Hudlicka, Dastani, Gratch,
+  Hindriks, Lorini, and Meyer]{Reisenzein2013}
+Rainer Reisenzein, Eva Hudlicka, Mehdi Dastani, Jonathan Gratch, Koen Hindriks,
+  Emiliano Lorini, and John-Jules~Ch. Meyer.
+\newblock Computational modeling of emotion: Toward improving the inter- and
+  intradisciplinary exchange.
+\newblock \emph{IEEE Transactions on Affective Computing}, 4\penalty0
+  (3):\penalty0 246--266, 2013.
+\newblock \doi{10.1109/T-AFFC.2013.14}.
+
+\bibitem[Riedl and Young(2010)]{RiedlYoung2010}
+Mark~O. Riedl and R.~Michael Young.
+\newblock Narrative planning: Balancing plot and character.
+\newblock \emph{Journal of Artificial Intelligence Research}, 39:\penalty0
+  217--268, 2010.
+\newblock \doi{10.1613/jair.2989}.
+
+\bibitem[Rosenbloom et~al.(2016)Rosenbloom, Demski, and
+  Ustun]{RosenbloomDemskiUstun2016}
+Paul~S. Rosenbloom, Abram Demski, and Volkan Ustun.
+\newblock The {Sigma} cognitive architecture and system: Towards functionally
+  elegant grand unification.
+\newblock \emph{Journal of Artificial General Intelligence}, 7\penalty0
+  (1):\penalty0 1--103, 2016.
+\newblock \doi{10.1515/jagi-2016-0001}.
+
+\bibitem[Ryan and Deci(2000)]{RyanDeci2000}
+Richard~M. Ryan and Edward~L. Deci.
+\newblock Self-determination theory and the facilitation of intrinsic
+  motivation, social development, and well-being.
+\newblock \emph{American Psychologist}, 55\penalty0 (1):\penalty0 68--78, 2000.
+\newblock \doi{10.1037/0003-066X.55.1.68}.
+
+\bibitem[Sabelfeld and Myers(2003)]{SabelfeldMyers2003}
+Andrei Sabelfeld and Andrew~C. Myers.
+\newblock Language-based information-flow security.
+\newblock \emph{IEEE Journal on Selected Areas in Communications}, 21\penalty0
+  (1):\penalty0 5--19, 2003.
+\newblock \doi{10.1109/JSAC.2002.806121}.
+
+\bibitem[Sch{\"a}ffeler and Abdulaziz(2023)]{SchaefflerAbdulaziz2023}
+Maximilian Sch{\"a}ffeler and Mohammad Abdulaziz.
+\newblock Formally verified solution methods for {Markov} decision processes.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}, volume 37(12), pages 15073--15081, 2023.
+\newblock \doi{10.1609/aaai.v37i12.26759}.
+
+\bibitem[Scherer(2001)]{Scherer2001}
+Klaus~R. Scherer.
+\newblock Appraisal considered as a process of multilevel sequential checking.
+\newblock In Klaus~R. Scherer, Angela Schorr, and Tom Johnstone, editors,
+  \emph{Appraisal Processes in Emotion: Theory, Methods, Research}, pages
+  92--120. Oxford University Press, New York, 2001.
+\newblock \doi{10.1093/oso/9780195130072.003.0005}.
+
+\bibitem[Schmidhuber(1991)]{Schmidhuber1991}
+J{\"u}rgen Schmidhuber.
+\newblock Curious model-building control systems.
+\newblock In \emph{Proceedings of the 1991 IEEE International Joint Conference
+  on Neural Networks}, volume~2, pages 1458--1463, Singapore, 1991.
+\newblock \doi{10.1109/IJCNN.1991.170605}.
+
+\bibitem[Shin et~al.(2017)Shin, Lee, Kim, and Kim]{Shin2017}
+Hanul Shin, Jung~Kwon Lee, Jaehong Kim, and Jiwon Kim.
+\newblock Continual learning with deep generative replay.
+\newblock In \emph{Advances in Neural Information Processing Systems 30}, 2017.
+
+\bibitem[Singer(2011)]{Singer2011}
+Amit Singer.
+\newblock Angular synchronization by eigenvectors and semidefinite programming.
+\newblock \emph{Applied and Computational Harmonic Analysis}, 30\penalty0
+  (1):\penalty0 20--36, 2011.
+\newblock \doi{10.1016/j.acha.2010.02.001}.
+
+\bibitem[{St Clere Smithe}(2022)]{Smithe2022}
+Toby {St Clere Smithe}.
+\newblock \emph{Mathematical Foundations for a Compositional Account of the
+  {Bayesian} Brain}.
+\newblock PhD thesis, University of Oxford, 2022.
+
+\bibitem[Steunebrink et~al.(2012)Steunebrink, Dastani, and
+  Meyer]{SteunebrinkDastaniMeyer2012}
+Bas~R. Steunebrink, Mehdi Dastani, and John-Jules~Ch. Meyer.
+\newblock A formal model of emotion triggers: an approach for {BDI} agents.
+\newblock \emph{Synthese}, 185\penalty0 (Suppl. 1):\penalty0 83--129, 2012.
+\newblock \doi{10.1007/s11229-011-0004-8}.
+
+\bibitem[Strehl and Littman(2008)]{StrehlLittman2008}
+Alexander~L. Strehl and Michael~L. Littman.
+\newblock An analysis of model-based interval estimation for {Markov} decision
+  processes.
+\newblock \emph{Journal of Computer and System Sciences}, 74\penalty0
+  (8):\penalty0 1309--1331, 2008.
+\newblock \doi{10.1016/j.jcss.2007.08.009}.
+
+\bibitem[Sun(2016)]{Sun2016}
+Ron Sun.
+\newblock \emph{Anatomy of the Mind: Exploring Psychological Mechanisms and
+  Processes with the {Clarion} Cognitive Architecture}.
+\newblock Oxford University Press, 2016.
+\newblock \doi{10.1093/acprof:oso/9780199794553.001.0001}.
+
+\bibitem[Talmy(1988)]{Talmy1988}
+Leonard Talmy.
+\newblock Force dynamics in language and cognition.
+\newblock \emph{Cognitive Science}, 12\penalty0 (1):\penalty0 49--100, 1988.
+\newblock \doi{10.1207/s15516709cog1201_2}.
+
+\bibitem[{The mathlib Community}(2020)]{MathlibCommunity2020}
+{The mathlib Community}.
+\newblock The {Lean} mathematical library.
+\newblock In \emph{Proceedings of the 9th {ACM} {SIGPLAN} International
+  Conference on Certified Programs and Proofs ({CPP} 2020)}, pages 367--381,
+  New Orleans, LA, USA, 2020. ACM.
+\newblock \doi{10.1145/3372885.3373824}.
+
+\bibitem[Thompson et~al.(2015)Thompson, Battle, and
+  Padget]{ThompsonBattlePadget2015}
+Matt Thompson, Steve Battle, and Julian Padget.
+\newblock Telling non-linear stories with interval temporal logic.
+\newblock In \emph{Interactive Storytelling ({ICIDS} 2015)}, Lecture Notes in
+  Computer Science, pages 370--373. Springer, 2015.
+\newblock \doi{10.1007/978-3-319-27036-4_39}.
+
+\bibitem[Vajjha et~al.(2021)Vajjha, Shinnar, Trager, Pestun, and
+  Fulton]{Vajjha2021}
+Koundinya Vajjha, Avraham Shinnar, Barry Trager, Vasily Pestun, and Nathan
+  Fulton.
+\newblock {CertRL}: formalizing convergence proofs for value and policy
+  iteration in {Coq}.
+\newblock In \emph{Proceedings of the 10th {ACM SIGPLAN} International
+  Conference on Certified Programs and Proofs ({CPP} 2021)}, pages 18--31,
+  2021.
+\newblock \doi{10.1145/3437992.3439927}.
+
+\bibitem[Volpano et~al.(1996)Volpano, Irvine, and
+  Smith]{VolpanoIrvineSmith1996}
+Dennis Volpano, Cynthia Irvine, and Geoffrey Smith.
+\newblock A sound type system for secure flow analysis.
+\newblock \emph{Journal of Computer Security}, 4\penalty0 (2--3):\penalty0
+  167--187, 1996.
+\newblock \doi{10.3233/JCS-1996-42-304}.
+
+\bibitem[von Uexk{\"u}ll(2010)]{Uexkull2010}
+Jakob von Uexk{\"u}ll.
+\newblock \emph{A Foray into the Worlds of Animals and Humans, with {A} Theory
+  of Meaning}.
+\newblock Posthumanities. University of Minnesota Press, Minneapolis, 2010.
+\newblock ISBN 978-0-8166-5900-5.
+\newblock Translated by Joseph D. O'Neil; introduction by Dorion Sagan;
+  afterword by Geoffrey Winthrop-Young.
+
+\bibitem[Vygotsky(1978)]{Vygotsky1978}
+L.~S. Vygotsky.
+\newblock \emph{Mind in Society: The Development of Higher Psychological
+  Processes}.
+\newblock Harvard University Press, Cambridge, MA, 1978.
+\newblock ISBN 0-674-57629-2.
+\newblock Edited by Michael Cole, Vera John-Steiner, Sylvia Scribner and Ellen
+  Souberman.
+
+\bibitem[Walker and Stickgold(2004)]{WalkerStickgold2004}
+Matthew~P. Walker and Robert Stickgold.
+\newblock Sleep-dependent learning and memory consolidation.
+\newblock \emph{Neuron}, 44\penalty0 (1):\penalty0 121--133, 2004.
+\newblock \doi{10.1016/j.neuron.2004.08.031}.
+
+\bibitem[Wang(2013)]{Wang2013}
+Pei Wang.
+\newblock \emph{Non-Axiomatic Logic: A Model of Intelligent Reasoning}.
+\newblock World Scientific, 2013.
+\newblock \doi{10.1142/8665}.
+
+\bibitem[Ware and Young(2014)]{WareYoung2014}
+Stephen~G. Ware and R.~Michael Young.
+\newblock Glaive: A state-space narrative planner supporting intentionality and
+  conflict.
+\newblock In \emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence and Interactive Digital Entertainment ({AIIDE})}, volume 10(1),
+  pages 80--86, 2014.
+\newblock \doi{10.1609/aiide.v10i1.12712}.
+
+\bibitem[Wellman(1993)]{Wellman1993}
+Michael~P. Wellman.
+\newblock A market-oriented programming environment and its application to
+  distributed multicommodity flow problems.
+\newblock \emph{Journal of Artificial Intelligence Research}, 1:\penalty0
+  1--23, 1993.
+\newblock \doi{10.1613/jair.2}.
+
+\bibitem[Whitehead(1929)]{Whitehead1929}
+Alfred~North Whitehead.
+\newblock \emph{Process and Reality: An Essay in Cosmology}.
+\newblock Macmillan, New York, 1929.
+
+\bibitem[Wilson(1974)]{Wilson1974}
+Kenneth~G. Wilson.
+\newblock Confinement of quarks.
+\newblock \emph{Physical Review D}, 10\penalty0 (8):\penalty0 2445--2459, 1974.
+\newblock \doi{10.1103/PhysRevD.10.2445}.
+
+\bibitem[Zeigarnik(1927)]{Zeigarnik1927}
+Bluma Zeigarnik.
+\newblock Das {B}ehalten erledigter und unerledigter {H}andlungen.
+\newblock \emph{Psychologische Forschung}, 9\penalty0 (1):\penalty0 1--85,
+  1927.
+\newblock \doi{10.1007/BF02409755}.
+\newblock Untersuchungen zur Handlungs- und Affektpsychologie III, edited by
+  Kurt Lewin.
+
+\bibitem[Zverev et~al.(2025)Zverev, Abdelnabi, Tabesh, Fritz, and
+  Lampert]{Zverev2025}
+Egor Zverev, Sahar Abdelnabi, Soroush Tabesh, Mario Fritz, and Christoph~H.
+  Lampert.
+\newblock Can {LLMs} separate instructions from data? and what do we even mean
+  by that?
+\newblock In \emph{International Conference on Learning Representations
+  (ICLR)}, 2025.
+
+\end{thebibliography}
