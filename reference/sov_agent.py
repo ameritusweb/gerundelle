@@ -102,6 +102,8 @@ class SovAgent:
         self.serving = {}      # Params.sub_cost: a sub-want -> what the way it serves needs and had when it was set
         self.met_samples = {}  # Params.bridge: push -> [(situation, what the world said it would meet there)]
         self.kept = {}         # fact -> the want it was made for (Params.keep_subs): restored if another undoes it
+        self.quiet = 0         # ticks running with no push of its own (Params.winner_acts: a patient mind watches first)
+        self.news = []         # Params.news_in_structure: this tick's news, perceived but not presented
 
     # ---- perception ---------------------------------------------------------------------------------
 
@@ -149,7 +151,12 @@ class SovAgent:
         self.known.update(invs)
         self.history.append((self.facts_now(), frozenset(effect_id(e) for e in world.diffs)))
         wants = [clause(self.goal, tags=("goal",))] if self.goal else []   # a want, held in the pool
-        return news + wants + [clause(c, tags=("invitation", inv[1])) for c, inv in invs.items()], invs
+        offers = [clause(c, tags=("invitation", inv[1])) for c, inv in invs.items()]
+        if mind.p.news_in_structure:   # news perceived into the structure, not presented as a competitor
+            self.news = news
+            return wants + offers, invs
+        self.news = []
+        return news + wants + offers, invs
 
     # ---- a tick ------------------------------------------------------------------------------------
 
@@ -182,7 +189,7 @@ class SovAgent:
         inputs, invs = self.perceive()
         if self.kept and not self.watching and not self.queue:
             self.keep_watch()
-        rec = self.mind.tick(inputs)
+        rec = self.mind.tick(inputs, seen=self.news)
         self.last_rec = rec
         if self.watching:
             world.act(None, hold=True)
@@ -233,15 +240,56 @@ class SovAgent:
                 choice = invs.get(steps[0])
                 self.queue = steps[1:] if choice is not None else []
                 self.running = eid if choice is not None else None
+        if choice is None and self.mind.p.winner_acts and not self.queue:
+            choice = self.winner(rec, invs)
         if choice is None:
+            self.quiet += 1
             self.idle()   # waiting is watching too
             return None, rec
+        self.quiet = 0
         if self.mind.p.converge and self.goal is not None and hasattr(world, "relations_of"):
             self.meeting = world.relations_of(choice)
         self.watching = (choice, self.facts_now(), 0, {})
         self.watched_objs = set()
         self.watch(world.act(choice, hold=bool(self.running) and force is None), rec)
         return choice, rec
+
+    def winner(self, rec, invs):
+        """Params.winner_acts: no way and no experiment, but pushes on offer won the top level. What wins attention is what
+        the agent does, chosen among them by temperament (fiction/temperament.py: each trait one SOV quantity, every value a
+        working mind, different values different characters), each trait neutral at its default:
+          patience     an impatient mind (None) acts on attention at once; a patient one watches first, for up to its
+                       patience in ticks, never past the world's watch (horizon), so a turn can't be watched away
+          curiosity    a push's bid times (1 - familiarity) ** (curiosity - 1), familiarity n / (n + kappa) for a push made
+                       n times: the curious lean to what they know least, the incurious to what they know
+          persistence  a push on the piece of the last push is weighted by persistence: the persistent stay with what
+                       they were doing, the restless move on
+        A winning push need not be on offer now (a move from another position, still held in attention): it is tried all
+        the same, and the world pushes back (nothing happens); the mind learns that as any outcome, and curiosity,
+        boredom, patience and the meta layer move it on (the user, 2026-11-01). First only pushes on offer were tried,
+        and pushes from other positions that held the top were never tested, so they kept it.
+        Ties by name. None if no push won, or the mind is still watching."""
+        p = self.mind.p
+        lv = rec["levels"][-1]
+        # with Params.imagined_lane only pushes perceived now act (nothing imagined is acted on: the firewall); without it,
+        # any known push that won is tried, and the world may push back
+        pool = invs if p.imagined_lane else self.known
+        won = [c for c in lv["winners"] if c.split("|")[0] in pool]   # (a split push competes as its half)
+        if not won:
+            return None
+        wait = 0 if p.patience is None else min(p.patience, getattr(self.world, "horizon", 1))
+        if self.quiet < wait:
+            return None
+        last = self.pushed[-1][0][1] if self.pushed else None
+
+        def pref(c):
+            inv = self.known[c.split("|")[0]]
+            n = sum(1 for i, _, _ in self.pushed if i == inv)
+            familiarity = n / (n + p.kappa)
+            v = max(lv["bids"].get(c, 0.0), 1e-9) * max(1.0 - familiarity, 1e-9) ** (p.curiosity - 1.0)
+            return v * (p.persistence if inv[1] == last else 1.0)
+        best = min(won, key=lambda c: (-round(pref(c), 9), c))
+        return self.known[best.split("|")[0]]
 
     def foreseen(self, steps, invs):
         """An experiment (the action alone, or a preparation then the action) whose steps were all done before in the
@@ -311,6 +359,7 @@ class SovAgent:
             self.meeting = None
         after = self.facts_now()   # the state the push left (a flag swung by hand settles within the watch)
         self.left[c] = frozenset(after - facts)
+        self.just = (c, after)     # the push just made, and the world as it left it (Params.told_effects)
         if self.stack and any(g in names for g in self.stack):   # a want a sub-want served came on the way: it
             k = next(i for i, g in enumerate(self.stack) if g in names)   # is had, and the sub-wants under it go
             for g in [self.goal] + self.stack[k + 1:][::-1]:
@@ -333,12 +382,21 @@ class SovAgent:
             self.goal = self.stack.pop() if self.stack else None
             self.sub_since = mind.t
         own = self.own(inv)   # what it did to its object, and to the wanted one
-        if self.goal is not None and self.goal not in names and und.rel.get(c, {}).get(("causes", self.goal), [0, 0, 0])[1] > 0:
+        after = [o for (rel, o), e in und.rel.get(c, {}).items() if rel == "after" and e[1] > 0]             if mind.p.told_effects else []
+        out_of_order = bool(after) and not (len(self.pushed) >= 2 and inv_id(self.pushed[-2][0]) in after)
+        if self.goal is not None and self.goal not in names and not out_of_order                 and und.rel.get(c, {}).get(("causes", self.goal), [0, 0, 0])[1] > 0:
             # a told way the world contradicts: refuted by intervention (never written again), the told receipt
             # gone, and the teller noted (the phases read it: anger at the one whose word failed)
             und.rel[c][("causes", self.goal)][1] = 0.0
             und.refuted.add((c, "causes", self.goal))
             und.belied.append((mind.t, und.tellers.get((c, "causes", self.goal)), c))
+        if mind.p.told_effects:   # a told effect the world did not bring: refuted, as a told way is
+            after = self.facts_now()
+            for (rel, x), e in list(und.rel.get(c, {}).items()):
+                if rel == "causes" and e[1] > 0 and x != self.goal and x not in names and x not in after:
+                    e[1] = 0.0
+                    und.refuted.add((c, "causes", x))
+                    und.belied.append((mind.t, und.tellers.get((c, "causes", x)), c))
         self.contrast(inv, c, facts, effects, names, before, rec)
         goal_obj = (mind.understanding.owners.get(self.goal) or self.goal.rsplit("_", 1)[0]) if self.goal else None
         if goal_obj == inv[1] and not any(e.startswith(inv[1] + "_") for e in effects):
@@ -408,6 +466,7 @@ class SovAgent:
                 sp["was"] = was[0][len(cobj) + 1:] if was else None
                 last = mind.meta.modes[sp["no"]][-1:] if tag not in facts else []
                 if last:
+                    mind.meta.version += 1
                     mind.meta.modes[sp["no"]].pop()
                     mind.meta.modes[sp["yes"]].append(last[0])
             elif not own(names) and len(self.pushed) >= 2:
@@ -545,6 +604,9 @@ class SovAgent:
         """The first push of the best path MCTS finds to the wanted change over the agent's own model,
         if any path reaches it; the top winners' actions guide it (the prior)."""
         s = self.facts_now()
+        just = getattr(self, "just", None)
+        if self.mind.p.told_effects and just is not None and just[1] == s:
+            s = s | {f"made:{just[0]}"}   # the push just made, while the world still stands as it left it
         # the first push is chosen from those the world offers now (perceived); deeper ones from the model. First
         # every known push whose configuration held was a first push: in a chess world a rook's configuration is its
         # state wherever it stands, the model offered 75 rook moves seen from other squares to a budget of 60
@@ -970,10 +1032,25 @@ class Model:
             # a preparation ruled out for this push (the state it made is not the one that works)
             return frozenset(x for x in s if not x.startswith("made:")), 0.0, None
         mode = self.agent.predict(inv, frozenset(x for x in s if not x.startswith("made:")))
+        told_r = None
         if mode is None:   # never tried in this reading: a way the agent was told is expected to work as far as
             told = und.rel.get(a, {}).get(("causes", self.goal), [0, 0, 0])[1]   # it believes what it is told
-            r = self.agent.mind.p.credulity if told > 0 else 0.0                  # (temperament: credulity)
-            return frozenset(x for x in s if not x.startswith("made:")), r, None
+            if self.agent.mind.p.told_effects:
+                after = [o for (rel, o), e in und.rel.get(a, {}).items() if rel == "after" and e[1] > 0]
+                if after and not any(f"made:{o}" in s for o in after):
+                    told = 0   # told to work after another push: only along a line where that push was just made
+            if self.agent.mind.p.told_effects:   # and what it was told the push causes is its outcome (a told line)
+                out = {x for (rel, x), e in und.rel.get(a, {}).items()
+                       if rel == "causes" and e[1] > 0 and x != self.goal and (a, "causes", x) not in und.refuted}
+                if out or told > 0:
+                    mode = frozenset(out | ({self.goal} if told > 0 else set()))
+                    told_r = self.agent.mind.p.credulity if told > 0 else 0.0
+            if mode is None:
+                r = self.agent.mind.p.credulity if told > 0 else 0.0                  # (temperament: credulity)
+                base = frozenset(x for x in s if not x.startswith("made:"))
+                if self.agent.mind.p.told_effects:   # nothing known of what it does, but that it was made (a told
+                    return base | {f"made:{a}"}, r, None   # line can be read on from it)
+                return base, r, None
         owners = und.owners
         objs = {o for o in owners.values()}
         nxt = {x for x in s if not x.startswith("made:")}
@@ -991,6 +1068,8 @@ class Model:
         meta = self.agent.mind.meta
         hist = meta.modes.get(meta.reading_in(inv_id(inv), frozenset(x for x in s if not x.startswith("made:"))), [])
         r = sum(1 for h in hist if self.goal in h[2]) / len(hist) if hist else (1.0 if self.goal in mode else 0.0)
+        if told_r is not None:   # a told outcome is believed as far as the mind believes what it is told
+            r = told_r
         return frozenset(nxt), r, None
 
     def states_of(self, owner):

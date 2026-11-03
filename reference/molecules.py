@@ -5,6 +5,7 @@ argmax under the current state at each level. Observation is winning a limited w
 slot; each level's winners compete for the next level, under that level's own experience record.
 Action is MCTS with rules, guided by the top-level winners. No sampling anywhere.
 """
+from functools import lru_cache
 from dataclasses import dataclass, replace
 import math
 import random
@@ -168,6 +169,36 @@ class Params:
     # records, a contrast. Off, a nested split whose other half was empty (every record of the way with e8 held also had
     # material down, the bishop having reached e8 only by taking a rook the mind gave up) set "material down" as a want
     sub_tested: bool = False
+    # a winner acts (2026-11-01, the cognitive chess stress test; off by default): when neither the planner nor an experiment
+    # gives a push, the push that won the top level is made (the user, 2026-11-01: "Something has to win, which results in a
+    # move"; and 2026-10-24: "experiment suggestions would be their own molecules that fight for attention"). Off, a mind whose
+    # planner finds no way (value 0) and has no experiment left makes no push, though a push may hold the top: two chess
+    # minds stopped moving within a few full games, every seed
+    winner_acts: bool = False
+    # an imagination lane (2026-11-01, the cognitive chess stress test; off by default): a push the world does not offer now
+    # (a move from another position, still in attention) is imagined, not perceived (SOV: Posit, not Fit). It competes in a
+    # lane of its own (imagined_slots), not for the thoughts' slots, and can win there, but nothing imagined is acted on
+    # (the firewall): SovAgent.winner acts only on pushes perceived now. Offered again, a push is perceived again and back
+    # in the thoughts' lane. Off, pushes from other positions held Black's top level by their past wins (Ng8, Ke8, Ra8 at a
+    # starting position where none can be played) and the moves on offer lost to them (the user, 2026-11-01: "if it's
+    # thinking about something that can't be played, shouldn't that be closer to imagination or another lane in the
+    # tournament?")
+    imagined_lane: bool = False
+    imagined_slots: tuple = (2, 1, 1)
+    # news in the structure, not the tournament (2026-11-01, the cognitive chess stress test; off by default): what the world
+    # reports changed is perceived (the facts register, what followed what, surprise, contradiction, the meta layer's
+    # situations, receipts) but not presented to the pool as a competitor. Unknowns pull; knowns support, from the SOV
+    # structure, and never have to win (the user, 2026-11-01: "A fact gets supported in the SOV structure. It doesn't
+    # have to win anything"; cognitivechess/KNOWNS_AND_UNKNOWNS.md). Off, news of past changes took a chess mind's top
+    # thought slots with no pull of its own (tension 0, expected surprise 0), much of it no longer true, and the moves
+    # on offer lost to it
+    news_in_structure: bool = False
+    # a stuck molecule earns its keep (2026-11-01, the cognitive chess stress test; off by default): its prediction coming true
+    # refreshes it only if it won a slot that tick; otherwise it fades by its half-life, like any meta molecule, and can
+    # form again if its subject is still blocked. Off, every long-open question kept a stuck molecule alive for good by its
+    # own confirmed prediction, whether or not it ever won the slot its operation needs: 256 of a chess mind's 410
+    # molecules after 10 full games, each compared with all the others by novelty, every tick
+    stuck_earns: bool = False
     # the bridge from constraints to sub-wants (2026-10-31, the cognitive chess ladder; off by default, needs converge
     # and subwants): a direct way contradicted by a constraint (a relation the push would meet, "a capture landing on a
     # guarded square") sets as a sub-want the fact that, in the mind's own samples of that push, was present every time
@@ -175,6 +206,14 @@ class Params:
     # makes that fact (SovAgent.clearing). Off, the mind knew that the push failed and not what to change, and went
     # quiet (chess rung 2: a coached mind that never learned the push's own condition)
     bridge: bool = False
+    # told effects (2026-10-31, the cognitive chess ladder rung 2b; off by default): a told receipt that a push causes a
+    # fact (not only the want) is read by the planner's model for a push never tried in the reading at hand: the push's
+    # outcome is what it was told to cause, so told steps chain into a told line (a quiet move told to close the king's
+    # flight, then a move told to mate); and a told effect the world does not bring is refuted, as a told way is. A
+    # told way may be told to work after another push (`after`): read only along a line where that push was just made,
+    # and refuted only if it fails right after it (first unconditional: a book's mate tried before its quiet move
+    # failed, and the true line was refuted for good)
+    told_effects: bool = False
 
 
 @dataclass
@@ -367,6 +406,14 @@ class Mind:
                     out[x.id] = float(n)
         return {i: self.p.w_support * self.p.T * n for i, n in out.items()}
 
+    def imagined(self, bids):
+        """Params.imagined_lane: the invitations among the competitors whose push the world did not offer this tick (a split
+        push is read by its own id); empty when the lane is off."""
+        if not self.p.imagined_lane:
+            return set()
+        return {i for i in bids if i in self.pool and "invitation" in self.pool[i].tags
+                and (concept_of(i) or i) not in self.perceived}
+
     def forward(self, id):
         """Expected surprise reduction going forward (the user's reading, 2026-10-22): the surprise
         still attached to the thought, plus what attending to it would still teach about what
@@ -510,14 +557,15 @@ class Mind:
                               + support.get(m.id, 0.0))
             order = lambda ids: sorted(ids, key=lambda i: (-round(bids[i], 9), -round(self.surprise(L, i, res[i]), 9),
                                                            -self.waited(i), i))
+            imagined = self.imagined(bids)   # Params.imagined_lane: pushes not offered now, in a lane of their own
             if self.p.meta_slots is None:
-                winners = order([i for i in bids if not is_own(i)])[:k]
+                winners = order([i for i in bids if not is_own(i) and i not in imagined])[:k]
                 winners += order([i for i in bids if is_own(i)])[:self.p.own_slots[L]]
             else:   # thoughts, thoughts about thinking, and understanding work compete in separate tracks
                 own_sov = self.p.sov_slots is not None
                 primary = self.phases.primaries() if self.phases else set()
                 base = order([i for i in bids if not is_meta(i) and not (own_sov and is_sov(i))
-                              and i not in primary and not is_exp(i) and not is_own(i)])[:k]
+                              and i not in primary and not is_exp(i) and not is_own(i) and i not in imagined])[:k]
                 flood = sum(1 for i in base if is_phase(i))   # phase copies holding thoughts' slots
                 # meta slots are for operating (the user, 2026-10-24: "capability without receptor is
                 # latent"): the kinds with an operation take them first, by bid among themselves; those
@@ -537,6 +585,8 @@ class Mind:
                 if self.inquiry:   # experiments compete for their own slots
                     winners += order([i for i in bids if is_exp(i)])[:self.p.exp_slots[L]]
                 winners += order([i for i in bids if is_own(i)])[:self.p.own_slots[L]]   # and ownership
+            if imagined:   # and what is imagined, in its own slots
+                winners += order(sorted(imagined))[:self.p.imagined_slots[L]]
             levels.append(dict(res=res, edges=edges, bids=bids, scores=scores, winners=winners,
                                flood=flood if self.p.meta_slots is not None else 0))
             comps = sorted((self.pool[i] for i in winners), key=lambda m: (m.bond is None, m.id))
@@ -692,9 +742,10 @@ class Mind:
         Only configurations sharing an element can have a similarity above 0, so they are found
         through an index of signatures by element, rebuilt once per tick."""
         if self._sig_t != self.t:
-            self._sigs, self._by_elem = {}, {}
+            self._sigs, self._by_elem, self._sig_n = {}, {}, {}
             for x in list(self.pool.values()) + [b["mol"] for i, b in self.boxes.items() if i not in self.pool]:
                 self._sigs[x.id] = sig = self.signature(x)
+                self._sig_n[sig] = self._sig_n.get(sig, 0) + 1
                 for e in sig:
                     self._by_elem.setdefault(e, set()).add(x.id)
             self._sig_t = self.t
@@ -706,6 +757,10 @@ class Mind:
             return 1.0
         if not sig:   # an empty signature only ties with another empty one
             return 0.0 if any(not s for i, s in self._sigs.items() if i != m.id) else 1.0
+        # another with this very signature: similarity 1, novelty 0, with no scan (pushes on one piece share a signature, and
+        # each compared itself with every push in the pool, every tick: a long chess run's cost grew with the pool's square)
+        if self._sig_n.get(sig, 0) - (self._sigs.get(m.id) == sig) > 0:
+            return 0.0
         near = set().union(*(self._by_elem.get(e, set()) for e in sig)) - {m.id}
         best = 0.0
         for i in near:
@@ -1024,12 +1079,13 @@ class Mind:
         if self.phases:
             self.phases.last_outcome = outcome
 
-    def tick(self, inputs=(), outcome=0):
-        """Mind alone, no world: present inputs (and its own output from last tick), think, learn."""
-        world = [m.id for m in inputs]
+    def tick(self, inputs=(), outcome=0, seen=()):
+        """Mind alone, no world: present inputs (and its own output from last tick), think, learn. seen: molecules
+        perceived but not presented (Params.news_in_structure: news reaches the structure, not the tournament)."""
+        world = [m.id for m in inputs] + [m.id for m in seen]
         inputs = list(inputs) + self.pending
         self.pending = []
-        self.perceive([m.id for m in inputs])
+        self.perceive([m.id for m in inputs] + [m.id for m in seen])
         if world:
             self.contradict(world)
         for m in inputs:
@@ -1064,6 +1120,16 @@ def is_own(id):
     return id.startswith("own:")
 
 
+def poisson_cdf(k, lam):
+    """P(X <= k) for X ~ Poisson(lam), summed in log space (no overflow for large lam or k)."""
+    if lam <= 0:
+        return 1.0
+    logs = [-lam + j * math.log(lam) - math.lgamma(j + 1) for j in range(k + 1)]
+    top = max(logs)
+    return min(1.0, math.exp(top) * sum(math.exp(x - top) for x in logs))
+
+
+@lru_cache(maxsize=None)   # a pure function of the id, called tens of millions of times in a long chess run
 def concept_of(id):
     """The concept a clause is an instance of: the clause itself, or the parent of a split half.
     SOV molecules, questions, meta molecules, bonds and composites are not instances."""
@@ -1116,6 +1182,7 @@ class Meta:
         self.log = []         # (tick, what, meta id): formed, confirmed, refuted, op
         self.no_boundary = {}  # molecule -> its outcome count when a conflation search last found no boundary
         self.unexplained = set()   # concepts conflated with no boundary in the situation (a hidden cause?)
+        self.version = 0      # changes whenever modes or splits do (what reads them may keep its answer until then)
         self.modes = {}       # molecule -> [(tick, context tags, mode)]: outcomes that are not good or bad
         # but one of several kinds (what an action did, 2026-10-23); conflation is two kinds both likely
 
@@ -1228,6 +1295,7 @@ class Meta:
         return None   # conflated, distinction, same: decided by outcomes (see outcome)
 
     def check(self, rec):
+        self.won_now = set(rec.get("reached", ()))   # (Params.stuck_earns)
         for mid, (kind, subject, deadline, state) in list(self.watch.items()):
             if mid not in self.mind.pool:   # faded out: archived, so it can form again later
                 del self.watch[mid]
@@ -1247,7 +1315,8 @@ class Meta:
             self.watch[mid] = (kind, subject, self.mind.t + self.mind.p.meta_horizon, state)
             return
         if ok:
-            if mid in self.mind.pool:
+            earned = not (self.mind.p.stuck_earns and kind == "stuck") or mid in getattr(self, "won_now", ())
+            if mid in self.mind.pool and earned:
                 self.mind.pool[mid].act = 1.0
             self.watch[mid] = (kind, subject, self.mind.t + self.mind.p.meta_horizon, state)
         else:
@@ -1396,6 +1465,7 @@ class Meta:
             return {c for c in tags if sum(c in h[1] for h in hist) >= 2 and sum(c not in h[1] for h in hist) >= 2}
         was = judgeable(self.modes.get(x, []))
         self.modes.setdefault(x, []).append((self.mind.t, frozenset(context), frozenset(mode)))
+        self.version += 1
         novel = bool(judgeable(self.modes[x]) - was)   # new evidence: a tag that can now be judged
         if self.mind.understanding:   # an outcome, confirming or not: the investigation has momentum
             self.mind.understanding.progress[subject] = 1.0
@@ -1479,6 +1549,7 @@ class Meta:
         yes = replace(src, id=f"{x}|{tag}", tags=src.tags | {x})
         no = replace(src, id=f"{x}|not_{tag}", tags=src.tags | {x})
         self.splits[x] = dict(tag=tag, yes=yes.id, no=no.id, t=mind.t, parent=replace(src), mols=(yes, no))
+        self.version += 1
         if mind.understanding:   # the boundary conditions x: worked out by the pool; and x's own
             mind.understanding.add(concept_of(tag) or tag, "conditions", x, "worked")   # conditions slot
             if mind.inquiry:   # holds it, in an acting mind (first only under the tag, so the split
@@ -1545,6 +1616,7 @@ class Meta:
     def unify(self, x):
         """The halves of a split behave alike: merge them back into x, pooling their outcomes."""
         sp = self.splits.pop(x, None)
+        self.version += 1
         if sp is None:
             return False
         act = 0.0
@@ -2028,9 +2100,23 @@ class Understanding:
             grow({e}, {e[1], e[2]})
         return out
 
+    def funding_index(self):
+        """Every (concept, relation, other's concept) -> its funding, in one pass over the register: what edge_funding reads
+        while nothing writes to the register (first it rescanned a concept's relations per link: a quarter of a long
+        chess run's time). Summed in the register's own order, so the values are edge_funding's to the last bit."""
+        ix = {}
+        for c, rels in self.rel.items():
+            for (rr, oo), x in rels.items():
+                k = (c, rr, concept_of(oo) or oo)
+                ix[k] = ix.get(k, 0) + x[0] + x[2] + 0.5 * x[1]
+        return ix
+
     def edge_funding(self, e):
         """How well a typed edge (relation, a, b) is funded, read from either end."""
         r, a, b = e
+        ix = getattr(self, "_funding_ix", None)
+        if ix is not None:
+            return max(ix.get((a, r, b), 0), ix.get((b, "caused_by", a), 0) if r == "causes" else 0.0)
         f = lambda c, rel, o: sum(x[0] + x[2] + 0.5 * x[1] for (rr, oo), x in self.rel.get(c, {}).items()
                                   if rr == rel and (concept_of(oo) or oo) == o)
         return max(f(a, r, b), f(b, "caused_by", a) if r == "causes" else 0.0)
@@ -2161,7 +2247,9 @@ class Understanding:
         structure containing the whole pattern joins as a member. Transfer: the largest part of an
         abstract pattern found in a structure that lacks the rest expects the missing relations
         (Abstract then Constrain)."""
+        self._funding_ix = self.funding_index()   # the structures' cores read link funding from one pass
         comps = [(n, self.core(e)) for n, e in self.components(self.edges()) if e]
+        self._funding_ix = None
         comps = [(frozenset(x for _, p, q in e for x in (p, q)), e) for _, e in comps]
         self.refine(comps, rec)
         same = lambda a, b: len(a["pattern"]) == len(b["pattern"]) and bool(self.embed(
@@ -2633,6 +2721,12 @@ class Territory:
                                # what it holds now (the thought world's possessions, minds, the body)
         self.rows = {}   # region -> dict(claims={push: [tried, took]}, other=int, other_since=int,
                          #                ever=bool, holder=str, history=[(tick, event)])
+        self.given = set()   # given territory (own_agent's body; the cognitive chess ladder rung 3, 2026-10-31): regions the
+                             # agent's own from the start, before any claim: held while in view, lost while gone from it.
+                             # Held, it asks "is it mine alone?" as any held region does (first it asked nothing, and two
+                             # chess minds owning every piece from the start found nothing to try and never moved: the
+                             # calm open_slots warns of). Empty unless the world the mind lives in names them (a side's
+                             # pieces), so every other mind runs as before
 
     def row(self, r):
         if r not in self.rows:
@@ -2983,13 +3077,12 @@ class Territory:
         fails = self.rows.get(x, {}).get("fail_times", [])
         if not moves or not fails:
             return 0.0, 0.0, len(moves)
-        near = lambda t: any(0 <= t - f <= k for f in fails)   # (a move inside the failed push's own watch
-                                                               # is recorded at the same tick as the failure)
+        window = set()   # the ticks within k after a failure (a move inside the failed push's own watch is recorded
+        for f in fails:  # at the same tick as the failure)
+            window.update(range(f, f + k + 1))
         span = max(1, self.mind.t)
-        covered = set()   # the ticks within k after a failure
-        for f in fails:
-            covered.update(range(f, min(span, f + k + 1)))
-        inside = sum(1 for t in moves if near(t))
+        covered = {t for t in window if t < span}
+        inside = sum(1 for t in moves if t in window)
         # its rate of moving inside those windows against its rate outside them (first the share of its
         # moves inside against the share of time they cover: with the agent trying often the windows
         # covered half the ticks, and a timed partner read as answering)
@@ -3006,18 +3099,40 @@ class Territory:
     def needed_states(self, r, x):
         """The states of region r the agent's claims on region x have taken in (from the meta layer's
         record of their outcomes and the situations they came in)."""
-        meta, out = self.mind.meta, set()
+        memo = getattr(self, "_memo", None)   # one relation_of pass reads each pair once (nothing writes during it)
+        if memo is not None and ("n", r, x) in memo:
+            return memo[("n", r, x)]
+        out = self.needed_states_read(r, x)
+        if memo is not None:
+            memo[("n", r, x)] = out
+        return out
+
+    def needed_states_read(self, r, x):
+        pre = r + "_"
+        return {f[len(pre):] for f in self.took_facts(x) if f.startswith(pre)}
+
+    def took_facts(self, x):
+        """The facts of every situation a claim on region x took in (through its splits): what needed_states filters by
+        region. Kept until the meta layer's records or x's claims change (first each pair re-walked them, and a long chess
+        run spent a third of its time filtering the same situations)."""
+        meta = self.mind.meta
         if not meta:
-            return out
-        for c in self.rows.get(x, {}).get("claims", {}):
+            return frozenset()
+        claims = self.rows.get(x, {}).get("claims", {})
+        kept = self.__dict__.setdefault("_took", {}).get(x)
+        if kept is not None and kept[0] == meta.version and kept[1] == len(claims):
+            return kept[2]
+        out, pre, none = set(), x + "_", frozenset({"no_change"})
+        for c in claims:
             todo = [c]
             while todo:
                 y = todo.pop()
                 for _, ctx, mode in meta.modes.get(y, []):
-                    if mode != frozenset({"no_change"}) and any(e.startswith(x + "_") for e in mode):
-                        out |= {f[len(r) + 1:] for f in ctx if f.startswith(r + "_")}
+                    if mode != none and any(e.startswith(pre) for e in mode):
+                        out |= ctx
                 if y in meta.splits:
                     todo += [meta.splits[y]["yes"], meta.splits[y]["no"]]
+        self._took[x] = (meta.version, len(claims), out)
         return out
 
     def relation_of(self):
@@ -3037,6 +3152,7 @@ class Territory:
         self._rel_at, self._rel = self.mind.t, out
         if not meta:
             return out
+        self._memo = {}
         for x, row in self.rows.items():
             for c in row["claims"]:
                 readings, todo = [], [c]
@@ -3056,13 +3172,22 @@ class Territory:
                             continue                       # taken once (first counted every move, and the
                                                            # spring, set off by the agent's own preparation,
                                                            # read as answering)
-                        rate_in, rate_out, n = self.responsive(r, x)
+                        if ("r", r, x) in self._memo:   # (with what responsive leaves behind)
+                            rate_in, rate_out, n, self._outside, self._expected_out = self._memo[("r", r, x)]
+                        else:
+                            rate_in, rate_out, n = self.responsive(r, x)
+                            self._memo[("r", r, x)] = (rate_in, rate_out, n, self._outside, self._expected_out)
+                        if n < 5 or self._outside > 0.1:   # not responsive: the tail is not needed
+                            continue
                         seen_out = round(self._outside * n)
-                        lam = self._expected_out   # P(this few outside | it moves regardless of the agent)
-                        p_few = sum(math.exp(-lam) * lam ** j / math.factorial(j) for j in range(seen_out + 1))
-                        if n >= 5 and self._outside <= 0.1 and p_few < 0.05:   # it moves almost only when the
-                            # agent needs it, and that few moves outside would be unlikely if it did not answer
+                        # P(this few outside | it moves regardless of the agent), in log space (first lam ** j /
+                        # j!, which overflowed once another mind moved a region every turn: cognitive chess rung 3,
+                        # two Gerundelle minds on one board)
+                        p_few = poisson_cdf(seen_out, self._expected_out)
+                        if p_few < 0.05:   # it moves almost only when the agent needs it, and that few moves
+                            # outside would be unlikely if it did not answer
                             out[r] = c
+        self._memo = None
         return out
 
     def others(self):
@@ -3077,7 +3202,12 @@ class Territory:
             tried = sum(c[0] for c in row["claims"].values())
             took = sum(c[1] for c in row["claims"].values())
             s = self.strength(r, b)
-            if row["ever"] and (row.get("gone") or row.get("lost_at") == took):
+            if r in self.given:   # given territory: held while in view, lost while gone (and held again when back:
+                row["ever"] = True   # no claim is needed to make it the agent's, as none made it so)
+                h = "lost" if row.get("gone") else "mine"
+                if h == "lost" and row.get("lost_at") is None:
+                    row["lost_at"] = took
+            elif row["ever"] and (row.get("gone") or row.get("lost_at") == took):
                 # a held thing gone from view (taken: the world says who, `gone`) is lost, past any strength, and
                 # stays lost until a claim on it takes again (first a region's holding was its claims' rate only,
                 # and a toy carried off was still "mine"; fiction ladder, rung 5)
