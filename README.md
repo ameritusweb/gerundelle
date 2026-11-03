@@ -262,15 +262,18 @@ python -X utf8 run_ladder.py --rung 0 --configs lean --ticks 300
 # Fiction: the full corpus (25 worlds x 6 temperaments x 2 minds = 300 stories)
 python -X utf8 tools/corpus.py
 
-# Code: the color line
+# Code: rungs 0-8 (rung 0: the color line; rung 7: composition across seeds)
 cd domains/cognitivecode
 python -X utf8 rung0.py
+python -X utf8 rung7.py
 
-# Chess: the hanging piece
+# Chess: rungs 0-3 (rung 0: the hanging piece; rung 1e: constraint convergence; rung 3: two minds)
 cd domains/cognitivechess
 python -X utf8 rung0.py
+python -X utf8 rung1e.py
+python -X utf8 rung3.py
 
-# Civilization: the spring of light
+# Civilization: rungs P0-P14 (P0: the spring; P4: a population; P13: retaliation; P14: ranges)
 cd domains/civilization
 python -X utf8 p0.py
 ```
