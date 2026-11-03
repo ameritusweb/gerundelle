@@ -254,31 +254,53 @@ that experience into your match. Configurable temperament: `--curiosity`, `--per
 
 ### Run a domain
 
+**Fiction** (rungs 0-7, plus 25 worlds): a mind acts in a force world, discovers how
+things work by contrast, forms beliefs and retracts them, asks others for help, is lied
+to and finds out, contests a rival, loses something and grieves, remembers across scenes
+by structural analogy, and produces verified prose whose every sentence reads back to its
+intended gerund shape. Six temperaments give different characters different stories from
+the same algebra.
+
 ```bash
-# Fiction: a single rung (0-7, or 8-24 for the new worlds)
 cd domains/fiction
-python -X utf8 run_ladder.py --rung 0 --configs lean --ticks 300
+python -X utf8 run_ladder.py --rung 0 --configs lean --ticks 300   # Mara and the box
+python -X utf8 run_ladder.py --rung 3 --configs lean --ticks 300   # Leo lies
+python -X utf8 run_ladder.py --rung 5 --configs lean --ticks 300   # loss, grief, forgiveness
+python -X utf8 tools/corpus.py                                      # all 300 stories
+```
 
-# Fiction: the full corpus (25 worlds x 6 temperaments x 2 minds = 300 stories)
-python -X utf8 tools/corpus.py
+**Code** (rungs 0-8): a mind produces programs through constraint discovery, not search.
+Each failure reveals a constraint. By rung 7, composition combines a header from one seed
+with a growth from another and produces programs search never found.
 
-# Code: rungs 0-8 (rung 0: the color line; rung 7: composition across seeds)
+```bash
 cd domains/cognitivecode
-python -X utf8 rung0.py
-python -X utf8 rung7.py
+python -X utf8 rung0.py    # the color line: 66 tries blind, 3 with a recalled shape
+python -X utf8 rung7.py    # composition: programs no search finds
+```
 
-# Chess: rungs 0-3 (rung 0: the hanging piece; rung 1e: constraint convergence; rung 3: two minds)
+**Chess** (rungs 0-3): a mind learns chess tactics from contrast, sets sub-wants to bring
+about conditions it needs, notices the move where its constraints converge at the first
+attempt in positions it has never seen, and plays against another Gerundelle mind that
+adapts to it.
+
+```bash
 cd domains/cognitivechess
-python -X utf8 rung0.py
-python -X utf8 rung1e.py
-python -X utf8 rung3.py
+python -X utf8 rung0.py     # the hanging piece: finds the capture
+python -X utf8 rung1e.py    # constraint convergence: 87 of 100 new positions at the first attempt
+python -X utf8 rung3.py     # two minds on one board: White and Black adapt to each other
+```
 
-# Civilization: rungs P0-P14 (P0: the spring; P4: a population; P13: retaliation; P14: ranges)
+**Civilization** (rungs P0-P14): populations of minds in worlds with configurable physics.
+Minds voyage between worlds, teach each other, lock resources, enclose each other's
+property, feel grievance, retaliate, and feud.
+
+```bash
 cd domains/civilization
-python -X utf8 p0.py
-python -X utf8 p4.py
-python -X utf8 p13.py
-python -X utf8 p14.py
+python -X utf8 p0.py     # the spring of light: one mind, one want
+python -X utf8 p4.py     # a population of four: curiosity, interference, accidental help
+python -X utf8 p13.py    # retaliation and the first feud
+python -X utf8 p14.py    # ranges: which findings survive across turn orders
 ```
 
 ## The paper
