@@ -276,6 +276,9 @@ python -X utf8 rung3.py
 # Civilization: rungs P0-P14 (P0: the spring; P4: a population; P13: retaliation; P14: ranges)
 cd domains/civilization
 python -X utf8 p0.py
+python -X utf8 p4.py
+python -X utf8 p13.py
+python -X utf8 p14.py
 ```
 
 ## The paper
