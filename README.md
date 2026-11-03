@@ -50,6 +50,144 @@ counts at a discount, and what it imagined counts not at all.
 it perceives as its own. Emotions are how this territory reads. Frustration is a claim that
 keeps failing. Curiosity is an unclaimed region. Joy is a claim that took.
 
+## Why it matters
+
+AI has spent decades on a representation problem. Symbolic AI gives you structure
+you can reason about, but it's brittle, ungrounded, and can't learn from the world.
+Statistical AI gives you learning from data, but it has no structure, no unknowns,
+no explanation of what it knows or why. Each solves what the other can't, and decades
+of trying to combine them have produced hybrids, not unity.
+
+Gerundelle doesn't combine them. It operates at a level where the distinction doesn't
+apply.
+
+The world is described not by what things are made of, but by what they are doing.
+A jar is *charged*: it holds potential drawn from a spring. A boulder is *resting*:
+its weight balances the ground's support. No coordinates, no materials, no distances.
+Each object is a gerund — a doing — and a doing is a balance of forces against reserves.
+When a force crosses a reserve, the gerund flips. Where a force has not been applied,
+the world has an *open force slot*: a question the world itself is asking. This is the
+ontology. It follows Whitehead (things are what they are doing), Talmy (doings are force
+balances), and Gibson (an open force slot is an affordance). A small set of gerunds covers
+every domain because doings, unlike materials, are universal: a stone arch and a steel
+beam both *support*.
+
+The unknown is where the architecture departs from everything before it. In statistical
+AI, an unknown is a probability — a spread over outcomes, waiting to be narrowed by data.
+In symbolic AI, an unknown is an uninstantiated variable — a blank, waiting to be filled
+by pattern matching. In both cases, the unknown is temporary: it exists to be eliminated.
+
+In Gerundelle, an unknown is a permanent structural citizen. It has typed relation slots.
+It has bonds to what is known around it. It pulls — a constant, non-decaying tension in
+the competition for attention, every tick, until it is filled. It participates in the
+algebra without being resolved. It shapes the graph by what it is reaching toward.
+
+This is intentionality in Brentano's philosophical sense: directedness toward something
+without containing it. Classical AI has never cracked intentionality. Statistical AI
+sidesteps it. Symbolic AI simulates it poorly. Here, intentionality is structural.
+
+The architecture subsumes classical algebra. An equation with knowns, unknowns, and
+operators is a special case: the operators are a restricted kind of relation, and the
+unknowns exist to be solved. Gerundelle extends this by letting unknowns persist
+productively — shaping the structure, pulling for evidence, participating in bonds —
+without ever resolving. It is to classical algebra what complex numbers were to real
+numbers: not a rejection, but an extension that makes previously inexpressible things
+tractable.
+
+A mind built on this algebra is a marketplace. Thought molecules — fragments of
+understanding, each carrying its bonds, its open sites, its evidence — compete for
+scarce working-memory slots (7 → 5 → 4, Miller's numbers). The competition is settled
+by evidence from acting in the world, not by rules, not by gradients. What the mind
+lived through funds at full weight. What it was told funds at half. What it imagined
+funds at zero. No operation can promote told to lived — this is proved in Lean as a
+type error in a graded writer monad. Provenance is conserved the way energy is
+conserved: structurally, not by policy.
+
+What the mind acts for is territory: whatever it perceives as its own. Emotions are
+how the territory reads. Frustration is a claim that keeps failing. Curiosity is an
+unclaimed region. Joy is a claim that took. Grief scales with how much was invested.
+Forgiveness is a grudge whose goal was met while it was still warm. None of these are
+rules about feelings. They are phase transitions in a graph read off the ownership
+register — the same mathematical structure as perception, factored through a different
+view.
+
+From all of this, one atom emerges: the **minimal (SOV, world) pair**. A known concept
+is not a symbol, not a weight vector, not a rule, not a distribution. It is the minimal
+pairing of a structured open variable (the understanding, with its typed slots, its
+funded relations, its open unknowns) and a force world (the physics that gives those
+relations their meaning). The SOV without the world is imagination — structure with no
+grounding. The world without the SOV is raw physics nobody understands. The pair is the
+concept.
+
+This is uniform. A steam engine is a minimal force world where heat crosses a reserve
+and pressure does work, paired with the SOV that captures the conditions. Lift is a
+force world where airflow exceeds weight, paired with the SOV that knows what it depends
+on. Reproducibility is a world where the same push under the same conditions gives the
+same result, paired with the SOV that says why. Trust is a world where a teller's word
+matches or fails to match the world's answer, paired with the reliability tracking.
+Concrete and abstract, physical and social, scientific and moral — the same kind of
+thing, the same machinery, the same atom.
+
+And the atom is small. A stored concept is not a running simulation. It is a handful of
+typed relations and a handful of force balances, sealed in a box with cooling keys.
+Thousands of concepts can be stored because each is a minimal pair, and none competes
+for attention until something warms its keys. The mind's energy goes to the few molecules
+active in the tournament right now. Everything else is sealed. The capacity for concepts
+scales with how small the pairs are. The energy cost scales with how many are active at
+once. A mind that understands ten thousand concepts and attends to four of them is cheap.
+
+The cost of search, then, is not the size of the problem. It is the mind's ignorance —
+the number of unfunded slots. Each failure reveals a constraint. The constraints
+accumulate. When enough of them converge on one candidate, the mind doesn't search for
+the answer. It notices it. A mind that understands a domain doesn't search faster. It
+barely searches at all. That is what understanding is for: making search unnecessary.
+
+This is the representation problem, solved. Not by choosing between symbolic and
+statistical. Not by choosing between physical and abstract. By finding the atom that
+underlies all of them. The minimal (SOV, world) pair is that atom. It is small enough
+to store, grounded enough to mean something, structured enough to reason about, and
+uniform enough to cover steam engines and trust and reproducibility with the same
+machinery.
+
+## Origin story
+
+It all began with a question: how do higher-level thoughts form?
+
+I thought it must be some kind of feedback loop where lower-level thoughts build on
+each other. If that were so, how would such a system work? I thought there would be a
+recognition module that detected higher-level thoughts, that would then feed back into
+more thinking. Though that doesn't explain how the higher-level thoughts actually form.
+
+So I turned to graphs and algebra to figure it out. Usually, knowledge is represented
+hierarchically. You have topics and subtopics and so on. But what you don't know is
+always waiting in the wings until someone figures it out. That doesn't serve a mind when
+you want to represent understanding. To represent understanding accurately, you need both
+what you know and what you don't know. But the question is, how do you know what you
+don't know? And maybe that's the wrong question to ask, because maybe you don't need to
+know per se. You just need to know how it relates to what you do know, or what facts or
+understandings point to what it might be. This means representing understanding can't
+just be a hierarchy. It must be a graph.
+
+But where does algebra fit in? Classically, algebra is made up of equations with knowns
+and unknowns. You don't hide the unknowns or pretend they don't exist. You understand
+the unknowns based on how you rearrange the equations and how they relate to the known
+numbers through the operators. Therefore, a graph with both known and unknown concepts
+with typed relations can become its own algebra and can be formalized as such.
+
+This represents your understanding. It then becomes the source of higher-level thinking
+because the concepts themselves can be at any level.
+
+An unknown in the graph becomes a pull that potentially generates a higher-level thought.
+Then the question becomes how do thoughts become conscious and get your attention. There
+is only limited attention as to not be overwhelming. That's where I turned to chemistry.
+
+If only a certain number of thoughts get your attention, that points to some kind of
+tournament structure. But how do thoughts win? They need partners. What do partners do?
+They bond. So thoughts might behave as molecules that bind with other molecules to help
+them win the tournament and get conscious attention. So, in this theory, consciousness
+isn't some mysticism, but is just related to thought molecules winning their tournament
+and getting the attention they deserve.
+
 ## Repository structure
 
 ```
