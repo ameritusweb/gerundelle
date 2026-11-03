@@ -70,7 +70,11 @@ the world has an *open force slot*: a question the world itself is asking. This 
 ontology. It follows Whitehead (things are what they are doing), Talmy (doings are force
 balances), and Gibson (an open force slot is an affordance). A small set of gerunds covers
 every domain because doings, unlike materials, are universal: a stone arch and a steel
-beam both *support*.
+beam both *support*. And because the force world has a small state space (gerunds, not
+raw pixels), clear events (a force crosses a reserve, a gerund flips), and informative
+failures (each one tells you something specific), experiential learning is tractable:
+a mind can learn from a handful of interactions, because the world is structured at the
+right level of abstraction for a mind to act in and learn from.
 
 The unknown is where the architecture departs from everything before it. In statistical
 AI, an unknown is a probability — a spread over outcomes, waiting to be narrowed by data.
