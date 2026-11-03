@@ -255,9 +255,12 @@ that experience into your match. Configurable temperament: `--curiosity`, `--per
 ### Run a domain
 
 ```bash
-# Fiction: Mara and the box
+# Fiction: a single rung (0-7, or 8-24 for the new worlds)
 cd domains/fiction
 python -X utf8 run_ladder.py --rung 0 --configs lean --ticks 300
+
+# Fiction: the full corpus (25 worlds x 6 temperaments x 2 minds = 300 stories)
+python -X utf8 tools/corpus.py
 
 # Code: the color line
 cd domains/cognitivecode
