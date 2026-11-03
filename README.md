@@ -236,6 +236,22 @@ If it compiles, every theorem holds.
 
 The finished book is in `book/gerundelle.pdf` (print edition) and `book/gerundelle.epub`.
 
+### Play the mind at chess
+
+```bash
+cd domains/cognitivechess
+python -X utf8 play.py --games 10 --side white
+```
+
+A tkinter app where you play one side and a Gerundelle mind plays the other. The mind
+knows nothing of chess values and does not perceive squares — it learns from contrast,
+sets sub-wants, and notices where its constraints converge. While it thinks, the panel
+shows what it's attending to (moves, experiments, questions, feelings), what it wants,
+what it learned, and why it chose its move (planner, experiment, or the top-level winner
+of its tournament). `--games N` lets it play N games against itself first, so it carries
+that experience into your match. Configurable temperament: `--curiosity`, `--persistence`,
+`--patience`.
+
 ### Run a domain
 
 ```bash
