@@ -1,0 +1,40 @@
+> Where does the "forces as world model" idea fit into the system?
+
+● Here's where it lands in the running system.
+
+  The idea (from what_ifs.txt): for a world model, you don't need positions, materials, or distances. Instead, use forces, net forces, and potential forces as a proxy for
+  affordances, where positions and distances are inferred from the force structure.
+
+  This is the force world (force_world.py). Every object is a balance of external forces against internal reserves. No coordinates. No materials. No distances. The world is a
+  tree of doings, and each doing is a gerund: "charged" (potential held by a spring's grip), "resting" (weight balanced by support), "fastened" (a latch's grip exceeding
+  the spring's push on a lid). When a force crosses a reserve — when the push exceeds the grip — the gerund flips. That flip is an event.
+
+  The what_ifs.txt entry listed advantages: simpler underlying model (fewer assumptions baked in), scalability with complexity, natural manifestation of physical laws,
+  affordance representation, robustness to partial observations. Every one of these is demonstrated in the running system:
+
+  - Simpler: the force world has no Cartesian coordinates, no material properties, no spatial metrics. The fiction ladder's rung 6 showed a stone arch and a steel beam share
+    one skeleton — strip() removes names from a gerund tree, leaving typed slots. Material doesn't appear.
+  - Scalability: one mind and one algebra run in story, code, chess, and civilization worlds with no domain-specific machinery. The paper: "The architecture is domain-
+    independent... The domains are projections, not separate systems."
+  - Physical laws: conservation of potential is the world's one law (proved in Lean). A force world conserves its quantity: what one object loses, another gains or the world
+    stores. No energy appears from nothing.
+  - Affordances: an open force slot (a button to be pressed, a lever with no one at its arm) is what Gibson called an affordance. The invitations the world offers are the
+    force slots waiting to be filled.
+  - Robustness to partial observations: the mind perceives gerund states and force events, not positions. A hidden object (a toy inside a closed box) is hidden because its
+    gerund is enclosed, not because it's behind something. A flag swinging is a visible proxy for the wind's force — the mind doesn't perceive the wind directly, only the
+    flag's gerund change.
+
+  The what_ifs.txt entry also listed challenges. Where they stand:
+
+  - Inverting force to infer geometric structure: not needed. The architecture doesn't infer positions from forces — it operates without positions. In the chess world
+    (chessworld.py), a piece's state is safe/attacked/hanging/captured, not its square. Rung 0's design choice: "a state is what the rules make of a piece, not where it
+    stands." A piece's square is not a fact in this world.
+  - Initial and boundary conditions: the world is given as a tree of objects in gerund states with reserves and forces. There are no coordinates to bootstrap.
+  - Computational complexity: the force world is cheap because it tracks forces and reserves, not pairwise distances. A civilization with hundreds of agents runs in the same
+    framework.
+  - Non-physical forces: the 15 relation forms (RELATION_TYPES.md) extend the force vocabulary beyond physical forces. Possession transfer (GO, possessional), status transfer
+    (GO, social), communication (GO, mental — content moves between minds), opposition (force, social), competition/ranking (force, social scalar). The same force-balance
+    structure covers social and cognitive dynamics.
+
+  The concept map (center-left): "How to represent the world and its relations tractably. Gerund ASTs: every node is a gerund with typed force slots, not a noun with
+  properties. A stone arch and a steel beam share one skeleton. Material doesn't appear in the representation; only what things are doing under forces."

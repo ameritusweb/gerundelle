@@ -1,0 +1,52 @@
+> Where does analogical reasoning (Gentner's structure-mapping theory) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Structure-mapping theory (Gentner, 1983): analogy is about relations, not features. "The atom is like the solar system" maps because both have a central body and orbiting
+  bodies with a force between them — the relations match, even though the features don't (the sun is hot, the nucleus is small). The mapping is structural: it preserves the
+  relational structure (what is doing what to what) and drops the surface features (what things are made of, how big they are). Gentner calls this the "systematicity
+  principle": a mapping that preserves higher-order relations (relations between relations) is preferred over one that preserves isolated matches.
+
+  Recall by shape is the mechanism. The concept map: "Recall by shape: a condition learned in one domain, keyed by gerund structure not by names, transfers to a new domain
+  where the structure matches. A past episode's shape is offered as a hypothesis at half weight, confirmed by the mind's own interaction."
+
+  In the fiction ladder's rung 6, this is measured end to end:
+
+  Scene A: Mara watches Ben open a box whose lid is held shut by a latch. The condition learned: the latch holds the lid shut. The episode is stored, keyed by structure:
+  a push on an object in the gerund "fastened", with a condition about a connecting object in the same gerund.
+
+  Scene B: Mara is alone with a cupboard whose door is held shut by a bolt. She has never seen this cupboard. The bolt is not the latch. The door is not the lid. No names
+  match.
+
+  The recall (SovAgent.recall, fiction LADDER.md rung 6): stuck on the wanted object with nothing held, the mind looks for a warm episode of the same shape — a push on an
+  object in the same gerund (fastened), a condition whose object was in the same gerund (a connecting object that fastens). The latch episode matches. The condition is mapped
+  onto this scene: latch → bolt. The recalled condition is held at half weight (a hypothesis to test, not a certainty). Her own tries confirm it.
+
+  "Mara remembered how Ben had opened the box. She wondered what the bolt did. She pushed the bolt hard. The bolt gave way."
+
+  The strip() function (in the concept map): "removes names from a gerund tree, leaving typed slots where names were. Two programs that do the same operations on the same
+  shape of data flow land on the same skeleton, whatever their variable names, comments, or domain. A stone arch and a steel beam share one skeleton. 'The company moved to
+  London' and 'the family emigrated to Canada' share one skeleton."
+
+  The cognitivecode ladder's rung 7 showed composition by analogy: a header from one seed combined with a growth from another produced programs search never found. The
+  generative power is combinatorial — a small set of gerunds and a nesting rule produce a space of structures large enough to cover both natural language and code.
+
+  The Gerundelle arm's rung 6 was given a "fair test" (fiction LADDER.md): the bolt's id sorted last (so the mind didn't try it first by alphabetical accident). Result:
+  48 sentences, reader satisfaction 0.668 (dogged: 0.686). "Mara remembered how Ben had opened the box." The analogy transferred, was tested, confirmed. Reader satisfaction
+  beat the lean arm (0.643).
+
+  How it differs from structure-mapping theory specifically:
+
+  - Gentner's theory maps between two explicitly presented representations (the base and the target are both given). Here, the base is retrieved from storage by shape match
+    — the mind is not told "this is like the box", it finds the match because the stored episode's gerund structure overlaps with the current situation's. Retrieval and
+    mapping are one process, not two.
+  - Gentner's mapping preserves relational structure and drops features. Here, the mechanism is more specific: strip() removes names and leaves typed slots. The "relations"
+    that are preserved are the gerund nesting and the force-slot types. Two structures match if their stripped skeletons are the same — the same doings in the same nesting,
+    whatever the objects are called.
+  - Gentner's theory doesn't say what weight to give the transferred knowledge. Here, the recalled condition is held at half weight — a hypothesis, not a fact. The mind must
+    test it in the new domain. If the world confirms it, the half-weight receipt is joined by a lived one. If not, it's retracted. Analogy produces a guess, not understanding.
+  - The Gerundelle arm's recall (SovAgent.recall) explicitly tests this: "Gerundelle's analogy layer transfers that a relation is expected, not what fills it; the past did
+    not help (14 tries against 11 fresh)" — in the fair test, the analogy tells the mind that some connecting object matters, but not which one. The help comes from narrowing
+    the search, not from giving the answer.
+  - Gentner's systematicity principle (prefer mappings that preserve higher-order relations) is structural here: the gerund skeleton IS the higher-order relations. There is no
+    separate preference for systematicity — the skeleton is all that survives stripping, and the skeleton is relational by construction (gerunds with typed force slots).

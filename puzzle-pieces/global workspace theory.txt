@@ -1,0 +1,30 @@
+> Where does Global Workspace Theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  GWT (Baars, 1980s-90s) says consciousness is a "global broadcast": many specialized modules process information unconsciously, and a few items win access to a limited-
+  capacity workspace where they're broadcast to the whole brain. Attention is the spotlight that selects what enters. Most processing is unconscious; only what wins the
+  competition becomes conscious.
+
+  The tournament in molecules.py is a literal implementation. Thousands of molecules compete for scarce slots (Params.slots: 7 → 5 → 4). Each level's winners compete for the
+  next level. The top level IS conscious attention — a molecule that wins there gets its experience records updated, its bonds reinforced, and its open sites addressed. The
+  concept map says it directly: "A molecule that wins the tournament's top level gets its experience records updated, its bonds reinforced or weakened, and its open sites
+  addressed. A molecule that loses decays. Winning the top is what 'being conscious of a thought' means in this architecture."
+
+  Molecules that don't win decay by half-life. The broadcast is the self-feed: top-winning composites come back as percepts next tick (Params.self_feed in molecules.py). The
+  limited capacity is structural — Params.slots sets how many molecules can win at each level, and no mechanism can increase it. The concept map: "The tournament is a market.
+  Molecules bid for scarce slots. Ownership is exclusive (one agent per slot). Bids are funded by evidence. The market allocates attention the way an economy allocates
+  resources: through competition under scarcity with empirical feedback."
+
+  How it differs from GWT specifically:
+
+  - GWT's broadcast is to passive audiences (memory systems, motor systems, decision-making centers). Here the broadcast is back into the same competition — the winners become
+    next tick's percepts and compete again. The audience and the competitors are the same pool.
+  - GWT says nothing about what happens to the losers. Here, losing has specific dynamics: decay by half-life, modulated by five factors (surprise, novelty, blocked momentum,
+    success, and closure). A molecule can be functionally invisible — too cool to compete — without being deleted. That's the difference between forgetting (the access path
+    cooling) and decay (the molecule itself dimming in the active pool).
+  - GWT has no provenance. Here, the experience records that get updated when a molecule wins the top carry lived/told/imagined weights, and those weights are conserved.
+  - GWT's competition is unstructured — items compete by "salience." Here, the bid is computed: activation × (1 + binding_score) + open_site_tension + w_pred × forward +
+    support. Each term is a measurable quantity with a specific meaning.
+  - The Conscious Turing Machine (Blum & Blum 2022) is the formal precedent — the paper's prior-art report identifies it as "the formal precedent for Gerundelle's competition
+    layer." CTM formalizes global-workspace attention as a competition tree with broadcast, which is what the tournament is.

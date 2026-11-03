@@ -1,0 +1,1077 @@
+{
+ "rung": "24",
+ "arm": "lean",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "bell",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "thumb",
+   "detail": {
+    "gerund": "transmitting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "band",
+   "detail": {
+    "gerund": "connecting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "stop",
+   "detail": {
+    "gerund": "pushing"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Tom",
+   "hole": "want:bell_swinging",
+   "obj": "bell",
+   "detail": {
+    "change": "bell_swinging"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    6
+   ]
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "effect:hard:thumb",
+   "obj": "thumb",
+   "detail": {
+    "slot": "causes",
+    "inv": [
+     "hard",
+     "thumb",
+     "transmitting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:thumb",
+   "obj": "thumb",
+   "detail": {
+    "phase": "curiosity",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:thumb",
+   "obj": "thumb",
+   "detail": {
+    "strength": "hard",
+    "gerund": "transmitting"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "effect:hard:thumb",
+   "obj": "thumb",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "effect:hard:band",
+   "obj": "band",
+   "detail": {
+    "slot": "causes",
+    "inv": [
+     "hard",
+     "band",
+     "connecting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:band",
+   "obj": "band",
+   "detail": {
+    "phase": "curiosity",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:band",
+   "obj": "band",
+   "detail": {
+    "strength": "hard",
+    "gerund": "connecting"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:band",
+   "obj": "band",
+   "detail": {
+    "from": "connecting",
+    "to": "parting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:band",
+   "obj": "band",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 1.3333333333333333,
+   "refs": []
+  },
+  {
+   "t": 12,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 12,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 12,
+   "kind": "learn",
+   "actor": "Tom",
+   "hole": "effect:hard:bell",
+   "obj": "bell",
+   "detail": {
+    "condition": "band_parting",
+    "also": [],
+    "inv": [
+     "hard",
+     "bell",
+     "hanging"
+    ],
+    "confirms": null,
+    "exposes": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    7,
+    19
+   ]
+  },
+  {
+   "t": 12,
+   "kind": "reach",
+   "actor": "Tom",
+   "hole": "want:bell_swinging",
+   "obj": "bell",
+   "detail": {
+    "change": "bell_swinging",
+    "inv": [
+     "hard",
+     "bell",
+     "hanging"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 12,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:bell",
+   "obj": "bell",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "bell",
+     "thumb",
+     "band"
+    ],
+    "states": {
+     "bell": "hanging",
+     "thumb": "transmitting",
+     "band": "connecting"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    1,
+    2
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "bell",
+    "change": "bell_swinging"
+   },
+   "beats": [
+    5
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "bell",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "bell",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "bell",
+    "who": "Tom"
+   },
+   "beats": [
+    6,
+    7
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "thumb",
+    "slot": "causes"
+   },
+   "beats": [
+    8
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "thumb",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "thumb",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "thumb",
+    "who": "Tom"
+   },
+   "beats": [
+    10,
+    13
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "band",
+    "slot": "causes"
+   },
+   "beats": [
+    14
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "band",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "band",
+     "flips": [
+      [
+       "connecting",
+       "parting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "band",
+    "who": "Tom"
+   },
+   "beats": [
+    16,
+    17
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "band",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    18
+   ],
+   "refs": [
+    6
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "turn",
+   "fill": {
+    "try": {
+     "obj": "bell",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "bell",
+     "flips": [
+      [
+       "hanging",
+       "swinging"
+      ],
+      [
+       "swinging",
+       "hanging"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "bell",
+    "who": "Tom"
+   },
+   "beats": [
+    19,
+    20,
+    21
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "learn",
+   "stage": "resolution",
+   "fill": {
+    "obj": "bell",
+    "cond_obj": "band",
+    "cond_state": "parting",
+    "also": [],
+    "confirms": null,
+    "exposes": null
+   },
+   "beats": [
+    22
+   ],
+   "refs": [
+    2,
+    8
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    24
+   ],
+   "refs": [
+    8
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "There was a bicycle against the wall.",
+    "shape": "narrating|describing",
+    "reading": "describing(attribute, detail)",
+    "ok": true,
+    "readings": [
+     "describing(attribute, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "Its bell was quiet.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A thumb lever rested against it.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A rubber band held it still.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, patient)",
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Tom set out to ring the bell.",
+    "shape": "explaining(means=narrating, purpose=describing)",
+    "reading": "explaining(means=narrating(agent, event), purpose=describing(event, patient))",
+    "ok": true,
+    "readings": [
+     "explaining(means=narrating(agent, event), purpose=describing(event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "He shoved the bell, but it would not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "He wondered what the lever did.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+     "narrating(agent, event, content=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "He pushed the lever hard, but it did not budge.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "He wondered what the band did.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+     "narrating(agent, event, content=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "He gave the band a hard push, and it snapped off.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "He was delighted with the band.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(event, patient, detail)",
+     "narrating(event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "He shoved the bell, and it rang and went quiet.",
+    "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+    "reading": "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event, quality)))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event, quality)))",
+     "elaborating(main=narrating(agent, event, patient), detail=narrating(first=narrating(agent, event), then=narrating(agent, event, quality)))",
+     "narrating(first=narrating(agent, event, patient), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event, quality)))",
+     "narrating(first=narrating(agent, event, patient), then=narrating(first=narrating(agent, event), then=narrating(agent, event, quality)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 9,
+    "text": "He realized that the band had kept the bell quiet.",
+    "shape": "realizing(content=narrating|describing|claiming)",
+    "reading": "realizing(agent, event, content=narrating(agent, event, patient, attribute))",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, content=narrating(agent, event, patient, attribute))",
+     "realizing(agent, event, content=narrating(agent, event, patient, attribute))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 10,
+    "text": "He laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 1.0,
+  "exact_theories": {
+   "narrative-arc": 1.0,
+   "problem-solution-result": 0.67,
+   "compare-contrast": 0.6,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concept-explanation": 1.0,
+   "analogy-bridge": 1.0
+  },
+  "variety": 0.8571428571428571,
+  "judge_rows": [
+   {
+    "text": "There was a bicycle against the wall.",
+    "skeleton": "describing(attribute, detail)",
+    "cosine": 0.712230920791626,
+    "score": 0.43115267157554626,
+    "margin": 0.007310092449188232,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating"
+    ]
+   },
+   {
+    "text": "Its bell was quiet.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6795487999916077,
+    "score": 0.418802946805954,
+    "margin": 0.03892642259597778,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "describing",
+     "explaining",
+     "expressing_determination",
+     "expressing_fear"
+    ]
+   },
+   {
+    "text": "A thumb lever rested against it.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6444610953330994,
+    "score": 0.4015072137117386,
+    "margin": 0.0057259202003479,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A rubber band held it still.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6364060640335083,
+    "score": 0.3435099422931671,
+    "margin": 0.01000833511352539,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom set out to ring the bell.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6922821402549744,
+    "score": 0.43971553444862366,
+    "margin": 0.010497510433197021,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He shoved the bell, but it would not move.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.7329505681991577,
+    "score": 0.5442766845226288,
+    "margin": 0.01023721694946289,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He wondered what the lever did.",
+    "skeleton": "narrating(agent, event, patient, content=narrating(agent, event))",
+    "cosine": 0.7157448530197144,
+    "score": 0.5506141781806946,
+    "margin": 0.0023328065872192383,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_pride",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He pushed the lever hard, but it did not budge.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.737795352935791,
+    "score": 0.5557921230792999,
+    "margin": 0.01792144775390625,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "narrating",
+     "personifying"
+    ]
+   },
+   {
+    "text": "He wondered what the band did.",
+    "skeleton": "narrating(main=narrating(agent, event, patient, content=narrating(agent, event)), meanwhile=elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail)))",
+    "cosine": 0.7153146862983704,
+    "score": 0.5538761019706726,
+    "margin": 0.0020328164100646973,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_pride",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He gave the band a hard push, and it snapped off.",
+    "skeleton": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, content=narrating(agent, event)))",
+    "cosine": 0.6404365301132202,
+    "score": 0.48197464644908905,
+    "margin": 0.00783073902130127,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "explaining",
+     "expressing_resignation",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the band.",
+    "skeleton": "narrating(context, then=disambiguating(main=disambiguating(main=elaborating(main=disambiguating(main=elaborating(main=disambiguating(main=disambiguating(main=disambiguating(main=describing(agent, event, parts, detail), detail), detail), detail), detail), detail), detail), detail), detail))",
+    "cosine": 0.6300711631774902,
+    "score": 0.3379576802253723,
+    "margin": 0.0001475811004638672,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He shoved the bell, and it rang and went quiet.",
+    "skeleton": "comparing(main=narrating(agent, event, patient, content=narrating(agent, event)), other=elaborating(main=narrating(agent, event), detail=describing(agent, event, detail)))",
+    "cosine": 0.6425729990005493,
+    "score": 0.4866667091846466,
+    "margin": 0.001975834369659424,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He realized that the band had kept the bell quiet.",
+    "skeleton": "narrating(agent, event, content=narrating(agent, event, not, patient))",
+    "cosine": 0.7216103076934814,
+    "score": 0.5699132978916168,
+    "margin": 0.001443624496459961,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "expressing_patience",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He laughed with joy.",
+    "skeleton": "narrating(first=disambiguating(main=elaborating(main=disambiguating(main=judging(agent, event, detail), detail), detail), detail=explaining(means=narrating(agent, event), purpose=describing(event, patient))), then=claiming(event, content=explaining(condition=narrating(agent, event), effect=grounding(main=describing(agent, hedge, patient), example))))",
+    "cosine": 0.6497421264648438,
+    "score": 0.43488091230392456,
+    "margin": 0.0008082389831542969,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.2727272727272727,
+   "chain": 2,
+   "reach": 7
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

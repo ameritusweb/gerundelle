@@ -1,0 +1,32 @@
+> Where do Gibson's affordances fit into the system?
+
+● Here's where it lands in the running system.
+
+  Gibson's ecological psychology (1979): an affordance is what the environment offers an organism for action — a chair affords sitting, a handle affords grasping. Affordances
+  are perceived directly from the environment's structure, not inferred from properties like shape or material. They are relations between the environment and the organism,
+  not properties of either alone.
+
+  The world model's open force slots ARE affordances. In force_world.py, every object is a balance of external forces against internal reserves (grip, capacity, seal). When a
+  force crosses a reserve the gerund flips: charged becomes empty, resting becomes falling. Where a configuration invites a force that has not been applied — a button to be
+  pressed, a lever with no one at its long arm — the world has an open force slot. The paper says it explicitly (gerundelle.tex, line ~185): "an open force slot computes what
+  Gibson described as an affordance."
+
+  The invitations the world offers (world.invitations in chessworld.py, force_world.py) are the affordances — they're in the world, not in the mind. In the chess world, the
+  legal moves are the invitations. In the force world, every object that accepts a push is an invitation. The what_ifs.txt entry on forces-as-world-model is this idea: "use
+  forces, net forces, and potential forces as a proxy for affordances, where positions and distances are inferred from the force structure."
+
+  The concept map (center-left column): "Gerund ASTs: every node is a gerund with typed force slots, not a noun with properties. A stone arch and a steel beam share one
+  skeleton. Material doesn't appear in the representation; only what things are doing under forces." That material invariance is what makes the affordance abstract: a latch
+  and a bolt both "fasten," and the mind that learned one transfers to the other by shape.
+
+  How it differs from Gibson specifically:
+
+  - Gibson's affordances are organism-relative (a chair affords sitting for a human, not for a fish). Here the force slots are objective — they're in the world's physics, not
+    relativized to the agent's body. What's agent-relative is the perception of affordances: the Umwelt factors through the agent's invariances, so different agents perceive
+    different subsets of the world's force slots. The affordance is objective; the perception of it is not.
+  - Gibson resisted the idea of mental representation — affordances are perceived directly. Here, the world's force slots are perceived and then represented as gerund ASTs in
+    the mind. The mind has a representation. But the representation is of doings (gerunds), not of things (nouns with properties), which is closer to Gibson's spirit than a
+    traditional object model.
+  - Gibson didn't give a mechanism for how affordances compose. Here, gerund ASTs nest: narrating contains explaining contains describing. Composition combines structures
+    (cognitivecode rung 7: a header from one seed with a growth from another produced programs search never found). The compositionality is what makes the representation
+    generative.

@@ -1,0 +1,51 @@
+> Where do graded monads fit into the system?
+
+● Here's where it lands in the running system.
+
+  Graded monads (Katsumata, 2014; Orchard, Wadler & others): a refinement of monads in programming language theory. A monad tracks "what kind of computation was done"
+  (I/O, state, exceptions). A graded monad tracks it with a grade — a label from an ordered set that says how much of what kind. If your grade is "pure" you did nothing
+  effectful. If your grade is "IO" you touched the world. The type system enforces that compositions respect the grading: you can't claim a computation is pure if one of
+  its steps was IO. The grading is structural — a type error, not a runtime check.
+
+  Provenance in Gerundelle is a graded writer monad. Each operation on the understanding web carries a grade that says what kind of evidence it produced:
+
+  - Fit (an interaction with the world): grade "lived." Full weight.
+  - Attest (someone telling you something): grade "told." Half weight (Params.credulity).
+  - Posit (imagining something): grade "imagined." Zero weight.
+
+  The Lean file Monad.lean (25 theorems) formalizes this. The key result: lamarckian_ill_graded — the arrow pairing Pose's geometry move with a lived accrual does not have
+  Pose's grade. It is ill-typed in the graded monad. The paper (line ~1514): "Knowledge passed between minds arrives as told, never as lived."
+
+  What this means concretely: Pose shares structure (the geometry of what was understood). It does not share provenance (who experienced what). The grading says Pose's grade
+  is "pure with respect to lived evidence" — it moves geometry without minting lived receipts. An arrow that writes a lived event cannot carry Pose's grade, because Pose
+  doesn't interact with the world. The Lamarckian pairing — "I lived through it, so my child lives through it too" — is a type error. The child receives the content (what
+  the parent learned) but not the experiential warrant. The child's receipt is told, at half weight.
+
+  The concept map: "The Lean proof (replay_mass_le): no operator, no sequence of operators, no interleaving can increase lived mass without a Fit event — an interaction with
+  the world. Told receipts fund at a fixed weight set by the Attest discount, and took_told_le proves the weight can never exceed c₀ per trial."
+
+  The grading enforces three structural properties:
+
+  1. The firewall (firewall): imagination cannot reach the funded web. The imagination register has no provenance record (it's a copy of the geometry with no ledger). Anything
+     done there has grade "imagined" — zero weight. The inbound morphism (toImag_apply) exists: you can always project funded understanding into imagination. The outbound
+     morphism does not exist (no_outbound): you can never reconstruct which web you came from.
+
+  2. Told stays told (took_told_le): told receipts fund at a fixed discount per trial. No composition of operators can increase the told weight past c₀. You can't listen
+     harder to make what someone said more true.
+
+  3. Only Fit mints lived receipts (replay_mass_le): the only operator with grade "lived" is Fit — an interaction with the world. Every other operator's grade is lower.
+     No sequence of non-Fit operations can increase lived mass. The total lived mass in the system is bounded by the number of Fit events.
+
+  The paper (line ~1526): "Pose's grade is empty because of what Pose is: it shares structure, not experience. With that grade, no arrow that writes a lived event can carry
+  it, so the Lamarckian pairing (inheriting the experiential warrant of acquired characteristics) is a type error in the graded monad, not a rule that could be relaxed
+  without changing what Pose is."
+
+  How it differs from graded monads in PL theory specifically:
+
+  - In programming language theory, graded monads track effects (IO, state, nondeterminism) and the grading enforces effect bounds at compile time. Here, the "effects" are
+    epistemic: the grading tracks what kind of evidence an operation produces, and the bounds enforce that provenance cannot be fabricated.
+  - In PL, the grading is about what a program CAN do (IO or not). Here, it's about what a mind DID: the ledger records every operation's grade, and the funding computation
+    (Understanding.funding) reads the grades to weight the evidence. The grading is both a type constraint (the Lean proofs) and a runtime quantity (the Python implementation
+    reads the provenance weights).
+  - The prior-art report found no cognitive architecture that uses graded monads or semiring provenance as its backbone. The connection — that provenance tracking in a mind IS
+    a graded writer monad, and that the non-launderability of evidence IS the grading's type constraint — is the paper's own bridge.

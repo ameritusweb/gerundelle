@@ -1,0 +1,44 @@
+> Where does the "thoughts as molecules" idea fit into the system?
+
+● Here's where it lands in the running system.
+
+  The idea (from what_ifs.txt): thoughts behave as molecules — they compete and bind with one another, support each other, and winning thoughts compete at the next level of
+  the tournament. There are multiple levels. The winners are the ones that get conscious attention. Some of the thoughts are meta-thoughts exhibiting meta-cognition.
+
+  This is the core of molecules.py — the tournament IS this idea, implemented literally. A molecule (dataclass Mol) has: an id, activation (act), tags, open sites (sites),
+  bond endpoints (bond), parts, and strength. The Mind class runs the tournament: pool of molecules, scarce slots per level (Params.slots: 7 → 5 → 4), and one tick of
+  thinking (Mind.think) that resolves bindings, computes bids, and selects winners at each level.
+
+  The molecular behaviors described in what_ifs.txt map one to one:
+
+  - Compete: molecules bid for scarce slots. The bid is activation × (1 + binding_score) + open_site_tension + w_pred × forward + support. Molecules that don't win a slot
+    decay by half-life. The competition is the mechanism of attention: what wins is what gets attended to.
+  - Bind: a molecule resolves to its best partner among the competitors at each level (Mind.resolve). A bond is a recognition molecule with two binding sites (Mol.bond),
+    holding two thoughts together. It can act silently as a structural edge (boosting both ends' bids) or, when examined, become a conscious thought in its own right — the
+    same piece of knowledge in two roles, resolved by the tournament.
+  - Support each other: open-site tension (Params.T) pulls a molecule toward whatever fills its sites, and a filler toward whatever it fills. Constraint support
+    (Mind.support, Params.support = "candidates") adds the bid of every constraint molecule the move could clear, in superposition.
+  - Winning thoughts compete at the next level: each level's winners are the competitors for the next level (Mind.think, line ~539: "for L, k in enumerate(self.p.slots)").
+    The levels narrow: 7 → 5 → 4. The top level is conscious attention.
+  - Dissolve: a molecule whose activation falls below Params.floor is swept from the pool (_sweep). Not deleted from the experience records — just too quiet to compete.
+    Cooling by half-life, modulated by five factors: success, surprise, novelty, blocked momentum, closure.
+
+  The tournament of levels described in what_ifs.txt:
+
+  - Level 1 (seed stage): percepts enter the pool with activation 1.0 (Mind.present). A flood of raw molecules, some dissipating almost instantly if they lack relevance.
+  - Level 2 (selection): molecules compete based on their bids at level 0. Emotional salience (phase molecules anchored on territory slots), cognitive strength (binding
+    score), logical coherence (the force between related molecules), novelty (the forward-looking term).
+  - Level 3 (consolidation / conscious attention): the top level's winners. A molecule that wins here gets its experience records updated, bonds reinforced, open sites
+    addressed. A molecule with no open sites that has won the top for three consecutive ticks with flat precision precipitates into storage (Mind.settled, Params.dwell) — a
+    memory is formed.
+  - Action: MCTS guided by the top-level winners (mcts in molecules.py). The plan is read off the mind's own model, not searched exhaustively.
+
+  Meta-thoughts are implemented as the Meta class (molecules.py). A meta molecule is a thought about thinking: "surprised" (a molecule's outcome was unexpected), "torn" (two
+  bindings are close), "wrong" (a prediction failed), "resolved" (an open question was answered). Meta molecules compete in their own track (Params.meta_slots: 3 → 2 → 2),
+  with their own slots, so they don't crowd out regular thoughts and regular thoughts don't crowd them out. Meta molecules that have an operation (Meta.OPERATES) get priority
+  for their slots. A meta molecule binds only to its subject (the thought it's about), and its predictions are scored: a "surprised" molecule predicts the subject's next
+  binding will differ, and if it does, the subject's half-life is extended. Meta-cognition gates the operations: inquiry (testing a hypothesis) fires only when its meta
+  molecule wins a slot.
+
+  The concept map: "Why not all thoughts should be in constant focus. The tournament has scarce slots (7 → 5 → 4). Thousands of molecules compete; a handful win. What doesn't
+  win fades. Attention is a resource allocated by competition, not a spotlight the mind points."

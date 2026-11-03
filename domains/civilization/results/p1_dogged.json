@@ -1,0 +1,8727 @@
+{
+ "temper": "dogged",
+ "ticks": 800,
+ "pushes": 48,
+ "reached": false,
+ "conservation": true,
+ "forming_conditions": {
+  "light_push:hollow_open": "shell_nesting"
+ },
+ "right_pattern": false,
+ "splits": {
+  "light_push:hollow_open": "shell_nesting",
+  "hard_push:boulder_resting": "jar_charged"
+ },
+ "sentences": [
+  "There was a spring of light at the foot of a hill.",
+  "A clay jar glowed beside it.",
+  "A smooth hollow lay open in the rock.",
+  "A spiral shell lay on the slope.",
+  "A boulder sat on the slope.",
+  "Ada wanted to send a boat into the sky.",
+  "She pushed the hollow hard, but it did not move.",
+  "She moved the shell, and it settled into the hollow.",
+  "She was delighted with the shell.",
+  "She moved the shell again, and it came out of the hollow.",
+  "She touched the hollow, but it would not move.",
+  "She grew frustrated with the hollow.",
+  "She pressed on the boulder, but it did not budge.",
+  "She moved the shell, and it settled into the hollow.",
+  "She touched the hollow.",
+  "A shell-shaped cup took shape beside the hollow.",
+  "Ada realized that the hollow made a cup only when the shell lay in it.",
+  "She shook the jar, and it went dark.",
+  "She was delighted with the jar.",
+  "She gave the boulder a hard push, but nothing happened.",
+  "She grew frustrated with the boulder.",
+  "She touched the boulder, but it did not move.",
+  "She shoved the hollow, but it would not move.",
+  "She touched the hollow.",
+  "But this time the hollow did not move.",
+  "Ada felt anxious about the cup.",
+  "She pushed the hollow hard, but it did not budge.",
+  "Again and again she tried the boulder and the hollow, but nothing gave.",
+  "She grew frustrated with the cup.",
+  "She moved the shell, and it came out of the hollow.",
+  "She felt sad about the cup.",
+  "She gave the boulder a hard push, but nothing happened.",
+  "She kept trying the hollow, the boulder and the jar, but nothing gave.",
+  "She felt anxious about the jar.",
+  "She shook the jar again, but it did not move.",
+  "She grew frustrated with the jar.",
+  "She shook the jar again, but it would not move.",
+  "She grew frustrated with the cup again.",
+  "She felt anxious about the cup again.",
+  "She shoved the boulder, but it did not budge.",
+  "She pushed the hollow hard, but nothing happened.",
+  "She dipped the jar into the spring, and it began to glow.",
+  "She felt anxious about the jar again.",
+  "She was delighted with the jar.",
+  "She pressed on the boulder, but it did not move.",
+  "She felt anxious about the cup again.",
+  "She moved the shell, and it settled into the hollow.",
+  "She gave the hollow a hard push, but it would not move.",
+  "She moved the shell, and it came out of the hollow.",
+  "She pushed the boulder hard.",
+  "But this time the boulder split apart.",
+  "A little carved boat lay among the pieces.",
+  "A heap of pebbles lay on the ground.",
+  "Ada realized that the boulder moved only if the jar began to glow.",
+  "She was delighted with the carved boat.",
+  "She dipped the jar into the spring, but it did not budge.",
+  "She shoved the hollow, but nothing happened.",
+  "She moved the carved boat, and it settled into the hollow.",
+  "She moved the carved boat again, and it came out of the hollow.",
+  "She felt sad about the jar.",
+  "She touched the hollow, but it did not move.",
+  "She grew frustrated with the boulder again.",
+  "She shook the jar, and it went dark.",
+  "She was delighted with the jar.",
+  "She moved the carved boat, and it settled into the hollow.",
+  "She pushed the hollow hard, but it would not move.",
+  "She dipped the jar into the spring, and it began to glow.",
+  "She moved the carved boat, and it came out of the hollow.",
+  "She grew frustrated with the boulder again.",
+  "She shook the jar, and it went dark.",
+  "She gave the hollow a hard push, but it did not budge.",
+  "She moved the shell, and it settled into the hollow.",
+  "She shoved the hollow, but nothing happened.",
+  "She grew frustrated with the boulder again.",
+  "She moved the carved boat, and it settled into the hollow.",
+  "The shell came out of the hollow.",
+  "Ada grew frustrated with the boulder again.",
+  "She grew frustrated with the boulder again.",
+  "She grew frustrated with the boulder again."
+ ],
+ "round_trip": 1.0,
+ "ledger": [
+  {
+   "t": 0,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 1,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 2,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 3,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 4,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 5,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 6,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 7,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 8,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 9,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 10,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 11,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 12,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 13,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 14,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 15,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 16,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 17,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 18,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 19,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 20,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 21,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 22,
+   "field": 959.0,
+   "store": 37.0,
+   "embodied": 7.0,
+   "motion": 3.0,
+   "total": 1006.0
+  },
+  {
+   "t": 23,
+   "field": 959.0,
+   "store": 37.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 24,
+   "field": 959.0,
+   "store": 37.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 25,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 26,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 27,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 28,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 29,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 30,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 31,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 32,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 33,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 34,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 35,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 36,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 37,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 38,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 39,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 40,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 41,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 42,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 43,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 44,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 45,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 46,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 47,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 48,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 49,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 50,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 51,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 52,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 53,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 54,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 55,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 56,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 57,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 58,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 59,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 60,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 61,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 62,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 63,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 64,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 65,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 66,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 67,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 68,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 69,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 70,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 71,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 72,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 73,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 74,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 75,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 76,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 77,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 78,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 79,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 80,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 81,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 82,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 83,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 84,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 85,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 86,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 87,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 88,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 89,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 90,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 91,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 92,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 93,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 94,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 95,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 96,
+   "field": 996.0,
+   "store": 0.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 97,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 98,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 99,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 100,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 101,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 102,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 103,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 104,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 105,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 106,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 107,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 108,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 109,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 110,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 111,
+   "field": 976.0,
+   "store": 20.0,
+   "embodied": 10.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 112,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 113,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 114,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 115,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 116,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 117,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 118,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 119,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 120,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 121,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 122,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 123,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 124,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 125,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 126,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 127,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 128,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 129,
+   "field": 976.0,
+   "store": 18.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 130,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 131,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 132,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 133,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 134,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 135,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 136,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 137,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 138,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 139,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 140,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 141,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 142,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 143,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 144,
+   "field": 974.0,
+   "store": 20.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 145,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 146,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 147,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 148,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 149,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 150,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 151,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 152,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 153,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 154,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 155,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 156,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 157,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 158,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 159,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 160,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 161,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 162,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 163,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 164,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 165,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 166,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 167,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 168,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 169,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 170,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 171,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 172,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 173,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 174,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 175,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 176,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 177,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 178,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 179,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 180,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 181,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 182,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 183,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 184,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 185,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 186,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 187,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 188,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 189,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 190,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 191,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 192,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 193,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 194,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 195,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 196,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 197,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 198,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 199,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 200,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 201,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 202,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 203,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 204,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 205,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 206,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 207,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 208,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 209,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 210,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 211,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 212,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 213,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 214,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 215,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 216,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 217,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 218,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 219,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 220,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 221,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 222,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 223,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 224,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 225,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 226,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 227,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 228,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 229,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 230,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 231,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 232,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 233,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 234,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 235,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 236,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 237,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 238,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 239,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 240,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 241,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 242,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 243,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 244,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 245,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 246,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 247,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 248,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 249,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 250,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 251,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 252,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 253,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 254,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 255,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 256,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 257,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 258,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 259,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 260,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 261,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 262,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 263,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 264,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 265,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 266,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 267,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 268,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 269,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 270,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 271,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 272,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 273,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 274,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 275,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 276,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 277,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 278,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 279,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 280,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 281,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 282,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 283,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 284,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 285,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 286,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 287,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 288,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 289,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 290,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 291,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 292,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 293,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 294,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 295,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 296,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 297,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 298,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 299,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 300,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 301,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 302,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 303,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 304,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 305,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 306,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 307,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 308,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 309,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 310,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 311,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 312,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 313,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 314,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 315,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 316,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 317,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 318,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 319,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 320,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 321,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 322,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 323,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 324,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 325,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 326,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 327,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 328,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 329,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 330,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 331,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 332,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 333,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 334,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 335,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 336,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 337,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 338,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 339,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 340,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 341,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 342,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 343,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 344,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 345,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 346,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 347,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 348,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 349,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 350,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 351,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 352,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 353,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 354,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 355,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 356,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 357,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 358,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 359,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 360,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 361,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 362,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 363,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 364,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 365,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 366,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 367,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 368,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 369,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 370,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 371,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 372,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 373,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 374,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 375,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 376,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 377,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 378,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 379,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 380,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 381,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 382,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 383,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 384,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 385,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 386,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 387,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 388,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 389,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 390,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 391,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 392,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 393,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 394,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 395,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 396,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 397,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 398,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 399,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 400,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 401,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 402,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 403,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 404,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 405,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 406,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 407,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 408,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 409,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 410,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 411,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 412,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 413,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 414,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 415,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 416,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 417,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 418,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 419,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 420,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 421,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 422,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 423,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 424,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 425,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 426,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 427,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 428,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 429,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 430,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 431,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 432,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 433,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 434,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 435,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 436,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 437,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 438,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 439,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 440,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 441,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 442,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 443,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 444,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 445,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 446,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 447,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 448,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 449,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 450,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 451,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 452,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 453,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 454,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 455,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 456,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 457,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 458,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 459,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 460,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 461,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 462,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 463,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 464,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 465,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 466,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 467,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 468,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 469,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 470,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 471,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 472,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 473,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 474,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 475,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 476,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 477,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 478,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 479,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 480,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 481,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 482,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 483,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 484,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 485,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 486,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 487,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 488,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 489,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 490,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 491,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 492,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 493,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 494,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 495,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 496,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 497,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 498,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 499,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 500,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 501,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 502,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 503,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 504,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 505,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 506,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 507,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 508,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 509,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 510,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 511,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 512,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 513,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 514,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 515,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 516,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 517,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 518,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 519,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 520,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 521,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 522,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 523,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 524,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 525,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 526,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 527,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 528,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 529,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 530,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 531,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 532,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 533,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 534,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 535,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 536,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 537,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 538,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 539,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 540,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 541,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 542,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 543,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 544,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 545,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 546,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 547,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 548,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 549,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 550,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 551,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 552,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 553,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 554,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 555,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 556,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 557,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 558,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 559,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 560,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 561,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 562,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 563,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 564,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 565,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 566,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 567,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 568,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 569,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 570,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 571,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 572,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 573,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 574,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 575,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 576,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 577,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 578,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 579,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 580,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 581,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 582,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 583,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 584,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 585,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 586,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 587,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 588,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 589,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 590,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 591,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 592,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 593,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 594,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 595,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 596,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 597,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 598,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 599,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 600,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 601,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 602,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 603,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 604,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 605,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 606,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 607,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 608,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 609,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 610,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 611,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 612,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 613,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 614,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 615,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 616,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 617,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 618,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 619,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 620,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 621,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 622,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 623,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 624,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 625,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 626,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 627,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 628,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 629,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 630,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 631,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 632,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 633,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 634,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 635,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 636,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 637,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 638,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 639,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 640,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 641,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 642,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 643,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 644,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 645,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 646,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 647,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 648,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 649,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 650,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 651,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 652,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 653,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 654,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 655,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 656,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 657,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 658,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 659,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 660,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 661,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 662,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 663,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 664,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 665,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 666,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 667,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 668,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 669,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 670,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 671,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 672,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 673,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 674,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 675,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 676,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 677,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 678,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 679,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 680,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 681,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 682,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 683,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 684,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 685,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 686,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 687,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 688,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 689,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 690,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 691,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 692,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 693,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 694,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 695,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 696,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 697,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 698,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 699,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 700,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 701,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 702,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 703,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 704,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 705,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 706,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 707,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 708,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 709,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 710,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 711,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 712,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 713,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 714,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 715,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 716,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 717,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 718,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 719,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 720,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 721,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 722,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 723,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 724,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 725,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 726,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 727,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 728,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 729,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 730,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 731,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 732,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 733,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 734,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 735,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 736,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 737,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 738,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 739,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 740,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 741,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 742,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 743,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 744,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 745,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 746,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 747,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 748,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 749,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 750,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 751,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 752,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 753,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 754,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 755,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 756,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 757,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 758,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 759,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 760,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 761,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 762,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 763,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 764,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 765,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 766,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 767,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 768,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 769,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 770,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 771,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 772,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 773,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 774,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 775,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 776,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 777,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 778,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 779,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 780,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 781,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 782,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 783,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 784,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 785,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 786,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 787,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 788,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 789,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 790,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 791,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 792,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 793,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 794,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 795,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 796,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 797,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 798,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 799,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 800,
+   "field": 994.0,
+   "store": 0.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  }
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "spring",
+   "detail": {
+    "gerund": "welling"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "jar",
+   "detail": {
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "hollow",
+   "detail": {
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "shell",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "boulder",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_flying"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 8,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.8,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:shell",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 10,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    18
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    20
+   ]
+  },
+  {
+   "t": 15,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 21,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 21,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.2857142857142858,
+   "refs": []
+  },
+  {
+   "t": 24,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "open",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "forming",
+    "to": "open",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "cup",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "cup_resting",
+     "hollow_forming",
+     "hollow_open"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "condition": "shell_nesting",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 27,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 27,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    35
+   ]
+  },
+  {
+   "t": 28,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 30,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 30,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    38
+   ]
+  },
+  {
+   "t": 30,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 33,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 33,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    42
+   ]
+  },
+  {
+   "t": 36,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 36,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 39,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.2857142857142858,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    46
+   ]
+  },
+  {
+   "t": 39,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "expected": [
+     "cup_resting",
+     "hollow_forming",
+     "hollow_open"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    46
+   ]
+  },
+  {
+   "t": 40,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:cup",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4642857142857144,
+   "refs": []
+  },
+  {
+   "t": 43,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 43,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    50
+   ]
+  },
+  {
+   "t": 47,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 47,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    52
+   ]
+  },
+  {
+   "t": 51,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.2857142857142858,
+   "refs": []
+  },
+  {
+   "t": 51,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    54
+   ]
+  },
+  {
+   "t": 52,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:cup",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3333333333333333,
+   "refs": []
+  },
+  {
+   "t": 55,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 55,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    57
+   ]
+  },
+  {
+   "t": 56,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:cup",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    60
+   ]
+  },
+  {
+   "t": 61,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.2857142857142858,
+   "refs": []
+  },
+  {
+   "t": 61,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3589285714285715,
+   "refs": []
+  },
+  {
+   "t": 65,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    64
+   ]
+  },
+  {
+   "t": 68,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4714285714285714,
+   "refs": []
+  },
+  {
+   "t": 68,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    66
+   ]
+  },
+  {
+   "t": 71,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3571428571428571,
+   "refs": []
+  },
+  {
+   "t": 71,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    68
+   ]
+  },
+  {
+   "t": 75,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4571428571428571,
+   "refs": []
+  },
+  {
+   "t": 75,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    70
+   ]
+  },
+  {
+   "t": 79,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 79,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    72
+   ]
+  },
+  {
+   "t": 80,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3796296296296298,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 84,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3,
+   "refs": []
+  },
+  {
+   "t": 87,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 87,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    78
+   ]
+  },
+  {
+   "t": 88,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:cup",
+   "obj": "cup",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "cup"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    56
+   ]
+  },
+  {
+   "t": 88,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:cup",
+   "obj": "cup",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "cup"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    49
+   ]
+  },
+  {
+   "t": 91,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.33392857142857146,
+   "refs": []
+  },
+  {
+   "t": 91,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    82
+   ]
+  },
+  {
+   "t": 95,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.34285714285714286,
+   "refs": []
+  },
+  {
+   "t": 95,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    84
+   ]
+  },
+  {
+   "t": 99,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 99,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    86
+   ]
+  },
+  {
+   "t": 99,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "jar",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "jar"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    74
+   ]
+  },
+  {
+   "t": 100,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3571428571428572,
+   "refs": []
+  },
+  {
+   "t": 102,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4303571428571429,
+   "refs": []
+  },
+  {
+   "t": 102,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    90
+   ]
+  },
+  {
+   "t": 104,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:cup",
+   "obj": "cup",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "cup"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    81
+   ]
+  },
+  {
+   "t": 105,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 105,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    93
+   ]
+  },
+  {
+   "t": 108,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3303571428571429,
+   "refs": []
+  },
+  {
+   "t": 108,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    95
+   ]
+  },
+  {
+   "t": 111,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "light",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 111,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    97
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.23392857142857149,
+   "refs": []
+  },
+  {
+   "t": 114,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "from": "resting",
+    "to": "cleaving",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "from": "cleaving",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "pebbles",
+   "detail": {
+    "from": "unformed",
+    "to": "piling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "model",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "boulder_cleaving",
+     "boulder_gone",
+     "model_resting",
+     "pebbles_piling"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "condition": "jar_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 115,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:model",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 117,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 117,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    107
+   ]
+  },
+  {
+   "t": 120,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3203571428571428,
+   "refs": []
+  },
+  {
+   "t": 120,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 120,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 123,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 123,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    112
+   ]
+  },
+  {
+   "t": 126,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "strength": "hard",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 126,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    114
+   ]
+  },
+  {
+   "t": 127,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:jar",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 3.0,
+   "refs": []
+  },
+  {
+   "t": 129,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.2857142857142858,
+   "refs": []
+  },
+  {
+   "t": 129,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    117
+   ]
+  },
+  {
+   "t": 129,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    41
+   ]
+  },
+  {
+   "t": 132,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.38749999999999996,
+   "refs": []
+  },
+  {
+   "t": 132,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    120
+   ]
+  },
+  {
+   "t": 133,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 4.0,
+   "refs": []
+  },
+  {
+   "t": 135,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 135,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    123
+   ]
+  },
+  {
+   "t": 138,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3203571428571428,
+   "refs": []
+  },
+  {
+   "t": 138,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    125
+   ]
+  },
+  {
+   "t": 141,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.2875,
+   "refs": []
+  },
+  {
+   "t": 141,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    127
+   ]
+  },
+  {
+   "t": 144,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "strength": "light",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 144,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    129
+   ]
+  },
+  {
+   "t": 144,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 147,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.38749999999999996,
+   "refs": []
+  },
+  {
+   "t": 147,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    132
+   ]
+  },
+  {
+   "t": 150,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3103571428571429,
+   "refs": []
+  },
+  {
+   "t": 150,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 155,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 155,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    136
+   ]
+  },
+  {
+   "t": 158,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.3020238095238096,
+   "refs": []
+  },
+  {
+   "t": 158,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    138
+   ]
+  },
+  {
+   "t": 160,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    131
+   ]
+  },
+  {
+   "t": 161,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 161,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    141
+   ]
+  },
+  {
+   "t": 161,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    141
+   ]
+  },
+  {
+   "t": 176,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    140
+   ]
+  },
+  {
+   "t": 192,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 208,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    145
+   ]
+  }
+ ]
+}

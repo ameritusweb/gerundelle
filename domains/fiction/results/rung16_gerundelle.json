@@ -1,0 +1,2570 @@
+{
+ "rung": "16",
+ "arm": "gerundelle",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "top",
+   "detail": {
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "spring",
+   "detail": {
+    "gerund": "compressing"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "puppet",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "hasp",
+   "detail": {
+    "gerund": "connecting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "stop",
+   "detail": {
+    "gerund": "pushing"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Mara",
+   "hole": "own:control:top",
+   "obj": "top",
+   "detail": {
+    "change": "top_releasing"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.42999999999999994,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    9
+   ]
+  },
+  {
+   "t": 5,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    9
+   ]
+  },
+  {
+   "t": 5,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    9
+   ]
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:unclaimed:flag",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "strength": "hard",
+    "gerund": "connecting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "from": "connecting",
+    "to": "parting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    18
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:unclaimed:hasp",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "light",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.53,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 11,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 11,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_parting",
+   "obj": "hasp",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:hasp_parting",
+   "obj": "hasp",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:hasp_parting",
+   "obj": "hasp",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_parting",
+   "obj": "hasp",
+   "detail": {
+    "strength": "hard",
+    "gerund": "parting"
+   },
+   "prov": "lived",
+   "pull": 0.45099999999999996,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_parting",
+   "obj": "hasp",
+   "detail": {
+    "from": "parting",
+    "to": "connecting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_parting",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 17,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "light",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "nothing",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    30
+   ]
+  },
+  {
+   "t": 20,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "light",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    32
+   ]
+  },
+  {
+   "t": 20,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    32
+   ]
+  },
+  {
+   "t": 21,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 23,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "hard",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.5509999999999999,
+   "refs": []
+  },
+  {
+   "t": 23,
+   "kind": "other",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    36
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "nothing",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    36
+   ]
+  },
+  {
+   "t": 24,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:control:top",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "light",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "nothing",
+   "actor": "Mara",
+   "hole": "sov:light_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 26,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.5509999999999999,
+   "refs": []
+  },
+  {
+   "t": 27,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.5509999999999999,
+   "refs": []
+  },
+  {
+   "t": 29,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "hard",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.45099999999999996,
+   "refs": []
+  },
+  {
+   "t": 29,
+   "kind": "nothing",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 30,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.8484848484848486,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "strength": "hard",
+    "gerund": "connecting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "hasp",
+   "detail": {
+    "from": "connecting",
+    "to": "parting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    47
+   ]
+  },
+  {
+   "t": 32,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:hasp_connecting",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    47
+   ]
+  },
+  {
+   "t": 33,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.7745098039215685,
+   "refs": []
+  },
+  {
+   "t": 37,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.42999999999999994,
+   "refs": []
+  },
+  {
+   "t": 37,
+   "kind": "wonder",
+   "actor": "Mara",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 43,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "strength": "hard",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "from": "locking",
+    "to": "releasing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "spring",
+   "detail": {
+    "from": "compressing",
+    "to": "releasing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "from": "releasing",
+    "to": "launching",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "spring",
+   "detail": {
+    "from": "releasing",
+    "to": "launching",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "from": "launching",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "puppet",
+   "detail": {
+    "from": "resting",
+    "to": "flying",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "spring",
+   "detail": {
+    "from": "launching",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "puppet",
+   "detail": {
+    "from": "flying",
+    "to": "falling",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "surprise",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "flag_hanging",
+     "puppet_flying",
+     "spring_launching",
+     "spring_releasing",
+     "spring_resting",
+     "top_launching",
+     "top_releasing",
+     "top_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "learn",
+   "actor": "Mara",
+   "hole": "sov:hard_push:top_locking",
+   "obj": "top",
+   "detail": {
+    "condition": "hasp_parting",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    37,
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "reach",
+   "actor": "Mara",
+   "hole": "own:control:top",
+   "obj": "top",
+   "detail": {
+    "change": "top_releasing",
+    "inv": [
+     "hard",
+     "top",
+     "locking"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:control:top",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "top",
+     "hasp",
+     "flag"
+    ],
+    "states": {
+     "top": "locking",
+     "hasp": "connecting",
+     "flag": "hanging"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    3,
+    5
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "top",
+    "change": "top_releasing"
+   },
+   "beats": [
+    6
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "flag",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "flag",
+     "flips": [
+      [
+       "hanging",
+       "swinging"
+      ],
+      [
+       "swinging",
+       "hanging"
+      ],
+      [
+       "hanging",
+       "swinging"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "flag",
+    "who": "Mara"
+   },
+   "beats": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    15
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "hasp",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "hasp",
+     "flips": [
+      [
+       "connecting",
+       "parting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "hasp",
+    "who": "Mara"
+   },
+   "beats": [
+    18,
+    19
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "hasp",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    20
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "flag",
+     "strength": "light",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "flag",
+     "flips": [
+      [
+       "hanging",
+       "swinging"
+      ],
+      [
+       "swinging",
+       "hanging"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "flag",
+    "who": "Mara"
+   },
+   "beats": [
+    21,
+    22,
+    23
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "hasp",
+    "slot": "conditions"
+   },
+   "beats": [
+    26
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "hasp",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "hasp",
+     "flips": [
+      [
+       "parting",
+       "connecting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "hasp",
+    "who": "Mara"
+   },
+   "beats": [
+    27,
+    28
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "tension",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "hanging",
+      "swinging"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    29
+   ],
+   "refs": [
+    8
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "top",
+     "strength": "light",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "top",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "top",
+    "who": "Mara"
+   },
+   "beats": [
+    30,
+    31
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "flag",
+     "strength": "light",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "flag",
+     "flips": [
+      [
+       "hanging",
+       "swinging"
+      ],
+      [
+       "swinging",
+       "hanging"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "flag",
+    "who": "Mara"
+   },
+   "beats": [
+    32,
+    33,
+    34
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "top",
+    "slot": "role"
+   },
+   "beats": [
+    35
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "top",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "top",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "top",
+    "who": "Mara"
+   },
+   "beats": [
+    36,
+    38
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "frustration",
+    "unexpected": [],
+    "anchor": "top",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    39
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "top",
+     "strength": "light",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "top",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "top",
+    "who": "Mara"
+   },
+   "beats": [
+    40,
+    41
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "top",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "top",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "top",
+    "who": "Mara"
+   },
+   "beats": [
+    44,
+    45
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    46
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "hasp",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "hasp",
+     "flips": [
+      [
+       "connecting",
+       "parting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "hasp",
+    "who": "Mara"
+   },
+   "beats": [
+    47,
+    48
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "tension",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "hanging",
+      "swinging"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    49
+   ],
+   "refs": [
+    18
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "frustration",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    50
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "turn",
+   "fill": {
+    "obj": "top",
+    "strength": "hard",
+    "again": false,
+    "who": "Mara"
+   },
+   "beats": [
+    53
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "top",
+    "flips": [
+     [
+      "locking",
+      "releasing"
+     ],
+     [
+      "releasing",
+      "launching"
+     ],
+     [
+      "launching",
+      "resting"
+     ]
+    ],
+    "new": false,
+    "contrast": true
+   },
+   "beats": [
+    54,
+    56,
+    58
+   ],
+   "refs": [
+    21
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "spring",
+    "flips": [
+     [
+      "compressing",
+      "releasing"
+     ],
+     [
+      "releasing",
+      "launching"
+     ],
+     [
+      "launching",
+      "resting"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    55,
+    57,
+    60
+   ],
+   "refs": [
+    21
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "puppet",
+    "flips": [
+     [
+      "resting",
+      "flying"
+     ],
+     [
+      "flying",
+      "falling"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    59,
+    61
+   ],
+   "refs": [
+    21
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "learn",
+   "stage": "resolution",
+   "fill": {
+    "obj": "top",
+    "cond_obj": "hasp",
+    "cond_state": "parting",
+    "also": [],
+    "confirms": null,
+    "exposes": null
+   },
+   "beats": [
+    63
+   ],
+   "refs": [
+    21
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    65
+   ],
+   "refs": [
+    21
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "A wooden chest stood under the window.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "disambiguating(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "Its lid was firmly closed.",
+    "shape": "narrating|describing",
+    "reading": "narrating(event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A brass hasp held it fast.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, patient)",
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A curtain at the window hung limp.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Mara longed to open the chest.",
+    "shape": "explaining(means=expressing_longing|narrating, purpose=describing)",
+    "reading": "explaining(means=expressing_longing(agent, event), purpose=describing(event, patient))",
+    "ok": true,
+    "readings": [
+     "explaining(means=expressing_longing(agent, event), purpose=describing(event, patient))",
+     "explaining(means=narrating(agent, event), purpose=describing(event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "She shoved the curtain, and it swung and hung still again.",
+    "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+    "reading": "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "elaborating(main=narrating(agent, event, patient), detail=narrating(first=narrating(agent, event), then=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, patient), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, patient), then=narrating(first=narrating(agent, event), then=narrating(agent, event)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "She was delighted with the curtain.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(event, patient, detail)",
+     "narrating(event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "She pushed the hasp hard, and it gave way.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, patient))",
+     "narrating(first=narrating(agent, event, patient), then=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "She was delighted with the hasp.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "She pressed on the curtain, and it swung and hung still again.",
+    "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+    "reading": "elaborating(main=narrating(agent, event, detail), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, detail), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "elaborating(main=narrating(agent, event, detail), detail=narrating(first=narrating(agent, event), then=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, detail), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, detail), then=narrating(first=narrating(agent, event), then=narrating(agent, event)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "She wondered what kept the hasp from working.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient, detail))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient, detail))",
+     "narrating(agent, event, content=narrating(agent, event, patient, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "She gave the hasp a hard push, and it snapped back into place.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, place))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, place))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event, place))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 9,
+    "text": "The curtain swung.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 10,
+    "text": "Mara pressed the lid, but it would not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 11,
+    "text": "She pressed on the curtain, and it swung and hung still again.",
+    "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+    "reading": "elaborating(main=narrating(agent, event, detail), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, detail), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "elaborating(main=narrating(agent, event, detail), detail=narrating(first=narrating(agent, event), then=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, detail), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, detail), then=narrating(first=narrating(agent, event), then=narrating(agent, event)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 12,
+    "text": "She wondered what the lid had to do with it.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=describing(agent, event, patient, detail))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=describing(agent, event, patient, detail))",
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient, detail))",
+     "narrating(agent, event, content=describing(agent, event, patient, detail))",
+     "narrating(agent, event, content=narrating(agent, event, patient, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 13,
+    "text": "She shoved the lid, but it did not budge.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 14,
+    "text": "She grew frustrated with the lid.",
+    "shape": "expressing_exasperation",
+    "reading": "expressing_exasperation(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_exasperation(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 15,
+    "text": "She pressed the lid, but nothing happened.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 16,
+    "text": "She pushed the lid hard, but it did not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 17,
+    "text": "She felt anxious about the curtain.",
+    "shape": "expressing_fear",
+    "reading": "expressing_fear(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_fear(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 18,
+    "text": "She gave the hasp a hard push, and it slid free.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 19,
+    "text": "The curtain swung.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 20,
+    "text": "Mara grew frustrated with the curtain.",
+    "shape": "expressing_exasperation",
+    "reading": "expressing_exasperation(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_exasperation(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 21,
+    "text": "She pushed the lid hard.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 22,
+    "text": "But this time the lid sprang open.",
+    "shape": "contrasting(main=narrating)",
+    "reading": "contrasting(context, main=narrating(agent, event, attribute))",
+    "ok": true,
+    "readings": [
+     "contrasting(context, main=narrating(agent, event, attribute))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 23,
+    "text": "A spring inside it uncoiled.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 24,
+    "text": "A puppet flew out and fell.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 25,
+    "text": "Mara realized that the hasp had kept the lid shut.",
+    "shape": "realizing(content=narrating|describing|claiming)",
+    "reading": "realizing(agent, event, content=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, content=narrating(agent, event, patient))",
+     "realizing(agent, event, content=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 26,
+    "text": "She laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 1.0,
+  "exact_theories": {
+   "narrative-arc": 1.0,
+   "problem-solution-result": 0.67,
+   "compare-contrast": 0.6,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5
+  },
+  "unmatched": [
+   "A brass hasp held it fast.",
+   "A curtain at the window hung limp.",
+   "A spring inside it uncoiled."
+  ],
+  "matched_share": 0.9,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concession-rebuttal": 1.0,
+   "concept-explanation": 1.0
+  },
+  "variety": 0.7407407407407407,
+  "judge_rows": [
+   {
+    "text": "A wooden chest stood under the window.",
+    "skeleton": "narrating(agent, event, content=disambiguating(main=disambiguating(main=disambiguating(main=disambiguating(main=describing(agent, event, parts, place, detail), detail), detail), detail), detail))",
+    "cosine": 0.6313798427581787,
+    "score": 0.37597885727882385,
+    "margin": 0.00398629903793335,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Its lid was firmly closed.",
+    "skeleton": "narrating(event, patient)",
+    "cosine": 0.6138916611671448,
+    "score": 0.28618499636650085,
+    "margin": 0.0033434033393859863,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A brass hasp held it fast.",
+    "skeleton": "contrasting(context, main=narrating(first=explaining(means=narrating(agent, event), purpose=describing(quality)), then=narrating(agent, event, patient)))",
+    "cosine": 0.615260660648346,
+    "score": 0.24967974424362183,
+    "margin": 0.008023738861083984,
+    "matched": false,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A curtain at the window hung limp.",
+    "skeleton": "narrating(context, then=elaborating(main=narrating(agent, event, detail), detail=describing(agent, event, patient, content=disambiguating(main=disambiguating(main=expressing_love(agent, event, detail, detail), detail), detail=elaborating(main=narrating(agent, event, patient, detail), detail=narrating(first=narrating(agent, event, quality), then=narrating(agent, event, patient, detail)))))))",
+    "cosine": 0.6139459609985352,
+    "score": 0.24937346577644348,
+    "margin": 0.00011980533599853516,
+    "matched": false,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_love",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Mara longed to open the chest.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6692445874214172,
+    "score": 0.3945015072822571,
+    "margin": 0.02190190553665161,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She shoved the curtain, and it swung and hung still again.",
+    "skeleton": "comparing(main=narrating(agent, event, patient, content=narrating(agent, event)), other=elaborating(main=narrating(agent, event), detail=describing(agent, event, detail)))",
+    "cosine": 0.6247763633728027,
+    "score": 0.5026636272668839,
+    "margin": 0.0045833587646484375,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "describing",
+     "elaborating",
+     "expressing_resignation",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She was delighted with the curtain.",
+    "skeleton": "narrating(context, then=disambiguating(main=disambiguating(main=elaborating(main=disambiguating(main=elaborating(main=disambiguating(main=disambiguating(main=disambiguating(main=describing(agent, event, parts, detail), detail), detail), detail), detail), detail), detail), detail), detail))",
+    "cosine": 0.6347323656082153,
+    "score": 0.3467212915420532,
+    "margin": 0.00012320280075073242,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pushed the hasp hard, and it gave way.",
+    "skeleton": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, content=disambiguating(main=judging(agent, event, patient, detail), detail)))",
+    "cosine": 0.6641865372657776,
+    "score": 0.5631767809391022,
+    "margin": 0.0039733052253723145,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "expressing_resignation",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She was delighted with the hasp.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6324079632759094,
+    "score": 0.3447645604610443,
+    "margin": 0.00756305456161499,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pressed on the curtain, and it swung and hung still again.",
+    "skeleton": "narrating(first=narrating(agent, event, detail, content=narrating(agent, event, not)), then=elaborating(main=narrating(agent, event), detail=explaining(event, content=describing(agent, event, patient))))",
+    "cosine": 0.6342815160751343,
+    "score": 0.4973500967025757,
+    "margin": 0.002996087074279785,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She wondered what kept the hasp from working.",
+    "skeleton": "narrating(agent, event, patient, content=explaining(agent, event, detail))",
+    "cosine": 0.7340970039367676,
+    "score": 0.5672113001346588,
+    "margin": 0.00377047061920166,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She gave the hasp a hard push, and it snapped back into place.",
+    "skeleton": "elaborating(main=narrating(agent, event, patient, place), detail=narrating(agent, event, recipient))",
+    "cosine": 0.6667876839637756,
+    "score": 0.5263942927122116,
+    "margin": 0.0015687346458435059,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The curtain swung.",
+    "skeleton": "narrating(agent, event)",
+    "cosine": 0.6666614413261414,
+    "score": 0.42299413681030273,
+    "margin": 0.018433868885040283,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Mara pressed the lid, but it would not move.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.7236020565032959,
+    "score": 0.5201909840106964,
+    "margin": 0.018455862998962402,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pressed on the curtain, and it swung and hung still again.",
+    "skeleton": "narrating(first=narrating(agent, event, detail, content=narrating(agent, event, not)), then=elaborating(main=narrating(agent, event), detail=explaining(event, content=describing(agent, event, patient))))",
+    "cosine": 0.6342815160751343,
+    "score": 0.4973500967025757,
+    "margin": 0.002996087074279785,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She wondered what the lid had to do with it.",
+    "skeleton": "describing(agent, event, patient, content=describing(agent, event, detail), content=describing(agent, event, patient))",
+    "cosine": 0.7405033111572266,
+    "score": 0.5454618036746979,
+    "margin": 0.0001302957534790039,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She shoved the lid, but it did not budge.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.7423743605613708,
+    "score": 0.5567275881767273,
+    "margin": 0.01717841625213623,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "narrating",
+     "personifying"
+    ]
+   },
+   {
+    "text": "She grew frustrated with the lid.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.7077579498291016,
+    "score": 0.41948431730270386,
+    "margin": 0.017179369926452637,
+    "matched": true,
+    "gerunds": [
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pressed the lid, but nothing happened.",
+    "skeleton": "narrating(main=narrating(agent, event, patient, content=narrating(agent, event)), meanwhile=elaborating(main=narrating(agent, event), detail=describing(agent, event, detail)))",
+    "cosine": 0.7520220875740051,
+    "score": 0.5879130214452744,
+    "margin": 0.0008956789970397949,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pushed the lid hard, but it did not move.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.734592616558075,
+    "score": 0.5448334366083145,
+    "margin": 0.012603819370269775,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "narrating",
+     "personifying"
+    ]
+   },
+   {
+    "text": "She felt anxious about the curtain.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.7011604309082031,
+    "score": 0.38984835147857666,
+    "margin": 0.0162581205368042,
+    "matched": true,
+    "gerunds": [
+     "expressing_anger",
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She gave the hasp a hard push, and it slid free.",
+    "skeleton": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, content=narrating(agent, event)))",
+    "cosine": 0.6528661847114563,
+    "score": 0.47503557801246643,
+    "margin": 0.014345705509185791,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "explaining",
+     "expressing_resignation",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The curtain swung.",
+    "skeleton": "narrating(agent, event)",
+    "cosine": 0.6666614413261414,
+    "score": 0.42299413681030273,
+    "margin": 0.018433868885040283,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Mara grew frustrated with the curtain.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.7123786211013794,
+    "score": 0.4133814573287964,
+    "margin": 0.015740633010864258,
+    "matched": true,
+    "gerunds": [
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She pushed the lid hard.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6682596802711487,
+    "score": 0.4109514057636261,
+    "margin": 0.021012306213378906,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "But this time the lid sprang open.",
+    "skeleton": "contrasting(context, main=narrating(first=narrating(agent, event), then=elaborating(main=elaborating(main=grounding(agent, event, patient, time), detail=narrating(agent, event, source, detail)), detail=narrating(agent, event, patient, place))))",
+    "cosine": 0.6575741171836853,
+    "score": 0.3890877366065979,
+    "margin": 0.004019796848297119,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A spring inside it uncoiled.",
+    "skeleton": "contrasting(context, main=elaborating(main=describing(agent, event, detail), detail=elaborating(main=describing(event, patient), detail=describing(event, patient))))",
+    "cosine": 0.46316659450531006,
+    "score": -0.19841718673706055,
+    "margin": 0.004022777080535889,
+    "matched": false,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A puppet flew out and fell.",
+    "skeleton": "disambiguating(main=narrating(main=narrating(agent, event), meanwhile=narrating(agent, event)), detail=narrating(agent, event))",
+    "cosine": 0.6992216110229492,
+    "score": 0.5104260444641113,
+    "margin": 0.001952528953552246,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Mara realized that the hasp had kept the lid shut.",
+    "skeleton": "narrating(agent, event, patient, content=narrating(agent, event))",
+    "cosine": 0.7312614321708679,
+    "score": 0.5821696221828461,
+    "margin": 0.0057405829429626465,
+    "matched": true,
+    "gerunds": [
+     "elaborating",
+     "expressing_patience",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She laughed with joy.",
+    "skeleton": "narrating(first=disambiguating(main=elaborating(main=disambiguating(main=judging(agent, event, detail), detail), detail), detail=explaining(means=narrating(agent, event), purpose=describing(event, patient))), then=claiming(event, content=explaining(condition=narrating(agent, event), effect=grounding(main=describing(agent, hedge, patient), example))))",
+    "cosine": 0.6520124673843384,
+    "score": 0.43508557975292206,
+    "margin": 0.000785529613494873,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.25925925925925924,
+   "chain": 2,
+   "reach": 5
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

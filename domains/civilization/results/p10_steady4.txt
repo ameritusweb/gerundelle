@@ -1,0 +1,12 @@
+== marked locks: population ['steady', 'steady', 'steady', 'steady']; wants met 1 of 4; anger 0; slices 6165; conservation HOLDS
+mind  temper     reached pushes shut own/others locked out   pushes on others locks (1st/2nd half)  own  conditions naming a keeper
+Ada   steady         657     27       0/0                0                                  (0, 0)    0  []
+Ben   steady          no    285       3/8               46                                 (28, 0)   10  []
+Cal   steady          no    127       0/3               20                                 (14, 0)    3  []
+Dee   steady          no    324       2/9               37                                 (34, 0)   10  []
+   Ada: phases {'anxiety': 2, 'frustration': 3, 'joy': 5, 'sadness': 1}; locked out by {}
+   Ben: phases {'frustration': 9, 'joy': 7, 'anxiety': 5, 'sadness': 2}; locked out by {'Dee': 46}
+   Cal: phases {'frustration': 4, 'joy': 2, 'anxiety': 1}; locked out by {'Dee': 18, 'Ben': 2}
+   Dee: phases {'curiosity': 3, 'joy': 9, 'sadness': 2, 'anxiety': 3, 'frustration': 7}; locked out by {'Cal': 3, 'Ben': 34}
+   lids shut at the end (lid: keyholder): {'lid3': 'Dee', 'lid4': 'Ben'}
+   reached: [(657, 'Ada', 'skiff1')]

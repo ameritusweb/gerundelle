@@ -1,0 +1,24 @@
+== locks, sub-wants off: population ['steady', 'steady', 'steady', 'steady']; wants met 1 of 4; anger 0; slices 6165; conservation HOLDS
+mind  temper     reached gave up pushes   own changed  shut own/others blocked (by others/self)  phases
+Ada   steady         657      no     27  0.74       2        0/0                0 (0/0)          {'joy': 5, 'frustration': 3, 'anxiety': 2, 'sadness': 1}
+Ben   steady          no      no    299  0.29      11        0/4               68 (67/1)          {'frustration': 8, 'joy': 4, 'anxiety': 4, 'sadness': 2, 'curiosity': 1}
+Cal   steady          no      no    113  0.60       2        0/1               18 (16/2)          {'frustration': 4, 'joy': 2, 'anxiety': 1}
+Dee   steady          no      no    332  0.52      15        3/7              102 (17/85)          {'joy': 9, 'frustration': 9, 'curiosity': 3, 'anxiety': 5, 'sadness': 3}
+   Ben was locked out by {'Dee': 53, 'Cal': 14}
+   Cal was locked out by {'Dee': 14, 'Ben': 2}
+   Dee was locked out by {'Cal': 15, 'Ben': 2}
+   lids shut at the end (lid: keyholder): {'lid1': 'Cal', 'lid2': 'Dee', 'lid3': 'Dee'}
+   reached: [(657, 'Ada', 'skiff1', 'own push')]
+
+== locks, sub-wants on: population ['steady', 'steady', 'steady', 'steady']; wants met 1 of 4; anger 0; slices 6165; conservation HOLDS
+mind  temper     reached gave up pushes   own changed  shut own/others blocked (by others/self)  phases
+Ada   steady         657      no     27  0.74       2        0/0                0 (0/0)          {'joy': 5, 'frustration': 3, 'anxiety': 2, 'sadness': 1}
+Ben   steady          no      no    299  0.29      11        0/4               68 (67/1)          {'frustration': 8, 'joy': 4, 'anxiety': 4, 'sadness': 2, 'curiosity': 1}
+Cal   steady          no      no    113  0.60       2        0/1               18 (16/2)          {'frustration': 4, 'joy': 2, 'anxiety': 1}
+Dee   steady          no      no    332  0.52      15        3/7              102 (17/85)          {'joy': 9, 'frustration': 9, 'curiosity': 3, 'anxiety': 5, 'sadness': 3}
+   Ben was locked out by {'Dee': 53, 'Cal': 14}
+   Cal was locked out by {'Dee': 14, 'Ben': 2}
+   Dee was locked out by {'Cal': 15, 'Ben': 2}
+   lids shut at the end (lid: keyholder): {'lid1': 'Cal', 'lid2': 'Dee', 'lid3': 'Dee'}
+   reached: [(657, 'Ada', 'skiff1', 'own push')]
+

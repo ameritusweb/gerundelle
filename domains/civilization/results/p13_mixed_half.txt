@@ -1,0 +1,8 @@
+== retaliation (grieve 1,1,1,1, avenge 1,0,1,0): population ['steady', 'restless', 'patient', 'dogged']; wants met 2 of 4; slices 7162; conservation HOLDS
+Ada   steady    grieves  avenges  reached  3236; sealed others 1; anger at {'Cal': 4, 'Ben': 1}; retaliated at {'Cal': 1} ({'dropped': 1})
+      wanted hollow2_cradling (against Cal)
+Ben   restless  grieves  forgives reached    no; sealed others 11; anger at {'Cal': 2}; retaliated at - (-)
+Cal   patient   grieves  avenges  reached    no; sealed others 0; anger at {'Ada': 1}; retaliated at - (-)
+Dee   dogged    grieves  forgives reached  2203; sealed others 8; anger at {'Cal': 1}; retaliated at - (-)
+   feuds (angry at each other): [('Ada', 'Cal')]; (retaliated against each other): none
+   reached: [(2203, 'Dee', 'skiff4'), (3236, 'Ada', 'skiff1')]

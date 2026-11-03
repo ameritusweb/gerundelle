@@ -1,0 +1,60 @@
+> Where does the functional theory of boredom (Bench & Lench, Eastwood et al.) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Eastwood, Frischen, Fenske & Smilek (2012): boredom is "the aversive experience of wanting, but being unable, to engage in satisfying activity." It's an attentional
+  problem — the bored person wants to engage but nothing captures attention, either because the environment is understimulating or because internal factors prevent engagement.
+  Bench & Lench (2013): boredom is a functional emotion that signals the current activity is not meeting goals and motivates switching to a new activity. It's adaptive — the
+  discomfort of boredom pushes the organism to seek something more rewarding. Westgate & Wilson (2018, the MAC model): boredom arises from a deficit in meaning (the activity
+  doesn't align with goals) or attention (the mind can't sustain engagement), or both.
+
+  Boredom in the running system is a detection followed by an intervention, measured as two quantities:
+
+  1. The boredom readout (Mind.readouts, line ~706): the mean surprise of the winners. When the thoughts occupying attention are all well-explored (low surprise, concentrated
+     Dirichlets), the readout is near zero. This is the attentional deficit: nothing currently in the tournament is surprising enough to generate learning.
+
+  2. The novelty_share: how much of the winners' binding strength comes from novelty vs experience. A low novelty share means the bindings are all well-known — the mind is
+     attending to familiar pairings, not exploring new ones. This is the functional signal: the current "activity" (whatever the tournament is attending to) is not generating
+     new information.
+
+  The meta layer detects it and responds (Meta.observe, line ~1251): five consecutive ticks with boredom below 0.05 emits "bored" about the pool. The "bored" meta molecule
+  has an operation: novelty is doubled for five ticks (Mind.boost_until, Meta.operate line ~1359: "novelty doubled"). This is the functional response Bench & Lench describe
+  — boredom motivates switching — implemented as a structural boost to the pull of untried pairings. The mind doesn't decide to explore. The exploration happens because
+  unexplored pairs become twice as competitive in the tournament, winning slots that familiar thoughts held.
+
+  Eastwood et al.'s two sources of boredom map onto two different conditions:
+
+  - Understimulation (nothing in the environment captures attention): the world is not offering new percepts. Every molecule in the pool has been seen before, surprise is
+    low, info_gain is low, the novelty term in Mind.force is small. The boredom readout detects this.
+  - Internal inability to engage (the mind can't sustain attention even when stimulation is present): in the running system, this would be a pool flooded with low-activation
+    molecules none of which can outbid the others — a flat competitive landscape. The tournament's scarcity (limited slots) means the winners would be essentially random
+    among equally uninspiring candidates. The readout catches this too: all winners having low surprise means the pool's competitive dynamics are stagnant, regardless of
+    whether the environment is rich.
+
+  Westgate & Wilson's MAC model:
+
+  - Meaning deficit (activity doesn't align with goals): a want is set, but the molecules winning slots are not related to it — the territory register's served concepts
+    don't match what's at the top. The Inquiry mechanism (experiments valued by stakes × openness × freshness) redirects the tournament toward goal-relevant exploration: an
+    experiment about the want's conditions outbids an idle pairing because its stakes term is nonzero. Without Inquiry, the mind wanders; with it, boredom about the want
+    triggers goal-directed exploration.
+  - Attention deficit (can't sustain engagement): the persistence parameter (Params.persistence) controls how fast repeated experiments lose value. A low-persistence mind
+    drops questions quickly — each repetition is worth less — and moves on before understanding is reached. The fiction ladder's temperament system: "Low: a question let go
+    soon; high: one that cannot be let go." A restless mind with low persistence experiences more boredom not because the environment is unstimulating but because its own
+    engagement decays too fast.
+
+  The fiction ladder showed boredom as a narrative event. Rung 4, finding 6: "Variety is lowest here (0.36): the stretch where Mara tries the lid and the flag between
+  contests is told try by try." The telling solution was the "explore" summary ("Again and again she tried the lid and the flag, but nothing came of it"), but the mind's
+  experience was genuinely repetitive: the same pushes, the same outcomes, with the want still unmet. Boredom in the fiction arm is told when the mind acts without learning
+  — the functional signal that the current activity is not generating understanding.
+
+  How it differs from functional boredom theories specifically:
+
+  - Bench & Lench describe boredom as motivating "approach toward a new goal." Here, boredom doesn't change the goal — it changes the competitive landscape by boosting
+    novelty. The mind still wants what it wanted. But the untried pairings become more competitive, so the mind attends to them and learns something new about the same goal.
+    The goal stays; the attention shifts.
+  - Eastwood et al. define boredom as the "wanting but being unable to engage." Here, boredom is the state of engaging (molecules are winning slots, the tournament runs) but
+    not learning (surprise is flat, novelty share is low). The mind is attending to things — it's not disengaged — but what it's attending to is fully explored.
+  - The MAC model's meaning dimension (activity vs goals) is structural in the system: the territory register says which concepts are served by which wants, and the Inquiry
+    mechanism connects open slots to goal-relevant experiments. The connection between "what the mind is doing" and "what the mind wants" is computed, not introspected.
+  - No theory of boredom predicts the specific intervention (doubling the novelty term for a fixed duration). Here, the intervention is structural, it's timed (5 ticks), and
+    it's self-limiting: once the boosted novelty brings new pairings to the top, their surprise resets the boredom counter. The boredom resolves itself.

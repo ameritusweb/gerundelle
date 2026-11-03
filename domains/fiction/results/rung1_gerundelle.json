@@ -1,0 +1,3231 @@
+{
+ "rung": "1",
+ "arm": "gerundelle",
+ "beats": [
+  {
+   "t": 1,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "crate",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 1,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "swinging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 1,
+   "kind": "want",
+   "actor": "Tom",
+   "hole": "own:control:crate",
+   "obj": "crate",
+   "detail": {
+    "change": "crate_sliding"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.53,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    5
+   ]
+  },
+  {
+   "t": 7,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    5
+   ]
+  },
+  {
+   "t": 7,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.53,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:flag",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.6666666666666666,
+   "refs": []
+  },
+  {
+   "t": 10,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 10,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    11
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "resting",
+    "to": "sliding",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "sliding",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "surprise",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "crate_resting",
+     "crate_sliding",
+     "flag_hanging",
+     "flag_swinging"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "learn",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "condition": "flag_swinging",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 16,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 16,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    20
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    22
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    22
+   ]
+  },
+  {
+   "t": 22,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.42999999999999994,
+   "refs": []
+  },
+  {
+   "t": 22,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 22,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:crate",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6666666666666665,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "surprise",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "expected": [
+     "crate_resting",
+     "crate_sliding",
+     "flag_hanging",
+     "flag_swinging"
+    ],
+    "got": [
+     "flag_hanging"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.42999999999999994,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4761904761904763,
+   "refs": []
+  },
+  {
+   "t": 28,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 28,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    35
+   ]
+  },
+  {
+   "t": 29,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4027777777777777,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    38
+   ]
+  },
+  {
+   "t": 31,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    38
+   ]
+  },
+  {
+   "t": 32,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4338624338624337,
+   "refs": []
+  },
+  {
+   "t": 34,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 34,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "resting",
+    "to": "sliding",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    42
+   ]
+  },
+  {
+   "t": 34,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "sliding",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    42
+   ]
+  },
+  {
+   "t": 34,
+   "kind": "surprise",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "expected": [
+     "flag_hanging"
+    ],
+    "got": [
+     "crate_resting",
+     "crate_sliding",
+     "flag_hanging"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    42
+   ]
+  },
+  {
+   "t": 36,
+   "kind": "wait",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "condition": "flag_swinging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    47
+   ]
+  },
+  {
+   "t": 42,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 42,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    49
+   ]
+  },
+  {
+   "t": 42,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    49
+   ]
+  },
+  {
+   "t": 43,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 45,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 48,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    56
+   ]
+  },
+  {
+   "t": 52,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 52,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    58
+   ]
+  },
+  {
+   "t": 52,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    58
+   ]
+  },
+  {
+   "t": 55,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 55,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 55,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    64
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 63,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    66
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    66
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    66
+   ]
+  },
+  {
+   "t": 67,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.33333333333333326,
+   "refs": []
+  },
+  {
+   "t": 67,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    70
+   ]
+  },
+  {
+   "t": 70,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "strength": "hard",
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 70,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    72
+   ]
+  },
+  {
+   "t": 70,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    72
+   ]
+  },
+  {
+   "t": 73,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.33333333333333326,
+   "refs": []
+  },
+  {
+   "t": 73,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 73,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 73,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 75,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 78,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.33333333333333326,
+   "refs": []
+  },
+  {
+   "t": 78,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    80
+   ]
+  },
+  {
+   "t": 79,
+   "kind": "wait",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "condition": "flag_swinging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 82,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 82,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    83
+   ]
+  },
+  {
+   "t": 82,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    83
+   ]
+  },
+  {
+   "t": 85,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 85,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    86
+   ]
+  },
+  {
+   "t": 85,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    86
+   ]
+  },
+  {
+   "t": 88,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.2666666666666667,
+   "refs": []
+  },
+  {
+   "t": 88,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "sov:light_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 89,
+   "kind": "wait",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "condition": "flag_swinging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 93,
+   "kind": "wait",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "condition": "flag_swinging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 93,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 102,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 102,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "resting",
+    "to": "sliding",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    94
+   ]
+  },
+  {
+   "t": 102,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "from": "sliding",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    94
+   ]
+  },
+  {
+   "t": 102,
+   "kind": "surprise",
+   "actor": "Tom",
+   "hole": "sov:hard_push:crate_resting",
+   "obj": "crate",
+   "detail": {
+    "expected": [
+     "flag_hanging"
+    ],
+    "got": [
+     "crate_resting",
+     "crate_sliding",
+     "flag_hanging"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    94
+   ]
+  },
+  {
+   "t": 102,
+   "kind": "reach",
+   "actor": "Tom",
+   "hole": "own:control:crate",
+   "obj": "crate",
+   "detail": {
+    "change": "crate_sliding",
+    "inv": [
+     "hard",
+     "crate",
+     "resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    94
+   ]
+  },
+  {
+   "t": 102,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:crate",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    94
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "crate",
+     "flag"
+    ],
+    "states": {
+     "crate": "resting",
+     "flag": "swinging"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    1
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "crate",
+    "change": "crate_sliding"
+   },
+   "beats": [
+    2
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "flag",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "flag",
+     "flips": [
+      [
+       "hanging",
+       "swinging"
+      ],
+      [
+       "swinging",
+       "hanging"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "flag",
+    "who": "Tom"
+   },
+   "beats": [
+    5,
+    6,
+    7
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    10
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    11,
+    12
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "strength": "hard",
+    "again": true,
+    "who": "Tom"
+   },
+   "beats": [
+    13
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "flips": [
+     [
+      "resting",
+      "sliding"
+     ],
+     [
+      "sliding",
+      "resting"
+     ]
+    ],
+    "new": false,
+    "contrast": true
+   },
+   "beats": [
+    14,
+    16
+   ],
+   "refs": [
+    5
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "tension",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "hanging",
+      "swinging"
+     ],
+     [
+      "swinging",
+      "hanging"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    15,
+    17
+   ],
+   "refs": [
+    5
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "learn",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "cond_obj": "flag",
+    "cond_state": "swinging",
+    "also": [],
+    "confirms": null,
+    "exposes": null
+   },
+   "beats": [
+    19
+   ],
+   "refs": [
+    4
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "light",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    20,
+    21
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "explore",
+   "stage": "tension",
+   "fill": {
+    "objs": [
+     "flag",
+     "crate"
+    ],
+    "count": 2,
+    "moved": true,
+    "who": "Tom"
+   },
+   "beats": [
+    22,
+    23,
+    24,
+    25,
+    27
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "frustration",
+    "unexpected": [],
+    "anchor": "crate",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    28
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "strength": "hard",
+    "again": false,
+    "who": "Tom"
+   },
+   "beats": [
+    29
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "nothing",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "contrast": true,
+    "told": false
+   },
+   "beats": [
+    31,
+    32
+   ],
+   "refs": [
+    12
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "slot": "role"
+   },
+   "beats": [
+    33
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    34
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "light",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    35,
+    36
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "frustration",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    37
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    38,
+    40
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    41
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "strength": "hard",
+    "again": true,
+    "who": "Tom"
+   },
+   "beats": [
+    42
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "tension",
+   "fill": {
+    "obj": "crate",
+    "flips": [
+     [
+      "resting",
+      "sliding"
+     ],
+     [
+      "sliding",
+      "resting"
+     ]
+    ],
+    "new": false,
+    "contrast": true
+   },
+   "beats": [
+    43,
+    44
+   ],
+   "refs": [
+    20
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wait",
+   "stage": "tension",
+   "fill": {
+    "condition": "flag_swinging"
+   },
+   "beats": [
+    46
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "hard",
+     "again": true,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    47,
+    48
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "explore",
+   "stage": "tension",
+   "fill": {
+    "objs": [
+     "crate",
+     "flag"
+    ],
+    "count": 11,
+    "moved": true,
+    "who": "Tom"
+   },
+   "beats": [
+    49,
+    51,
+    53,
+    55,
+    56,
+    57,
+    58,
+    60,
+    61,
+    63,
+    64,
+    65,
+    66,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    78,
+    80,
+    81
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wait",
+   "stage": "tension",
+   "fill": {
+    "condition": "flag_swinging"
+   },
+   "beats": [
+    82
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "crate",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "crate",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "crate",
+    "who": "Tom"
+   },
+   "beats": [
+    83,
+    85
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "explore",
+   "stage": "tension",
+   "fill": {
+    "objs": [
+     "crate"
+    ],
+    "count": 2,
+    "moved": false,
+    "who": "Tom"
+   },
+   "beats": [
+    86,
+    88,
+    89,
+    90
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wait",
+   "stage": "tension",
+   "fill": {
+    "condition": "flag_swinging"
+   },
+   "beats": [
+    91
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "turn",
+   "fill": {
+    "obj": "crate",
+    "strength": "hard",
+    "again": false,
+    "who": "Tom",
+    "at_last": true
+   },
+   "beats": [
+    94
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "crate",
+    "flips": [
+     [
+      "resting",
+      "sliding"
+     ],
+     [
+      "sliding",
+      "resting"
+     ]
+    ],
+    "new": false,
+    "contrast": true
+   },
+   "beats": [
+    95,
+    96
+   ],
+   "refs": [
+    29
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    99
+   ],
+   "refs": [
+    29
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "It was a windy afternoon in the yard.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, attribute, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, attribute, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A heavy crate sat by the gate.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A flag on a pole beside it swung.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Tom wanted to move the crate to the shed.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "He gave the flag a hard push, and it started to flap and fell still again.",
+    "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+    "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(first=narrating(agent, event), then=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=narrating(first=narrating(agent, event), then=narrating(agent, event)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "He was delighted with the flag.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "He shoved the crate, but it did not budge.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "Then he pushed the crate hard again.",
+    "shape": "narrating(then=narrating)",
+    "reading": "narrating(context, then=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "narrating(context, then=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "But this time the crate scraped toward the shed.",
+    "shape": "contrasting(main=narrating)",
+    "reading": "contrasting(context, main=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "contrasting(context, main=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "The flag started to flap and fell still again.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "Tom realized that the crate moved only if the flag swung.",
+    "shape": "realizing(content=explaining(condition=narrating, effect=narrating))",
+    "reading": "realizing(agent, event, content=explaining(condition=narrating(agent, event), effect=narrating(agent, event)))",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, content=explaining(condition=narrating(agent, event), effect=narrating(agent, event)))",
+     "realizing(agent, event, content=explaining(condition=narrating(agent, event), effect=narrating(agent, event)))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 9,
+    "text": "He leaned on the crate, but nothing happened.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, detail), other=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, detail), other=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 10,
+    "text": "Again and again he tried the flag and the crate, but nothing came of it.",
+    "shape": "contrasting(main=iterating|narrating, other=narrating)",
+    "reading": "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 11,
+    "text": "He grew frustrated with the crate.",
+    "shape": "expressing_exasperation",
+    "reading": "expressing_exasperation(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_exasperation(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 12,
+    "text": "He pushed the crate hard.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 13,
+    "text": "But this time the crate did not move.",
+    "shape": "contrasting(main=narrating)",
+    "reading": "contrasting(context, main=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(context, main=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 14,
+    "text": "Tom wondered what the crate had to do with it.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=describing(agent, event, patient, detail))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=describing(agent, event, patient, detail))",
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient, detail))",
+     "narrating(agent, event, content=describing(agent, event, patient, detail))",
+     "narrating(agent, event, content=narrating(agent, event, patient, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 15,
+    "text": "He felt anxious about the flag.",
+    "shape": "expressing_fear",
+    "reading": "expressing_fear(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_fear(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 16,
+    "text": "He leaned on the crate, but it did not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, detail), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, detail), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 17,
+    "text": "He grew frustrated with the flag.",
+    "shape": "expressing_exasperation",
+    "reading": "expressing_exasperation(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_exasperation(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 18,
+    "text": "He pushed the crate hard, but it would not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 19,
+    "text": "He was delighted with the flag.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 20,
+    "text": "Then he pushed the crate hard again.",
+    "shape": "narrating(then=narrating)",
+    "reading": "narrating(context, then=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "narrating(context, then=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 21,
+    "text": "But this time the crate scraped toward the shed.",
+    "shape": "contrasting(main=narrating)",
+    "reading": "contrasting(context, main=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "contrasting(context, main=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 22,
+    "text": "Tom waited until the flag swung.",
+    "shape": "narrating(first=narrating, then=narrating)",
+    "reading": "narrating(first=narrating(agent, event), then=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 23,
+    "text": "He gave the crate a hard push again, but it did not budge.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient, recipient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient, recipient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 24,
+    "text": "He kept trying the crate and the flag, but nothing came of it.",
+    "shape": "contrasting(main=iterating|narrating, other=narrating)",
+    "reading": "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 25,
+    "text": "He waited until the flag swung.",
+    "shape": "narrating(first=narrating, then=narrating)",
+    "reading": "narrating(first=narrating(agent, event), then=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 26,
+    "text": "He shoved the crate, but nothing happened.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 27,
+    "text": "Again and again he tried the crate, but nothing gave.",
+    "shape": "contrasting(main=iterating|narrating, other=narrating)",
+    "reading": "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event))",
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 28,
+    "text": "He waited until the flag swung.",
+    "shape": "narrating(first=narrating, then=narrating)",
+    "reading": "narrating(first=narrating(agent, event), then=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 29,
+    "text": "At last he pushed the crate hard.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 30,
+    "text": "But this time the crate scraped toward the shed.",
+    "shape": "contrasting(main=narrating)",
+    "reading": "contrasting(context, main=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "contrasting(context, main=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 31,
+    "text": "Tom laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 1.0,
+  "exact_theories": {
+   "narrative-arc": 1.0,
+   "problem-solution-result": 0.67,
+   "compare-contrast": 0.6,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concession-rebuttal": 1.0,
+   "concept-explanation": 1.0
+  },
+  "variety": 0.6764705882352942,
+  "judge_rows": [
+   {
+    "text": "It was a windy afternoon in the yard.",
+    "skeleton": "describing(agent, attribute, detail)",
+    "cosine": 0.6260354518890381,
+    "score": 0.43210379779338837,
+    "margin": 0.022767722606658936,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A heavy crate sat by the gate.",
+    "skeleton": "narrating(agent, event, content=disambiguating(main=disambiguating(main=disambiguating(main=disambiguating(main=describing(agent, event, parts, place, detail), detail), detail), detail), detail))",
+    "cosine": 0.6425340175628662,
+    "score": 0.39816099405288696,
+    "margin": 0.0037664175033569336,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "comparing",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A flag on a pole beside it swung.",
+    "skeleton": "contrasting(context, main=narrating(first=narrating(agent, event), then=elaborating(main=elaborating(main=grounding(agent, event, patient, time), detail=narrating(agent, event, source, detail)), detail=narrating(agent, event, patient, place))))",
+    "cosine": 0.6198437213897705,
+    "score": 0.29057228565216064,
+    "margin": 0.0024906396865844727,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom wanted to move the crate to the shed.",
+    "skeleton": "narrating(agent, event, patient, detail)",
+    "cosine": 0.6032311916351318,
+    "score": 0.3250119686126709,
+    "margin": 0.02908557653427124,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He gave the flag a hard push, and it started to flap and fell still again.",
+    "skeleton": "elaborating(main=explaining(means=narrating(agent, event), purpose=claiming(event, content=describing(agent, event, patient))), detail=narrating(agent, event, content=narrating(agent, event, patient)))",
+    "cosine": 0.6217188239097595,
+    "score": 0.47406065464019775,
+    "margin": 0.010867595672607422,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "expressing_resignation",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the flag.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6347729563713074,
+    "score": 0.35110974311828613,
+    "margin": 0.0001697540283203125,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He shoved the crate, but it did not budge.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.745791494846344,
+    "score": 0.5610988736152649,
+    "margin": 0.013638198375701904,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "narrating",
+     "personifying"
+    ]
+   },
+   {
+    "text": "Then he pushed the crate hard again.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6431910991668701,
+    "score": 0.3920980989933014,
+    "margin": 0.011154770851135254,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "But this time the crate scraped toward the shed.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6853408217430115,
+    "score": 0.5009019672870636,
+    "margin": 0.026929855346679688,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The flag started to flap and fell still again.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=narrating(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=expressing_anger(agent, quality)))))",
+    "cosine": 0.6927297115325928,
+    "score": 0.48781581223011017,
+    "margin": 0.0025240182876586914,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom realized that the crate moved only if the flag swung.",
+    "skeleton": "elaborating(main=narrating(agent, event, content=narrating(agent, event, not)), detail=elaborating(main=describing(agent, quality), detail=explaining(cause=describing(attribute), effect=describing(agent, quality))))",
+    "cosine": 0.6790693402290344,
+    "score": 0.5538027286529541,
+    "margin": 0.0011959075927734375,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "explaining",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He leaned on the crate, but nothing happened.",
+    "skeleton": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, not, detail))",
+    "cosine": 0.6859753131866455,
+    "score": 0.5126816183328629,
+    "margin": 0.00035369396209716797,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "comparing",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Again and again he tried the flag and the crate, but nothing came of it.",
+    "skeleton": "contrasting(main=narrating(agent, event), other=narrating(agent, event, patient))",
+    "cosine": 0.7131003141403198,
+    "score": 0.47716255486011505,
+    "margin": 0.001354813575744629,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "contrasting",
+     "describing",
+     "expressing_defiance",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He grew frustrated with the crate.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.713849663734436,
+    "score": 0.42745983600616455,
+    "margin": 0.018050014972686768,
+    "matched": true,
+    "gerunds": [
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He pushed the crate hard.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6734568476676941,
+    "score": 0.4248736798763275,
+    "margin": 0.0202445387840271,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "But this time the crate did not move.",
+    "skeleton": "narrating(agent, event, not)",
+    "cosine": 0.7007516622543335,
+    "score": 0.47312742471694946,
+    "margin": 0.02280181646347046,
+    "matched": true,
+    "gerunds": [
+     "expressing_curiosity",
+     "expressing_defiance",
+     "judging",
+     "narrating",
+     "personifying"
+    ]
+   },
+   {
+    "text": "Tom wondered what the crate had to do with it.",
+    "skeleton": "describing(agent, event, patient, content=describing(agent, event, detail), content=describing(agent, event, patient))",
+    "cosine": 0.746349036693573,
+    "score": 0.5474827289581299,
+    "margin": 0.0007179379463195801,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He felt anxious about the flag.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.6980084180831909,
+    "score": 0.39184126257896423,
+    "margin": 0.01646721363067627,
+    "matched": true,
+    "gerunds": [
+     "expressing_anger",
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He leaned on the crate, but it did not move.",
+    "skeleton": "contrasting(main=narrating(agent, event, not, quality), other=narrating(agent, event))",
+    "cosine": 0.7000054717063904,
+    "score": 0.5169295072555542,
+    "margin": 0.0061359405517578125,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He grew frustrated with the flag.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.7181288599967957,
+    "score": 0.4306255280971527,
+    "margin": 0.017221450805664062,
+    "matched": true,
+    "gerunds": [
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He pushed the crate hard, but it would not move.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.7262254357337952,
+    "score": 0.5324691981077194,
+    "margin": 0.009553790092468262,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the flag.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6347729563713074,
+    "score": 0.35110974311828613,
+    "margin": 0.0001697540283203125,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Then he pushed the crate hard again.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6431910991668701,
+    "score": 0.3920980989933014,
+    "margin": 0.011154770851135254,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "But this time the crate scraped toward the shed.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6853408217430115,
+    "score": 0.5009019672870636,
+    "margin": 0.026929855346679688,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom waited until the flag swung.",
+    "skeleton": "disambiguating(main=narrating(main=narrating(agent, event), meanwhile=narrating(agent, event)), detail=narrating(agent, event))",
+    "cosine": 0.7054116725921631,
+    "score": 0.5208614468574524,
+    "margin": 0.009783923625946045,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_anger",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He gave the crate a hard push again, but it did not budge.",
+    "skeleton": "narrating(agent, event, not, patient, content=narrating(agent, event, not, patient))",
+    "cosine": 0.6907513737678528,
+    "score": 0.47864580154418945,
+    "margin": 0.006522536277770996,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He kept trying the crate and the flag, but nothing came of it.",
+    "skeleton": "elaborating(main=comparing(main=narrating(agent, event), other=narrating(agent, event)), detail=narrating(agent, event))",
+    "cosine": 0.7072988152503967,
+    "score": 0.5297403931617737,
+    "margin": 0.0035065412521362305,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "contrasting",
+     "elaborating",
+     "expressing_love",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He waited until the flag swung.",
+    "skeleton": "disambiguating(main=narrating(main=narrating(agent, event), meanwhile=narrating(agent, event)), detail=narrating(agent, event))",
+    "cosine": 0.7101354598999023,
+    "score": 0.5316063463687897,
+    "margin": 0.01183551549911499,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_anger",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He shoved the crate, but nothing happened.",
+    "skeleton": "narrating(main=narrating(agent, event, patient, content=narrating(agent, event)), meanwhile=elaborating(main=narrating(agent, event), detail=describing(agent, event, detail)))",
+    "cosine": 0.7597626447677612,
+    "score": 0.5989406704902649,
+    "margin": 0.0005599856376647949,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Again and again he tried the crate, but nothing gave.",
+    "skeleton": "narrating(main=narrating(agent, event, patient, content=narrating(agent, event)), meanwhile=elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail)))",
+    "cosine": 0.7364592552185059,
+    "score": 0.39751145243644714,
+    "margin": 0.002049386501312256,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He waited until the flag swung.",
+    "skeleton": "disambiguating(main=narrating(main=narrating(agent, event), meanwhile=narrating(agent, event)), detail=narrating(agent, event))",
+    "cosine": 0.7101354598999023,
+    "score": 0.5316063463687897,
+    "margin": 0.01183551549911499,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_anger",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "At last he pushed the crate hard.",
+    "skeleton": "narrating(main=narrating(agent, event, patient), meanwhile=elaborating(main=claiming(agent, event, hedge, detail), detail=narrating(agent, event, patient, detail)))",
+    "cosine": 0.6156684160232544,
+    "score": 0.2979440689086914,
+    "margin": 0.009302079677581787,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "But this time the crate scraped toward the shed.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6853408217430115,
+    "score": 0.5009019672870636,
+    "margin": 0.026929855346679688,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom laughed with joy.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6478295922279358,
+    "score": 0.4222682863473892,
+    "margin": 0.00888127088546753,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.21875,
+   "chain": 2,
+   "reach": 4
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

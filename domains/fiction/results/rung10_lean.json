@@ -1,0 +1,700 @@
+{
+ "rung": "10",
+ "arm": "lean",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "lever",
+   "detail": {
+    "gerund": "levering"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "stone",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Tom",
+   "hole": "want:stone_flying",
+   "obj": "stone",
+   "detail": {
+    "change": "stone_flying"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:stone",
+   "obj": "stone",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "nothing",
+   "actor": "Tom",
+   "hole": "effect:hard:stone",
+   "obj": "stone",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    4
+   ]
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "effect:hard:lever",
+   "obj": "lever",
+   "detail": {
+    "slot": "causes",
+    "inv": [
+     "hard",
+     "lever",
+     "levering"
+    ]
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:lever",
+   "obj": "lever",
+   "detail": {
+    "phase": "curiosity",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "effect:hard:lever",
+   "obj": "lever",
+   "detail": {
+    "strength": "hard",
+    "gerund": "levering"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:lever",
+   "obj": "stone",
+   "detail": {
+    "from": "resting",
+    "to": "flying",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:lever",
+   "obj": "stone",
+   "detail": {
+    "from": "flying",
+    "to": "falling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "other",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "effect:hard:lever",
+   "obj": "stone",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "reach",
+   "actor": "Tom",
+   "hole": "want:stone_flying",
+   "obj": "lever",
+   "detail": {
+    "change": "stone_flying",
+    "inv": [
+     "hard",
+     "lever",
+     "levering"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:stone",
+   "obj": "stone",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "lever",
+     "stone"
+    ],
+    "states": {
+     "lever": "levering",
+     "stone": "resting"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    1
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "stone",
+    "change": "stone_flying"
+   },
+   "beats": [
+    3
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "tension",
+   "fill": {
+    "try": {
+     "obj": "stone",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "nothing",
+    "result": {
+     "obj": "stone",
+     "contrast": false,
+     "told": false
+    },
+    "obj": "stone",
+    "who": "Tom"
+   },
+   "beats": [
+    4,
+    5
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "wonder",
+   "stage": "tension",
+   "fill": {
+    "obj": "lever",
+    "slot": "causes"
+   },
+   "beats": [
+    6
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "turn",
+   "fill": {
+    "obj": "lever",
+    "strength": "hard",
+    "again": false,
+    "who": "Tom"
+   },
+   "beats": [
+    8
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "stone",
+    "flips": [
+     [
+      "resting",
+      "flying"
+     ],
+     [
+      "flying",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    9,
+    11,
+    13
+   ],
+   "refs": [
+    4
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    15
+   ],
+   "refs": [
+    4
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "A boulder lay across the garden path.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A long plank under it lay across a log.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "The boulder sat in the middle of the path.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event, place)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, place)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Tom wanted to move the boulder off the path.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "He pushed the boulder hard, but it would not move.",
+    "shape": "contrasting(main=narrating, other=narrating)",
+    "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+    "ok": true,
+    "readings": [
+     "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "He wondered what the plank did.",
+    "shape": "expressing_curiosity(content=narrating|describing)",
+    "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "ok": true,
+    "readings": [
+     "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+     "narrating(agent, event, content=narrating(agent, event, patient))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "He stamped on the plank.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "The boulder flew off the path and landed in the grass.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, detail), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, detail), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event, detail), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "Tom laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 1.0,
+  "exact_theories": {
+   "narrative-arc": 1.0,
+   "compare-contrast": 0.6,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5,
+   "problem-solution-result": 0.33
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concession-rebuttal": 1.0,
+   "concept-explanation": 1.0
+  },
+  "variety": 0.7777777777777778,
+  "judge_rows": [
+   {
+    "text": "A boulder lay across the garden path.",
+    "skeleton": "narrating(agent, event, content=disambiguating(main=disambiguating(main=disambiguating(main=disambiguating(main=describing(agent, event, parts, place, detail), detail), detail), detail), detail))",
+    "cosine": 0.6713349223136902,
+    "score": 0.4744003564119339,
+    "margin": 0.0042879581451416016,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A long plank under it lay across a log.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6499273180961609,
+    "score": 0.3947463929653168,
+    "margin": 0.0038372278213500977,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The boulder sat in the middle of the path.",
+    "skeleton": "narrating(agent, event, place)",
+    "cosine": 0.7236686944961548,
+    "score": 0.5683314353227615,
+    "margin": 0.07293301820755005,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "decomposing",
+     "describing",
+     "disambiguating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom wanted to move the boulder off the path.",
+    "skeleton": "narrating(agent, event, patient, detail)",
+    "cosine": 0.5803446769714355,
+    "score": 0.31185442209243774,
+    "margin": 0.009943544864654541,
+    "matched": true,
+    "gerunds": [
+     "disambiguating",
+     "elaborating",
+     "expressing_love",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He pushed the boulder hard, but it would not move.",
+    "skeleton": "narrating(agent, event, not, content=narrating(agent, event))",
+    "cosine": 0.727220892906189,
+    "score": 0.540456086397171,
+    "margin": 0.00892549753189087,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He wondered what the plank did.",
+    "skeleton": "narrating(agent, event, patient, content=narrating(agent, event))",
+    "cosine": 0.7203037738800049,
+    "score": 0.5507360398769379,
+    "margin": 0.015512585639953613,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_pride",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He stamped on the plank.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6553398370742798,
+    "score": 0.4467480033636093,
+    "margin": 0.011358022689819336,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The boulder flew off the path and landed in the grass.",
+    "skeleton": "narrating(first=narrating(agent, event, future, detail), then=narrating(agent, event, detail))",
+    "cosine": 0.7034648656845093,
+    "score": 0.5879990011453629,
+    "margin": 0.0030330419540405273,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "expressing_remorse",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom laughed with joy.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6478292942047119,
+    "score": 0.4222680479288101,
+    "margin": 0.008880853652954102,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.2857142857142857,
+   "chain": 2,
+   "reach": 2
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

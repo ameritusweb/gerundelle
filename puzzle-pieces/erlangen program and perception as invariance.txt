@@ -1,0 +1,47 @@
+> Where does Klein's Erlangen program fit into the system?
+
+● Here's where it lands in the running system.
+
+  Klein's Erlangen program (1872): a geometry is defined by what stays the same under a group of transformations. Euclidean geometry is what is invariant under rotations and
+  translations. Projective geometry is what is invariant under projective transformations. The geometry IS the invariance group — you don't define geometry by its objects, you
+  define it by what the transformations can't tell apart.
+
+  The paper (gerundelle.tex, line ~110): six areas of mathematics developed independently over more than a century, "from Klein's Erlangen program (1872) to graded monads
+  (2014), turn out to describe the same architecture once stated about its own operators and data."
+
+  Perception in Gerundelle IS the Erlangen program applied to a mind. The agent's world — its Umwelt (von Uexküll's term) — is the world simplified by what the agent's
+  transforms cannot tell apart. The paper (line ~491): "The agent perceives the fact jar_charged, not a number. The agent's world (its Umwelt) is the world simplified by what
+  the agent's transforms cannot tell apart. Evidence is filed into this simplified world, not the raw one."
+
+  The Lean guarantee: fit_factors_through_umwelt — evidence routes through the agent's Umwelt. Every Fit event (an interaction with the world that mints a lived receipt)
+  factors through the quotient defined by the agent's invariance group. The agent can't perceive distinctions its transforms don't preserve.
+
+  In the force world (force_world.py), this is concrete: a jar charged to 3 and a jar charged to 5 are both "charged" — the agent's perception maps them to the same gerund
+  state. The number is in the world. The state is what the agent perceives. The Umwelt is the quotient: states that the agent's transforms can't distinguish are identified.
+
+  The paper's third claim connects this to affect (line ~116): "Seeing and feeling are one property. What an agent perceives and what it feels are both instances of the same
+  mathematical structure: factorization through a view. Perception factors through the Umwelt (the world simplified by the agent's invariances). Affect factors through the
+  ownership register (the territory the agent perceives as its own). A theorem proves the connection."
+
+  So:
+  - Perception = world factored through the invariance group (the Umwelt). You see what your transforms preserve.
+  - Affect = world factored through the ownership register (the territory). You feel what your territory records.
+  - Both are factorizations through a view. The same mathematical structure, applied to different registers.
+
+  The paper names four groups of guarantees, and the first group's technical name is "epistemic conservation and invariance" (line ~577): "things that don't change no matter
+  what the mind does." Conservation of potential in the world, and invariance of evidence under the agent's transforms, are the base layer — what holds regardless of what
+  the mind does with what it perceives.
+
+  The errata (ERRATA.md, item 16) corrects a phrasing: "The Umwelt is the quotient by the agent's group of transforms, not by its actions. Correction: 'what the agent's
+  transforms cannot tell apart.'" The distinction matters: the transforms define the geometry, and the geometry defines the perception.
+
+  How it differs from the Erlangen program specifically:
+
+  - Klein's program classifies geometries by their transformation groups. Here, the same idea classifies perceptions by their invariance groups. Each agent has its own group
+    of transforms, and its Umwelt is the corresponding quotient. Different agents in the same world perceive different things — not because they have different sensors, but
+    because their invariance groups differ. A mind that can't distinguish "charged to 3" from "charged to 5" perceives one state where the world has two.
+  - Klein's program is about spatial geometry (Euclidean, affine, projective, topological). Here, the transforms operate on force states, not on spatial configurations. The
+    "geometry" is the structure of force-balance states the agent can distinguish, not the structure of space.
+  - The bridge to affect is not in Klein. The theorem that perception and affect are instances of the same factorization structure is the paper's own claim — it uses the
+    Erlangen idea (factorization through an invariance group) but applies it to two different registers (the Umwelt and the ownership register) and proves they share the
+    structure.

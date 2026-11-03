@@ -1,0 +1,2280 @@
+{
+ "temper": "restless",
+ "keep": true,
+ "thefts": 2,
+ "reached": true,
+ "ticks": 309,
+ "sub_log": [
+  [
+   258,
+   "jar_brimming",
+   "set"
+  ],
+  [
+   269,
+   "jar_brimming",
+   "met"
+  ],
+  [
+   269,
+   "jar_brimming",
+   "kept"
+  ],
+  [
+   269,
+   "jar_brimming",
+   "restored"
+  ],
+  [
+   281,
+   "jar_brimming",
+   "met"
+  ],
+  [
+   281,
+   "jar_brimming",
+   "kept"
+  ],
+  [
+   281,
+   "jar_brimming",
+   "restored"
+  ],
+  [
+   293,
+   "jar_brimming",
+   "met"
+  ],
+  [
+   293,
+   "jar_brimming",
+   "kept"
+  ],
+  [
+   294,
+   "hard_push:skiff_resting",
+   "tried"
+  ],
+  [
+   299,
+   "jar_brimming",
+   "released"
+  ]
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "spring",
+   "detail": {
+    "gerund": "welling"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "jar",
+   "detail": {
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "hollow",
+   "detail": {
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "moon",
+   "detail": {
+    "gerund": "shining"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_arriving"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    5
+   ]
+  },
+  {
+   "t": 11,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 15,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 22,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    15
+   ]
+  },
+  {
+   "t": 27,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    18
+   ]
+  },
+  {
+   "t": 33,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 38,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 38,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 45,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 52,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.3666666666666667,
+   "refs": []
+  },
+  {
+   "t": 52,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 59,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 59,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 60,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6111111111111112,
+   "refs": []
+  },
+  {
+   "t": 62,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.3666666666666667,
+   "refs": []
+  },
+  {
+   "t": 65,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.2666666666666667,
+   "refs": []
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "from": "shaping",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    31
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "from": "forming",
+    "to": "cradling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    31
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "skiff",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    31
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "hollow_cradling",
+     "hollow_forming",
+     "skiff_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    31
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "condition": "jar_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 71,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 71,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    37
+   ]
+  },
+  {
+   "t": 77,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 77,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 83,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_brimming",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_brimming",
+   "obj": "jar",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    41
+   ]
+  },
+  {
+   "t": 83,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "hollow",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "hollow"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    20
+   ]
+  },
+  {
+   "t": 89,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 89,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 95,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 95,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    46
+   ]
+  },
+  {
+   "t": 101,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.38,
+   "refs": []
+  },
+  {
+   "t": 101,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    48
+   ]
+  },
+  {
+   "t": 107,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 107,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    50
+   ]
+  },
+  {
+   "t": 113,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.38,
+   "refs": []
+  },
+  {
+   "t": 113,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    52
+   ]
+  },
+  {
+   "t": 119,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.38,
+   "refs": []
+  },
+  {
+   "t": 119,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    54
+   ]
+  },
+  {
+   "t": 126,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_brimming",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 126,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_brimming",
+   "obj": "jar",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    56
+   ]
+  },
+  {
+   "t": 132,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.36,
+   "refs": []
+  },
+  {
+   "t": 132,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    58
+   ]
+  },
+  {
+   "t": 138,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3633333333333333,
+   "refs": []
+  },
+  {
+   "t": 138,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    60
+   ]
+  },
+  {
+   "t": 145,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 145,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 151,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3433333333333334,
+   "refs": []
+  },
+  {
+   "t": 151,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    64
+   ]
+  },
+  {
+   "t": 151,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 157,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 157,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    67
+   ]
+  },
+  {
+   "t": 163,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 164,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 164,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    70
+   ]
+  },
+  {
+   "t": 165,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6,
+   "refs": []
+  },
+  {
+   "t": 171,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.32904761904761903,
+   "refs": []
+  },
+  {
+   "t": 171,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_cradling",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    73
+   ]
+  },
+  {
+   "t": 177,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 177,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "resting",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 177,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "flying",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 177,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 177,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "hollow",
+   "detail": {
+    "from": "cradling",
+    "to": "shaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 177,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "flying",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 183,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 183,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    81
+   ]
+  },
+  {
+   "t": 189,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.3466666666666667,
+   "refs": []
+  },
+  {
+   "t": 189,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    83
+   ]
+  },
+  {
+   "t": 195,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.2666666666666667,
+   "refs": []
+  },
+  {
+   "t": 195,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    85
+   ]
+  },
+  {
+   "t": 195,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "hollow",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "hollow"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    43
+   ]
+  },
+  {
+   "t": 195,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    72
+   ]
+  },
+  {
+   "t": 202,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 202,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 202,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "hollow_shaping",
+     "jar_empty",
+     "skiff_flying",
+     "skiff_propelling",
+     "skiff_resting"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 209,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.3666666666666667,
+   "refs": []
+  },
+  {
+   "t": 209,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    92
+   ]
+  },
+  {
+   "t": 210,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.7145299145299144,
+   "refs": []
+  },
+  {
+   "t": 216,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.3466666666666667,
+   "refs": []
+  },
+  {
+   "t": 216,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    95
+   ]
+  },
+  {
+   "t": 223,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.2666666666666667,
+   "refs": []
+  },
+  {
+   "t": 223,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    97
+   ]
+  },
+  {
+   "t": 225,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "jar",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "jar"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    17
+   ]
+  },
+  {
+   "t": 230,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3400000000000001,
+   "refs": []
+  },
+  {
+   "t": 230,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    100
+   ]
+  },
+  {
+   "t": 237,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.3666666666666667,
+   "refs": []
+  },
+  {
+   "t": 237,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    102
+   ]
+  },
+  {
+   "t": 240,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:jar",
+   "obj": "jar",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "jar"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    99
+   ]
+  },
+  {
+   "t": 244,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.3466666666666667,
+   "refs": []
+  },
+  {
+   "t": 244,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_shaping",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    105
+   ]
+  },
+  {
+   "t": 251,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 251,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    107
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.21999999999999997,
+   "refs": []
+  },
+  {
+   "t": 257,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "resting",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "flying",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "flying",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "jar_empty",
+     "skiff_flying",
+     "skiff_propelling",
+     "skiff_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 257,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "condition": "jar_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    76
+   ]
+  },
+  {
+   "t": 258,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:jar",
+   "obj": "jar",
+   "detail": {
+    "change": "jar_brimming",
+    "sub": true
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 259,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 4.0,
+   "refs": []
+  },
+  {
+   "t": 263,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 263,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    118
+   ]
+  },
+  {
+   "t": 269,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 269,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    120
+   ]
+  },
+  {
+   "t": 271,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.9,
+   "refs": []
+  },
+  {
+   "t": 271,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:jar",
+   "obj": "jar",
+   "detail": {
+    "change": "jar_brimming",
+    "sub": true
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 276,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 276,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    124
+   ]
+  },
+  {
+   "t": 282,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 282,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    126
+   ]
+  },
+  {
+   "t": 284,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    88
+   ]
+  },
+  {
+   "t": 284,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:jar",
+   "obj": "jar",
+   "detail": {
+    "change": "jar_brimming",
+    "sub": true
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 289,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 289,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    130
+   ]
+  },
+  {
+   "t": 295,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 295,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    132
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "resting",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "escaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "jar",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "escaping",
+    "to": "drifting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "drifting",
+    "to": "arriving",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "arriving",
+    "to": "moored",
+    "slice": 4
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "jar_empty",
+     "skiff_arriving",
+     "skiff_drifting",
+     "skiff_escaping",
+     "skiff_moored",
+     "skiff_propelling"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting|not_jar_charged",
+   "obj": "skiff",
+   "detail": {
+    "condition": "jar_brimming",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 309,
+   "kind": "reach",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_arriving",
+    "inv": [
+     "hard",
+     "skiff",
+     "resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  }
+ ]
+}

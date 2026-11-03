@@ -1,0 +1,8 @@
+{
+  "name": "embodied",
+  "private": true,
+  "description": "A Gerundelle mind in a body, in a three.js gerund field",
+  "dependencies": {
+    "three": "^0.170.0"
+  }
+}

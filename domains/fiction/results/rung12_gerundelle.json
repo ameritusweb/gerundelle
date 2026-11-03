@@ -1,0 +1,952 @@
+{
+ "rung": 12,
+ "arm": "gerundelle",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "catch",
+   "detail": {
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "weight",
+   "detail": {
+    "gerund": "loading"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "stone",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Tom",
+   "hole": "own:control:stone",
+   "obj": "stone",
+   "detail": {
+    "change": "stone_flying"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "catch",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "catch",
+   "detail": {
+    "strength": "hard",
+    "gerund": "locking"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "catch",
+   "detail": {
+    "from": "locking",
+    "to": "releasing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "weight",
+   "detail": {
+    "from": "loading",
+    "to": "releasing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "catch",
+   "detail": {
+    "from": "releasing",
+    "to": "launching",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "weight",
+   "detail": {
+    "from": "releasing",
+    "to": "launching",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "catch",
+   "detail": {
+    "from": "launching",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "stone",
+   "detail": {
+    "from": "resting",
+    "to": "flying",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "weight",
+   "detail": {
+    "from": "launching",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:catch_locking",
+   "obj": "stone",
+   "detail": {
+    "from": "flying",
+    "to": "falling",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "reach",
+   "actor": "Tom",
+   "hole": "own:control:stone",
+   "obj": "catch",
+   "detail": {
+    "change": "stone_flying",
+    "inv": [
+     "hard",
+     "catch",
+     "locking"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:stone",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": [
+     "flag_swinging",
+     "stone_falling"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:catch",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:flag",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "catch",
+     "stone"
+    ],
+    "states": {
+     "catch": "locking",
+     "stone": "resting"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    2
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "stone",
+    "change": "stone_flying"
+   },
+   "beats": [
+    4
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "turn",
+   "fill": {
+    "try": {
+     "obj": "catch",
+     "strength": "hard",
+     "again": false,
+     "who": "Tom"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "catch",
+     "flips": [
+      [
+       "locking",
+       "releasing"
+      ],
+      [
+       "releasing",
+       "launching"
+      ],
+      [
+       "launching",
+       "resting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "catch",
+    "who": "Tom"
+   },
+   "beats": [
+    8,
+    9,
+    11,
+    13
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "stone",
+    "flips": [
+     [
+      "resting",
+      "flying"
+     ],
+     [
+      "flying",
+      "falling"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    14,
+    17
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "weight",
+    "flips": [
+     [
+      "loading",
+      "releasing"
+     ],
+     [
+      "releasing",
+      "launching"
+     ],
+     [
+      "launching",
+      "resting"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    10,
+    12,
+    15
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "hanging",
+      "swinging"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    16
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [
+     "flag_swinging",
+     "stone_falling"
+    ],
+    "anchor": "",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    19
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "catch",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    20
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    21
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "An old catapult stood in the yard.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "disambiguating(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A wooden catch held the arm down.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, patient)",
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A stone in its cup sat in its cup.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Tom wanted to fire the catapult.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "He gave the catch a hard push, and it snapped free.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, attribute))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, attribute))",
+     "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event, attribute))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "The stone flew over the fence and fell.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, detail), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, detail), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event, detail), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "A heavy arm swung up.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "A flag on the fence swung.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "Tom marveled at the stone.",
+    "shape": "expressing_wonder",
+    "reading": "expressing_wonder(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_wonder(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "He laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "He was delighted with the catch.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "He was delighted with the flag.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 0.75,
+  "exact_theories": {
+   "narrative-arc": 0.75,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5,
+   "compare-contrast": 0.4,
+   "problem-solution-result": 0.33
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concession-rebuttal": 1.0,
+   "concept-explanation": 1.0
+  },
+  "variety": 0.75,
+  "judge_rows": [
+   {
+    "text": "An old catapult stood in the yard.",
+    "skeleton": "narrating(agent, event, content=disambiguating(main=disambiguating(main=disambiguating(main=disambiguating(main=narrating(agent, event, parts, place, detail), detail), detail), detail), detail))",
+    "cosine": 0.6491647958755493,
+    "score": 0.40362320840358734,
+    "margin": 0.0008128881454467773,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A wooden catch held the arm down.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.648521900177002,
+    "score": 0.3455826938152313,
+    "margin": 0.01641213893890381,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A stone in its cup sat in its cup.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6439038515090942,
+    "score": 0.32358798384666443,
+    "margin": 0.02370011806488037,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom wanted to fire the catapult.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6644372940063477,
+    "score": 0.39571890234947205,
+    "margin": 0.05065494775772095,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He gave the catch a hard push, and it snapped free.",
+    "skeleton": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, content=narrating(agent, event)))",
+    "cosine": 0.6442947387695312,
+    "score": 0.4462142288684845,
+    "margin": 0.007387757301330566,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The stone flew over the fence and fell.",
+    "skeleton": "narrating(first=explaining(means=narrating(agent, event, detail), purpose=describing(event, detail)), then=narrating(agent, event))",
+    "cosine": 0.6661039590835571,
+    "score": 0.5135834813117981,
+    "margin": 0.007914543151855469,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "explaining",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A heavy arm swung up.",
+    "skeleton": "narrating(agent, event)",
+    "cosine": 0.6277885437011719,
+    "score": 0.3652206063270569,
+    "margin": 0.004281878471374512,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "contrasting",
+     "describing",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A flag on the fence swung.",
+    "skeleton": "narrating(agent, event)",
+    "cosine": 0.6498621702194214,
+    "score": 0.3557356297969818,
+    "margin": 0.003971576690673828,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "elaborating",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom marveled at the stone.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6719955205917358,
+    "score": 0.445288747549057,
+    "margin": 0.021734774112701416,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He laughed with joy.",
+    "skeleton": "narrating(first=disambiguating(main=elaborating(main=disambiguating(main=judging(agent, event, detail), detail), detail), detail=explaining(means=narrating(agent, event), purpose=describing(event, patient))), then=claiming(event, content=explaining(condition=narrating(agent, event), effect=grounding(main=describing(agent, hedge, patient), example))))",
+    "cosine": 0.6497421264648438,
+    "score": 0.43488091230392456,
+    "margin": 0.0008082985877990723,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the catch.",
+    "skeleton": "explaining(context, effect=narrating(first=describing(event, patient, detail), then=elaborating(main=describing(event, patient), detail=elaborating(main=describing(event, patient, detail), detail=claiming(agent, event, hedge, patient)))))",
+    "cosine": 0.6365927457809448,
+    "score": 0.35542020201683044,
+    "margin": 0.004848957061767578,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the flag.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6347733736038208,
+    "score": 0.3511101305484772,
+    "margin": 0.00016987323760986328,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.6666666666666666,
+   "chain": 2,
+   "reach": 6
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

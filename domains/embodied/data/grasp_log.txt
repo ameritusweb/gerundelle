@@ -1,0 +1,16 @@
+the target: mug_b, its handle toward [ 0.73 -0.69], its chip toward [0.58 0.82]; the bottle on its left
+
+episode 1: nothing known
+   1. left  body   hook   reach 31 steps  ->  bottle knocked tipping        constraint found: knocked-from-left
+   2. near  body   hook   reach 32 steps  ->  burning                       constraint found: body
+   3. near  handle hook   reach 32 steps  ->  edge-on                       constraint found: handle-from-near
+   4. near  rim    hook   reach 32 steps  ->  cutting                       constraint found: chip-from-near
+   5. right handle hook   reach 32 steps  ->  held                        
+
+  constraints found: ['knocked-from-left', 'body', 'handle-from-near', 'chip-from-near']
+  5 attempts, 4 failures, 4 constraints from them (1.00 per failure)
+
+episode 2: with the constraints episode 1 found
+   1. right handle hook   reach 32 steps  ->  held                        
+
+  1 attempt

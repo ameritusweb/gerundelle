@@ -1,0 +1,54 @@
+> Where do Kuhn's paradigm shifts fit into the system?
+
+● Here's where it lands in the running system.
+
+  Kuhn's Structure of Scientific Revolutions (1962): science doesn't progress by steady accumulation. It alternates between normal science (puzzle-solving within a paradigm)
+  and revolutionary science (the paradigm itself is overthrown). A paradigm shift happens when anomalies — observations the paradigm can't explain — accumulate to the point
+  where the paradigm is abandoned for a new one. The shift is not gradual; it's a gestalt switch. The old paradigm is not refuted by one experiment; it's abandoned when the
+  weight of anomalies becomes intolerable.
+
+  Contradiction and reopening is the mechanism. Mind.contradict (molecules.py, line ~1013): a stored belief (a box) predicts something. If the world answers and the prediction
+  is wrong, the box reopens with surprise set to 0.5 + 0.5 × understanding. The better understood the belief was — the more it was a settled paradigm — the more surprising
+  its failure.
+
+  The concept map: "A stored belief whose prediction fails reopens with full surprise, forcing revision. The mind can't ignore a failed prediction — the surprise injection
+  puts the contradicted belief at the top of the tournament. Not a rule. A structural consequence of the reopen mechanism."
+
+  The Kuhnian structure maps onto the system's phases:
+
+  Normal science is the settled state. A molecule with no open sites, that has won the top for three consecutive ticks with flat precision, precipitates into storage (settled
+  closure). Its predictions hold. Its keys cool slowly. The mind doesn't revisit it — it's understood, it works, it's the paradigm. Evidence accumulates in the Dirichlet
+  counts. Understanding grows. The learning curve (concept map): "A mind with a fully cached convergence doesn't search: the resonance fires from storage in one tick." Normal
+  science is the cached convergence doing its work.
+
+  An anomaly is a failed prediction. The box predicted something; the world contradicted it. But one anomaly doesn't overthrow the paradigm. The surprise injection
+  (0.5 + 0.5 × understanding) puts the contradicted belief at the top of the tournament — it's conscious again, its sites reopened — but if the mind's further investigation
+  confirms the original understanding, the belief re-settles. A single anomaly forces examination; it doesn't force revolution.
+
+  A paradigm shift is a split. When a molecule's outcomes are bimodal — good in some situations, bad in others (the anomalies are systematic, not random) — the conflation
+  detector fires (Meta: "conflated"). The meta layer splits the concept on a boundary condition: half the outcomes with the condition, half without. If the halves are unimodal
+  and opposite, the split is confirmed. The old concept is replaced by two: one where the old paradigm holds, and one where it doesn't. The boundary condition is the new
+  paradigm's core insight — the thing the old paradigm couldn't see because it treated both cases as one.
+
+  The fiction ladder's rung 1 showed this cycle. Tom pushes the crate, it moves (normal science: his push moves the crate). He pushes again, it doesn't move (anomaly:
+  surprise, the belief reopens). More pushes, more anomalies — but the successes and failures are systematic: it moves when the flag swings, it doesn't when the flag is
+  still. The conflation detector fires. The concept "push the crate" splits on the boundary "the flag swinging." Two paradigms: pushing-with-wind (works) and
+  pushing-without-wind (doesn't). "The crate moved only if the flag swung."
+
+  The chess ladder showed it at a different scale. Rung 1: the mind learns "Rxd5 wins material" (normal science). In the defended configuration, Rxd5 loses the exchange
+  (anomaly). The contrast reveals the boundary: the knight defended by the bishop. The old concept splits into "Rxd5 with the knight hanging" (wins) and "Rxd5 with the knight
+  attacked" (loses). Each paradigm is valid in its own domain.
+
+  How it differs from Kuhn specifically:
+
+  - Kuhn's paradigm shifts are social: a community of scientists adopts a new paradigm. Here, the shift is within one mind — one molecule's outcomes split on a boundary
+    condition. The social version would be the civilization layer (SOV_CIVILIZATIONS.md): a population whose cached convergence is contradicted by a new world. Not yet run
+    at this scale.
+  - Kuhn argues that paradigms are incommensurable — scientists in different paradigms can't fully communicate because the same terms mean different things. Here, the two
+    halves of a split share everything but the boundary condition. The split preserves the structure (the gerund skeleton) and adds one distinction. They are commensurable by
+    construction.
+  - Kuhn's revolutions are rare, dramatic events. Here, splits happen whenever the conflation detector fires — they're routine cognitive operations. A mind that encounters a
+    bimodal outcome splits it. The frequency depends on how often the world is more complex than the mind's current concepts — which is most of the time at the start (many
+    splits), and rarely once understanding is deep (few splits). The revolutionary/normal distinction is a matter of degree, not kind.
+  - Kuhn says nothing about the weight of the contradiction. Here, surprise = 0.5 + 0.5 × understanding: a well-understood belief contradicted gets MORE surprise than a
+    poorly understood one. The paradigm shift is proportionally more disruptive the more the old paradigm was settled. This matches Kuhn's intuition but gives it a number.

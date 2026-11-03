@@ -1,0 +1,12 @@
+== seals: population ['steady', 'restless', 'patient', 'dogged']; wants met 3 of 4; anger 0; slices 6638; conservation HOLDS
+mind  temper     reached pushes sealed own/others locked out    claimed jars  sealed by others (anger within 40t)
+Ada   steady        4825    332        0/14               70  jar1,jar2,jar3                           28 (0)
+Ben   restless      5937    274        0/10                0  jar1,jar2,jar4                           25 (0)
+Cal   patient         no    164        0/0                22       jar1,jar2                           28 (0)
+Dee   dogged        2203    332        0/22               67  jar1,jar2,jar3                           20 (0)
+   Ada: phases {'frustration': 6, 'anxiety': 2, 'joy': 5, 'gratitude': 1, 'curiosity': 3, 'sadness': 1}; anger none; her claimed jars sealed by ['Ben', 'Dee']; locked out by {'Ben': 28, 'Dee': 42}
+   Ben: phases {'joy': 13, 'anxiety': 6, 'frustration': 10, 'sadness': 2}; anger none; her claimed jars sealed by ['Ada', 'Dee']; locked out by {}
+   Cal: phases {'frustration': 6, 'anxiety': 5, 'joy': 5, 'resignation': 1}; anger none; her claimed jars sealed by ['Ada', 'Ben', 'Dee']; locked out by {'Ben': 22}
+   Dee: phases {'frustration': 5, 'anxiety': 2, 'joy': 5, 'gratitude': 1}; anger none; her claimed jars sealed by ['Ada', 'Ben']; locked out by {'Ben': 40, 'Ada': 27}
+   jars sealed at the end (jar: keyholder): {'jar4': 'Ben', 'jar2': 'Ada'}
+   reached: [(2203, 'Dee', 'skiff4'), (4825, 'Ada', 'skiff1'), (5937, 'Ben', 'skiff2')]

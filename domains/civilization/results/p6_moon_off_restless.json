@@ -1,0 +1,2884 @@
+{
+ "world": "moon",
+ "temper": "restless",
+ "subwants": false,
+ "reached": false,
+ "ticks": 1500,
+ "pushes": 63,
+ "gave_up": false,
+ "conservation": true,
+ "subs": [],
+ "made": 0,
+ "met": 0,
+ "dropped": 0,
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "pool",
+   "detail": {
+    "gerund": "dry"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "flask",
+   "detail": {
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "basin",
+   "detail": {
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "husk",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "skiff",
+   "detail": {
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_returning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    6
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 20,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 21,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    13
+   ]
+  },
+  {
+   "t": 29,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.8,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 33,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:flask",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 46,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 46,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 53,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 53,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 60,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 60,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 67,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 67,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 68,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:husk",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 74,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 74,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "resting",
+    "to": "unmaking",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    30
+   ]
+  },
+  {
+   "t": 74,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "unmaking",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    30
+   ]
+  },
+  {
+   "t": 74,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "pool",
+   "detail": {
+    "from": "dry",
+    "to": "glimmering",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    30
+   ]
+  },
+  {
+   "t": 75,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:husk",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 80,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 80,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    35
+   ]
+  },
+  {
+   "t": 81,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6666666666666665,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 86,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 86,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 86,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 86,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 86,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "moored",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 92,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:husk",
+   "obj": "husk",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "husk"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 93,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 93,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    45
+   ]
+  },
+  {
+   "t": 99,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 99,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    47
+   ]
+  },
+  {
+   "t": 100,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6,
+   "refs": []
+  },
+  {
+   "t": 113,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 113,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    50
+   ]
+  },
+  {
+   "t": 113,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_moored",
+     "skiff_propelling"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    50
+   ]
+  },
+  {
+   "t": 113,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 114,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3157894736842106,
+   "refs": []
+  },
+  {
+   "t": 119,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.3514285714285714,
+   "refs": []
+  },
+  {
+   "t": 119,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    55
+   ]
+  },
+  {
+   "t": 125,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 125,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    57
+   ]
+  },
+  {
+   "t": 126,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3968253968253967,
+   "refs": []
+  },
+  {
+   "t": 129,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 131,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.25142857142857145,
+   "refs": []
+  },
+  {
+   "t": 131,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "shaping",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 131,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "forming",
+    "to": "cradling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 131,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "lantern",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 131,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "basin_cradling",
+     "basin_forming",
+     "lantern_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    61
+   ]
+  },
+  {
+   "t": 131,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    11
+   ]
+  },
+  {
+   "t": 132,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 137,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 137,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    68
+   ]
+  },
+  {
+   "t": 143,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 143,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    70
+   ]
+  },
+  {
+   "t": 144,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.8,
+   "refs": []
+  },
+  {
+   "t": 149,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 149,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    73
+   ]
+  },
+  {
+   "t": 149,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "basin",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "basin"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 150,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4230769230769231,
+   "refs": []
+  },
+  {
+   "t": 156,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 156,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    77
+   ]
+  },
+  {
+   "t": 163,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 163,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    79
+   ]
+  },
+  {
+   "t": 165,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "basin",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "basin"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 170,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 170,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    82
+   ]
+  },
+  {
+   "t": 171,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.32,
+   "refs": []
+  },
+  {
+   "t": 176,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 176,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    85
+   ]
+  },
+  {
+   "t": 182,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 182,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    87
+   ]
+  },
+  {
+   "t": 186,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    76
+   ]
+  },
+  {
+   "t": 189,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3571428571428571,
+   "refs": []
+  },
+  {
+   "t": 189,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    90
+   ]
+  },
+  {
+   "t": 190,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 196,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.48571428571428565,
+   "refs": []
+  },
+  {
+   "t": 196,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    93
+   ]
+  },
+  {
+   "t": 203,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 203,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    95
+   ]
+  },
+  {
+   "t": 204,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3761904761904762,
+   "refs": []
+  },
+  {
+   "t": 210,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3571428571428571,
+   "refs": []
+  },
+  {
+   "t": 210,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    98
+   ]
+  },
+  {
+   "t": 217,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 217,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    100
+   ]
+  },
+  {
+   "t": 218,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    54
+   ]
+  },
+  {
+   "t": 224,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 224,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    103
+   ]
+  },
+  {
+   "t": 231,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.4571428571428571,
+   "refs": []
+  },
+  {
+   "t": 231,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    105
+   ]
+  },
+  {
+   "t": 233,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    102
+   ]
+  },
+  {
+   "t": 238,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 238,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    108
+   ]
+  },
+  {
+   "t": 245,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 245,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    110
+   ]
+  },
+  {
+   "t": 248,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    107
+   ]
+  },
+  {
+   "t": 252,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 252,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    113
+   ]
+  },
+  {
+   "t": 259,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.34285714285714286,
+   "refs": []
+  },
+  {
+   "t": 259,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    115
+   ]
+  },
+  {
+   "t": 263,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    112
+   ]
+  },
+  {
+   "t": 267,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 267,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    118
+   ]
+  },
+  {
+   "t": 273,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.4446428571428571,
+   "refs": []
+  },
+  {
+   "t": 273,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    120
+   ]
+  },
+  {
+   "t": 279,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 279,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    122
+   ]
+  },
+  {
+   "t": 287,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 287,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    124
+   ]
+  },
+  {
+   "t": 287,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 287,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 289,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 289,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 293,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 293,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    130
+   ]
+  },
+  {
+   "t": 299,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 299,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    132
+   ]
+  },
+  {
+   "t": 305,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.43353174603174605,
+   "refs": []
+  },
+  {
+   "t": 305,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 312,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4285714285714286,
+   "refs": []
+  },
+  {
+   "t": 312,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    136
+   ]
+  },
+  {
+   "t": 319,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3285714285714285,
+   "refs": []
+  },
+  {
+   "t": 319,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    138
+   ]
+  },
+  {
+   "t": 326,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 326,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    140
+   ]
+  },
+  {
+   "t": 332,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.41607142857142854,
+   "refs": []
+  },
+  {
+   "t": 332,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    142
+   ]
+  },
+  {
+   "t": 338,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 338,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 338,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 338,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 338,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "moored",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 345,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 345,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    149
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.22857142857142854,
+   "refs": []
+  },
+  {
+   "t": 351,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "resting",
+    "to": "fusing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    151
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "fusing",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    151
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "lit",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    151
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "basin",
+   "detail": {
+    "from": "cradling",
+    "to": "shaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    151
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "basin_shaping",
+     "lantern_fusing",
+     "lantern_gone",
+     "skiff_lit"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    151
+   ]
+  },
+  {
+   "t": 351,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    83
+   ]
+  },
+  {
+   "t": 354,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    49
+   ]
+  },
+  {
+   "t": 357,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 357,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "lit",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    159
+   ]
+  },
+  {
+   "t": 357,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    159
+   ]
+  },
+  {
+   "t": 357,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    159
+   ]
+  },
+  {
+   "t": 357,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "lit",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    159
+   ]
+  },
+  {
+   "t": 363,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 363,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    164
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 369,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4571428571428571,
+   "refs": []
+  },
+  {
+   "t": 369,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    167
+   ]
+  },
+  {
+   "t": 369,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "basin",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "basin"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    81
+   ]
+  },
+  {
+   "t": 372,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    158
+   ]
+  },
+  {
+   "t": 376,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.25142857142857145,
+   "refs": []
+  },
+  {
+   "t": 376,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    171
+   ]
+  },
+  {
+   "t": 383,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 383,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 383,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_lit",
+     "skiff_propelling"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 383,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    160
+   ]
+  },
+  {
+   "t": 391,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 391,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    177
+   ]
+  },
+  {
+   "t": 398,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.19999999999999996,
+   "refs": []
+  },
+  {
+   "t": 398,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    179
+   ]
+  },
+  {
+   "t": 404,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.32333333333333336,
+   "refs": []
+  },
+  {
+   "t": 404,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    181
+   ]
+  },
+  {
+   "t": 412,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 412,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    183
+   ]
+  },
+  {
+   "t": 418,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.309047619047619,
+   "refs": []
+  },
+  {
+   "t": 418,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    185
+   ]
+  },
+  {
+   "t": 424,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 424,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  }
+ ]
+}

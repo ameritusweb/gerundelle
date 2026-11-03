@@ -1,0 +1,6 @@
+attempts to the first hold on each new mug, after learning on the three first tasks (20 orders: mean, worst)
+                                                 new diner mug         stoneware mug              blue mug     all
+  hand-written, relational                       1.2 (max  2)         1.0 (max  1)         1.2 (max  2)    1.15
+  perceived, hand-written vocabulary             1.4 (max  3)         1.1 (max  2)         1.4 (max  4)    1.30
+  perceived, minted (widest margin)              2.2 (max 10)         5.2 (max 20)         5.7 (max 17)    4.35
+  perceived, minted (near misses)                2.4 (max  6)         2.3 (max 12)         4.5 (max 17)    3.07

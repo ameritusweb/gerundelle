@@ -1,0 +1,889 @@
+{
+ "rung": "21",
+ "arm": "gerundelle",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "branch",
+   "detail": {
+    "gerund": "levering"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "log",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Tom",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "hanging"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Tom",
+   "hole": "own:control:log",
+   "obj": "log",
+   "detail": {
+    "change": "log_flying"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "branch",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 3,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:flag_hanging",
+   "obj": "flag",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:branch_levering",
+   "obj": "branch",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:log_resting",
+   "obj": "log",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:branch_levering",
+   "obj": "branch",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:log_piling",
+   "obj": "log",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:light_push:branch_levering",
+   "obj": "branch",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "wonder",
+   "actor": "Tom",
+   "hole": "sov:hard_push:log_piling",
+   "obj": "log",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "branch",
+   "detail": {
+    "strength": "hard",
+    "gerund": "levering"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "log",
+   "detail": {
+    "from": "resting",
+    "to": "flying",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "log",
+   "detail": {
+    "from": "flying",
+    "to": "falling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "flag",
+   "detail": {
+    "from": "hanging",
+    "to": "swinging",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "log",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Tom",
+   "hole": "sov:hard_push:branch_levering",
+   "obj": "flag",
+   "detail": {
+    "from": "swinging",
+    "to": "hanging",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "reach",
+   "actor": "Tom",
+   "hole": "own:control:log",
+   "obj": "branch",
+   "detail": {
+    "change": "log_flying",
+    "inv": [
+     "hard",
+     "branch",
+     "levering"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:control:log",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:unclaimed:flag",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:contested:flag",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "feel",
+   "actor": "Tom",
+   "hole": "own:contested:log",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    12
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "branch",
+     "log"
+    ],
+    "states": {
+     "branch": "levering",
+     "log": "resting"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    1
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "log",
+    "change": "log_flying"
+   },
+   "beats": [
+    3
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "try",
+   "stage": "turn",
+   "fill": {
+    "obj": "branch",
+    "strength": "hard",
+    "again": false,
+    "who": "Tom"
+   },
+   "beats": [
+    12
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "log",
+    "flips": [
+     [
+      "resting",
+      "flying"
+     ],
+     [
+      "flying",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    13,
+    14,
+    16
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "hanging",
+      "swinging"
+     ],
+     [
+      "swinging",
+      "hanging"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    15,
+    17
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    19
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "joy",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    20
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "anchor": "flag",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    21
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "resolution",
+   "fill": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "anchor": "log",
+    "who": "Tom",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    22
+   ],
+   "refs": [
+    2
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "A log blocked the stream.",
+    "shape": "narrating|describing",
+    "reading": "narrating(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A branch under it lay across a rock.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "The log lay across the water.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Tom wanted to clear the log from the stream.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "He stamped on the branch.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "The log flew out of the water and landed on the bank.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "A reed by the bank fluttered and fell still again.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "Tom laughed with joy.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, event, detail)",
+    "ok": true,
+    "readings": [
+     "expressing_joy(agent, event, detail)",
+     "narrating(agent, event, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "He was delighted with the reed.",
+    "shape": "expressing_joy",
+    "reading": "expressing_joy(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_joy(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "He felt anxious about the reed.",
+    "shape": "expressing_fear",
+    "reading": "expressing_fear(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_fear(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "He felt anxious about the log.",
+    "shape": "expressing_fear",
+    "reading": "expressing_fear(agent, event, quality)",
+    "ok": true,
+    "readings": [
+     "expressing_fear(agent, event, quality)",
+     "narrating(agent, event, quality)"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "narrative-arc",
+  "exact_coverage": 0.75,
+  "exact_theories": {
+   "narrative-arc": 0.75,
+   "analogy-bridge": 0.5,
+   "testimony": 0.5,
+   "compare-contrast": 0.4,
+   "problem-solution-result": 0.33
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "compare-contrast",
+  "best_coverage": 1.0,
+  "theories": {
+   "claim-evidence-warrant": 1.0,
+   "problem-solution-result": 1.0,
+   "concession-rebuttal": 1.0,
+   "compare-contrast": 1.0
+  },
+  "variety": 0.7272727272727273,
+  "judge_rows": [
+   {
+    "text": "A log blocked the stream.",
+    "skeleton": "narrating(agent, event, patient)",
+    "cosine": 0.6844338774681091,
+    "score": 0.4254399836063385,
+    "margin": 0.06288141012191772,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A branch under it lay across a rock.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6417011022567749,
+    "score": 0.38032713532447815,
+    "margin": 0.0038461685180664062,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The log lay across the water.",
+    "skeleton": "narrating(agent, event, content=disambiguating(main=disambiguating(main=disambiguating(main=disambiguating(main=narrating(agent, event, parts, place, detail), detail), detail), detail), detail))",
+    "cosine": 0.6654614210128784,
+    "score": 0.4110542833805084,
+    "margin": 0.0017801523208618164,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom wanted to clear the log from the stream.",
+    "skeleton": "narrating(agent, event, patient, detail)",
+    "cosine": 0.5919116735458374,
+    "score": 0.30121952295303345,
+    "margin": 0.017454922199249268,
+    "matched": true,
+    "gerunds": [
+     "disambiguating",
+     "elaborating",
+     "expressing_love",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He stamped on the branch.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6556490659713745,
+    "score": 0.45119599997997284,
+    "margin": 0.00829923152923584,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The log flew out of the water and landed on the bank.",
+    "skeleton": "contrasting(main=narrating(agent, event, detail), other=narrating(agent, event, content=grounding(agent, quality, time)))",
+    "cosine": 0.6856421232223511,
+    "score": 0.5235113799571991,
+    "margin": 0.006864786148071289,
+    "matched": true,
+    "gerunds": [
+     "contrasting",
+     "describing",
+     "elaborating",
+     "expressing_remorse",
+     "grounding",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A reed by the bank fluttered and fell still again.",
+    "skeleton": "narrating(first=elaborating(main=narrating(agent, event), detail=narrating(agent, event)), then=narrating(agent, event))",
+    "cosine": 0.6945189237594604,
+    "score": 0.47110287845134735,
+    "margin": 0.004727840423583984,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Tom laughed with joy.",
+    "skeleton": "narrating(agent, event, detail)",
+    "cosine": 0.6478292942047119,
+    "score": 0.4222680330276489,
+    "margin": 0.008880913257598877,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "grounding",
+     "judging",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He was delighted with the reed.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.63404381275177,
+    "score": 0.34946537017822266,
+    "margin": 8.636713027954102e-05,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "explaining",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He felt anxious about the reed.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.694287121295929,
+    "score": 0.3810560405254364,
+    "margin": 0.016601741313934326,
+    "matched": true,
+    "gerunds": [
+     "expressing_anger",
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   },
+   {
+    "text": "He felt anxious about the log.",
+    "skeleton": "narrating(agent, event, quality)",
+    "cosine": 0.6921345591545105,
+    "score": 0.37177184224128723,
+    "margin": 0.014966905117034912,
+    "matched": true,
+    "gerunds": [
+     "expressing_anger",
+     "expressing_curiosity",
+     "expressing_patience",
+     "expressing_sorrow",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.6666666666666666,
+   "chain": 2,
+   "reach": 6
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

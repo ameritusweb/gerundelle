@@ -1,0 +1,57 @@
+> Where does Berlyne's curiosity and arousal theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  Berlyne (1960, 1966): curiosity is driven by "collative variables" — novelty, complexity, incongruity, and surprise. He distinguished diversive curiosity (seeking stimulation
+  and novelty for its own sake) from specific curiosity (seeking information to resolve a specific uncertainty). The Wundt curve (inverted U): moderate novelty is most
+  arousing; too little novelty is boring; too much is overwhelming.
+
+  Both kinds of curiosity are in the running system, as separate mechanisms:
+
+  Specific curiosity is the open-slot mechanism. An unfilled slot in the understanding register adds constant, non-decaying tension to its molecule's bid every tick (Params.T
+  in molecules.py). The concept map: "An open slot with unfilled binding sites adds a constant, non-decaying tension to the molecule's bid every tick until the site is filled.
+  The incomplete thought keeps returning to consciousness not because it's surprising but because it's unfinished. That's the earworm mechanism." This is specific curiosity:
+  the mind seeks particular information (what causes this? what conditions this?) to resolve a particular uncertainty. In the fiction ladder, curiosity is a phase that forms
+  when a question is posed (Phases.graph: "curiosity: a question posed"), anchored on the concept asked about. "Mara wondered what the latch did." — specific curiosity about
+  the latch's role.
+
+  Diversive curiosity is the novelty term in the force between molecules (Mind.force, line ~345). When two molecules have never been paired, the force between them is pure
+  novelty: Params.n (0.3 by default). As they accumulate experience together, the novelty term shrinks: n × info_gain(a) / IG0, where info_gain is the expected information
+  gain from one more observation of the pair's Dirichlet. A fully explored pair has concentrated Dirichlet counts, low info_gain, and low novelty. The pull of the untried is
+  the pull of novelty itself — not directed at a specific question, just at what has not been experienced.
+
+  Params.curiosity is a temperament parameter: "the pull of unknowns no want pays for (an unclaimed region, a held region's uniqueness), as a multiple of the territory's own.
+  The curious wander; the incurious stay on the want." The fiction ladder measured this: an impatient Gerundelle Mara (rung 0) tries the flag and the lid but never the latch
+  she was curious about, and gives up; a restless Mara (rung 2) never asks Ben, opens the box, learns nothing ("learns many things shallowly"). Curiosity as a parameter gives
+  different, nameable characters from the same algebra.
+
+  Berlyne's collative variables map as follows:
+
+  - Novelty: the novelty term in Mind.force (Params.n × info_gain / IG0). Maximum for a never-formed pair. Shrinks with experience. Doubled when the meta layer detects
+    "nothing's happening" (boost_until, line ~279: "novelty doubled until this tick").
+  - Surprise: arrival surprise (S[j] = -log(base_rate) / log(vocab)) and outcome surprise (prediction error |outcome - mu| / 2). Both raise a molecule's bid and extend its
+    half-life (a_surprise modulator).
+  - Complexity: bonding depth. The concept map: "Complexity is bonding depth, not an atomic bottom layer. A half-formed thought is a molecule with open binding sites. A
+    complex thought is fragments bonded to fragments bonded to fragments." A composite molecule's structural novelty (Mind.novelty: 1 minus the highest Jaccard similarity of
+    its signature to any other molecule's) is its uniqueness, and extends its half-life (a_novelty modulator).
+  - Incongruity: the conflation detector. When a molecule's outcomes are bimodal (good and bad both above 25%), Meta emits "torn" — two strong pulls in opposite directions.
+    The conflict between bindings is incongruity, and it generates a meta molecule that competes for the meta track's slots.
+
+  The Wundt curve (inverted U). The system has a boredom readout (Mind.readouts, line ~706): the mean surprise of the winners. When boredom stays below 0.05 for five ticks,
+  the meta layer emits "bored" — a meta molecule that notices "nothing's happening" and doubles the novelty term (boost_until). Too little novelty triggers a boost. The other
+  end: a molecule whose surprise is very high (≥ 0.8) emits "surprised" in the meta layer. An overwhelmed mind — too many surprising things at once — would have every slot
+  occupied by high-surprise molecules, crowding out the structured thoughts that have open sites and can be built on. The tournament's scarcity naturally limits how many
+  surprising things can be attended to at once: the slots cap the novelty. The inverted U is not a parameter — it emerges from the competition between novelty-driven bids
+  and structured, tension-driven bids under scarce slots.
+
+  How it differs from Berlyne specifically:
+
+  - Berlyne's collative variables are described qualitatively (novelty, complexity, surprise, incongruity). Here, each is a computed quantity with a specific formula and a
+    measurable effect on the bid, the half-life, or the meta layer's output.
+  - Berlyne's arousal model is drive-based: curiosity is a drive that seeks reduction through information. Here, curiosity is a competition: open slots pull, novelty pulls,
+    surprise pulls, and the tournament allocates attention to whatever pulls hardest under scarcity. There is no single "drive" to reduce — there are many pulls, and the mind
+    attends to the winning one.
+  - Berlyne doesn't distinguish provenance. Here, specific curiosity (open slots) is funded by evidence with provenance weights. A slot filled by told knowledge (half weight)
+    still pulls, less than an empty slot, more than a lived one. The curiosity's intensity tracks the provenance of what has and hasn't been learned.
+  - The novelty_share readout (Mind.readouts) measures how much of the winners' bindings come from novelty rather than from experience or fit. A high novelty share means the
+    mind is exploring; a low one means it's exploiting what it knows. The share is a diagnostic, not a parameter — it tells you what the mind is doing, not what it should do.

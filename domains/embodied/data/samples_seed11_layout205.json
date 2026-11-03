@@ -1,0 +1,751 @@
+{
+ "seed": 11,
+ "density": 1000000,
+ "points": 3003162,
+ "layout": [
+  "pos f32 x3",
+  "normal i8 x3 (x/127)",
+  "colour u8 x3 (sRGB albedo)",
+  "gerund u8",
+  "node u8 (shuffled)",
+  "object u8 (answer key)"
+ ],
+ "nodes": 11,
+ "gerunds": [
+  "supporting",
+  "resting",
+  "containing",
+  "pooling"
+ ],
+ "answer_key": [
+  {
+   "name": "table",
+   "gerund": "supporting",
+   "truth": {
+    "kind": "table",
+    "age": 14,
+    "marks": [
+     {
+      "what": "water ring",
+      "at": [
+       0.6004102067789062,
+       0.30516485807020216
+      ]
+     },
+     {
+      "what": "water ring",
+      "at": [
+       0.6826642985455692,
+       0.24397291196510196
+      ]
+     }
+    ]
+   },
+   "matrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ]
+  },
+  {
+   "name": "mug_a",
+   "gerund": "resting",
+   "truth": {
+    "kind": "mug",
+    "model": "diner",
+    "age": 0.4,
+    "R": 0.04091055364077339,
+    "H": 0.09445746723519673,
+    "belly": 0.04836084205817042,
+    "flare": 0.028473636256825682,
+    "glaze": "#f1eee6",
+    "handle": {
+     "top": 0.07369687280163852,
+     "bottom": 0.023773484821221484,
+     "reach": 0.03166182910183222,
+     "thick": 0.00693620204995257,
+     "squareness": 0.2614772668300493
+    },
+    "marks": []
+   },
+   "matrix": [
+    0.9383004347099866,
+    0,
+    0.3458211882216736,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -0.3458211882216736,
+    0,
+    0.9383004347099866,
+    0,
+    -0.32,
+    0,
+    0.12,
+    1
+   ]
+  },
+  {
+   "name": "mug_b",
+   "gerund": "resting",
+   "truth": {
+    "kind": "mug",
+    "model": "diner",
+    "age": 17,
+    "R": 0.040860982953632115,
+    "H": 0.0945608819356695,
+    "belly": 0.045096872544282796,
+    "flare": 0.03878790261532107,
+    "glaze": "#f1eee6",
+    "handle": {
+     "top": 0.07298646717901514,
+     "bottom": 0.023525499189578504,
+     "reach": 0.03148800540355676,
+     "thick": 0.006648674096689061,
+     "squareness": 0.41523592251238217
+    },
+    "marks": [
+     {
+      "what": "crazing",
+      "amount": 0.7224999999999999
+     },
+     {
+      "what": "stain",
+      "level": 0.06776111029544035,
+      "amount": 0.95
+     },
+     {
+      "what": "rim wear",
+      "amount": 0.85
+     },
+     {
+      "what": "chip",
+      "angle": 2.4824792505280793,
+      "size": 0.004945661983452737
+     }
+    ]
+   },
+   "matrix": [
+    0.42758785744429495,
+    0,
+    -0.9039737961723213,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.9039737961723213,
+    0,
+    0.42758785744429495,
+    0,
+    -0.16,
+    0,
+    0.2,
+    1
+   ]
+  },
+  {
+   "name": "mug_c",
+   "gerund": "resting",
+   "truth": {
+    "kind": "mug",
+    "model": "diner",
+    "age": 6,
+    "R": 0.04110955960877621,
+    "H": 0.09495346131922991,
+    "belly": 0.053872267188122214,
+    "flare": -0.0071406459935223,
+    "glaze": "#f1eee6",
+    "handle": {
+     "top": 0.07344538936969291,
+     "bottom": 0.02311954706517437,
+     "reach": 0.032482134992327605,
+     "thick": 0.006785702469320992,
+     "squareness": 0.3020075471874836
+    },
+    "marks": [
+     {
+      "what": "print",
+      "text": "Lakeside Diner",
+      "at": {
+       "angle": 4.71238898038469,
+       "height": 0.052224403725576456
+      },
+      "faded": 0.3
+     },
+     {
+      "what": "crazing",
+      "amount": 0.09
+     },
+     {
+      "what": "stain",
+      "level": 0.07622840194065393,
+      "amount": 0.26249999999999996
+     },
+     {
+      "what": "rim wear",
+      "amount": 0.3
+     }
+    ]
+   },
+   "matrix": [
+    -0.3428978074554516,
+    0,
+    -0.939372712847379,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.939372712847379,
+    0,
+    -0.3428978074554516,
+    0,
+    -0.05,
+    0,
+    0.05,
+    1
+   ]
+  },
+  {
+   "name": "mug_d",
+   "gerund": "resting",
+   "truth": {
+    "kind": "mug",
+    "model": "stoneware",
+    "age": 3,
+    "R": 0.04606079993330562,
+    "H": 0.08922201260538633,
+    "belly": -0.05343425042705374,
+    "flare": -0.035975864412092745,
+    "glaze": "#d6cbb0",
+    "handle": {
+     "top": 0.061630779539468376,
+     "bottom": 0.027643032708228075,
+     "reach": 0.02915664489076952,
+     "thick": 0.008717649859742303,
+     "squareness": 0.15445279333378503
+    },
+    "marks": [
+     {
+      "what": "crazing",
+      "amount": 0.0225
+     },
+     {
+      "what": "stain",
+      "level": 0.06722297275968059,
+      "amount": 0.1875
+     },
+     {
+      "what": "rim wear",
+      "amount": 0.15
+     }
+    ]
+   },
+   "matrix": [
+    0.9514089578111979,
+    0,
+    0.3079301787688406,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -0.3079301787688406,
+    0,
+    0.9514089578111979,
+    0,
+    0.1,
+    0,
+    0.18,
+    1
+   ]
+  },
+  {
+   "name": "mug_e",
+   "gerund": "resting",
+   "truth": {
+    "kind": "mug",
+    "model": "colored",
+    "age": 8,
+    "R": 0.03997129695688521,
+    "H": 0.10086612436291785,
+    "belly": -0.005522871256689079,
+    "flare": 0.08805473398149734,
+    "glaze": "#2f5d8a",
+    "handle": {
+     "top": 0.08262083080675016,
+     "bottom": 0.02976561898899115,
+     "reach": 0.033572778641918745,
+     "thick": 0.0058564614071779314,
+     "squareness": 0.5482085337442201
+    },
+    "marks": [
+     {
+      "what": "print",
+      "text": "coffee first.",
+      "at": {
+       "angle": 4.71238898038469,
+       "height": 0.05547636839960482
+      },
+      "faded": 0.4
+     },
+     {
+      "what": "crazing",
+      "amount": 0.16000000000000003
+     },
+     {
+      "what": "stain",
+      "level": 0.07314092951359692,
+      "amount": 0.6
+     },
+     {
+      "what": "rim wear",
+      "amount": 0.4
+     }
+    ]
+   },
+   "matrix": [
+    0.9393727128473789,
+    0,
+    -0.34289780745545134,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.34289780745545134,
+    0,
+    0.9393727128473789,
+    0,
+    0.26,
+    0,
+    0.08,
+    1
+   ]
+  },
+  {
+   "name": "book_salt",
+   "gerund": "supporting",
+   "truth": {
+    "kind": "book",
+    "w": 0.16,
+    "h": 0.235,
+    "d": 0.042,
+    "cover": "#2f4a3a",
+    "binding": "cloth",
+    "title": "A Natural History\nof Salt",
+    "author": "Margaret Ellison",
+    "age": 38,
+    "marks": [
+     {
+      "what": "sun-faded spine",
+      "amount": 0.85
+     },
+     {
+      "what": "worn corners",
+      "amount": 0.95
+     }
+    ]
+   },
+   "matrix": [
+    0.24740395925452296,
+    0,
+    -0.9689124217106447,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.9689124217106447,
+    0,
+    0.24740395925452296,
+    0,
+    -0.36,
+    0,
+    -0.2,
+    1
+   ]
+  },
+  {
+   "name": "book_quiet",
+   "gerund": "supporting",
+   "truth": {
+    "kind": "book",
+    "w": 0.14,
+    "h": 0.21,
+    "d": 0.026,
+    "cover": "#d4a536",
+    "binding": "paper",
+    "title": "The Quiet Year",
+    "author": "Daniel Oyelaran",
+    "age": 5,
+    "marks": [
+     {
+      "what": "worn corners",
+      "amount": 0.125
+     },
+     {
+      "what": "cup ring",
+      "at": [
+       0.62,
+       0.4
+      ]
+     }
+    ]
+   },
+   "matrix": [
+    0.12963414261969491,
+    0,
+    -0.9915618937147881,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.9915618937147881,
+    0,
+    0.12963414261969491,
+    0,
+    -0.362370522516008,
+    0.042,
+    -0.21092614401337909,
+    1
+   ]
+  },
+  {
+   "name": "book_birds",
+   "gerund": "resting",
+   "truth": {
+    "kind": "book",
+    "w": 0.13,
+    "h": 0.195,
+    "d": 0.03,
+    "cover": "#6b2430",
+    "binding": "cloth",
+    "title": "Field Notes\non Small Birds",
+    "author": "H. W. Barrow",
+    "age": 55,
+    "marks": [
+     {
+      "what": "sun-faded spine",
+      "amount": 0.4
+     },
+     {
+      "what": "worn corners",
+      "amount": 1
+     }
+    ]
+   },
+   "matrix": [
+    0.3145665606161178,
+    0,
+    -0.9492354180824408,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0.9492354180824408,
+    0,
+    0.3145665606161178,
+    0,
+    -0.35229010745692974,
+    0.068,
+    -0.1897746610337696,
+    1
+   ]
+  },
+  {
+   "name": "bottle",
+   "gerund": "containing",
+   "truth": {
+    "kind": "bottle",
+    "glass": "#4e6b34",
+    "label": {
+     "brand": "Casa Moretti",
+     "product": "OLIVE OIL",
+     "note": "Extra virgin  ·  cold pressed  ·  500 ml",
+     "color": "#efe4c8",
+     "ink": "#2c3d24"
+    },
+    "age": 2,
+    "marks": [
+     {
+      "what": "oil drip",
+      "at": 0.23310919757932425
+     },
+     {
+      "what": "torn label corner"
+     }
+    ]
+   },
+   "matrix": [
+    0.9689124217106447,
+    0,
+    0.24740395925452294,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -0.24740395925452294,
+    0,
+    0.9689124217106447,
+    0,
+    0.16089617879460152,
+    0,
+    0.11617571868655012,
+    1
+   ]
+  }
+ ],
+ "parts": [
+  {
+   "object": "table",
+   "mesh": "d52b6697",
+   "part": 0,
+   "area": 2.3604999798983313,
+   "points": 2360500
+  },
+  {
+   "object": "mug_a",
+   "mesh": "ba8800ab",
+   "part": 0,
+   "area": 0.05576577676007092,
+   "points": 55766
+  },
+  {
+   "object": "mug_a",
+   "mesh": "d023b34a",
+   "part": 0,
+   "area": 0.004916246434573471,
+   "points": 4916
+  },
+  {
+   "object": "mug_b",
+   "mesh": "f9a28a79",
+   "part": 0,
+   "area": 0.05553212387426587,
+   "points": 55532
+  },
+  {
+   "object": "mug_b",
+   "mesh": "a4874caf",
+   "part": 0,
+   "area": 0.004728730558401942,
+   "points": 4729
+  },
+  {
+   "object": "mug_c",
+   "mesh": "84ffecca",
+   "part": 0,
+   "area": 0.05636796889263699,
+   "points": 56368
+  },
+  {
+   "object": "mug_c",
+   "mesh": "97fbfc8e",
+   "part": 0,
+   "area": 0.004890453542639138,
+   "points": 4890
+  },
+  {
+   "object": "mug_d",
+   "mesh": "f3601b3b",
+   "part": 0,
+   "area": 0.056686052495681434,
+   "points": 56686
+  },
+  {
+   "object": "mug_d",
+   "mesh": "7ce67a03",
+   "part": 0,
+   "area": 0.005288019989310403,
+   "points": 5288
+  },
+  {
+   "object": "mug_e",
+   "mesh": "d5c2af69",
+   "part": 0,
+   "area": 0.056120832569342846,
+   "points": 56121
+  },
+  {
+   "object": "mug_e",
+   "mesh": "a6f9759f",
+   "part": 0,
+   "area": 0.004399435211437714,
+   "points": 4399
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 0,
+   "area": 0.00986999984189868,
+   "points": 9870
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 1,
+   "area": 0.009869999841898678,
+   "points": 9870
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 2,
+   "area": 0.03759999906420708,
+   "points": 37600
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 3,
+   "area": 0.03759999906420708,
+   "points": 37600
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 4,
+   "area": 0.006719999759197239,
+   "points": 6720
+  },
+  {
+   "object": "book_salt",
+   "mesh": "4b965e9f",
+   "part": 5,
+   "area": 0.006719999759197239,
+   "points": 6720
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 0,
+   "area": 0.00545999994218349,
+   "points": 5460
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 1,
+   "area": 0.005459999942183489,
+   "points": 5460
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 2,
+   "area": 0.02939999920725822,
+   "points": 29400
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 3,
+   "area": 0.02939999920725822,
+   "points": 29400
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 4,
+   "area": 0.00364000009059906,
+   "points": 3640
+  },
+  {
+   "object": "book_quiet",
+   "mesh": "efb51869",
+   "part": 5,
+   "area": 0.003640000090599059,
+   "points": 3640
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 0,
+   "area": 0.005849999654665595,
+   "points": 5850
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 1,
+   "area": 0.005849999654665595,
+   "points": 5850
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 2,
+   "area": 0.025349998140335124,
+   "points": 25350
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 3,
+   "area": 0.02534999814033512,
+   "points": 25350
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 4,
+   "area": 0.0038999997697770628,
+   "points": 3900
+  },
+  {
+   "object": "book_birds",
+   "mesh": "ccc96fa2",
+   "part": 5,
+   "area": 0.003899999769777063,
+   "points": 3900
+  },
+  {
+   "object": "bottle",
+   "mesh": "a8f589f3",
+   "part": 0,
+   "area": 0.0442021433256709,
+   "points": 44202
+  },
+  {
+   "object": "bottle",
+   "mesh": "69efa23d",
+   "part": 0,
+   "area": 0.02207849941747025,
+   "points": 22078
+  },
+  {
+   "object": "bottle",
+   "mesh": "2bc22776",
+   "part": 0,
+   "area": 0.003540081025384805,
+   "points": 3540
+  },
+  {
+   "object": "bottle",
+   "mesh": "725bc0ee",
+   "part": 0,
+   "area": 0.013090161900264016,
+   "points": 12567
+  }
+ ]
+}

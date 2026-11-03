@@ -1,0 +1,48 @@
+> Where does option pricing theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  Option pricing (Black-Scholes, 1973; financial options theory): an option is the right but not the obligation to act. Its value comes not from exercising it but from holding
+  it — the possibility of exercising later, when you know more. The value depends on volatility (uncertainty about the future), time to expiration, and how far the option is
+  from being worth exercising. A core principle: do not exercise early while volatility is high, because the option's time value — the chance that circumstances will change in
+  your favor — exceeds the immediate payoff.
+
+  The fiction ladder's rung 7 measured this directly. The setup: Mara wants the box open, Leo keeps it shut, both act, reserves determine who outlasts whom. The author has
+  moves available — calling Leo out of the room (away), having Ben open the box (help) — but doesn't have to use them. Four endings arise from the minds and the moves: outlast,
+  outlasted, behind, help.
+
+  The measured option values (fiction LADDER.md, rung 7 finding 4):
+
+  - Ben by the window, never acting: option value 0.47 (story value 1.023 with him available vs 0.557 without). He never does anything. His presence is worth almost half the
+    story's value.
+  - The call from the kitchen, never used: option value 0.31 (1.023 vs 0.715 without).
+  - Both together with neither exercised: the best story in 350 makes no author move at all.
+
+  Exercising earlier costs value monotonically: away at round 12 gives value 0.95, round 8 gives 0.92, round 7 gives 0.88. The earlier the option is exercised, the less
+  uncertainty it has consumed. "Do not exercise early while volatility is high" — the same principle from financial options, appearing in narrative.
+
+  The mechanism: the reader holds an open variable over endings. Each sentence shifts the reader's probability distribution. An unexercised option keeps more endings alive
+  — the reader doesn't know whether Ben will act, so every ending where he might and every ending where he doesn't must be tracked. That uncertainty is the suspense. The
+  moment an option is exercised, the endings that required it collapse and the endings it forecloses are eliminated. Uncertainty drops. Suspense drops.
+
+  IMPORTANT_REALIZATIONS.md: "An option held open is worth more than an option exercised early."
+
+  The ablation table (fiction LADDER.md, rung 7):
+
+  | moves on offer | stories | best value | held | rise |
+  | away + help    | 350     | 1.023      | 1.18 | 0.86 |
+  | help only      | 61      | 0.715      | 0.86 | 0.83 |
+  | away only      | 62      | 0.557      | 0.73 | 0.77 |
+  | none           | 4       | 0.056      | 0.23 | 0.25 |
+
+  Without options, the minds alone give 4 stories and little suspense (value 0.056-0.198). Each option multiplies the story space and keeps uncertainty alive.
+
+  How it differs from financial option pricing specifically:
+
+  - In finance, the option's value comes from the stochastic price process (Brownian motion, log-normal returns). Here, the "price process" is the reader's belief over endings
+    — a distribution updated sentence by sentence from a trie over beat sequences. The volatility is narrative: how many endings are still consistent with what has been told.
+  - In finance, the holder decides when to exercise. Here, the author decides — the author's search picks the move sequence that maximizes value (held × max(rise, 0): entropy
+    weighted by position, times the ending's probability rise). The reader doesn't choose; the reader tracks.
+  - Financial options expire. Here, the option persists until the story ends — but the author's helper is a deus ex machina even when introduced in the first lines (rung 7
+    finding 5). Help's rise is at most 0.23: the reader is never moved toward it, because Ben has no visible pull (he is not a mind with visible holes). To earn the help
+    ending, Ben must be a mind whose uncertainty shows. An option whose exercise is unearned is a narrative debt, not a financial one.

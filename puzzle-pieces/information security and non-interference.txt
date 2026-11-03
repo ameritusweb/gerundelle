@@ -1,0 +1,53 @@
+> Where does information security / non-interference fit into the system?
+
+● Here's where it lands in the running system.
+
+  Non-interference (Goguen & Meseguer, 1982): a security property that says information at one level cannot flow to another level. If a system satisfies non-interference,
+  then actions at the "high" (secret) level cannot affect observations at the "low" (public) level. No sequence of operations, no interleaving, no channel can move information
+  from high to low. It's a structural guarantee about information flow, proved over all possible executions, not checked by testing.
+
+  Provenance in Gerundelle is a non-interference property. Knowledge has three levels: lived (interactions with the world, full weight), told (what someone said, half weight),
+  and imagined (what the mind thought up, zero weight). The guarantees, proved in Lean:
+
+  1. The firewall (firewall): anything done in the imagination register is invisible to the funded web. Imagination has geometry without funding, and funding is what makes
+     understanding real. You can project a funded web into imagination (the inbound morphism, toImag_apply), but you can never go back (no_outbound: every map from imagination
+     back to funded webs gets lived mass wrong on some web). FORMAL_GUARANTEES.md: "There is no function — not just no permitted function, no function at all — that
+     reconstructs funding from imagination. The asymmetry is structural."
+
+  2. Told can never become lived (replay_mass_le): no operator, no sequence of operators, no interleaving can increase lived mass without a Fit event — an interaction with the
+     world. Told receipts fund at a fixed weight set by the Attest discount, and took_told_le proves the weight can never exceed c₀ per trial.
+
+  3. The Lamarckian pairing — inheriting lived knowledge across generations — is a type error (lamarckian_ill_graded): in the graded writer monad that tracks provenance, the
+     grading won't let you type a promotion from told to lived. It's not forbidden by a policy. It's ill-typed.
+
+  The concept map: "Why provenance cannot be laundered. No operator, no sequence of operators, no interleaving can increase lived mass without a Fit event. You can't promote
+  told to lived because the algebra's grading won't let you type it. You can't create lived from nothing because only Fit mints it. These aren't policies. They're theorems."
+
+  The paper (gerundelle.tex, line ~106): the six fields whose mathematics describe the architecture include "information security" as one of them. The provenance layer's
+  guarantees are stated in the language of information-flow security: non-interference between the imagination register and the funded web, and conservation of provenance
+  weight across all operations.
+
+  The prior-art report confirms this is novel in cognitive architecture (Verified cognitive architecture prior art.md): "I found no cognitive architecture that uses semiring
+  provenance or non-interference as its backbone. Searches for that combination returned only computer-security architectures (e.g. the machine-checked SAFE information-flow
+  architecture)."
+
+  Where it's exercised in the running system:
+
+  - The chess ladder's rung 1b: imagination (Params.imagine). The mind imagines ahead using Stockfish's word — but nothing imagined is written in the register. Imagined
+    outcomes only score plans (the planner's model reads them at the mind's credulity). The firewall holds: nine of ten minds that imagined with Stockfish never learned the
+    defender's condition, because imagination steered them away from the lived contrast they needed. Competence came from the teller's word; the register stayed empty.
+  - The fiction ladder's rung 2: told knowledge from Ben. His answer enters Mara's register as a told receipt, funded at half. When her own tries confirm it, the told receipt
+    stays told — but a new lived receipt is added alongside it. The confirmation is lived. The original telling stays at its original weight. No laundering.
+  - The civilization layer (SOV_CIVILIZATIONS.md): "Told knowledge degrades with distance. The home world's agricultural conditions are told to the colony. But the colony's
+    soil is different. The told receipts contradict on first planting. The colony re-funds locally." Across generations, told knowledge that is never tested stays at half
+    weight. What is tested becomes lived. What is taught forward without testing halves again.
+
+  How it differs from information security specifically:
+
+  - In security, non-interference protects secrets (the high level) from leaking to observers (the low level). Here, the protection runs the other way: the funded web
+    (understanding) is protected from contamination by imagination (unfunded ideas). The "secret" is what the mind has actually experienced; the "public" is what it imagined.
+    The guarantee is that imagination can't infiltrate understanding.
+  - In security, the enforcement is access control or type systems in the implementation. Here, it's the algebra itself: the graded writer monad's grading makes the promotion
+    a type error. The Lean proofs check it for every possible sequence of operations.
+  - The security property has a direct cognitive consequence: a mind that only imagines, reasons, and reflects without acting can never increase its understanding. Only acting
+    in the world — a Fit event — mints lived receipts. This is a structural answer to "why can't you think your way to understanding?"

@@ -1,0 +1,52 @@
+> Where do fiber bundles and parallel transport fit into the system?
+
+● Here's where it lands in the running system.
+
+  Fiber bundles (differential geometry): a space where each point has a "fiber" attached to it — extra structure that can vary from point to point. Parallel transport is how
+  you carry an object along a path in the base space, consistently translating the fiber at each point. The holonomy of a closed loop is what changes when you transport around
+  the loop and return to where you started. If the holonomy is zero (nothing changed), the connection is flat — transport is path-independent. If it's nonzero, the path
+  matters: going the long way around gives a different result from going directly.
+
+  Each operator in Gerundelle is a pair: a base move (on the geometry of the understanding web) and a fiber move (on the provenance ledger). The paper (gerundelle.tex,
+  line ~367):
+
+    op = (base : GeomWeb → GeomWeb,  fiber : Web → List FiberEvent)
+    op.apply w = (base w.geom,  w.ledger ++ fiber w)
+
+  The base is the structure of understanding (which slots are filled, which are open, what relations hold). The fiber is the provenance (who filed what, when, with what
+  weight). The structural rule: an operator's base move cannot read the provenance record. The geometry depends only on the evidence's structure, never on who filed it or
+  when. The provenance can read the geometry: Fit checks whether a datum is feasible before filing it.
+
+  Transfer of understanding across domains is modelled as transport. The paper (line ~1069): "Transfer is modelled as transport: carrying a slot's geometry from one domain to
+  another. Write τ_ij for the transport from domain i to domain j."
+
+  The holonomy theorem (Lean: flat_iff_trivializable, Holonomy.lean, 10 theorems): "For invertible transports given on every ordered pair of domains, every triangle has zero
+  holonomy (perfect transfer) if and only if there exist global coordinates (a single frame of reference that works in every domain)."
+
+  If you learn something about wood in carpentry, carry it to metalwork, then carry it to pottery, and come back to carpentry — did the understanding distort? If the holonomy
+  is zero, no: the path didn't matter. If nonzero, it did: vocabulary translation between domains introduced a change.
+
+  The key result (Lean: relabel_path_dependent, loop_perm): "Relabel makes understanding local." Transport by meets alone (Constrain: narrowing the set of feasible fillers)
+  is path-independent — it doesn't matter which order you apply the constraints. But Relabel (translating the vocabulary from one domain to another) makes transport
+  path-dependent. Going around a triangle with a Relabel step can change the understanding.
+
+  The paper (line ~1101): "Where vocabulary translation between domains is needed, there is no global frame. Structure is inherently local, and it is the algebra's own
+  operators that make it so."
+
+  The fiction ladder's rung 6 is the concrete instance. Mara learns how a latch holds a box shut (domain 1). She encounters a bolt holding a cupboard shut (domain 2). The
+  transport: strip the names (latch → bolt, lid → door), carry the relational structure (a fastening holds a container shut). The recalled condition arrives at half weight —
+  a hypothesis to test. The holonomy: if she went box → cupboard → shed → box, would the understanding come back unchanged? If every domain uses the same gerund vocabulary
+  (fastening, holding, opening), the Constrain steps are path-independent. If one domain requires a Relabel (a different vocabulary for the same force structure), the path
+  matters.
+
+  How it differs from differential geometry specifically:
+
+  - In differential geometry, fiber bundles are continuous — the base space is a manifold, the fibers are vector spaces or Lie groups, and parallel transport is along smooth
+    curves. Here, the base space is a finite graph of domains, the fibers are provenance ledgers, and transport is along sequences of operators (Constrain, Relabel, Fit).
+    The holonomy theorem holds on the complete graph of domains — a discrete, combinatorial version of the continuous theory.
+  - The prior art the paper cites: the coboundary criterion for a non-abelian 1-cocycle (Giraud 1971), the discrete analogue of a pure gauge in lattice gauge theory
+    (Wilson 1974), cycle consistency in vision (Singer 2011, Pachauri et al. 2013, Huang & Guibas 2013). The theorem is known; what's new is that it holds of a cognitive
+    architecture's own operators.
+  - The cognitive consequence is specific: "A discovery has an epistemic order; the steps cannot be rearranged and produce the same result. The holonomy theorem proves this
+    for the algebra's own operators: transport by Relabel is path-dependent, and that path-dependence is not removable." The order in which you learn things matters — not as
+    a pedagogical preference, but as a theorem about the algebra.

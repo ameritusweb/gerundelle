@@ -1,0 +1,51 @@
+> Where does game theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  Game theory (von Neumann & Morgenstern, 1944; Nash, 1950): agents with competing interests make strategic choices. The outcome depends on what every agent does, not just
+  one. A Nash equilibrium is a set of strategies where no agent can improve by changing only its own strategy. Signaling games (Spence, 1973): an informed agent sends a
+  signal that a less-informed agent uses to decide — but the informed agent may have incentive to send a false signal.
+
+  The fiction ladder's rung 3 is a signaling game. Mara asks Leo what keeps the lid shut. Leo knows the latch holds it shut. Leo wants the toy inside for himself. The game:
+  a truthful answer would hand Mara the region (she'd undo the latch and open the box). A false answer keeps the region contested.
+
+  The lie is not scripted. It follows from the structure of wants (fiction LADDER.md, rung 3): "A rival lies. Asked by a mind that wants what it wants (a contested want: a
+  true answer would hand the region to the other), a teller Attests a counterfeit way: a push on the object that its own condition says cannot work now, one the asker has not
+  tried, offered as the way to the want."
+
+  The mechanism:
+  - Leo is asked about the lid (Pose: Mara's control slot's question, carrying the hole's shape).
+  - Leo's Attest checks: does the asker want what I want? The toy's region is contested (both wants open on it).
+  - A truthful answer (the latch) would fund Mara's conditions slot and she'd open the box.
+  - So Leo attests a counterfeit way: a push on the lid that his own condition says cannot work (gently, which he knows doesn't move it), one Mara hasn't tried.
+  - Mara acts on it (told receipt, funded at half, believed by the planner at the mind's credulity).
+  - It fails. The told receipt is retracted. The teller's reliability record is marked down. Anger forms.
+
+  The motive is structural, not a character trait: "A speaker lies exactly when the asker wants what the speaker wants and a true answer would hand the region over. A speaker
+  with no competing want, holding the same knowledge, tells the truth." Rung 2's Ben, holding the same knowledge about the latch, told the truth — because his want was
+  closed. The only difference is the want structure.
+
+  Rung 4 is a repeated game. Mara and Leo act in the same world, alternating. Leo's want is the opposite of Mara's (keep the box shut). The equilibrium is not a Nash
+  equilibrium — it's a threshold crossing. Each time one undoes the other's work, the other's resolve drains. The one who hits zero first gives up. The "equilibrium" is
+  whichever mind outlasts the other, and it depends on reserves and stakes, not on strategic optimization. Doubling Leo's reserve flips the ending (fiction LADDER.md, rung 4:
+  lean-stubborn).
+
+  The chess ladder's rung 3 (two minds on one board, DuelWorld) is the full two-agent game. Both White and Black are Gerundelle minds. Each wants its standing up. Each adapts
+  to the opponent it has:
+  - The thinking Black rarely takes back (34 times vs the rule's 624). After a capture it moves its knight away or plays something else.
+  - White adapts: in the hanging configuration it mostly opens Bxc8 (an even trade against the rule, a won bishop against this Black), not the combination it learned against
+    the rule.
+  - Black meets its want only on White's mistakes (89 times in the base arm, 35 in the full arm where White makes fewer).
+
+  How it differs from game theory specifically:
+
+  - Game theory assumes agents maximize a utility function by choosing strategies. Here, agents don't choose strategies — they learn conditions from experience, set sub-wants,
+    and act on what their evidence supports. The "strategy" is the accumulated constraint convergence, not a plan chosen from a strategy set.
+  - Nash equilibrium assumes rationality and common knowledge. Here, each mind knows only what it has experienced. Leo doesn't compute Mara's optimal strategy — he lies
+    because his wants and hers conflict and a truthful answer would hand the region over. Mara doesn't compute Leo's incentive — she acts on what she's told, retracted when
+    the world contradicts it.
+  - Game theory's signaling games require a signaling cost (Spence's education signal) for honest signaling to survive. Here, dishonesty is detected by the world's feedback
+    (the lie fails, the told receipt is retracted, the teller's record is marked down) and by the asker's own discovery (the real condition, found by contrast, exposes the
+    lie). Trust is a computed quantity: (confirmed + KAPPA/2) / (told + KAPPA), updated by each interaction. There is no signaling cost, only empirical verification.
+  - The repeated game (rung 4) has no discount factor or tit-for-tat strategy. The dynamics are resolve draining under repeated undoing, and the outcome is a threshold
+    crossing. The game-theoretic equilibrium concept doesn't apply — the ending is determined by reserves, not by strategic reasoning.

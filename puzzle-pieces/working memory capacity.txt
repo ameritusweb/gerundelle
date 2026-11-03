@@ -1,0 +1,61 @@
+> Where does Miller's 7±2 (working memory capacity) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Miller (1956, "The Magical Number Seven, Plus or Minus Two"): the number of items a person can hold in working memory at once is about 7, give or take 2. Later work
+  (Cowan, 2001) revised this to about 4 items in the focus of attention. The capacity is a hard limit — you can't hold more items by trying harder. Chunking (grouping items
+  into meaningful units) is how expertise fits more into the same slots: a chess master sees one "position" where a novice sees 25 pieces.
+
+  Params.slots = (7, 5, 4) in molecules.py. The tournament has three levels, with 7 slots at the bottom, 5 in the middle, and 4 at the top. These are literal working-memory
+  slots: each level's winners compete for the next level, and the top level (4 slots) is conscious attention. The numbers are Miller's.
+
+  The same bid equation runs at every level (Mind.think, line ~539: for L, k in enumerate(self.p.slots)). The bid is always:
+
+    activation × (1 + binding_score) + open_site_tension + w_pred × forward + support
+
+  What changes between levels is not the equation but three things:
+
+  1. The competitors: level 0 gets the full pool; level 1 gets only level 0's winners; level 2 gets level 1's winners. Each level narrows the field.
+  2. The experience records are per-level: self.exp[L] holds the Dirichlet counts for pairs at level L. A pair that co-won at level 0 has a different record from the same
+     pair at level 1. The concept map: "the same molecule may resolve to different partners at different tournament levels because each level's experience records differ."
+     A molecule that wins level 0 by binding to partner A might win level 1 by binding to partner B, because the level-1 Dirichlet for (molecule, B) is stronger.
+  3. The number of slots: 7, then 5, then 4.
+
+  So the levels are not different mechanisms — they are the same competition, run on a narrowing field, with level-specific evidence. The narrowing is what makes the top
+  level selective: only what survived two rounds of the same competition reaches conscious attention.
+
+  The scarcity is structural — the tournament cannot expand its slots. The concept map: "The tournament has scarce slots (7 → 5 → 4). Thousands of molecules compete; a
+  handful win. What doesn't win fades." The slots are what makes attention scarce, which is what makes the competition non-trivial, which is what makes the allocation
+  meaningful.
+
+  The system also has separate slot tracks (the user, 2026-10-22: "thoughts, thoughts about thinking, and understanding work compete in separate tracks"):
+
+  - Thought slots: (7, 5, 4) — the main tournament
+  - Meta slots: (3, 2, 2) — thoughts about thinking (Meta class)
+  - SOV slots: (3, 2, 2) — understanding questions (Understanding class)
+  - Phase slots: (2, 1, 1) — emotional phases (Phases class)
+  - Experiment slots: (2, 1, 1) — experiments suggested by Inquiry
+  - Ownership slots: (2, 1, 1) — territory register instances
+
+  Each track's molecules compete only with each other for their own slots. A meta molecule cannot crowd out a regular thought; an emotional phase cannot crowd out an
+  understanding question. This is a structural answer to how a mind can think, feel, reflect, and investigate at the same time without one faculty drowning the others.
+
+  Chunking maps onto composite molecules. When two molecules that resolved to each other as partners both win a level, and a bond molecule acts as an edge between them, the
+  three form a composite (Mind.think, rec["formed"]). The composite is one molecule with the parts of its constituents — a chunk. It enters the pool as one competitor. A chess
+  master's "position" is a composite: many pieces bonded into one structure that occupies one slot instead of many. The concept map: "A bond is a recognition molecule with two
+  binding sites, holding two thoughts together. It can act silently as a structural edge or, when examined, become a conscious thought in its own right."
+
+  The fiction ladder showed the capacity constraint in action. The lean mind's inventory fits in the slot budget: want, condition, push, object, ownership slots. Gerundelle's
+  richer pool (many more molecules from its force world) means more competition for the same number of slots — which is why Gerundelle explores more (more molecules bidding,
+  more ties, more things tried) and takes longer to converge (the condition molecule has to outbid more competitors to stay at the top long enough to settle).
+
+  How it differs from Miller's 7±2 specifically:
+
+  - Miller's number is about items in short-term memory. Here, the 7 is the number of molecules that can win level-0 slots in a single tick. The tournament runs every tick,
+    so the "items in working memory" are the current tick's winners — a snapshot, not a buffer that fills and empties.
+  - Cowan's 4 is the focus of attention. Here, Params.slots[-1] = 4 is the top level — the conscious focus. The match is exact.
+  - Miller's chunking is about encoding — grouping items before they enter working memory. Here, chunking is structural: composites form in the pool from molecules that bind
+    and co-win, and the composite competes as one entity at the next level. The chunk isn't an encoding trick — it's a structural bond that arose from the molecules' own
+    interactions.
+  - The separate tracks (meta, SOV, phase, experiment, ownership) have no analogue in the Miller/Cowan literature. They're a structural claim about how the mind allocates its
+    limited capacity across functions: thinking, reflecting, understanding, feeling, investigating, and owning are all limited, and limited separately.

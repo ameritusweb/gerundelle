@@ -1,0 +1,47 @@
+> Where does memory consolidation fit into the system?
+
+● Here's where it lands in the running system.
+
+  Memory consolidation in neuroscience: memories are not stored in one step. They form in a labile, active state (short-term / working memory), and over time consolidate into
+  a stable, long-term form. The process involves replaying experiences, strengthening some connections and weakening others. Retrieval can reactivate a consolidated memory,
+  making it labile again (reconsolidation).
+
+  The two-phase storage system (memory.py, a port of Gerundelle's two-phase storage from molecules.py) implements this directly:
+
+  Phase 1 — Active pool: molecules compete in the tournament, win or lose slots, have their experience records updated, bind with partners, decay by half-life when they don't
+  win. This is the active, labile state. A thought is in working memory as long as it's in the pool competing.
+
+  Phase 2 — Sealed storage: a molecule with no open sites (nothing left to learn), that has won the top level for three consecutive ticks with flat precision (Mind.settled,
+  Params.dwell = 3, Params.flat = 0.05), precipitates into a box (Mind.new_box). It is sealed with warming keys — the concepts that were active at the time of closure. The
+  concept map: "Settled closure: a molecule with no open sites, that has won the top for three consecutive ticks with flat precision, precipitates into storage. It is sealed
+  with warming keys. The memory is complete because the thought had nothing left to learn."
+
+  Cooling: a box's keys cool with half-life Params.h_site (20 ticks by default). Below Params.cold (0.1), the box is no longer checked. The concept map: "A memory's keys
+  cool over time, halving every 20 ticks. The memory isn't deleted — it's sealed in a case whose words have faded. A strong enough resonance or a direct contradiction can
+  reopen it. Forgetting is the access path cooling, not the content disappearing."
+
+  Reopening (reconsolidation): two mechanisms.
+  - Resonance: if enough of a box's keys are among the current tick's winners (Params.resonance = 0.5: half the keys warm), the box reopens. Its molecule re-enters the pool,
+    active, with its original sites. This is reconsolidation — a stored memory becoming labile again. The fiction ladder's rung 5 measured it: the toy or Leo coming back into
+    view reopens warm boxes, and the reopened grief is told as a memory ("Mara remembered how she had played with the toy").
+  - Contradiction: a box predicts something (its expect tag whenever its when tags are among the winners). If the world answers and the prediction is wrong, the box reopens
+    with surprise set to 0.5 + 0.5 × understanding. This is the prediction-error mechanism: a consolidated memory whose prediction fails is forced back into the active pool.
+
+  Parking: a molecule with too many open sites blocked for too long (Params.park_after ticks with ≥ park_holes open sites) is parked — set aside, neither competing nor stored.
+  A parked molecule whose source returns to the pool re-enters (a phase whose source reappears is refreshed). This is the middle state: not actively competing, not
+  consolidated, waiting for circumstances to change.
+
+  The fiction ladder measured the full cycle:
+  - Rung 5: grief forms (active), cools over time (a few days: keys cooling), fades from active attention (parking), and either reopens when the lost thing returns (resonance:
+    forgiveness) or cools past reach (forgotten, not forgiven). Four endings from one loss, by two numbers: how long it was held, how long it was gone.
+  - Rung 6: a learned condition (how Ben opened the box) is stored after the first scene, carried between scenes by its structure (the gerund skeleton), and recalled in the
+    second scene by shape (Case 2: the bolt in the same gerund as the latch). The recalled condition is funded at half — a hypothesis to test, confirmed by her own tries.
+
+  How it differs from neuroscience consolidation specifically:
+
+  - Neuroscience consolidation involves hippocampal replay during sleep, synaptic tagging, and protein synthesis. Here, the mechanism is structural: a thought with nothing
+    left to learn settles into a box, and the box's keys cool by half-life. No replay is needed — the memory is complete when it settles.
+  - Reconsolidation in neuroscience makes the memory vulnerable to modification or erasure. Here, a reopened box re-enters the pool with its original content intact — it can
+    be updated by new evidence, but the box itself isn't degraded by reopening.
+  - The distinction between forgetting (keys cooling) and decay (a molecule dimming in the active pool) is a structural claim: forgetting is losing the access path, decay is
+    losing the competition. A forgotten memory can be reopened if the right keys warm. A decayed molecule is swept from the pool and its content is gone unless it was stored.

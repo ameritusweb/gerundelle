@@ -1,0 +1,12 @@
+== seals (mover seen): population ['steady', 'steady', 'steady', 'steady']; wants met 0 of 4; anger 0; slices 8000; conservation HOLDS
+mind  temper     reached pushes sealed own/others locked out    claimed jars  sealed by others (anger within 40t)
+Ada   steady          no    259        0/9                26  jar1,jar2,jar3,jar4                           14 (0)
+Ben   steady          no    332        0/8                27  jar1,jar2,jar3,jar4                           15 (0)
+Cal   steady          no    332        0/0                61       jar2,jar4                           16 (0)
+Dee   steady          no    319        0/6                46       jar3,jar4                           10 (0)
+   Ada: phases {'sadness': 1, 'frustration': 9, 'anxiety': 3, 'joy': 9}; anger none; her claimed jars sealed by ['Ben', 'Dee']; locked out by {'Ben': 11, 'Dee': 15}
+   Ben: phases {'frustration': 6, 'joy': 6}; anger none; her claimed jars sealed by ['Ada', 'Dee']; locked out by {'Ada': 21, 'Dee': 6}
+   Cal: phases {'frustration': 10, 'anxiety': 4, 'joy': 3}; anger none; her claimed jars sealed by ['Ada', 'Ben', 'Dee']; locked out by {'Ada': 19, 'Ben': 40, 'Dee': 2}
+   Dee: phases {'joy': 7, 'anxiety': 4, 'frustration': 8, 'sadness': 1}; anger none; her claimed jars sealed by ['Ada', 'Ben']; locked out by {'Ben': 22, 'Ada': 24}
+   jars sealed at the end (jar: keyholder): {'jar1': 'Ada', 'jar3': 'Ada', 'jar4': 'Ben'}
+   reached: []

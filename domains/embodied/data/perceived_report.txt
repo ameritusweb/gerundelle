@@ -1,0 +1,29 @@
+attempts to the first hold, over 20 tie orders (mean, and the worst):
+                                             learning, task 200    the same mug turned      another mug
+  hand-written, fixed sides                         4.0 (max  6)            4.9 (max  9)      2.4 (max  6)
+  hand-written, relational                          4.0 (max  6)            2.1 (max  4)      1.8 (max  5)
+  from perception (distinctive among attempts)         10.1 (max 29)            1.8 (max  4)      2.1 (max  4)
+
+one run from perception, in full (the first tie order):
+  learning, task 200:
+   1. left  handle pinch  ->  a thing knocked tipping   its constraints so far: way:crosses
+   2. right handle wrap   ->  burning                   its constraints so far: way:clear
+   3. near  body   pinch  ->  burning                   its constraints so far: way:clear
+   4. left  rim    wrap   ->  a thing knocked tipping   its constraints so far: way:crosses
+   5. far   rim    hook   ->  spilling                  its constraints so far: touch:rim
+   6. far   rim    pinch  ->  spilling                  its constraints so far: touch:rim
+   7. far   rim    wrap   ->  burning                   its constraints so far: touch:stands-out | touch:middle | touch:edge
+   8. far   handle pinch  ->  slipping                  its constraints so far: grip:pinch touch:stands-out
+   9. far   body   pinch  ->  burning                   its constraints so far: touch:lower | holds:body touch:edge | holds:body touch:middle
+  10. right rim    hook   ->  spilling                  its constraints so far: grip:hook | holds:rim
+  11. far   handle hook   ->  held                    
+  task 201:
+   1. left  handle hook   ->  held                    
+  task 202:
+   1. far   handle hook   ->  held                    
+
+  the constraints it found:
+    a thing knocked tipping  way:crosses
+    burning                  grip:wrap touch:lower   or   came:with-mark   or   grip:wrap holds:body   or   holds:body touch:middle
+    slipping                 grip:pinch touch:stands-out
+    spilling                 grip:hook touch:rim   or   holds:rim

@@ -1,0 +1,12 @@
+== marked locks: population ['steady', 'restless', 'patient', 'dogged']; wants met 0 of 4; anger 0; slices 6792; conservation HOLDS
+mind  temper     reached pushes shut own/others locked out   pushes on others locks (1st/2nd half)  own  conditions naming a keeper
+Ada   steady          no    200       0/4               45                                  (3, 0)    2  []
+Ben   restless        no    228       5/15              15                                 (14, 0)   19  []
+Cal   patient         no    131       0/0               21                                  (0, 0)    0  []
+Dee   dogged          no    187       2/6               44                                 (13, 0)    8  []
+   Ada: phases {'joy': 7, 'frustration': 6, 'anxiety': 2}; locked out by {'Ben': 44, 'Dee': 1}
+   Ben: phases {'frustration': 9, 'joy': 9, 'anxiety': 2, 'sadness': 1}; locked out by {'Ada': 14, 'Dee': 1}
+   Cal: phases {'frustration': 6, 'joy': 6, 'anxiety': 1, 'resignation': 1}; locked out by {'Ben': 21}
+   Dee: phases {'joy': 5, 'frustration': 4}; locked out by {'Ben': 38, 'Ada': 6}
+   lids shut at the end (lid: keyholder): {'lid1': 'Ben', 'lid2': 'Ada', 'lid3': 'Ada'}
+   reached: []

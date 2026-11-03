@@ -1,0 +1,2369 @@
+{
+ "label": "carried_patient",
+ "reached": false,
+ "gave_up": true,
+ "ticks": 121,
+ "pushes": 19,
+ "conservation": true,
+ "powers": {
+  "drew": 2,
+  "hopped": 1,
+  "unmade": 1
+ },
+ "splits": {
+  "hard_push:skiff_resting": "jar_charged",
+  "hard_push:skiff_resting|not_jar_charged": "jar_brimming",
+  "hard_push:skiff_moored": "flask_empty"
+ },
+ "ledger": [
+  {
+   "t": 0,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 1,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 2,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 3,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 4,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 5,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 6,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 7,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 8,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 9,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 10,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 11,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 12,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 13,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 14,
+   "field": 0.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 15,
+   "field": 0.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 16,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 17,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 18,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 19,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 20,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 21,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 22,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 23,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 24,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 25,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 26,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 27,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 28,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 29,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 30,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 31,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 32,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 33,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 34,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 35,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 36,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 37,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 38,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 39,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 40,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 41,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 42,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 43,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 44,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 45,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 46,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 47,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 48,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 49,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 50,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 51,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 52,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 53,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 54,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 55,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 56,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 57,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 58,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 59,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 60,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 61,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 62,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 63,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 64,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 65,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 66,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 67,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 68,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 69,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 70,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 71,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 72,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 73,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 74,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 75,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 76,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 77,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 78,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 79,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 80,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 81,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 82,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 83,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 84,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 85,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 86,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 87,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 88,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 89,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 90,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 91,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 92,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 93,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 94,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 95,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 96,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 97,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 98,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 99,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 100,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 101,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 102,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 103,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 104,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 105,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 106,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 107,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 108,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 109,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 110,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 111,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 112,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 113,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 114,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 115,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 116,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 117,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 118,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 119,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 120,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 121,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  }
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "pool",
+   "detail": {
+    "gerund": "dry"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "flask",
+   "detail": {
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "basin",
+   "detail": {
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "husk",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "skiff",
+   "detail": {
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_returning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 4,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    7
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.875,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    9
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    11
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 16,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "moored",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_moored",
+     "skiff_propelling"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    17
+   ]
+  },
+  {
+   "t": 26,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.55,
+   "refs": []
+  },
+  {
+   "t": 27,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 31,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 37,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 37,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 38,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4540229885057472,
+   "refs": []
+  },
+  {
+   "t": 44,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 44,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    32
+   ]
+  },
+  {
+   "t": 45,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 51,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 51,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    35
+   ]
+  },
+  {
+   "t": 53,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    38
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "resting",
+    "to": "unmaking",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "unmaking",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 65,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "pool",
+   "detail": {
+    "from": "dry",
+    "to": "glimmering",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 66,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:husk",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 68,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    37
+   ]
+  },
+  {
+   "t": 71,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.36571428571428577,
+   "refs": []
+  },
+  {
+   "t": 71,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    46
+   ]
+  },
+  {
+   "t": 77,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 77,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    48
+   ]
+  },
+  {
+   "t": 78,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4673076923076924,
+   "refs": []
+  },
+  {
+   "t": 82,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:husk",
+   "obj": "husk",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "husk"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.34285714285714286,
+   "refs": []
+  },
+  {
+   "t": 83,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    52
+   ]
+  },
+  {
+   "t": 89,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 89,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    54
+   ]
+  },
+  {
+   "t": 95,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.38,
+   "refs": []
+  },
+  {
+   "t": 95,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    56
+   ]
+  },
+  {
+   "t": 101,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.36571428571428577,
+   "refs": []
+  },
+  {
+   "t": 101,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    58
+   ]
+  },
+  {
+   "t": 107,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.32619047619047614,
+   "refs": []
+  },
+  {
+   "t": 107,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    60
+   ]
+  },
+  {
+   "t": 113,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.32619047619047614,
+   "refs": []
+  },
+  {
+   "t": 113,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 120,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 120,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    64
+   ]
+  },
+  {
+   "t": 121,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "resignation",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.9130434782608696,
+   "refs": []
+  }
+ ]
+}

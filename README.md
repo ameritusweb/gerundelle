@@ -193,26 +193,20 @@ and getting the attention they deserve.
 ```
 formalization/          Lean 4 proofs (24 files, 301 theorems)
   SOV/                  The SOV algebra and its layers
-  lakefile.lean         Build configuration
+  lakefile.toml         Build configuration
   lean-toolchain        Lean version
 
 paper/                  The academic paper
   gerundelle.tex        LaTeX source
+  gerundelle.pdf        The paper
   refs.bib              Bibliography
 
-book/                   Building Gerundelle (the book)
-  section_*.json        Chapter sources
-  appendix_*.json       Appendix sources
-  preface.json          Preface
-  figures/              13 figures (SVG + PNG)
-  build_book.py         Print typesetter (ReportLab)
-  build_epub.py         EPUB builder
-
-writing/                The museum galleries
-  galleries/            12 dream sequences, one per chapter
+book/                   The Museum of Gerundelle (the book)
+  gerundelle.pdf        Print edition (262 pages)
+  gerundelle.epub       EPUB edition
 
 reference/              The reference implementation
-  molecules.py          The thought-molecule tournament (3,852 lines)
+  molecules.py          The thought-molecule tournament
   sov_agent.py          The SOV agent
   force_world.py        The force world
   curriculum_worlds.py  The curriculum
@@ -220,9 +214,11 @@ reference/              The reference implementation
 domains/                Domain-specific worlds and ladders
   fiction/              The fiction pipeline (rungs 0-7, both arms)
   cognitivecode/        The cognitive code ladder (rungs 0-8)
-  cognitivechess/       The chess ladder (rungs 0-1c)
-  civilization/         The civilization track (rungs P0-P5)
+  cognitivechess/       The chess ladder (rungs 0-3)
+  civilization/         The civilization track (rungs P0-P14)
   embodied/             Embodied cognition (distinctiveness, recognition, grasping)
+
+puzzle-pieces/          How external concepts map onto the running system
 ```
 
 ## Quick start
@@ -236,14 +232,9 @@ lake build
 
 If it compiles, every theorem holds.
 
-### Build the book
+### Read the book
 
-```bash
-pip install reportlab pyphen pypdf svglib pymupdf
-cd book
-python build_book.py --out gerundelle.pdf
-python build_epub.py
-```
+The finished book is in `book/gerundelle.pdf` (print edition) and `book/gerundelle.epub`.
 
 ### Run a domain
 

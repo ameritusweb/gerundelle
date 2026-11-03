@@ -1,0 +1,40 @@
+> Where does appraisal theory of emotion fit into the system?
+
+● Here's where it lands in the running system.
+
+  Appraisal theory (Lazarus 1991, Scherer 2001, OCC model 1988): emotions arise from cognitive evaluations of events relative to the agent's goals and concerns — not from the
+  events themselves. The same event produces different emotions depending on how the agent appraises it: goal-relevant or not, goal-congruent or not, who caused it, whether
+  coping is possible.
+
+  Emotions in Gerundelle are read off the ownership register (Territory and Phases.graph in molecules.py). Every mind has a territory: slots it holds, slots it has lost, slots
+  it contests. Emotions are phase transitions in a graph anchored on those slots:
+
+  - Joy: a claim takes on a wanted region (Territory.had; fiction rung 0: "Mara was delighted with the latch").
+  - Frustration: a push doesn't move what the mind controls (fiction rung 0: Mara on the lid).
+  - Curiosity: an unclaimed region (ownership.py; fiction rung 0: "Mara wondered what the latch did").
+  - Anger: another's act blocked the want. Stage-6 anger: a mover who keeps leaving one's region in the same state — purposeful, grounded (fiction rung 4: "Mara grew angry
+    with Leo" — Leo keeps re-seating the latch she undid). Anger at a liar whose word failed (fiction rung 3).
+  - Sadness: something held is lost. Scales with how much was held: pull = 1 + held count. One interaction: "Mara felt sad." Four: "Mara was heartbroken." (fiction rung 5).
+  - Resignation: an internal reserve drains to zero. Each time another undoes what the mind held, the reserve drops by 1 / the pull of the slot. At zero: "Mara gave up,
+    resigned." (fiction rung 4). Doubling one character's reserve flips the ending.
+  - Gratitude: a want met by a non-rival's act (fiction rung 6: "Mara thanked Ben").
+  - Forgiveness: a grudge (anger stored open with the lost thing as its goal) closes when the thing is held again (fiction rung 5: "Mara forgave Leo").
+
+  These are not authored. They fall out of the territory dynamics. The fiction ladder measured every one: rung 0 ablations showed that removing phases (lean-nophase) dropped
+  Gerundelle's narrative arc from 1.00 to 0.50. Rung 4's contest produced anger running both ways between Mara and Leo — no roles, just each undoing the other's region. Rung
+  5's grief scaled with held count, exactly.
+
+  How it differs from appraisal theory specifically:
+
+  - Appraisal theories typically list discrete appraisal dimensions (goal relevance, goal congruence, coping potential, agency) and map combinations to emotion labels. Here,
+    the dimensions are structural: held / contested / lost / unclaimed are states of a territory slot, and the emotions are phase transitions in a graph read off those states.
+    No lookup table.
+  - The paper's claim goes further: perception and affect are instances of the same mathematical structure — factorization through a view. Perception factors through the
+    Umwelt (the world simplified by the agent's invariances). Affect factors through the ownership register (the territory the agent perceives as its own). A theorem proves
+    the connection. Appraisal theory doesn't connect perception and emotion as instances of the same property.
+  - Appraisal theory doesn't account for grief scaling with history, or forgiveness as a structural closure, or the difference between forgiveness (the grudge's goal met while
+    warm) and forgetting (the grudge's keys cooled past reach). Here, these are measured consequences of the same mechanism: rung 5's four endings from one loss, by two
+    numbers (how long it was held, how long it was gone).
+  - Prior art (the paper's report): logical formalizations of OCC exist (Adam et al. 2009), and answer-set-programming verification of appraisal trajectories
+    (Brännström & Nieves 2025). Joffily & Coricelli 2013 defined valence as the rate of change of free energy. These are the closest precedents. None connects perception and
+    affect as the same property.

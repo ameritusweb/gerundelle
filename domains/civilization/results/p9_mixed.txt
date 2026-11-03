@@ -1,0 +1,26 @@
+== locks, sub-wants off: population ['steady', 'restless', 'patient', 'dogged']; wants met 0 of 4; anger 0; slices 6792; conservation HOLDS
+mind  temper     reached gave up pushes   own changed  shut own/others blocked (by others/self)  phases
+Ada   steady          no      no    198  0.64       8        0/0               66 (66/0)          {'anxiety': 2, 'frustration': 6, 'joy': 6}
+Ben   restless        no      no    213  0.27      32        6/11              41 (15/26)          {'joy': 8, 'frustration': 9, 'anxiety': 2, 'sadness': 1}
+Cal   patient         no     yes    131  0.50       3        0/0               21 (21/0)          {'joy': 6, 'frustration': 6, 'resignation': 1, 'anxiety': 1}
+Dee   dogged          no      no    173  0.38      14        1/4               40 (40/0)          {'joy': 4, 'frustration': 4}
+   Ada was locked out by {'Ben': 63, 'Dee': 3}
+   Ben was locked out by {'Dee': 15}
+   Cal was locked out by {'Ben': 21}
+   Dee was locked out by {'Ben': 40}
+   lids shut at the end (lid: keyholder): {'lid1': 'Ben', 'lid3': 'Dee', 'lid4': 'Dee'}
+   reached: []
+
+== locks, sub-wants on: population ['steady', 'restless', 'patient', 'dogged']; wants met 0 of 4; anger 0; slices 6792; conservation HOLDS
+mind  temper     reached gave up pushes   own changed  shut own/others blocked (by others/self)  phases
+Ada   steady          no      no    198  0.64       8        0/0               66 (66/0)          {'anxiety': 2, 'frustration': 6, 'joy': 6}
+Ben   restless        no      no    213  0.27      32        6/11              41 (15/26)          {'joy': 8, 'frustration': 9, 'anxiety': 2, 'sadness': 1}
+Cal   patient         no     yes    131  0.50       3        0/0               21 (21/0)          {'joy': 6, 'frustration': 6, 'resignation': 1, 'anxiety': 1}
+Dee   dogged          no      no    173  0.38      14        1/4               40 (40/0)          {'joy': 4, 'frustration': 4}
+   Ada was locked out by {'Ben': 63, 'Dee': 3}
+   Ben was locked out by {'Dee': 15}
+   Cal was locked out by {'Ben': 21}
+   Dee was locked out by {'Ben': 40}
+   lids shut at the end (lid: keyholder): {'lid1': 'Ben', 'lid3': 'Dee', 'lid4': 'Dee'}
+   reached: []
+

@@ -1,0 +1,31 @@
+> Where does Kahneman's System 1 / System 2 fit into the system?
+
+● Here's where it lands in the running system.
+
+  Kahneman's dual-process model (Thinking, Fast and Slow, 2011): System 1 is fast, automatic, effortless — pattern recognition, intuition, the immediate answer. System 2 is
+  slow, deliberate, effortful — conscious reasoning, working through a problem step by step.
+
+  The learning curve in the concept map traces the transition explicitly: "A mind that knows nothing scans: every candidate tried, every failure uninformative (cognitivecode
+  rung 0: 66 tries). A mind that was told a condition scans less: it knows what to look for (rung 2: 61 tries, 2 runs). A mind that recalls a shape barely searches at all:
+  the past turns a blind scan into a guided handful (rung 5b: 3 tries). A mind with a fully cached convergence doesn't search: the resonance fires from storage in one tick
+  (muscle memory). The cost of search is proportional to the mind's ignorance — the number of unfunded slots — not to the size of the solution space."
+
+  System 1 is a cached constraint convergence: the mind has seen enough failures to fund every constraint, and the solution fires from storage. System 2 is the active
+  tournament: molecules competing, experiments run, constraints being learned. They're not two systems. They're the same system at different points on the learning curve.
+
+  The chess ladder's rung 1d measured the transition directly. In the first half, the mind learns constraints from failures (System 2: deliberate, each failure informative).
+  In the second half, 87 of 100 new positions are solved at the first attempt (System 1: the constraints converge and the answer is noticed without search). The mechanism is
+  candidate support in superposition (Params.support = "candidates"): each constraint learned from a different failure binds to the untried move that clears them all. Not
+  searched for. Recognized. The measured numbers: first half mean 6.47 attempts, second half 1.82, 87 of 100 at the first attempt.
+
+  How it differs from Kahneman specifically:
+
+  - Kahneman's System 1 can't explain itself — it produces an answer but not a reason. Here, a cached convergence carries its receipts: "these five failures revealed these
+    five constraints, and this solution is the only one that survives all of them." The fast answer IS the explanation. Understanding is inspectable (concept map: "Every slot
+    has receipts. Every receipt has provenance. Every condition has the failures that revealed it").
+  - Kahneman treats the two systems as separate architectures that sometimes conflict (the famous bat-and-ball problem: System 1 gives the wrong answer, System 2 corrects it).
+    Here, they're one architecture at different stages of the same process. There's no conflict — only a transition from search to recognition as understanding grows. A wrong
+    fast answer means the constraints were learned from too few failures (an over-general constraint from too coarse a perception: rung 1d finding 4, the queen mate at 36-37
+    attempts because "a check on a guarded square is taken" was learned from cases where the queen was not backed).
+  - Kahneman's framework has no account of how System 1 patterns are formed. Here, the formation is the ladder: each failure reveals a constraint, the constraints accumulate,
+    and when enough of them converge on one candidate, the mind transitions from search to recognition. The formation is the learning. System 1 is what System 2 becomes.

@@ -1,0 +1,49 @@
+> Where does information-theoretic suspense (Ely, Frankel & Kamenica) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Ely, Frankel & Kamenica (2015, "Suspense and Surprise", Journal of Political Economy): suspense is the expected variance of the audience's next belief update — how much the
+  audience expects its beliefs to change. A Bayesian audience whose beliefs are a martingale feels suspense proportional to E[(μ_{t+1} − μ_t)²]. Surprise is the realized
+  magnitude of the update. Suspense is prospective (before the reveal); surprise is retrospective (after it).
+
+  The fiction ladder's rung 7 implemented a multi-endpoint reader model (rung7.py) that tracks the reader's distribution over endings, sentence by sentence:
+
+  - The reader: an open variable over endings. At each sentence, the stories consistent with the text so far (a trie over beat sequences) give a distribution over endings,
+    weighted by a uniform cast prior and the reader's expectation of authored events (EVENT 0.08 per available move per round, a genre prior).
+  - Entropy curve: the entropy of that distribution at each sentence. Suspense is entropy held late — uncertainty that persists deep into the story.
+  - The author's score: value = held × max(rise, 0). Held = entropy weighted by position (i/N): uncertainty kept late in the story. Rise = P(the ending that happens) just
+    before it is certain, minus its prior: from unlikely to inevitable.
+
+  The measured results (fiction LADDER.md, rung 7), the chosen story (cast Mara 2, Leo 4; no author moves; value 1.023):
+
+  | sentence                          | reader distribution after it                                        |
+  | 1-8 (frame, want)                 | help .53, outlast .22, behind .20, outlasted .05                     |
+  | "Mara grew tired of the latch."   | help .49, outlasted .43, behind .09, outlast 0                       |
+  | "Leo grew tired of the latch."    | outlasted .55→.77, help .28→.15                                      |
+  | "Mara pushed the latch hard."     | outlasted .92, help .08                                              |
+  | "Mara gave up, resigned."         | outlasted 1.00                                                       |
+
+  The endings close from the outside in, by themselves: the least likely ending falls first (outlast, when Mara tires), then behind, then help, then the close. Nothing orders
+  them; the order is the reader's distribution read sentence by sentence.
+
+  The prior-art report (formal_narrative.md) positions this against the literature: "A reviewer will expect Ely et al. to be cited for the probability-trajectory view of
+  suspense, and the paper should state precisely how 'suspense held late × rise of the ending's probability' relates to E[(μ_{t+1}−μ_t)²]: Ely et al. model a Bayesian
+  audience whose beliefs are a martingale, so the ending's probability cannot 'rise' in expectation; the paper's score evaluates a realized trajectory."
+
+  How it differs from Ely et al. specifically:
+
+  - Ely et al.'s audience is a Bayesian agent whose beliefs are a martingale — the expected belief tomorrow equals today's belief. The score is the expected variance of the
+    next update. Here, the reader model is a trie over beat sequences: it knows every story the author could have told (it has simulated the tree of 350 stories) and tracks
+    which endings are consistent with the text so far. The beliefs are not a martingale — they shift as the text reveals information. The score evaluates the realized
+    trajectory, not the expected next update.
+  - Ely et al. define suspense and surprise as separate quantities (prospective vs retrospective). Here, the two are combined in one score: value = held × max(rise, 0). Held
+    is the entropy trajectory (suspense-like: how much uncertainty persists). Rise is the ending's probability change (surprise-like: how unlikely the ending was before it
+    became certain). A story with high held and high rise has both suspense and surprise. A story with high held but negative rise (the ending was likely all along, then grew
+    less likely before it happened) scores zero — a fizzle.
+  - Ely et al. don't model what generates the signal the audience tracks. Here, the signal comes from simulated minds: Mara and Leo act in a world, their reserves drain, their
+    choices are determined by their understanding and their wants. The reader's distribution shifts because the characters' internal states (which the reader can't see) produce
+    visible actions (which the reader can see). The information asymmetry between the reader and the characters is structural: the reader doesn't know the cast (Mara's reserve
+    is 2 or 4), but sees the signs (tiredness, when reserves pass half).
+  - Other suspense models in the literature: Gerrig & Bernardo (1994, escape plans), O'Neill & Riedl (2014, protagonist's best plan), Cheong & Young (2015, maximizing suspense
+    from reader-plan counts), Doust & Piwek (2017). All model suspense from the protagonist's options. Here, suspense comes from the reader's open variable over multiple
+    endings — which can include the protagonist losing, a helper intervening, or the antagonist prevailing. The reader tracks every ending, not just the protagonist's escape.

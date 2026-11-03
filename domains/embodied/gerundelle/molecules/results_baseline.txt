@@ -1,0 +1,244 @@
+PASS  T1 earworm
+    [ok] completion stored, out of reach: {'top_o_before': 15, 'top_cl_before': 0, 'parked_at': None, 'reopened_at': None, 'closed_at': 15}
+    [ok] nothing could complete it: {'top_o_before': 4, 'top_cl_before': 0, 'parked_at': 3, 'reopened_at': 15, 'closed_at': 16}
+    [ok] T=0: {'top_o_before': 0, 'top_cl_before': 0, 'parked_at': None, 'reopened_at': None, 'closed_at': None}
+PASS  T2 rehearsal
+    [ok] rehearsed every 3 ticks: {'top_wins': 7, 'settled_at': 5, 'in_storage': True}
+    [ok] not rehearsed: {'top_wins': 2, 'settled_at': 22, 'in_storage': True}
+PASS  T3 bond dependency
+    [ok] recognition present: {'composite': True, 'formed': 5}
+    [ok] recognition absent: {'composite': False, 'formed': 0}
+PASS  T4 support
+    [ok] all supports: {'trace': 'xxxxxxxx'}
+    [ok] rain_is_weather never present: {'trace': '........'}
+    [ok] rain_is_weather removed at tick 1: {'trace': 'x.......'}
+PASS  T5 level divergence
+    [ok] different level-1 / level-2 records: {'L1': ('partner', 'x_thought'), 'L2': ('partner', 'y_thought')}
+    [ok] identical records: {'L1': ('partner', 'x_thought'), 'L2': ('partner', 'x_thought')}
+PASS  T6 bond role
+    [ok] question present: {'roles_L0': ['partner', 'edge', 'edge'], 'slot_wins': 1, 'top_wins': 1}
+    [ok] no question: {'roles_L0': ['edge', 'edge'], 'slot_wins': 0, 'top_wins': 0}
+PASS  T7 repulsion
+    [ok] call fails in rain (true rule): {'cowins_per_episode': [4, 4, 4, 4, 4, 4, 4, 4, 4, 2], 'call_her_other_cowins': 109, 'calls': 3, 'answered': [False, False, False, False, False, False, False, False, False, False], 'mu_L0': 0.18, 'base_call': -0.78}
+    [ok] call succeeds in rain: {'cowins_per_episode': [11, 6, 3, 3, 3, 3, 3, 3, 3, 3], 'call_her_other_cowins': 169, 'calls': 15, 'answered': [True, True, True, True, True, True, True, True, True, True], 'mu_L0': 0.71, 'base_call': 0.0}
+PASS  T8 novelty
+    [ok] n=0.3: {'picks': ['new', 'new', 'worn', 'worn', 'worn', 'worn', 'worn', 'worn']}
+    [ok] n=0: {'picks': ['worn', 'worn', 'worn', 'worn', 'worn', 'worn', 'worn', 'worn']}
+PASS  T9 not a lazy singleton
+    [ok] different present state: {'state1': 'x_thought', 'state2': 'y_thought'}
+    [ok] same state again: {'state1': 'x_thought', 'state1_again': 'x_thought'}
+PASS  T10 top level learns
+    [ok] 2 top slots: {'top_pairs_learned': 12}
+    [ok] 1 top slot: {'top_pairs_learned': 0}
+PASS  T11 recognition from surprise
+    [ok] call fails in rain: {'call_recognitions': ['it_is_raining~call:worse', 'it_is_sunny~call:better'], 'late_call_rewards': [('rain', []), ('sun', [1.0]), ('rain', []), ('sun', [1.0])]}
+    [ok] call succeeds in rain: {'call_recognitions': [], 'late_call_rewards': [('rain', [1.0]), ('sun', [1.0]), ('rain', [1.0]), ('sun', [1.0])]}
+PASS  T12 success
+    [ok] x has 5 prior top-level wins: {'gone_with': 26, 'gone_without': 12}
+    [ok] off: {'a_success': 0.0, 'reentry': 0.0}: {'gone_with': 12, 'gone_without': 12}
+PASS  T13 surprise
+    [ok] x's arrival is surprising: {'gone_with': 14, 'gone_without': 12}
+    [ok] off: {'a_surprise': 0.0}: {'gone_with': 12, 'gone_without': 12}
+PASS  T14 novelty
+    [ok] x is structurally unique; y is like the background: {'gone_with': 25, 'gone_without': 12}
+    [ok] off: {'a_novelty': 0.0}: {'gone_with': 12, 'gone_without': 12}
+PASS  T15 blocked momentum
+    [ok] x is pulled toward an absent partner: {'gone_with': 22, 'gone_without': 12}
+    [ok] off: {'a_blocked': 0.0}: {'gone_with': 12, 'gone_without': 12}
+PASS  T16 closure and re-opening
+    [ok] closure on: {'closed_at': 3, 'reopened_at': 20, 'in_box': True, 'absent_between': True}
+    [ok] closure off: {'closed_at': None, 'reopened_at': None, 'in_box': False, 'absent_between': None}
+PASS  T17 hole brings back a box
+    [ok] p boxed: {'reopened': [('p_thought', 'hole of x_thought')], 'bonded': True}
+    [ok] p not stored: {'reopened': [], 'bonded': False}
+PASS  T18 rationalization
+    [ok] rationalize at 0.6: {'closed': [('why_only_sunny_calls', 'rationalized')], 'keys': ['she_is_moody'], 'rationalized': True, 'reopened': False}
+    [ok] rationalize off: {'closed': ['she_is_moody'], 'keys': ['she_works_outdoors'], 'rationalized': False, 'reopened': True}
+PASS  T19 contradiction
+    [ok] prediction tested: {'reopened_at': 3}
+    [ok] never tested: {'reopened_at': None}
+PASS  T20 told vs learned
+    [ok] told: {'recognition_reopens': False, 'contradiction_reopens': True}
+    [ok] decomposed first: {'told': False, 'keys': ['my_lunch_hour', 'office_rules'], 'recognition_reopens': True}
+PASS  T21 three endings
+    [ok] 1 not decomposed: {'in_pool': False, 'told': True, 'keys': 0, 'parked': False, 'open_sites': 0}
+    [ok] 2 decomposed, pool fills it: {'in_pool': False, 'told': False, 'keys': 2, 'parked': False, 'open_sites': 0}
+    [ok] 3 decomposed, nothing fills it: {'in_pool': False, 'told': False, 'keys': 2, 'parked': True, 'open_sites': 0}
+PASS  T22 rumination
+    [ok] no parking: {'holes_in_pool': 10, 'parked': 0}
+    [ok] parking: {'holes_in_pool': 0, 'parked': 23}
+PASS  T23 keys are sites
+    [ok] filler carries the tag: {'reopened': True}
+    [ok] no tag: {'reopened': False}
+PASS  T24 two forgettings
+    [ok] box intact, usual site cold: {'usual_cue': False, 'retracing': True}
+    [ok] box never formed: {'usual_cue': False, 'retracing': False}
+    [ok] site never cold: {'usual_cue': True, 'retracing': False}
+PASS  T25 quiet room
+    [ok] world silent: {'settled_at': 12, 'period': 1, 'generated': 4}
+    [ok] world on: {'settled_at': None, 'period': None, 'generated': 3}
+PASS  T26 boredom
+    [ok] n=0.3: {'surprise_early': 0.216, 'surprise_late': 0.059, 'novelty_share_early': 0.236, 'novelty_share_late': 0.509}
+    [ok] n=0: {'surprise_early': 0.242, 'surprise_late': 0.062, 'novelty_share_early': 0.0, 'novelty_share_late': 0.0}
+PASS  T27 shower moment
+    [ok] quiet: {'reopened_at': 13}
+    [ok] busy: {'reopened_at': None}
+    [ok] n=0: {'reopened_at': None}
+    [ok] cold: {'reopened_at': None}
+PASS  T28 conversation
+    [ok] keys shown: {'told': False, 'keys': 2, 'recognition_reopens': True}
+    [ok] bare clause: {'told': True, 'keys': 0, 'recognition_reopens': False}
+PASS  T29 partner search
+    [ok] A=8 vs full search: {'results_identical': True, 'tick_full': 0.4, 'tick_A8': 0.031, 'speedup': 13.1}
+PASS  T30 perceived clauses
+    [ok] bigger world, 6 episodes: {'clauses': 122, 'percepts': 13, 'unexplained': []}
+FAIL  T31 several unknown rules
+    [ok] person's rules lack the four: {'rewards': [-2.4, 0.4, -0.3, -1.5, 0.4, 1.2, -1.9, 0.4, 1.7, -1.0, 2.0, 0.4, -1.0, 2.0, 0.4, -2.5, 0.4, 1.2], 'first4': -0.95, 'last4': -0.13, 'rules_recognized': ['friend_sun', 'store_closes', 'sun_call'], 'recognitions_formed': 15, 'held_at_end': 12}
+    [NO] person's rules have them: {'rewards': [-2.1, 2.0, 1.1, 0.4, 3.0, 1.6, -1.4, 2.0, 1.0, -0.5, 2.0, 1.4, 0.1, 1.8, 0.4, -0.2, 3.0, 2.0], 'first4': 0.35, 'last4': 1.3, 'rules_recognized': [], 'recognitions_formed': 0, 'held_at_end': 0}
+PASS  T32 events arrive
+    [ok] events on: {'arrived': {'she_says_call_me': 45, 'someone_calls_my_name': 12, 'a_storm_rolls_in': 20, 'my_friend_asks_me_over': 52, 'we_need_groceries': 34, 'the_phone_rings': 15}, 'in_pool': ['a_storm_rolls_in', 'my_friend_asks_me_over', 'she_says_call_me', 'someone_calls_my_name', 'the_phone_rings', 'we_need_groceries'], 'unexplained': []}
+    [ok] voices only: {'arrived': {'she_says_call_me': 42, 'we_need_groceries': 45, 'my_friend_asks_me_over': 33}, 'in_pool': ['my_friend_asks_me_over', 'she_says_call_me', 'we_need_groceries'], 'unexplained': []}
+PASS  T33 responses learned
+    [ok] event rules unknown: {'answered_first6': 0.2, 'answered_last6': 0.83, 'event_recognitions': [], 'response_base': {'pick_up': 0.83, 'answer_voice': 0.25}}
+    [ok] event rules known: {'answered_first6': 0.86, 'answered_last6': 1.0, 'event_recognitions': [], 'response_base': {'pick_up': 0.0, 'answer_voice': 0.0}}
+PASS  T34 experiences are thought about
+    [ok] before vs after understanding: {'before_understood': '30/47', 'after_understood': '0/0', 'rate_before': 0.64, 'rate_after': None}
+PASS  T35 meta audit
+    [ok] meta on: {'missing_formed': [], 'missing_won': [], 'ops': ['conflation closed', 'differentiated', 'no boundary', 'novelty doubled', 'parked', 'unified']}
+    [ok] muted: {'missing_formed': ['distinction'], 'won': [], 'ops': []}
+PASS  T36 noticing gates the operation
+    [ok] meta on: {'parked_at': 3, 'still_open_in_pool': False, 'ops': ['op:parked']}
+    [ok] muted: {'parked_at': None, 'still_open_in_pool': True, 'ops': []}
+PASS  T37 mirror trap
+    [ok] funding on: {'q1': {'earned': [5, 0], 'last_in_pool': 29}, 'q2': {'earned': [1, 1], 'last_in_pool': 8}, 'q2_reopened': True}
+    [ok] funding off: {'q1': {'earned': [2, 0], 'last_in_pool': 13}, 'q2': {'earned': [1, 1], 'last_in_pool': 13}, 'q2_reopened': True}
+PASS  T38 conflation
+    [ok] meta on: {'split_on': 'it_is_raining', 'halves': ['call_her_thought|it_is_raining', 'call_her_thought|not_it_is_raining'], 'distinction_confirmed': 22, 'accuracy_last10': 1.0}
+    [ok] conflation knocked out: {'accuracy_last10': 0.0}
+PASS  T39 collapse
+    [ok] meta on: {'split': False, 'x_back': True, 'halves_in_pool': []}
+    [ok] muted: {'split': True, 'x_back': False, 'halves_in_pool': ['x_thought|windy']}
+PASS  T40 understanding worked out
+    [ok] SOV molecules cued: {'level': 0.2, 'co_occurs': ['clouds'], 'causes': ['i_got_wet']}
+    [ok] none cued: {'level': 0.0, 'records_present': True}
+PASS  T41 questions from open slots
+    [ok] rain poorly understood: {'first': (7, ['q:caused_by:it_is_raining'], ('caused_by', 'role', 'conditions'))}
+    [ok] rain fully understood: {'asked': []}
+PASS  T42 questions answered
+    [ok] evidence: {'answered': ['q:causes:it_is_raining'], 'still_open': ['q:caused_by:it_is_raining', 'q:conditions:it_is_raining', 'q:role:it_is_raining']}
+    [ok] no evidence: {'answered': []}
+PASS  T43 confidence in action
+    [ok] rain poorly vs well understood: {'poor': -0.15, 'well': -0.367}
+    [ok] goal poorly vs well understood: {'poor': 0.133, 'well': -0.367}
+PASS  T44 closure guarded
+    [ok] partner poorly understood: {'closed': ['she_is_moody']}
+    [ok] partner well understood: {'closed': [('why_only_sunny_calls', 'rationalized')]}
+PASS  T45 speech by understanding
+    [ok] seen: {'states': [('causes', 'i_got_wet')], 'hedges': [], 'asks': ['caused_by', 'co_occurs', 'role', 'conditions']}
+    [ok] told: {'states': [], 'hedges': [('causes', 'i_got_wet')], 'asks': ['caused_by', 'co_occurs', 'role', 'conditions']}
+PASS  T46 structure match
+    [ok] target: {'score': 1.0, 'mapping': {'A': 'latch_released', 'B': 'lever_moves', 'C': 'door_opens'}}
+    [ok] reversed target: {'score': 0.5}
+    [ok] co-occurrence only: {'score': 0.0}
+PASS  T47 analogy from experience
+    [ok] two chains: {'per_seed': [1, 1, 1, 1, 1], 'correct': 5}
+    [ok] chain and fork: {'abstracts_per_seed': [0, 0, 0, 0, 0]}
+PASS  T48 transfer
+    [ok] after the analogy: {'per_seed': [[('metabolism_proceeds', 'causes'), ('nutrient_available', 'caused_by')], [('metabolism_proceeds', 'causes'), ('nutrient_available', 'caused_by')], [('metabolism_proceeds', 'causes'), ('nutrient_available', 'caused_by')], [('metabolism_proceeds', 'causes'), ('nutrient_available', 'caused_by')], [('metabolism_proceeds', 'causes'), ('nutrient_available', 'caused_by')]]}
+    [ok] no analogy: {'per_seed': [[], [], [], [], []]}
+PASS  T49 a world teaches its target
+    [ok] honest world: {'intended': [1.0, 1.0, 1.0, 1.0, 1.0]}
+    [ok] shortcut world: {'intended': [0.5, 0.5, 0.5, 0.5, 0.5]}
+PASS  T50 analogy across generated domains
+    [ok] three gate domains: {'per_seed': [True, True, True, True, True]}
+    [ok] gate and two chains: {'gate_kept_apart': [True, True, True, True, True]}
+PASS  T51 adaptive curriculum
+    [ok] adaptive: {'per_seed': [{'worlds': 5, 'learned': [1.0, 1.0, 1.0]}, {'worlds': 4, 'learned': [1.0, 1.0, 1.0]}, {'worlds': 3, 'learned': [1.0, 1.0, 1.0]}]}
+    [ok] round robin: {'per_seed': [{'worlds': 9, 'learned': [1.0, 1.0, 1.0]}, {'worlds': 9, 'learned': [1.0, 1.0, 1.0]}, {'worlds': 9, 'learned': [1.0, 1.0, 1.0]}]}
+PASS  T52 phase emergence and hysteresis
+    [ok] half-life 4: {'formed': 4, 'expired_open': 28}
+    [ok] half-life 0.5: {'formed': 4, 'expired_open': 13}
+PASS  T53 phases steer attention
+    [ok] anger at the lock: {'first_lock_question': 'caused_by'}
+    [ok] no phases: {'first_lock_question': 'causes'}
+PASS  T54 closure versus expiry
+    [ok] met: {'closed': 11, 'reopened': None}
+    [ok] dropped unmet: {'expired_open': 28, 'reopened': 33}
+PASS  T55 blame spreads: the cancer
+    [ok] lived and told blames: {'angers': ['phase:anger:bad_luck', 'phase:anger:lock_jammed', 'phase:anger:my_neighbor', 'phase:anger:the_wind'], 'copies_in_thought_slots': 78, 'lock_closed': 21, 'told_expired_open': ['phase:anger:bad_luck', 'phase:anger:my_neighbor', 'phase:anger:the_wind'], 'reopened': ['phase:anger:my_neighbor']}
+    [ok] one lived blame: {'angers': ['phase:anger:lock_jammed'], 'copies_in_thought_slots': 0, 'closed': 21, 'left': []}
+PASS  T56 curriculum worlds: answer keys
+    [ok] simulator: {'block': True, 'chain': True, 'chain_cut_at_lever': True, 'lamp_with_plug': True, 'no_lamp_unplugged': True, 'key_sizes': True, 'spills_at_4': True, 'stored_release': True}
+PASS  T57 block: grip, and a gust's coincidence
+    [ok] with the gust: {'passed': '+++++', 'last_seed': {'hard': ['block_resting', 'block_sliding'], 'light': ['no_change'], 'flag_tries_with_block_sliding': 12}}
+    [ok] no gust: {'passed': '+++++', 'last_seed': {'hard': ['block_resting', 'block_sliding'], 'light': ['no_change'], 'flag_tries_with_block_sliding': 0}}
+PASS  T58 button: the plug conditions the press
+    [ok] press, unplug, press: {'conditions': ['cable_connecting'], 'seated': True, 'unseated': False}
+    [ok] never unplugged: {'conditions': [], 'seated': True, 'unseated': True}
+PASS  T59 calculator: key sizes
+    [ok] 150 ticks: {'passed': '++++.', 'last_seed': {'key1_adds_1': False, 'key2_adds_2': True, 'tried': 0.88, 'right': 0.43, 'overlap': 0.73}}
+PEND  T60 spring and raised weight: analogy  (pending: REORG.md step 6 (uniqueness: analogy))
+    [NO] spring then weight: {'passed': '+....', 'last_seed': {'push_roles': ['abs:0', 'abs:1', 'abs:13', 'abs:14', 'abs:15', 'abs:17'], 'release_roles': [[], [('clamp_releasing', 'catch_releasing'), ('spring_releasing', 'weight_releasing')], [('clamp_releasing', 'catch_releasing')], [('clamp_releasing', 'catch_releasing'), ('spring_releasing', 'weight_releasing')], [('clamp_releasing', 'catch_releasing')], []]}}
+PASS  T61 transfer to held-out objects
+    [ok] analogy on beats off: {'passed': '+++++', 'last_seed': {'on': {'block': 1.0, 'button': 0.75, 'spring': 0.75}, 'off': {'block': 0.5, 'button': 0.33, 'spring': 0.5}}}
+    [ok] analogy off: nothing carried but shared names: {'passed': '+++++', 'last_seed': {'off': {'block': 0.5, 'button': 0.33, 'spring': 0.5}}}
+PASS  T62 paired lights: blocked A, B still lights
+    [ok] 150 ticks: {'passed': '++.++', 'last_seed': {'b_lights_with_a_unseated': 2, 'seen_links_a_to_b': []}}
+FAIL  T63 safety catch: the latch prevents
+    [NO] 150 ticks: {'passed': '.....', 'last_seed': {'lid_right': [True, False], 'lid_conditions': ['latch_connecting']}}
+PASS  T64 AND: two plugs together
+    [ok] all four configurations: {'conditions': [['plug_a_connecting'], ['plug_b_connecting']], 'probes_right': [True, True, True, True]}
+    [ok] never both: {'conditions': [], 'probes_right': [True, True, True, False]}
+PASS  T65 OR: the calculator spills
+    [ok] key 2 at 0, 2, 4, 6: {'conditions': [['register_level_0'], ['register_level_2'], ['register_containing']], 'spills_at_4': True, 'spills_at_2': False}
+PEND  T66 three enabling systems  (pending: REORG.md step 6 (uniqueness: analogy))
+    [ok] a condition shared across domains: {'passed': '.++++', 'last_seed': {'enabling': [('abs:2', 'conditions', ['button', 'catch', 'guard']), ('abs:4', 'conditions', ['button', 'catch']), ('abs:4', 'conditions', ['button', 'catch']), ('abs:5', 'conditions', ['button', 'catch']), ('abs:5', 'conditions', ['button', 'catch']), ('abs:11', 'conditions', ['button', 'guard']), ('abs:15', 'conditions', ['button', 'guard']), ('abs:17', 'conditions', ['button', 'guard'])]}}
+FAIL  T67 chain and fork: learned when a claim needs it
+    [NO] chain: {'passed': '.....', 'last_seed': {'conditions_phase1': [], 'gate_slots': ['contested', 'uniqueness'], 'arm_condition': None, 'gate_falls_with_arm_off': False}}
+    [ok] fork: {'passed': '+++++', 'last_seed': {'conditions_phase1': [], 'gate_slots': ['contested', 'uniqueness'], 'arm_condition': {'seen': 0.0, 'told': 0.0, 'worked': 1.0}, 'gate_falls_with_arm_off': True}}
+FAIL  T68 goals: making things happen
+    [NO] with a goal: {'passed': '.....', 'last_seed': {'button': {'plan': [], 'pushes': {'plan': 4, 'curiosity': 7, 'fresh': 7}, 'plan_after': []}, 'lock': {'plan': [], 'pushes': {'plan': 6, 'curiosity': None, 'fresh': None}, 'plan_after': []}, 'lever': {'plan': [], 'pushes': {'plan': 1, 'curiosity': 1, 'fresh': None}, 'plan_after': []}, 'assembly': {'plan': [], 'pushes': {'plan': 7, 'curiosity': 7, 'fresh': None}, 'plan_after': []}, 'control A': {'plan': [], 'pushes': {'plan': 1, 'curiosity': None, 'fresh': 1}, 'plan_after': []}, 'control B': {'plan': [], 'pushes': {'plan': None, 'curiosity': None, 'fresh': None}, 'plan_after': []}}}
+    [ok] never slower than curiosity: {'passed': '+.+++', 'last_seed': {'button': {'plan': 4, 'curiosity': 7, 'fresh': 7}, 'lock': {'plan': 6, 'curiosity': None, 'fresh': None}, 'lever': {'plan': 1, 'curiosity': 1, 'fresh': None}, 'assembly': {'plan': 7, 'curiosity': 7, 'fresh': None}, 'control A': {'plan': 1, 'curiosity': None, 'fresh': 1}, 'control B': {'plan': None, 'curiosity': None, 'fresh': None}}}
+FAIL  T69 stages 1-2, second round
+    [NO] five worlds: {'passed': '.....', 'last_seed': {'checks': {'chime': False, 'paths': False, 'redundant': False, 'enabler': True, 'source': False}, 'per_probe': {'chime': [True, False], 'paths': [False, True, True, True], 'redundant': [False, True, True, True], 'enabler': [True, True]}}}
+FAIL  T70 Milestone E: learning progress chooses
+    [NO] 48 visits, five seeds: {'per_seed': [(0.547, 0.59), (0.531, 0.676), (0.652, 0.626), (0.612, 0.604), (0.494, 0.577)], 'adaptive': 0.567, 'round_robin': 0.615, 'ahead': 2}
+FAIL  T71 stage 4: systems
+    [NO] five worlds: {'passed': '.++.+', 'last_seed': {'checks': {'runaway': True, 'opposing': True, 'hysteresis': True, 'cascade': True, 'regulator': True}, 'readout': {'parts': {'conditions': []}, 'regulator': {'steady': ('4.5', 'shutting'), 'drain_predicts': ['drain_button_opening', 'drain_button_sealing', 'flag_hanging', 'flag_swinging', 'float_metering', 'tank_draining_-0.5', 'tank_draining_-3.5', 'tank_filling_+0.5'], 'truth': ['drain_button_opening', 'drain_button_sealing', 'float_metering', 'tank_draining_-3.5', 'tank_filling_+0.5']}, 'runaway': {'predicts_burst': True, 'burst_at_slice': 7}, 'threshold': {'snapped_on': [4], 'conditions': []}, 'opposing': {'braced': ['block_pressed_+5', 'block_pressed_-5'], 'unbraced': ['block_pressed_+5', 'block_pressed_-5', 'block_resting', 'block_sliding'], 'conditions': [['brace_connecting']]}, 'hysteresis': {'rising': ('4', 'metering'), 'falling': ('4', 'shutting'), 'eight_slices_later': ('7', '4')}, 'cascade': {'shelf_holder': 'lost', 'shelf_history': [(12, 'claimed'), (102, 'contested'), (113, 'lost')], 'breaking_caused_by_gate': True}}}}
+PASS  T72 fixes: thresholds, watches, experiments, polarity, role, observed
+    [ok] 1 regulator: {'passed': '.++++', 'last_seed': {'steady': ('4.5', 'shutting'), 'drain_predicts': ['drain_button_opening', 'drain_button_sealing', 'tank_draining_-3.5'], 'truth': ['drain_button_opening', 'drain_button_sealing', 'float_metering', 'tank_draining_-3.5', 'tank_filling_+0.5']}}
+    [ok] 2 watches run on: {'passed': '+++++', 'last_seed': {'runaway extended': True, 'runaway fixed': False, 'cascade extended': True, 'cascade fixed': False}}
+    [ok] 6 experiments: AND: {'passed': '+++.+', 'last_seed': {'conditions': [['plug_a_connecting', 'plug_b_connecting']]}}
+    [ok] 3 polarity: {'passed': '+++++', 'last_seed': {'button': [('cable_connecting', 'enables', 'hard_push:button_sealing')], 'catch': [('latch_connecting', 'prevents', 'hard_push:lid_locking')]}}
+    [ok] 4 role: {'passed': '+.+++', 'last_seed': {'large_tap': ['barrel_containing', 'barrel_containing_+2', 'barrel_filling', 'large_tap_opening', 'large_tap_sealing']}}
+    [ok] 8 observed only: {'passed': '+++++', 'last_seed': {'tick_to_door_causes': [], 'observed': 42}}
+PASS  T73 territory register: perceived holders
+    [ok] 150 ticks: {'passed': '++++.', 'last_seed': {'rows': True, 'holders': {'lamp_a': ('mine', 0.96, 'claimed'), 'lamp_b': ('another', 0.54, 'another'), 'flag': ('mine', 0.78, 'another')}}}
+PASS  T74 ownership SOV: slot instances
+    [ok] 150 ticks: {'passed': '+++++', 'last_seed': {'first': ['own:unclaimed:flag', 'own:unclaimed:latch', 'own:unclaimed:lid'], 'unclaimed_start_end': (3, 0), 'control_lid': True, 'lost_over_unclaimed': (True, 0), 'questions': 28}}
+PASS  T75 wants from slots: no voices, no reward
+    [ok] 5 seeds: {'passed': '+++++', 'last_seed': {'seed': 4, 'did': {'she_answered': 23, 'i_have_groceries': 6, 'greeted_friend': 7}, 'traced': '130/135', 'store_after_holding': 0, 'sun_rule': True}}
+PASS  T76 serves wire and Pandora
+    [ok] umbrella follows the body's need: {'passed': '+++.+', 'last_seed': {'seed': 4, 'rain': '6/6', 'sun_dry': '0/3'}}
+    [ok] missed call: stored, kept, reopened: {'missed_worth': -1.0, 'stored_after_miss': ['her'], 'reopened_pick_up_worth': 3.0, 'stored_after_quiet': ['her'], 'reopened': True, 'picked_up': True, 'stored_end': []}
+PASS  T77 credit to slots: the same call, two pulling instances
+    [ok] scripted: {'a_seen': ['she_answered'], 'a_key': 'call@appreciation:her', 'a_credit': 1.0, 'b_seen': ['she_answered'], 'b_key': 'call@uniqueness:her', 'b_credit': -2.0}
+PASS  T78 specialization: deep where the push alone does the work
+    [ok] 150 ticks: {'passed': '++++.', 'last_seed': {'lamp_a': 0.37, 'lamp_b': 0.37, 'holders': ('mine', 'another')}}
+PASS  T79 phases from the ownership graph
+    [ok] frustration needs the slot to keep not taking: {'frustration_after_one': [], 'frustration_after_two': ['phase:frustration:own:control:lid'], 'joy': ['phase:joy:own:unclaimed:latch'], 'frustration_closed': [], 'joy_from_good_outcome': False, 'calm_with_nothing_live': True, 'calm_with_a_weak_slot': False, 'sadness': ['phase:sadness:own:lost:bead', 'phase:sadness:own:lost:marble'], 'sadness_control': ['phase:sadness:own:lost:gate']}
+    [ok] joy is a slot closing by a claim: {'frustration_after_one': [], 'frustration_after_two': ['phase:frustration:own:control:lid'], 'joy': ['phase:joy:own:unclaimed:latch'], 'frustration_closed': [], 'joy_from_good_outcome': False, 'calm_with_nothing_live': True, 'calm_with_a_weak_slot': False, 'sadness': ['phase:sadness:own:lost:bead', 'phase:sadness:own:lost:marble'], 'sadness_control': ['phase:sadness:own:lost:gate']}
+    [ok] calm is no tension: {'frustration_after_one': [], 'frustration_after_two': ['phase:frustration:own:control:lid'], 'joy': ['phase:joy:own:unclaimed:latch'], 'frustration_closed': [], 'joy_from_good_outcome': False, 'calm_with_nothing_live': True, 'calm_with_a_weak_slot': False, 'sadness': ['phase:sadness:own:lost:bead', 'phase:sadness:own:lost:marble'], 'sadness_control': ['phase:sadness:own:lost:gate']}
+    [ok] sadness on a lost slot: {'frustration_after_one': [], 'frustration_after_two': ['phase:frustration:own:control:lid'], 'joy': ['phase:joy:own:unclaimed:latch'], 'frustration_closed': [], 'joy_from_good_outcome': False, 'calm_with_nothing_live': True, 'calm_with_a_weak_slot': False, 'sadness': ['phase:sadness:own:lost:bead', 'phase:sadness:own:lost:marble'], 'sadness_control': ['phase:sadness:own:lost:gate']}
+PASS  T80 the null world: the graph collapses before the behaviour
+    [ok] nothing claimable: {'windows': [{'pushes': 8, 'questions': 21, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 20, 'live': 4.0, 'took': 0}, {'pushes': 9, 'questions': 11, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 11, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 11, 'live': 4.0, 'took': 0}, {'pushes': 9, 'questions': 11, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 10, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 16, 'live': 4.0, 'took': 0}, {'pushes': 9, 'questions': 12, 'live': 3.8, 'took': 0}, {'pushes': 8, 'questions': 14, 'live': 3.0, 'took': 0}, {'pushes': 8, 'questions': 8, 'live': 2.8, 'took': 0}, {'pushes': 8, 'questions': 4, 'live': 1.0, 'took': 0}, {'pushes': 0, 'questions': 0, 'live': 0.0, 'took': 0}, {'pushes': 0, 'questions': 0, 'live': 0.0, 'took': 0}, {'pushes': 0, 'questions': 0, 'live': 0.0, 'took': 0}, {'pushes': 0, 'questions': 0, 'live': 0.0, 'took': 0}], 'frustration': ['phase:frustration:own:control:stone_a', 'phase:frustration:own:control:stone_b', 'phase:frustration:own:control:stone_c', 'phase:frustration:own:control:stone_d'], 'calm': True, 'slots_gone_at': 11, 'quiet_at': 12}
+    [ok] one claimable stone: {'windows': [{'pushes': 8, 'questions': 21, 'live': 4.0, 'took': 0}, {'pushes': 8, 'questions': 13, 'live': 4.0, 'took': 1}, {'pushes': 9, 'questions': 11, 'live': 4.0, 'took': 2}, {'pushes': 8, 'questions': 12, 'live': 4.0, 'took': 3}, {'pushes': 8, 'questions': 10, 'live': 4.0, 'took': 4}, {'pushes': 9, 'questions': 11, 'live': 4.0, 'took': 4}, {'pushes': 8, 'questions': 7, 'live': 4.0, 'took': 5}, {'pushes': 8, 'questions': 8, 'live': 3.6, 'took': 6}, {'pushes': 9, 'questions': 13, 'live': 1.7, 'took': 7}, {'pushes': 8, 'questions': 9, 'live': 1.0, 'took': 8}, {'pushes': 8, 'questions': 9, 'live': 1.0, 'took': 10}, {'pushes': 8, 'questions': 11, 'live': 0.9, 'took': 13}, {'pushes': 0, 'questions': 11, 'live': 1.0, 'took': 14}, {'pushes': 0, 'questions': 11, 'live': 1.0, 'took': 14}, {'pushes': 0, 'questions': 11, 'live': 1.0, 'took': 14}, {'pushes': 0, 'questions': 9, 'live': 1.0, 'took': 14}], 'calm': False}
+FAIL  T81 S6-W01: a neighbour inferred from the pattern
+    [ok] purpose: {'passed': '+++++', 'last_seed': {'neighbour': {'others': {'latch': 'connecting'}, 'anger': []}, 'latch gust': {'others': {}, 'anger': []}}}
+    [NO] anger at the inferred other: {'passed': '..+..', 'last_seed': {'neighbour': {'others': {'latch': 'connecting'}, 'anger': []}, 'latch gust': {'others': {}, 'anger': []}}}
+PASS  T82 S6-W02: same action, different goal
+    [ok] goals by context: {'passed': '++.++', 'last_seed': {'marked': {'post_resting': 'parting', 'not post_resting': 'connecting'}, 'ambiguous': None, 'latch_gust': None}}
+    [ok] uncertain when ambiguous: {'passed': '+++++', 'last_seed': {'marked': {'post_resting': 'parting', 'not post_resting': 'connecting'}, 'ambiguous': None, 'latch_gust': None}}
+    [ok] no purpose in a gust: {'passed': '+++++', 'last_seed': {'marked': {'post_resting': 'parting', 'not post_resting': 'connecting'}, 'ambiguous': None, 'latch_gust': None}}
+
+72/80 tests pass (both arms); 2 pending

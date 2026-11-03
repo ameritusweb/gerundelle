@@ -1,0 +1,20 @@
+The moon was silent and grey.	narrating|describing
+A shallow pool lay dry.	narrating|describing
+A glass flask stood empty beside it.	narrating|describing
+A round basin lay open in the dust.	narrating|describing
+An old husk lay in the dust.	narrating|describing
+The skiff was moored at the edge of the pool.	narrating|describing
+Ada wanted to sail home.	narrating
+She pushed the husk hard, and it crumbled into light.	elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)
+The pool began to glimmer.	narrating
+The flask filled to the brim.	narrating
+The flask brimmed with light.	narrating
+A small lantern took shape in the basin.	narrating
+She pushed the lantern hard, and it melted into the skiff.	elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)
+The skiff began to shine.	narrating
+The skiff hopped and fell back to its mooring.	narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)
+The skiff climbed past the stars and came down on the hillside at home.	narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)
+Ada realized that the skiff went home only when it shone and the flask was full.	realizing(content=explaining(condition=narrating|describing, effect=narrating))
+Ada realized that the skiff went home only when the flask was full.	realizing(content=explaining(condition=narrating|describing, effect=narrating))
+Ada realized that the skiff went home only when the skiff shone.	realizing(content=explaining(condition=narrating|describing, effect=narrating))
+Ada realized that the pool glimmered only when the husk was gone.	realizing(content=explaining(condition=narrating|describing, effect=narrating))

@@ -1,0 +1,31 @@
+tags minted by perception: attempts to the first hold, over 20 tie orders (mean, and the worst)
+                                             learning, task 200    the same mug turned      another mug
+  the widest margin                                13.4 (max 28)            3.5 (max 16)      3.5 (max 35)   tags: 5.0
+  the nearest miss (among attempts made)           11.3 (max 24)            3.8 (max 12)      5.3 (max 15)   tags: 4.5
+  deliberate near misses (probes)                   8.2 (max 26)            3.7 (max 17)      5.2 (max 18)   tags: 3.0
+
+one run with probes, in full (the first tie order):
+  learning, task 200:
+   1. left  handle pinch  ->  a thing knocked tipping    minted so far: 0
+   2. left  handle hook   ->  a thing knocked tipping   (a probe)   minted so far: 0
+   3. far   handle pinch  ->  slipping                  (a probe)   minted so far: 0
+   4. far   rim    pinch  ->  spilling                  (a probe)   minted so far: 2
+   5. far   rim    hook   ->  spilling                  (a probe)   minted so far: 4
+   6. near  rim    pinch  ->  spilling                  (a probe)   minted so far: 4
+   7. right handle wrap   ->  burning                    minted so far: 4
+   8. right handle hook   ->  held                      (a probe)   minted so far: 4
+  task 201:
+   1. left  handle hook   ->  held                       minted so far: 4
+  task 202:
+   1. far   handle hook   ->  held                       minted so far: 4
+
+  the tags it minted:
+    in_way > 9.565
+    in_way < 9.565
+    height_mean < 0.735
+    height_mean > 0.735
+  the constraints, in its own tags:
+    a thing knocked tipping  in_way>9.56
+    burning                  grip:wrap
+    slipping                 grip:pinch height_mean<0.735
+    spilling                 height_mean>0.735

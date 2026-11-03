@@ -1,0 +1,56 @@
+> Where does cognitive dissonance (Festinger) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Cognitive dissonance (Festinger, 1957): holding two contradictory beliefs at once produces psychological discomfort. The discomfort motivates the person to resolve the
+  conflict — by changing one belief, adding a rationalizing belief, or minimizing the importance of the conflict. The dissonance is not the contradiction itself; it's the
+  discomfort of holding both sides at once before resolving them.
+
+  The conflation detector is the mechanism. Meta.observe in molecules.py: when a molecule's outcomes are bimodal — good outcomes AND bad outcomes, both above 25% of its trials
+  — the meta layer emits "conflated." A conflated molecule is one the mind is treating as one thing when it's actually two: pushing the crate sometimes works and sometimes
+  doesn't, and the mind hasn't yet distinguished the cases.
+
+  The concept map: "When a thought's outcomes are bimodal (good and bad both above 25%), the conflation detector fires and splits it on a boundary condition. If both halves
+  stay unimodal and opposite, the split is confirmed. If both halves behave the same, the split is collapsed and another boundary is tried."
+
+  The dissonance is structural: the molecule holds two contradictory records (some trials say good, some say bad) and both are real. The discomfort maps onto the meta
+  molecule's bid: a "conflated" meta molecule competes for the meta track's slots, and if it wins, its operation fires — differentiate the concept. The operation is the
+  resolution: split the molecule on the boundary condition that separates the good outcomes from the bad.
+
+  The chess ladder showed this at rung 1. The mind pushes Rxd5: sometimes it wins material (the knight was hanging), sometimes it loses the exchange (the knight was defended).
+  Both outcomes are real. The conflation detector fires. The split: "Rxd5 with the knight hanging" (good) and "Rxd5 with the knight attacked" (bad). Two concepts where there
+  was one. The dissonance is resolved by distinguishing the cases.
+
+  The fiction ladder's rung 1 showed it in story form. Tom pushes the crate: "He pushed the crate hard. The crate slid toward the shed. Tom thought his push had moved the
+  crate. Then he pushed the crate hard again. But this time the crate did not move." The same push, different outcomes. The dissonance (he believed his push worked, now it
+  doesn't) is resolved by the split: "The crate moved only if the flag swung."
+
+  Festinger's three resolution strategies:
+
+  1. Change one belief: the split changes the molecule. What was one concept ("push the crate") becomes two ("push with wind" and "push without wind"). The mind doesn't keep
+     the old belief alongside the new one — the split replaces it.
+
+  2. Add a rationalizing belief: the architecture doesn't do this directly. But the self-confirming sub-want loop (chess rung 1c) is the pathological version: the mind holds
+     a coincidental condition, acts on it, the action creates the condition it expects, and contradiction has nothing to catch. The "rationalization" is the loop's
+     self-confirmation — the mind never encounters evidence against its belief because its own actions prevent the test.
+
+  3. Minimize importance: parking (Meta.operate for "stuck"): a molecule blocked too long with too many open sites is parked — removed from competition, keyed for later. This
+     doesn't resolve the dissonance; it defers it. The molecule returns when circumstances change (resonance reopens it). Parking is the closest mechanism to "I'll stop
+     thinking about this."
+
+  The "torn" meta molecule is the felt dissonance before the split. Meta.observe: when a molecule's top binding is nearly tied with the runner-up (within 5%), "torn" emits.
+  The mind is pulled in two directions by the same thought. The torn molecule's prediction: the top binding will flip (the dissonance will make the mind vacillate). If
+  confirmed — the binding does flip — the torn molecule persists, keeping the conflict in the meta track's awareness.
+
+  How it differs from Festinger specifically:
+
+  - Festinger's dissonance is a drive — an aversive state that motivates resolution. Here, the conflation is a detected state with a specific operation (differentiate). The
+    "motivation to resolve" is the meta molecule's bid for the meta track's slots: if the conflated molecule wins, the split is attempted. If it doesn't win (other meta
+    observations are more pressing), the dissonance persists but doesn't force resolution.
+  - Festinger's theory applies to beliefs held consciously. Here, the conflation detector operates on outcome distributions — it fires whether or not the molecule is at the
+    top. A molecule can have bimodal outcomes at level 0 without ever reaching consciousness. The detection is statistical, not introspective.
+  - Festinger's resolution can involve self-deception (rationalizing to reduce discomfort). Here, the split is honest: it's determined by the actual boundary condition in the
+    data (the one fact that separates the good outcomes from the bad). If no boundary exists (the bimodality is noise, not a real distinction), the split fails and is
+    collapsed (Meta: "same" operation, unify). The architecture can't rationalize — it can only split on evidence or fail to split.
+  - The self-confirming loop (rung 1c) is the closest to rationalization, but it's a failure mode the architecture detects and corrects (sub_tested: a condition never seen
+    absent is not known to matter), not a feature.

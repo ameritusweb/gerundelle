@@ -1,0 +1,83 @@
+C:\python311\Lib\site-packages\thinc\shims\pytorch.py:261: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(filelike, map_location=device))
+529 stories in 61s; 502 resolved
+endings: Counter({'help': 458, 'behind': 36, 'unresolved': 27, 'outlasted': 6, 'outlast': 2})
+best outlasted  cast (2.0, 4.0) moves [] value 1.139 held 1.356 rise 0.84 drops [(55, 1), (60, 2), (71, 1)] sentences 72
+best outlast    cast (2.0, 2.0) moves [] value 0.769 held 0.918 rise 0.838 drops [(55, 3), (91, 1)] sentences 101
+best behind     cast (4.0, 4.0) moves [(104, 'away')] value 0.712 held 1.046 rise 0.681 drops [(55, 1), (60, 1), (96, 1), (103, 1)] sentences 114
+best help       cast (4.0, 4.0) moves [(64, 'away'), (72, 'help')] value 0.261 held 1.181 rise 0.221 drops [(55, 1), (60, 1), (64, 1), (71, 1)] sentences 80
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 11821.47it/s]
+
+== #1 outlasted cast (2.0, 4.0) moves [] value 1.139 round-trip 1.00
+  1.67  There was a small wooden box on the table.                              help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  Her brother Leo sat beside her.                                         help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  Her grandfather Ben sat by the window.                                  help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  Leo did not want her to open it.                                        help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  Its lid was shut tight.                                                 help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  A brass latch kept it shut.                                             help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  A flag at the window hung still.                                        help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  Mara wanted to open the box.                                            help=0.57 bhnd=0.24 win=0.08 lose=0.08 none=0.02
+  1.67  She pushed the flag hard.                                               help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  The flag swung.                                                         help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  "What keeps the lid shut?" Mara asked Leo.                              help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  "I don't know what keeps the lid shut," Leo said.                       help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  Mara was delighted with the flag.                                       help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  She pushed the lid hard.                                                help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.67  The lid did not move.                                                   help=0.56 bhnd=0.26 win=0.09 lose=0.07 none=0.02
+  1.74  Mara pressed the lid.                                                   help=0.55 bhnd=0.24 win=0.11 lose=0.09 none=0.02
+  1.74  The lid did not move.                                                   help=0.55 bhnd=0.24 win=0.11 lose=0.09 none=0.02
+  1.74  Mara grew frustrated with the lid.                                      help=0.55 bhnd=0.24 win=0.11 lose=0.09 none=0.02
+  1.74  She pushed the flag hard.                                               help=0.55 bhnd=0.24 win=0.11 lose=0.09 none=0.02
+  1.74  The flag swung.                                                         help=0.55 bhnd=0.24 win=0.11 lose=0.09 none=0.02
+  1.80  Mara pushed the lid hard.                                               help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.80  The lid did not move.                                                   help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.80  Mara pressed the lid.                                                   help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.80  The lid did not move.                                                   help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.80  Mara pushed the lid hard.                                               help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.80  The lid did not move.                                                   help=0.54 bhnd=0.20 win=0.13 lose=0.10 none=0.03
+  1.84  Mara pushed the flag hard.                                              help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  The flag swung.                                                         help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  Mara pressed the lid.                                                   help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  The lid did not move.                                                   help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  Mara pressed the latch.                                                 help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  The latch did not move.                                                 help=0.54 bhnd=0.16 win=0.15 lose=0.12 none=0.03
+  1.84  Mara pushed the lid hard.                                               help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.84  The lid did not move.                                                   help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.84  Mara wondered what kept the latch from working.                         help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.84  She pressed the latch.                                                  help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.84  The latch did not move.                                                 help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.84  Mara grew frustrated with the latch.                                    help=0.54 win=0.18 lose=0.15 bhnd=0.10 none=0.04
+  1.72  She pressed the lid.                                                    help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  The lid did not move.                                                   help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  Then Mara pressed the lid again.                                        help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  The lid did not move.                                                   help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  Mara pushed the latch hard.                                             help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  The latch gave way.                                                     help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  Leo pushed the latch hard.                                              help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  The latch snapped back into place.                                      help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.72  Leo was delighted with the latch.                                       help=0.54 win=0.21 lose=0.17 none=0.05 bhnd=0.02
+  1.80  Mara wondered what kept the flag from working.                          help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  She pushed the flag hard.                                               help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  The flag swung.                                                         help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  Mara pressed the latch.                                                 help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  The latch did not move.                                                 help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  Mara felt anxious about the latch.                                      help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  She pushed the lid hard.                                                help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.80  The lid did not move.                                                   help=0.49 win=0.25 lose=0.19 none=0.04 bhnd=0.03
+  1.58  Mara pushed the latch hard.                                             help=0.44 lose=0.42 none=0.08 bhnd=0.06
+  1.58  The latch gave way.                                                     help=0.44 lose=0.42 none=0.08 bhnd=0.06
+  1.58  Leo pushed the latch hard.                                              help=0.44 lose=0.42 none=0.08 bhnd=0.06
+  1.58  The latch snapped back into place.                                      help=0.44 lose=0.42 none=0.08 bhnd=0.06
+  1.58  Leo grew tired of the latch.                                            help=0.44 lose=0.42 none=0.08 bhnd=0.06
+  0.65  Mara grew tired of the lid.                                             lose=0.84 help=0.16
+  0.65  Then she pushed the latch hard again.                                   lose=0.84 help=0.16
+  0.65  The latch gave way.                                                     lose=0.84 help=0.16
+  0.65  Leo pushed the latch hard.                                              lose=0.84 help=0.16
+  0.65  The latch snapped back into place.                                      lose=0.84 help=0.16
+  0.40  Mara pressed the lid.                                                   lose=0.92 help=0.08
+  0.40  The lid did not move.                                                   lose=0.92 help=0.08
+  0.40  Mara pushed the flag hard.                                              lose=0.92 help=0.08
+  0.40  The flag swung.                                                         lose=0.92 help=0.08
+  0.40  Mara pressed the flag.                                                  lose=0.92 help=0.08
+  0.40  The flag swung.                                                         lose=0.92 help=0.08
+  -0.00  Mara gave up, resigned.                                                 lose=1.00

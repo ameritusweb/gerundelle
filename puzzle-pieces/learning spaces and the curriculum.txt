@@ -1,0 +1,48 @@
+> Where do learning spaces (Doignon & Falmagne) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Knowledge space theory (Doignon & Falmagne, 1985, 1999): a student's knowledge state is a set of items they have mastered. Not every subset is a valid knowledge state —
+  some items have prerequisites (you can't learn division before multiplication). The collection of all valid knowledge states is a "knowledge space," and the valid learning
+  paths through it are constrained by the prerequisite structure. An optimal curriculum is a shortest path from the student's current state to the target state, visiting only
+  valid intermediate states.
+
+  The curriculum is a geodesic through the provenance ledger. The paper (gerundelle.tex, line ~572): "every curriculum is a shortest path." The group of guarantees for the
+  planning layer is named "geodesic agency" (line ~578). The Lean theorems: reading_in_order_valid (the history of evidence, read in order, is a valid curriculum) and
+  ledger_curriculum_geodesic (every valid curriculum over the ledger is a geodesic).
+
+  The bridge theorem (the provenance spine, line ~1620): "Reading the ledger in order is a valid curriculum. Every valid curriculum over it is a geodesic. The history of
+  evidence is the mind's own textbook, in the right order."
+
+  In the running system, the curriculum appears in two places:
+
+  1. The fiction and chess ladders themselves. Each ladder is a curriculum: rung 0 (one want, one condition), rung 1 (a belief the world tests), rung 2 (told knowledge),
+     rung 3 (a lie), rung 4 (contested region), and so on. Each rung has prerequisites — rung 1 needs rung 0's condition learning; rung 2 needs rung 1's belief and
+     retraction; rung 4 needs rung 2's ownership. The order is constrained by what each rung needs from previous ones.
+
+  2. The mind's own learning within a rung. The chess ladder's learning curve (CONCEPT_MAP.md): "A mind that knows nothing scans (rung 0: 66 tries). A mind that was told a
+     condition scans less (rung 2: 61 tries). A mind that recalls a shape barely searches (rung 5b: 3 tries). A mind with a fully cached convergence doesn't search." Each
+     step is a state in the knowledge space: what constraints have been funded. The path from "knows nothing" to "fully cached convergence" passes through intermediate states
+     (one constraint funded, two constraints funded, ...), and the order matters — the holonomy theorem (the fiber bundle piece) proves that Relabel steps make the path
+     matter.
+
+  The civilization layer (SOV_CIVILIZATIONS.md): "The curriculum (designed worlds that fund specific slots): the sequence of experiences a society constructs to fund its
+  members' understanding." Education is a civilization's curriculum — the prerequisite structure of what its members need to know, delivered as a sequence of worlds (classrooms,
+  apprenticeships, exams) that fund specific slots.
+
+  The Pacing file in Lean (7 theorems) formalizes the curriculum's properties. The concept map on the learning curve: "The cost of search is proportional to the mind's
+  ignorance — the number of unfunded slots — not to the size of the solution space. That's what understanding is for: making search unnecessary."
+
+  How it differs from knowledge space theory specifically:
+
+  - Doignon & Falmagne's knowledge states are sets of discrete items (problems a student can solve). Here, knowledge states are funding levels across typed relation slots —
+    a continuous quantity (funding 0.0 to 1.0) on each of five relation types per concept. The "state" is richer: not "mastered or not" but "how well understood, by what
+    kind of evidence, from what provenance."
+  - Knowledge space theory's prerequisites are given (the educator declares them). Here, the prerequisites are structural: a constraint can only be learned after enough
+    failures have been experienced, and a told condition can only be tested after the mind has acted in the domain. The prerequisite structure falls out of the algebra, not
+    from a curriculum designer's declaration.
+  - The geodesic property is proved in Lean (ledger_curriculum_geodesic): every valid curriculum is a shortest path. This is stronger than knowledge space theory's claim
+    that optimal curricula exist — it says that any valid path through the ledger IS optimal, because the ledger's own ordering is the ordering the mind's evidence imposes.
+  - The Pacing file also connects the curriculum to the provenance spine: the history of evidence orders the curriculum, and that ordering is the same one that funds ownership
+    and grounds the story. The curriculum is not a separate structure bolted onto the mind — it's a reading of the provenance ledger, the same ledger that the other layers
+    depend on.

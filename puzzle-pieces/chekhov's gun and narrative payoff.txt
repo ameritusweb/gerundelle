@@ -1,0 +1,37 @@
+> Where does Chekhov's gun fit into the system?
+
+● Here's where it lands in the running system.
+
+  Chekhov's principle: if a gun is shown in the first act, it must fire in the third. A detail introduced into a story must pay off, or it's a broken promise to the reader.
+  The reverse: a payoff with no setup is a deus ex machina — unearned.
+
+  The fiction ladder's rung 6 implemented this as a reader model (measure.py, reader). The reader is a mind: each sentence that shows a detail later paid off plants a key with
+  a memorability score by how it is shown — an action in passing: 0.25, a lesson stated: 0.6. Keys cool by half every 8 sentences. At the payoff, satisfaction = relevance ×
+  (1 - memorability): the time-hotel formula (narrative_entropy_framework.md). A plant never paid off is Chekhov's debt. A payoff with no plant is unearned (deus ex machina).
+
+  The author's search (tools/author_search.py) picks among tellings by this score. The measured results:
+
+  - Not told at all ("Ben opened it for her."): memorability 0, satisfaction 0 — unearned.
+  - Told in passing (his pushes shown): memorability 0.14, satisfaction 0.643 — chosen.
+  - Told emphasized (her lesson stated): memorability 0.38, satisfaction 0.463 — over-planted.
+  - Any of these after months (gap 120): the character's memory keys have cooled, no recall, satisfaction 0 — Chekhov's debt (the plant was never paid off because the
+    character forgot).
+
+  The formula orders the tellings correctly from a mind model of the reader: told in passing beats told outright because the emphasized lesson is too memorable for its payoff
+  to surprise. The search picks the passing plant without being told to.
+
+  Rung 7 extended this to option value: Ben sitting by the window, never acting, holds the reader's uncertainty open. The multi-endpoint reader (entropy over endings per
+  sentence) pays for a gun that never fires — an option held to the end. Ben's option value: 0.47 (value 1.023 with him available vs 0.557 without). The option is worth
+  having while open, even if it is never exercised. "Do not exercise early while volatility is high" — exercising earlier costs value monotonically (away at round 12: 0.95,
+  round 8: 0.92, round 7: 0.88).
+
+  How the two reader measures disagree about Chekhov:
+
+  - The time-hotel reader (rung 6) calls an unexercised option Chekhov's debt: introduced, never paid off.
+  - The multi-endpoint reader (rung 7) calls it option value: a gun on the mantle that keeps several endings alive.
+  - Both are right about different things. The option is worth having while open, and an unexercised one is still unpaid. A combined author would have to price the debt
+    against the option's time value.
+
+  Two clocks (rung 6 finding 2): the character's memory cools by story time (after months she cannot recall); the reader's by text distance (the gap in story time does not
+  change the reader's memorability). The author can separate them: a long story-time gap told in a few sentences leaves the reader warm and the character cold. Dramatic irony
+  of memory — not yet exploited in the ladder, but the mechanism supports it.

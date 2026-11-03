@@ -1,0 +1,717 @@
+{
+ "ending": "outlasted",
+ "cast": [
+  2.0,
+  4.0
+ ],
+ "moves": [],
+ "score": {
+  "value": 1.049,
+  "held": 1.213,
+  "rise": 0.865,
+  "peak": 1.652,
+  "viable": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   1
+  ],
+  "drops": [
+   [
+    21,
+    1
+   ],
+   [
+    31,
+    1
+   ],
+   [
+    34,
+    1
+   ]
+  ],
+  "closed_at": 0.97,
+  "expected_before": 0.92
+ },
+ "sentences": [
+  "There was a small wooden box on the table.",
+  "Her brother Leo sat beside her.",
+  "Her grandfather Ben sat by the window.",
+  "Leo did not want her to open it.",
+  "Its lid was shut tight.",
+  "A brass latch kept it shut.",
+  "A flag at the window hung still.",
+  "Mara wanted to open the box.",
+  "She pushed the lid hard, but it did not move.",
+  "\"What keeps the lid shut?\" Mara asked Leo.",
+  "\"I don't know what keeps the lid shut,\" Leo said.",
+  "Mara wondered what the latch did.",
+  "She gave the latch a hard push, and it gave way.",
+  "She was delighted with the latch.",
+  "Leo shoved the latch, and it snapped back into place.",
+  "Leo was delighted with the latch.",
+  "Mara pushed the lid hard, but it would not move.",
+  "She grew frustrated with the lid.",
+  "She gave the latch a hard push, and it gave way.",
+  "Leo grew angry with Mara.",
+  "Leo shoved the latch, and it snapped back into place.",
+  "Mara grew tired of the latch.",
+  "She grew angry with Leo.",
+  "She wondered what the lid did.",
+  "She pressed the lid, but it did not budge.",
+  "Again and again she tried the lid, but nothing gave.",
+  "She wondered what the flag did.",
+  "She pushed the flag hard, and it swung and hung still again.",
+  "She was delighted with the flag.",
+  "She gave the lid a hard push, but nothing happened.",
+  "She kept trying the lid and the flag, but nothing came of it.",
+  "She shoved the latch, and it gave way.",
+  "Leo grew tired of the latch.",
+  "Leo pushed the latch hard, and it snapped back into place.",
+  "Mara gave up, resigned."
+ ],
+ "dists": [
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5327981992906152,
+   "outlast": 0.19451371396003517,
+   "behind": 0.2180771041195737,
+   "outlasted": 0.05461098262977579
+  },
+  {
+   "help": 0.5657719557506687,
+   "behind": 0.23704033056475404,
+   "outlast": 0.13782794995656,
+   "outlasted": 0.05935976372801717
+  },
+  {
+   "help": 0.5657719557506687,
+   "behind": 0.23704033056475404,
+   "outlast": 0.13782794995656,
+   "outlasted": 0.05935976372801717
+  },
+  {
+   "help": 0.5657719557506687,
+   "behind": 0.23704033056475404,
+   "outlast": 0.13782794995656,
+   "outlasted": 0.05935976372801717
+  },
+  {
+   "help": 0.5706808997031771,
+   "behind": 0.19457182210089763,
+   "outlast": 0.16408089280542856,
+   "outlasted": 0.07066638539049662
+  },
+  {
+   "help": 0.5706808997031771,
+   "behind": 0.19457182210089763,
+   "outlast": 0.16408089280542856,
+   "outlasted": 0.07066638539049662
+  },
+  {
+   "help": 0.5706808997031771,
+   "behind": 0.19457182210089763,
+   "outlast": 0.16408089280542856,
+   "outlasted": 0.07066638539049662
+  },
+  {
+   "help": 0.5706808997031771,
+   "behind": 0.19457182210089763,
+   "outlast": 0.16408089280542856,
+   "outlasted": 0.07066638539049662
+  },
+  {
+   "help": 0.5706808997031771,
+   "behind": 0.19457182210089763,
+   "outlast": 0.16408089280542856,
+   "outlasted": 0.07066638539049662
+  },
+  {
+   "help": 0.5695153567894966,
+   "behind": 0.15102359773916388,
+   "outlast": 0.19533439619693876,
+   "outlasted": 0.08412664927440074
+  },
+  {
+   "help": 0.5695153567894966,
+   "behind": 0.15102359773916388,
+   "outlast": 0.19533439619693876,
+   "outlasted": 0.08412664927440074
+  },
+  {
+   "help": 0.5751373295113054,
+   "outlast": 0.23254094785349863,
+   "behind": 0.0921709496894808,
+   "outlasted": 0.1001507729457152
+  },
+  {
+   "help": 0.6224360223091676,
+   "outlasted": 0.20030154589143048,
+   "behind": 0.11278362787526579,
+   "outlast": 0.06447880392413634
+  },
+  {
+   "help": 0.6224360223091676,
+   "outlasted": 0.20030154589143048,
+   "behind": 0.11278362787526579,
+   "outlast": 0.06447880392413634
+  },
+  {
+   "help": 0.48678112686243835,
+   "outlasted": 0.42803045468078077,
+   "behind": 0.08518841845678077
+  },
+  {
+   "help": 0.48678112686243835,
+   "outlasted": 0.42803045468078077,
+   "behind": 0.08518841845678077
+  },
+  {
+   "help": 0.48678112686243835,
+   "outlasted": 0.42803045468078077,
+   "behind": 0.08518841845678077
+  },
+  {
+   "help": 0.48678112686243835,
+   "outlasted": 0.42803045468078077,
+   "behind": 0.08518841845678077
+  },
+  {
+   "help": 0.39364499865600006,
+   "outlasted": 0.48562311577600004,
+   "behind": 0.120731885568
+  },
+  {
+   "help": 0.34091847680000004,
+   "outlasted": 0.5153530879999999,
+   "behind": 0.1437284352
+  },
+  {
+   "help": 0.34091847680000004,
+   "outlasted": 0.5153530879999999,
+   "behind": 0.1437284352
+  },
+  {
+   "help": 0.34091847680000004,
+   "outlasted": 0.5153530879999999,
+   "behind": 0.1437284352
+  },
+  {
+   "help": 0.28360704,
+   "behind": 0.17110528,
+   "outlasted": 0.5452876799999999
+  },
+  {
+   "help": 0.15360000000000004,
+   "behind": 0.07360000000000003,
+   "outlasted": 0.7728
+  },
+  {
+   "outlasted": 0.9199999999999999,
+   "help": 0.08
+  },
+  {
+   "outlasted": 0.9199999999999999,
+   "help": 0.08
+  },
+  {
+   "outlasted": 0.9199999999999999,
+   "help": 0.08
+  },
+  {
+   "outlasted": 1.0
+  }
+ ],
+ "round_trip": 1.0,
+ "rows": [
+  {
+   "plan": 0,
+   "text": "There was a small wooden box on the table.",
+   "shape": "narrating|describing",
+   "reading": "describing(attribute, detail)",
+   "ok": true,
+   "readings": [
+    "describing(attribute, detail)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "Her brother Leo sat beside her.",
+   "shape": "narrating|describing|disambiguating(main=narrating|describing)",
+   "reading": "disambiguating(main=narrating(agent, event, detail), detail)",
+   "ok": true,
+   "readings": [
+    "disambiguating(main=narrating(agent, event, detail), detail)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "Her grandfather Ben sat by the window.",
+   "shape": "narrating|describing|disambiguating(main=narrating|describing)",
+   "reading": "disambiguating(main=narrating(agent, event, detail), detail)",
+   "ok": true,
+   "readings": [
+    "disambiguating(main=narrating(agent, event, detail), detail)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "Leo did not want her to open it.",
+   "shape": "narrating|describing|narrating(content=narrating|describing)",
+   "reading": "narrating(agent, event, not, content=describing(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event, not, content=describing(agent, event, patient))",
+    "narrating(agent, event, not, content=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "Its lid was shut tight.",
+   "shape": "narrating|describing",
+   "reading": "narrating(event, patient)",
+   "ok": true,
+   "readings": [
+    "narrating(event, patient)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "A brass latch kept it shut.",
+   "shape": "narrating|describing",
+   "reading": "narrating(agent, event, patient)",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event, patient)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 0,
+   "text": "A flag at the window hung still.",
+   "shape": "narrating|describing",
+   "reading": "narrating(agent, event)",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 1,
+   "text": "Mara wanted to open the box.",
+   "shape": "narrating",
+   "reading": "narrating(agent, event, patient)",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event, patient)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 2,
+   "text": "She pushed the lid hard, but it did not move.",
+   "shape": "contrasting(main=narrating, other=narrating)",
+   "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 3,
+   "text": "\"What keeps the lid shut?\" Mara asked Leo.",
+   "shape": "asking(content=narrating|describing)",
+   "reading": "asking(agent, event, patient, content=describing(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "asking(agent, event, patient, content=describing(agent, event, patient))",
+    "asking(agent, event, patient, content=narrating(agent, event, patient))",
+    "expressing_curiosity(agent, event, patient, content=describing(agent, event, patient))",
+    "expressing_curiosity(agent, event, patient, content=narrating(agent, event, patient))",
+    "narrating(agent, event, patient, content=describing(agent, event, patient))",
+    "narrating(agent, event, patient, content=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 4,
+   "text": "\"I don't know what keeps the lid shut,\" Leo said.",
+   "shape": "telling(content=describing(content=narrating|describing))",
+   "reading": "telling(agent, event, content=describing(agent, event, not, content=describing(agent, event, patient)))",
+   "ok": true,
+   "readings": [
+    "claiming(agent, event, content=describing(agent, event, not, content=describing(agent, event, patient)))",
+    "claiming(agent, event, content=describing(agent, event, not, content=narrating(agent, event, patient)))",
+    "narrating(agent, event, content=describing(agent, event, not, content=describing(agent, event, patient)))",
+    "narrating(agent, event, content=describing(agent, event, not, content=narrating(agent, event, patient)))",
+    "telling(agent, event, content=describing(agent, event, not, content=describing(agent, event, patient)))",
+    "telling(agent, event, content=describing(agent, event, not, content=narrating(agent, event, patient)))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 5,
+   "text": "Mara wondered what the latch did.",
+   "shape": "expressing_curiosity(content=narrating|describing)",
+   "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "narrating(agent, event, content=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 6,
+   "text": "She gave the latch a hard push, and it gave way.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, patient))",
+    "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 7,
+   "text": "She was delighted with the latch.",
+   "shape": "expressing_joy",
+   "reading": "expressing_joy(agent, quality)",
+   "ok": true,
+   "readings": [
+    "describing(agent, quality)",
+    "expressing_joy(agent, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 8,
+   "text": "Leo shoved the latch, and it snapped back into place.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+    "narrating(first=narrating(agent, event, patient), then=narrating(agent, event, place))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 9,
+   "text": "Leo was delighted with the latch.",
+   "shape": "expressing_joy",
+   "reading": "expressing_joy(agent, quality)",
+   "ok": true,
+   "readings": [
+    "describing(agent, quality)",
+    "expressing_joy(agent, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 10,
+   "text": "Mara pushed the lid hard, but it would not move.",
+   "shape": "contrasting(main=narrating, other=narrating)",
+   "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 11,
+   "text": "She grew frustrated with the lid.",
+   "shape": "expressing_exasperation",
+   "reading": "expressing_exasperation(agent, event, quality)",
+   "ok": true,
+   "readings": [
+    "expressing_exasperation(agent, event, quality)",
+    "narrating(agent, event, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 12,
+   "text": "She gave the latch a hard push, and it gave way.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient, recipient), detail=narrating(agent, event, patient))",
+    "narrating(first=narrating(agent, event, patient, recipient), then=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 13,
+   "text": "Leo grew angry with Mara.",
+   "shape": "expressing_anger",
+   "reading": "expressing_anger(agent, event, quality)",
+   "ok": true,
+   "readings": [
+    "expressing_anger(agent, event, quality)",
+    "narrating(agent, event, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 14,
+   "text": "Leo shoved the latch, and it snapped back into place.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+    "narrating(first=narrating(agent, event, patient), then=narrating(agent, event, place))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 15,
+   "text": "Mara grew tired of the latch.",
+   "shape": "narrating",
+   "reading": "narrating(agent, event, quality)",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 16,
+   "text": "She grew angry with Leo.",
+   "shape": "expressing_anger",
+   "reading": "expressing_anger(agent, event, quality)",
+   "ok": true,
+   "readings": [
+    "expressing_anger(agent, event, quality)",
+    "narrating(agent, event, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 17,
+   "text": "She wondered what the lid did.",
+   "shape": "expressing_curiosity(content=narrating|describing)",
+   "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "narrating(agent, event, content=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 18,
+   "text": "She pressed the lid, but it did not budge.",
+   "shape": "contrasting(main=narrating, other=narrating)",
+   "reading": "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, not))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 19,
+   "text": "Again and again she tried the lid, but nothing gave.",
+   "shape": "contrasting(main=iterating|narrating, other=narrating)",
+   "reading": "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event))",
+    "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 20,
+   "text": "She wondered what the flag did.",
+   "shape": "expressing_curiosity(content=narrating|describing)",
+   "reading": "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "expressing_curiosity(agent, event, content=narrating(agent, event, patient))",
+    "narrating(agent, event, content=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 21,
+   "text": "She pushed the flag hard, and it swung and hung still again.",
+   "shape": "elaborating(main=narrating, detail=elaborating(main=narrating, detail=narrating))|elaborating(main=narrating, detail=narrating(first=narrating, then=narrating))|narrating(first=narrating, then=elaborating(main=narrating, detail=narrating))|narrating(first=narrating, then=narrating(first=narrating, then=narrating))",
+   "reading": "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient), detail=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "elaborating(main=narrating(agent, event, patient), detail=narrating(first=narrating(agent, event), then=narrating(agent, event)))",
+    "narrating(first=narrating(agent, event, patient), then=elaborating(main=narrating(agent, event), detail=narrating(agent, event)))",
+    "narrating(first=narrating(agent, event, patient), then=narrating(first=narrating(agent, event), then=narrating(agent, event)))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 22,
+   "text": "She was delighted with the flag.",
+   "shape": "expressing_joy",
+   "reading": "expressing_joy(agent, quality)",
+   "ok": true,
+   "readings": [
+    "describing(agent, quality)",
+    "expressing_joy(agent, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 23,
+   "text": "She gave the lid a hard push, but nothing happened.",
+   "shape": "contrasting(main=narrating, other=narrating)",
+   "reading": "contrasting(main=narrating(agent, event, patient, recipient), other=narrating(agent, event))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=narrating(agent, event, patient, recipient), other=narrating(agent, event))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 24,
+   "text": "She kept trying the lid and the flag, but nothing came of it.",
+   "shape": "contrasting(main=iterating|narrating, other=narrating)",
+   "reading": "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+   "ok": true,
+   "readings": [
+    "contrasting(main=iterating(agent, event, patient), other=narrating(agent, event, detail))",
+    "contrasting(main=narrating(agent, event, patient), other=narrating(agent, event, detail))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 25,
+   "text": "She shoved the latch, and it gave way.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, patient))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, patient))",
+    "narrating(first=narrating(agent, event, patient), then=narrating(agent, event, patient))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 26,
+   "text": "Leo grew tired of the latch.",
+   "shape": "narrating",
+   "reading": "narrating(agent, event, quality)",
+   "ok": true,
+   "readings": [
+    "narrating(agent, event, quality)"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 27,
+   "text": "Leo pushed the latch hard, and it snapped back into place.",
+   "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+   "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+   "ok": true,
+   "readings": [
+    "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event, place))",
+    "narrating(first=narrating(agent, event, patient), then=narrating(agent, event, place))"
+   ],
+   "why": ""
+  },
+  {
+   "plan": 28,
+   "text": "Mara gave up, resigned.",
+   "shape": "expressing_resignation",
+   "reading": "expressing_resignation(agent, event)",
+   "ok": true,
+   "readings": [
+    "expressing_resignation(agent, event)",
+    "narrating(agent, event)"
+   ],
+   "why": ""
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+> Where does personality / temperament theory (Big Five, etc.) fit into the system?
+
+● Here's where it lands in the running system.
+
+  The Big Five (Costa & McCrae, 1992): personality is described by five broad traits — openness, conscientiousness, extraversion, agreeableness, neuroticism. Each person sits
+  at a point in this five-dimensional space. Traits are stable, heritable, and predict behavior across situations.
+
+  The temperament system (temperament.py, described in fiction LADDER.md) gives each character a Temperament — a set of parameters that, varied, produce different nameable
+  characters from the same algebra. The rule for what belongs in temperament: "every value must still give a working mind whose story round-trips, and different values must
+  give different, nameable characters."
+
+  The five temperament parameters:
+
+  | trait        | SOV quantity                                                      | Params               |
+  | patience     | failures running on a wanted region before the want is parked     | Params.patience      |
+  | persistence  | how slowly a repeated question loses its pull, q / (q + n)        | Params.persistence   |
+  | curiosity    | the pull of unknowns no want pays for                             | Params.curiosity     |
+  | credulity    | the weight of told receipts                                       | Params.credulity     |
+  | stubbornness | how often another may undo what one holds before giving up        | resolve in the arm   |
+
+  The fiction ladder measured the range (rung 2, the Gerundelle arm):
+  - Impatient Mara: tries the flag and the lid, never the latch she was curious about, gives up.
+  - Restless Mara: never asks Ben, opens the box, learns nothing ("learns many things shallowly").
+  - Dogged Mara: asks, tests the answer, is right in 26 sentences.
+  - Skeptical Mara: tests the alternatives to Ben's word first.
+  - Rung 4's endings flip on Leo's stubbornness: stubborn Leo outlasts Mara; default Leo gives up.
+
+  On rung 2, all five lean profiles tell the same story: the lean mind's choices are decided by expected work and the want's doubling, so curiosity, persistence, and
+  credulity have nothing to act on there. "Gerundelle is the wider substrate." The range of stories — different characters in the same scene making different choices for
+  structural reasons — is wider in the richer mind.
+
+  The corpus (fiction LADDER.md, corpus run 1): every scene × six temperaments × both minds: 120 runs. "Of six temperaments per scene, Gerundelle tells 3-6 different stories
+  (median 4), the lean mind 1-5 (median 2)."
+
+  Mapping to the Big Five:
+
+  - Openness (receptivity to new experience): maps onto curiosity (Params.curiosity). A high-curiosity mind wanders, explores unclaimed regions, tries things no want pays
+    for. A low-curiosity mind stays on the want.
+  - Conscientiousness (persistence, goal-directed effort): maps onto persistence (Params.persistence) and patience (Params.patience). A persistent mind keeps investigating
+    the same question. A patient mind keeps pursuing the same want through failures.
+  - Agreeableness (cooperativeness, trust): maps onto credulity (Params.credulity). A credulous mind acts on what it's told at nearly full weight. A skeptical mind discounts
+    told knowledge and tests it first.
+  - Neuroticism (emotional reactivity, anxiety): maps onto the phase system's thresholds. Anxiety forms when a concept that matters has mostly bad outcomes and is understood
+    below 0.4 (Phases.graph). A mind with a lower threshold for anxiety formation (or slower anxiety closure) would be more neurotic — but this is not yet a temperament
+    parameter; the thresholds are global.
+  - Extraversion: no direct mapping in the current system. The fiction ladder's social rungs (2-6) have minds that ask, tell, lie, and contest, but the propensity to initiate
+    social interaction is not a parameter. A mind Poses (asks) when it holds a control slot with no way and someone is present — that's a structural condition, not a trait.
+
+  How it differs from Big Five / trait theory specifically:
+
+  - Big Five traits are statistical: extracted from factor analysis of self-report questionnaires across populations. Here, the traits are structural: each parameter has a
+    specific computational meaning (the pull of unknowns, the decay rate of repeated experiments, the weight of told receipts) and a measurable effect on behavior (number of
+    tries, which objects are explored, whether told knowledge is tested).
+  - Big Five traits are orthogonal (by construction, the five factors are uncorrelated). Here, the parameters are independent but their effects interact: a patient,
+    persistent, curious mind explores deeply; an impatient, persistent, curious mind starts many things and finishes none. The interactions are not prescribed — they fall
+    out of the competition under scarcity.
+  - Big Five says nothing about where traits come from. Here, the traits are parameters of the same algebra. "Different hyperparameters are different people, not different
+    bugs" (IMPORTANT_REALIZATIONS.md). A mind with any combination of parameter values is a working mind — some more effective in some environments than others, none broken.
+  - The fiction ladder's rung 7 showed that temperament determines narrative: the same scene, the same world, different hidden reserves produce four different endings.
+    Personality is not color applied to a fixed story; it is the variable that determines which story is told.

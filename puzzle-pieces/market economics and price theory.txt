@@ -1,0 +1,49 @@
+> Where does market economics fit into the system?
+
+● Here's where it lands in the running system.
+
+  Market economics: scarce resources are allocated by competition among agents who bid based on what they value, with prices emerging from the bids. No central planner decides
+  who gets what. The allocation arises from the competition itself, under scarcity, with feedback from outcomes.
+
+  The concept map says it directly: "The tournament is a market. Molecules bid for scarce slots. Ownership is exclusive (one agent per slot). Bids are funded by evidence. The
+  market allocates attention the way an economy allocates resources: through competition under scarcity with empirical feedback."
+
+  The paper (gerundelle.tex, line ~187): "Cognition is a market. A mind is a marketplace whose scarce resource is commitment: at any point, a slot can be filled by one thing,
+  not many. Hypotheses, patterns and wants compete for slots, and the competition is settled by evidence from acting in the world, not by enumeration, derivation or gradient."
+
+  The mapping is structural:
+
+  - Scarce resource: working-memory slots (Params.slots: 7 → 5 → 4). There are thousands of molecules and a handful of slots. The scarcity is what makes the allocation
+    non-trivial.
+  - Bidders: molecules. Each computes its bid from activation, binding score, open-site tension, expected information gain, and constraint support. The bid is the price the
+    molecule pays for a slot.
+  - Price discovery: the bid is not set by a central authority. Each molecule's bid is computed from its own evidence — its Dirichlet counts (how many good, neutral, and bad
+    outcomes), its surprise level, its open sites. The "price" of a slot emerges from the competition.
+  - Exclusive ownership: one molecule per slot. A slot held is territory. The territory register (Territory in molecules.py) tracks what the mind holds, what it has lost,
+    what it contests. Ownership is the same structure for thoughts (which idea holds a slot) and for regions in the world (which agent controls a resource).
+  - Feedback: outcomes update the Dirichlet counts. A molecule that wins a slot and produces a good outcome has its counts updated, its half-life extended (a_success), its
+    activation boosted on re-entry. A molecule that produces bad outcomes sees its competitors' bids rise relative to its own. The market corrects itself through evidence.
+
+  The civilization layer (SOV_CIVILIZATIONS.md) extends the same market to populations of minds:
+
+  - Trade emerges when two populations have different funded conditions and exchange saves both search.
+  - Property rights emerge when two minds contest a region and the resolution (who holds, who yields) is stored and taught.
+  - Specialization: a mind whose constraint convergence in one domain is cached and transferable holds uniqueness territory — what it knows that others don't. The spice
+    merchant's route is uniqueness territory; the buyer's told receipt funds at half.
+  - Institutions are cached constraint convergences shared across a population. None are designed. Each is the population's convergence for a recurring coordination problem,
+    cached and transmitted as told knowledge.
+
+  The chess ladder's rung 3 (two minds on one board) is a two-agent market: White and Black each want their standing up, each bids for moves, and the outcome depends on whose
+  strategy the evidence supports. White adapts to the opponent it has — against a thinking Black that doesn't recapture, White opens with Bxc8 (an even trade against the rule,
+  but a won bishop against this Black). The market discovery is empirical: White learns what works against THIS opponent, not what a book says.
+
+  How it differs from market economics specifically:
+
+  - In economics, agents are assumed to have preferences (utility functions). Here, the bids are computed from evidence, not preferences. A molecule doesn't "want" a slot —
+    its bid is high because its evidence is strong, its question is open, or its surprise is high. The allocation follows from the evidence, not from desire.
+  - In economics, prices coordinate across agents. Here, the competition is within one mind — the molecules are not separate agents with separate interests, they are one
+    mind's candidate thoughts. The "market" is a metaphor for the allocation mechanism, not for the social structure. (The civilization layer, where multiple minds trade, is
+    where the full economic analogy holds.)
+  - The paper's claim: "A market cognition algorithm is as fundamental a computational primitive as an evolutionary algorithm. An evolutionary algorithm produces solutions
+    that work. A market cognition algorithm produces solutions that know WHY they work: every concluded holding carries the receipts that funded it, and every receipt names
+    the world interaction that created it."

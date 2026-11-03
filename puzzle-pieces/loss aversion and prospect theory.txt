@@ -1,0 +1,49 @@
+> Where does loss aversion / prospect theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  Prospect theory (Kahneman & Tversky, 1979): losses loom larger than gains. Losing $100 feels worse than gaining $100 feels good. This asymmetry is a bias parameter in the
+  value function — the loss curve is steeper than the gain curve. The endowment effect follows: something you hold is worth more to you than the same thing you don't hold,
+  because giving it up is a loss.
+
+  In Gerundelle, loss pulls harder than gain — but not because of a bias parameter. It's structural. IMPORTANT_REALIZATIONS.md: "Loss pulls harder than gain because of the
+  investment in what was held, not because of a bias parameter."
+
+  The mechanism is in the territory register (Territory in molecules.py). Every time you engage with something — push it, claim it, play with it, defend it — the held count
+  on its slot increases. Loss is the pull of a slot that was held and is now gone: pull = 1 + held. The more you invested, the more the loss pulls.
+
+  - One interaction: pull = 2. Sadness. ("Mara felt sad about the toy.")
+  - Four interactions: pull = 5. Heartbreak. ("Mara was heartbroken.")
+
+  The fiction ladder's rung 5 measured this directly. The same loss (Leo takes the toy), the same object, different histories:
+
+  | config         | held count | after the loss               |
+  | lean-briefly   | 1 play     | "Mara felt sad about the toy." |
+  | lean           | 4 plays    | "Mara was heartbroken."        |
+
+  The asymmetry between loss and gain is not a coefficient. It is the accumulation of claims: gaining something is one claim (pull rises by 1). Holding it through repeated
+  engagement adds to the held count. Losing it after all of that is losing the accumulated investment. A gain of something never held has pull 1. A loss of something held
+  four times has pull 5. The asymmetry is 5:1, and it came from the history, not from a parameter.
+
+  The endowment effect follows structurally. A slot you hold has claims on it — your own pushes, your own successes, your territory. Giving it up is a loss with pull
+  proportional to the investment. A slot you don't hold has no claims. The asymmetry between "what I hold" and "what I could have" is the asymmetry between a funded slot
+  (claims accumulated) and an empty one (no claims).
+
+  The chess ladder's rung 3 (two minds on one board) showed the asymmetry in action: White adapts to the opponent it has, and in the hanging configuration mostly opens
+  Bxc8 (winning a bishop against a Black that doesn't recapture) rather than the more valuable Rxd5 (capturing a knight but with risk). The safe gain is preferred over the
+  risky one — not because of a risk-aversion parameter, but because the planner's model of what the push does is funded by the outcomes it's seen, and a loss (the exchange
+  lost) was seen and weighted by its cost to the standing.
+
+  Rung 4 (two characters, contested region) showed the endowment effect for resolve: each time the other undoes what you held, your reserve drains proportional to the pull
+  of the undone slot. A slot held many times drains more per undoing. The person who invested more in their holdings runs out of resolve faster per setback — not because
+  they're weaker, but because each setback costs more. Doubling one person's reserve flips the ending, but the per-setback cost is structural.
+
+  How it differs from prospect theory specifically:
+
+  - Prospect theory's loss aversion is a fixed coefficient (λ ≈ 2.25) in the value function. Here, the ratio depends on history: a thing held once has loss:gain near 2:1;
+    a thing held many times can be 5:1 or higher. The "coefficient" is the held count, which is different for every object and every mind.
+  - Prospect theory is reference-point-dependent — gains and losses are defined relative to the status quo. Here, the reference point is the territory register: what the mind
+    holds right now. A slot in the "held" state that transitions to "lost" is a loss. A slot in the "unclaimed" state that transitions to "held" is a gain. The reference point
+    is structural (the register), not psychological (a subjective expectation).
+  - Prospect theory doesn't account for time. Here, the grief fades: the lost slot's keys cool by half-life, and after enough time the grudge is sealed and forgotten, not
+    forgiven. The loss is real but its access path fades. Prospect theory's loss aversion is static; here it has a clock.

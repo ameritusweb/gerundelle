@@ -1,0 +1,35 @@
+attempts to the first hold, over 20 tie orders (mean, and the worst):
+                                                 learning, task 200    the same mug turned      another mug
+  hand-written, fixed sides                             4.0 (max  6)            4.9 (max  9)      2.4 (max  6)
+  hand-written, relational                              4.0 (max  6)            2.1 (max  4)      1.8 (max  5)
+  perceived, hand-written vocabulary of tags           10.1 (max 29)            1.8 (max  4)      2.1 (max  4)
+  perceived, tags minted by need                       10.8 (max 28)            3.4 (max 18)      3.8 (max 34)   tags minted: 4.1
+
+one run with minted tags, in full (the first tie order):
+  learning, task 200:
+   1. left  handle pinch  ->  a thing knocked tipping   tags minted so far: 0
+   2. right handle wrap   ->  burning                   tags minted so far: 0
+   3. far   rim    hook   ->  spilling                  tags minted so far: 0
+   4. near  body   pinch  ->  burning                   tags minted so far: 0
+   5. far   rim    pinch  ->  spilling                  tags minted so far: 2
+   6. far   rim    wrap   ->  burning                   tags minted so far: 4
+   7. far   handle pinch  ->  slipping                  tags minted so far: 4
+   8. right rim    hook   ->  spilling                  tags minted so far: 6
+   9. far   handle hook   ->  held                      tags minted so far: 6
+  task 201:
+   1. left  handle hook   ->  held                      tags minted so far: 6
+  task 202:
+   1. far   handle hook   ->  held                      tags minted so far: 6
+
+  the tags it minted:
+    in_way > 9.565
+    in_way < 9.565
+    height_mean < 0.701
+    spread_min < 0.307
+    faces_out_max > 0.985
+    faces_out_min > -0.94
+  the constraints, in its own tags:
+    a thing knocked tipping  in_way>9.56
+    burning                  grip:wrap   or   faces_out_max>0.985 height_mean<0.701
+    slipping                 faces_out_min>-0.94 grip:pinch
+    spilling                 faces_out_max>0.985 grip:hook   or   grip:pinch spread_min<0.307

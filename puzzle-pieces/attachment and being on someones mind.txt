@@ -1,0 +1,59 @@
+> Where does attachment theory fit into the system?
+
+● Here's where it lands in the running system.
+
+  Attachment theory (Bowlby, 1969; Ainsworth, 1978): infants form emotional bonds with caregivers that serve as a "secure base" for exploration. The quality of the attachment
+  (secure, anxious, avoidant) shapes the child's internal working model of relationships. Loss of the attachment figure produces a predictable sequence: protest, despair,
+  detachment. The attachment bond is not about physical proximity — it's about the mental representation of the other person as available and responsive.
+
+  Being on someone's mind is territorial ownership. The concept map (far right column): "An agent acts to hold and extend the boundaries it perceives as its own. Being on
+  someone's mind means occupying a slot in their territory — an investment they maintain. When that slot is lost (forgotten, attributed to someone else), the pull of the loss
+  drives behavior."
+
+  And: "How being on someone's mind is an example of territorial ownership and is the result of motivation. An agent acts to hold and extend the boundaries it perceives as its
+  own. Being on someone's mind means occupying a slot in their territory — an investment they maintain. When that slot is lost (forgotten, attributed to someone else), the
+  pull of the loss drives behavior."
+
+  The concept map on popularity and being understood: "Recognition, appreciation, and attribution are separable conditions: someone can remember you without crediting you, or
+  credit you without valuing what you did. Each loss opens a different kind of slot."
+
+  The fiction ladder measured the attachment cycle through rung 5's loss and recovery:
+
+  - Attachment as accumulation: each time Mara plays with the toy, her held count increases. The attachment's strength is pull = 1 + held. One play: pull 2. Four plays: pull 5.
+    The attachment is the accumulated investment, not a single bond formed at first contact.
+  - Loss and protest: when Leo takes the toy, the held slot transitions to lost. Sadness forms with intensity proportional to the pull. "Mara was heartbroken" (pull 5).
+    Anger at the taker: "She grew angry with Leo." The lost slot pays for "what took it?" — she pushes the lid again, searching for the toy where it came from (protest:
+    seeking the lost object). Not designed; read off the register.
+  - Despair and detachment: without resolution, the phase expires (half-life Params.phase_h). The source is gone (the toy, parked). The phase is stored open — a grief, a
+    grudge. Keys cool by Params.h_site (20 ticks). After enough time, the keys fade below Params.cold (0.1). The grief is sealed, inaccessible. Detachment: the mind no
+    longer searches, not because it chose to stop but because the access path cooled.
+  - Reunion and recovery: the toy returns. If the grief's keys are still warm (resonance: enough keys match among current winners), the box reopens. "Mara remembered how she
+    had played with the toy." The grudge reopens too: "She grew angry with Leo again." Reunion restores the full emotional state. If the anger's goal is met (the toy is held
+    again), the grudge closes: forgiveness. If the keys have cooled past reach: reunion brings delight at the toy, but no anger at Leo — forgotten, not forgiven.
+
+  The four measured endings (fiction LADDER.md, rung 5):
+
+  | config         | after the loss          | when it returns               |
+  | held 4, days   | heartbroken             | remembers, angry again, forgives |
+  | held 1, days   | sad                     | remembers, angry again, forgives |
+  | held 4, months | heartbroken             | keys cold: no memory, no grudge, delight |
+  | no storage     | heartbroken             | nothing stored, nothing reopens: delight |
+
+  Bowlby's internal working model maps onto the territory register's structure of held, contested, and lost slots. A secure attachment is a held slot with a high claim count
+  and no contested history — the other person is on your mind, and the holding is undisturbed. An anxious attachment would be a slot that oscillates between held and contested
+  — the claim keeps being challenged, and each challenge drains resolve. An avoidant attachment would be a slot that was held, lost, the grief cooled, and the mind no longer
+  invests — the access path is cold, and reunion brings no reopening.
+
+  How it differs from attachment theory specifically:
+
+  - Bowlby's attachment is specific to infant-caregiver relationships and evolved for survival. Here, the mechanism is general: any held slot with accumulated claims produces
+    the same attachment dynamics — grief proportional to investment, protest as searching for what was held, detachment as cooling. The toy in rung 5 is not a caregiver, but
+    the attachment dynamics are the same.
+  - Ainsworth's classification (secure, anxious, avoidant) is typological — each child falls into a category. Here, the "type" is continuous: the claim count, the contest
+    history, the cooling rate, the resonance threshold. Different temperaments (Params: patience, persistence, curiosity, credulity, stubbornness) produce different attachment
+    dynamics from the same algebra. The types are regions of a parameter space, not discrete categories.
+  - Bowlby's protest-despair-detachment sequence is described developmentally. Here, each phase has a specific mechanism: protest = the lost slot paying for search; despair =
+    the phase expiring without resolution; detachment = keys cooling below resonance threshold. The sequence is not a description but a chain of structural transitions with
+    measurable timings (phase half-life, key half-life, cold threshold).
+  - Attachment theory doesn't account for forgiveness as a structural closure. Here, forgiveness is the grudge's goal met while the keys are warm — not a decision, not a
+    virtue, a mechanism.

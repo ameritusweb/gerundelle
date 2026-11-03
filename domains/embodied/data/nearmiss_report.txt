@@ -1,0 +1,41 @@
+attempts to the first hold, over 20 tie orders (mean, and the worst):
+                                                 learning, task 200    the same mug turned      another mug
+  hand-written, fixed sides                             4.0 (max  6)            4.9 (max  9)      2.4 (max  6)
+  hand-written, relational                              4.0 (max  6)            2.1 (max  4)      1.8 (max  5)
+  perceived, hand-written vocabulary of tags           10.1 (max 29)            1.8 (max  4)      2.1 (max  4)
+  perceived, tags minted by need                       10.7 (max 32)            5.0 (max 22)      6.7 (max 24)   tags minted: 4.1
+
+one run with minted tags, in full (the first tie order):
+  learning, task 200:
+   1. left  handle pinch  ->  a thing knocked tipping   tags minted so far: 0
+   2. right handle wrap   ->  burning                   tags minted so far: 0
+   3. far   rim    hook   ->  spilling                  tags minted so far: 0
+   4. near  body   pinch  ->  burning                   tags minted so far: 0
+   5. far   rim    pinch  ->  spilling                  tags minted so far: 2
+   6. far   handle pinch  ->  slipping                  tags minted so far: 4
+   7. right rim    hook   ->  spilling                  tags minted so far: 6
+   8. far   handle hook   ->  held                      tags minted so far: 6
+  task 201:
+   1. near  handle hook   ->  edge-on                   tags minted so far: 6
+   2. left  handle pinch  ->  slipping                  tags minted so far: 7
+   3. left  handle hook   ->  held                      tags minted so far: 9
+  task 202:
+   1. right handle hook   ->  edge-on                   tags minted so far: 6
+   2. far   rim    hook   ->  spilling                  tags minted so far: 7
+   3. far   rim    pinch  ->  spilling                  tags minted so far: 7
+   4. left  handle hook   ->  a thing knocked tipping   tags minted so far: 7
+   5. far   handle pinch  ->  slipping                  tags minted so far: 7
+   6. far   handle hook   ->  held                      tags minted so far: 9
+
+  the tags it minted:
+    in_way > 9.565
+    in_way < 9.565
+    distinct_mean > 6.107
+    distinct_mean < 6.107
+    came_to_touch > 0.84
+    came_to_touch < 0.84
+  the constraints, in its own tags:
+    a thing knocked tipping  in_way>9.56
+    burning                  grip:wrap   or   came_to_touch>0.84 distinct_mean>6.11
+    slipping                 came_to_touch<0.84 grip:pinch
+    spilling                 distinct_mean<6.11

@@ -1,0 +1,58 @@
+> Where does Csikszentmihalyi's flow theory fit into the system, and what is boredom?
+
+● Here's where it lands in the running system.
+
+  Flow theory (Csikszentmihalyi, 1990): flow is the state of optimal experience — complete absorption in what you're doing. It arises when the challenge of the task matches
+  your skill. Too little challenge for your skill: boredom. Too much challenge for your skill: anxiety. The "flow channel" is the diagonal where the two are balanced.
+
+  The system has measurable readouts for all three states.
+
+  Boredom is a measured quantity: Mind.readouts (molecules.py, line ~706) computes it as the mean surprise of the winners at level 0. When the winners are all familiar —
+  well-explored pairs with concentrated Dirichlets and low surprise — boredom is low (close to 0). Five consecutive ticks below 0.05 triggers the meta layer's "bored"
+  emission. The "bored" meta molecule's operation (Meta.operate, line ~1359): novelty is doubled for five ticks (mind.boost_until = mind.t + 5). The mind notices "nothing's
+  happening" and responds by raising the pull of untried pairings. This is the mind's own structural response to boredom — not a parameter the designer tweaks, but a
+  meta-cognitive detection and intervention.
+
+  Anxiety is a phase (Phases.graph, line ~2552): "a concept that matters, its outcomes mostly bad, understood below 0.4." A concept the mind keeps encountering, that keeps
+  going wrong, and that is poorly understood — the mind doesn't know enough to predict what will happen, and what does happen is mostly bad. Anxiety forms as a phase molecule
+  anchored on the concept, competing in the phase track (Params.phase_slots: 2 → 1 → 1). It closes when understanding reaches 0.5 — when the mind learns enough to stop
+  being surprised by the bad outcomes.
+
+  Flow is what happens in between, and it has two readouts:
+
+  1. The novelty_share (Mind.readouts): for each winner, what fraction of its binding strength comes from novelty vs experience and fit. In flow, the share is moderate — some
+     exploration (the task is challenging enough to have untried pairings), some exploitation (the skill is high enough that many pairings are understood). High novelty share:
+     the mind is overwhelmed by the unknown (challenge >> skill). Low novelty share: everything is familiar (skill >> challenge).
+
+  2. The flat_for counter (line ~629): consecutive ticks a molecule's surprise level stayed flat (within Params.flat = 0.05). A molecule that has won the top for three ticks
+     with flat surprise settles into storage (Mind.settled, Params.dwell = 3). In flow, surprises happen often enough that thoughts don't settle prematurely, and
+     understanding grows through each surprise. The settled closure is the end of flow for that thought: nothing left to learn. The next thought enters.
+
+  The fiction ladder's rung 4 showed the absence of flow as a diagnostic: "Variety is lowest here (0.31-0.36): the stretch where Mara tries the lid and the flag between
+  contests is told try by try." The mind was in the boredom zone — the same pushes on the same objects, nothing surprising, but the want was unmet so it couldn't stop. The
+  printer's "explore" summary ("Again and again she tried the lid and the flag, but nothing came of it") was the telling solution, but the mind's experience was genuinely
+  repetitive. The contested region kept reopening the want, but nothing new happened on the way.
+
+  The chess ladder showed the anxiety end. Rung 1c (the back rank puzzle): five seeds converge and find the mate; two never do; seed 5 loops. Seed 5 learned a coincidental
+  condition ("Re8 mates when the f7 pawn is attacked"), set the sub-want, and met it with Rd7 326 times — the same move, every episode, no progress, but the sub-want kept
+  being served. This is not boredom (the mind is acting, spending resources) and not flow (nothing is learned). It's a stuck state that the meta layer detects: "stuck" emits
+  after 3 blocked ticks, and "looping" when a molecule holds the top 3 of the last 5 ticks.
+
+  The calm phase (Phases.graph, line ~2577) is the positive residue of flow's end: "nothing blocked, surprise flat, five ticks running" — the mind has finished its work,
+  nothing is pulling for attention, and the pool is quiet. Not bored (boredom triggers a boost); calm. The mind reached understanding and has nothing left to learn right now.
+
+  How it differs from flow theory specifically:
+
+  - Csikszentmihalyi's flow is described as a subjective experience: loss of self-consciousness, time distortion, intrinsic motivation. Here, there is no subjective
+    experience — only measurable readouts (boredom, novelty_share, flat_for, anxiety phase) and structural responses (the boredom boost, the anxiety closure at
+    understanding 0.5, the calm phase). What flows is the competition itself: a balanced tournament where enough is known to act effectively and enough is unknown to keep
+    learning.
+  - Flow theory places the flow channel on a 2D space of challenge × skill. Here, the relevant dimensions are different: surprise (how unexpected the outcomes are) and
+    understanding (how funded the relation slots are). Boredom is low surprise, high understanding. Anxiety is high surprise, low understanding. Flow is moderate surprise,
+    growing understanding. But the dimensions are not independent — understanding reduces future surprise naturally, so the mind moves along the learning curve, not across a
+    static grid.
+  - Flow theory doesn't specify a mechanism for how the mind returns from boredom or anxiety. Here, the boredom boost (novelty doubled for 5 ticks) is a specific structural
+    intervention by the meta layer. Anxiety closes when understanding passes its threshold (0.5). The transitions are mechanisms, not just descriptions.
+  - The distinction between boredom (nothing is surprising) and being stuck (something is pulling but nothing works) is structural. Boredom triggers exploration (the novelty
+    boost). Being stuck triggers parking (removing the molecule from competition and keying it so it returns when circumstances change). Csikszentmihalyi's model doesn't
+    distinguish these — both would register as "challenge too low" or "challenge too high."

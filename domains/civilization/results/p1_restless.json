@@ -1,0 +1,1640 @@
+{
+ "temper": "restless",
+ "ticks": 63,
+ "pushes": 19,
+ "reached": true,
+ "conservation": true,
+ "forming_conditions": {
+  "hard_push:hollow_open": "model_nesting",
+  "light_push:hollow_open": "shell_nesting"
+ },
+ "right_pattern": true,
+ "splits": {
+  "hard_push:hollow_open": "model_nesting",
+  "light_push:hollow_open": "shell_nesting"
+ },
+ "sentences": [
+  "There was a spring of light at the foot of a hill.",
+  "A clay jar glowed beside it.",
+  "A smooth hollow lay open in the rock.",
+  "A spiral shell lay on the slope.",
+  "A boulder sat on the slope.",
+  "Ada wanted to send a boat into the sky.",
+  "She pushed the hollow hard, but it did not move.",
+  "She gave the boulder a hard push, and it split apart.",
+  "A little carved boat lay among the pieces.",
+  "A heap of pebbles lay on the ground.",
+  "Ada felt sad about the boulder.",
+  "She was delighted with the carved boat.",
+  "She shook the jar, and it went dark.",
+  "She was delighted with the jar.",
+  "She dipped the jar into the spring, and it began to glow.",
+  "She touched the hollow, but it would not move.",
+  "She grew frustrated with the hollow.",
+  "She moved the carved boat, and it settled into the hollow.",
+  "She pushed the hollow hard.",
+  "A small skiff took shape beside the hollow.",
+  "Ada realized that the hollow made a boat only when the carved boat lay in it.",
+  "She pressed on the hollow, but it did not budge.",
+  "In time, she stopped thinking about the boulder.",
+  "She moved the carved boat, and it came out of the hollow.",
+  "She moved the shell, and it settled into the hollow.",
+  "She was delighted with the shell.",
+  "She moved the shell, and it came out of the hollow.",
+  "She wondered what came with the shell.",
+  "She moved the shell again, and it settled into the hollow.",
+  "She grew frustrated with the hollow again.",
+  "She moved the shell, and it came out of the hollow.",
+  "She moved the shell again, and it settled into the hollow.",
+  "She touched the hollow.",
+  "A shell-shaped cup took shape beside the hollow.",
+  "Ada realized that the hollow made a cup only when the shell lay in it.",
+  "She moved the shell, and it came out of the hollow.",
+  "She shoved the skiff, and it rose into the air and came down on the far hill.",
+  "The carved boat settled into the hollow.",
+  "Ada laughed with joy."
+ ],
+ "round_trip": 1.0,
+ "ledger": [
+  {
+   "t": 0,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 1,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 2,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 3,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 4,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 5,
+   "field": 959.0,
+   "store": 40.0,
+   "embodied": 7.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 6,
+   "field": 959.0,
+   "store": 38.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 7,
+   "field": 959.0,
+   "store": 38.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 8,
+   "field": 959.0,
+   "store": 38.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 9,
+   "field": 997.0,
+   "store": 0.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 10,
+   "field": 997.0,
+   "store": 0.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 11,
+   "field": 997.0,
+   "store": 0.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 12,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 13,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 14,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 15,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 16,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 17,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 18,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 19,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 20,
+   "field": 977.0,
+   "store": 20.0,
+   "embodied": 9.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 21,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 9.0,
+   "motion": 3.0,
+   "total": 1006.0
+  },
+  {
+   "t": 22,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 23,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 24,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 25,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 26,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 27,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 28,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 29,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 30,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 31,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 32,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 33,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 34,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 35,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 36,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 37,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 38,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 39,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 40,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 41,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 42,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 43,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 44,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 45,
+   "field": 977.0,
+   "store": 17.0,
+   "embodied": 12.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 46,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 12.0,
+   "motion": 3.0,
+   "total": 1006.0
+  },
+  {
+   "t": 47,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 48,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 49,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 50,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 51,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 52,
+   "field": 977.0,
+   "store": 14.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 53,
+   "field": 977.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 5.0,
+   "total": 1006.0
+  },
+  {
+   "t": 54,
+   "field": 977.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 5.0,
+   "total": 1006.0
+  },
+  {
+   "t": 55,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 56,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 57,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 58,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 59,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 60,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 61,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 62,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  },
+  {
+   "t": 63,
+   "field": 982.0,
+   "store": 9.0,
+   "embodied": 15.0,
+   "motion": 0,
+   "total": 1006.0
+  }
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "spring",
+   "detail": {
+    "gerund": "welling"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "jar",
+   "detail": {
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "hollow",
+   "detail": {
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "shell",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "boulder",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_flying"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 5,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    6
+   ]
+  },
+  {
+   "t": 8,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "from": "resting",
+    "to": "cleaving",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "boulder",
+   "detail": {
+    "from": "cleaving",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "pebbles",
+   "detail": {
+    "from": "unformed",
+    "to": "piling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 8,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:boulder_resting",
+   "obj": "model",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:boulder",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:model",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 11,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:jar_charged",
+   "obj": "jar",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    15
+   ]
+  },
+  {
+   "t": 12,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:jar",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:jar_empty",
+   "obj": "jar",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    18
+   ]
+  },
+  {
+   "t": 17,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    20
+   ]
+  },
+  {
+   "t": 18,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 20,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "hard",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 23,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "open",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "forming",
+    "to": "open",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "skiff",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "hollow_forming",
+     "hollow_open",
+     "skiff_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    25
+   ]
+  },
+  {
+   "t": 23,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "condition": "model_nesting",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    7
+   ]
+  },
+  {
+   "t": 26,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.48888888888888893,
+   "refs": []
+  },
+  {
+   "t": 26,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    31
+   ]
+  },
+  {
+   "t": 27,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:boulder",
+   "obj": "boulder",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "boulder"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 29,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "strength": "hard",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 29,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:model_nesting",
+   "obj": "model",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    34
+   ]
+  },
+  {
+   "t": 33,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 33,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    36
+   ]
+  },
+  {
+   "t": 34,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:shell",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 36,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "light",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 36,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    39
+   ]
+  },
+  {
+   "t": 36,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "slot": "co_occurs"
+   },
+   "prov": "lived",
+   "pull": 0.9,
+   "refs": []
+  },
+  {
+   "t": 36,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "slot": "co_occurs"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 39,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    43
+   ]
+  },
+  {
+   "t": 41,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.8,
+   "refs": []
+  },
+  {
+   "t": 41,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:hollow",
+   "obj": "hollow",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "hollow"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    22
+   ]
+  },
+  {
+   "t": 42,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 42,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    47
+   ]
+  },
+  {
+   "t": 42,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "slot": "role"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:shell_resting",
+   "obj": "shell",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    50
+   ]
+  },
+  {
+   "t": 46,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 48,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "strength": "light",
+    "gerund": "open"
+   },
+   "prov": "lived",
+   "pull": 0.288888888888889,
+   "refs": []
+  },
+  {
+   "t": 48,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "open",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "from": "forming",
+    "to": "open",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "cup",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "cup_resting",
+     "hollow_forming",
+     "hollow_open"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:light_push:hollow_open",
+   "obj": "hollow",
+   "detail": {
+    "condition": "shell_nesting",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 51,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "strength": "light",
+    "gerund": "nesting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 51,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:shell_nesting",
+   "obj": "shell",
+   "detail": {
+    "from": "nesting",
+    "to": "resting",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    59
+   ]
+  },
+  {
+   "t": 54,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:model_resting",
+   "obj": "model",
+   "detail": {
+    "slot": "causes"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 63,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 63,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "resting",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "flying",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "flying",
+    "to": "resting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_resting",
+   "obj": "model",
+   "detail": {
+    "from": "resting",
+    "to": "nesting",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "reach",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_flying",
+    "inv": [
+     "hard",
+     "skiff",
+     "resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  },
+  {
+   "t": 63,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    62
+   ]
+  }
+ ]
+}

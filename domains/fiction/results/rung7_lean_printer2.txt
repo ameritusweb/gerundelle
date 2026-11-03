@@ -1,0 +1,60 @@
+C:\python311\Lib\site-packages\thinc\shims\pytorch.py:261: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  model.load_state_dict(torch.load(filelike, map_location=device))
+350 stories; 350 resolved
+ending     cast       moves                        sents  value   held  peak closed   exp  rise  drops
+outlasted  (2.0, 4.0) []                              35  1.049  1.213  1.65   0.97  0.92  0.86  [(21, 1), (31, 1), (34, 1)]
+outlasted  (2.0, 4.0) [(8, 'away')]                   37  0.967  1.118  1.65   0.97  0.92  0.86  [(21, 1), (29, 1), (36, 1)]
+outlasted  (2.0, 4.0) [(12, 'away')]                  37  0.940  1.087  1.65   0.92  0.92  0.86  [(21, 1), (31, 1), (34, 1)]
+outlasted  (2.0, 4.0) [(5, 'away')]                   38  0.911  1.053  1.65   0.97  0.92  0.86  [(21, 1), (25, 1), (37, 1)]
+outlasted  (2.0, 4.0) [(7, 'away')]                   38  0.908  1.050  1.65   0.97  0.92  0.86  [(21, 1), (26, 1), (37, 1)]
+outlasted  (2.0, 4.0) [(6, 'away')]                   39  0.904  1.045  1.65   0.97  0.92  0.86  [(21, 1), (26, 1), (38, 1)]
+outlasted  (2.0, 4.0) [(4, 'away')]                   37  0.889  1.028  1.65   0.97  0.92  0.86  [(21, 1), (22, 1), (36, 1)]
+outlast    (4.0, 4.0) []                              49  0.759  1.047  1.65   0.88  0.92  0.72  [(21, 1), (41, 1), (43, 1)]
+outlast    (2.0, 2.0) []                              40  0.693  0.956  1.65   0.85  0.92  0.72  [(19, 1), (32, 1), (34, 1)]
+behind     (4.0, 4.0) [(17, 'away')]                  50  0.692  0.986  1.65   0.84  0.92  0.70  [(21, 1), (40, 1), (42, 1)]
+outlast    (4.0, 2.0) []                              39  0.689  0.950  1.65   0.85  0.92  0.72  [(19, 1), (31, 1), (33, 1)]
+behind     (4.0, 4.0) [(20, 'away')]                  51  0.680  0.968  1.65   0.84  0.92  0.70  [(21, 1), (41, 1), (43, 1)]
+behind     (4.0, 4.0) [(18, 'away')]                  51  0.678  0.966  1.65   0.86  0.92  0.70  [(21, 1), (39, 1), (44, 1)]
+behind     (4.0, 4.0) [(16, 'away')]                  50  0.677  0.965  1.65   0.84  0.92  0.70  [(21, 1), (39, 1), (42, 1)]
+behind     (4.0, 4.0) [(19, 'away')]                  51  0.676  0.963  1.65   0.84  0.92  0.70  [(21, 1), (40, 1), (43, 1)]
+behind     (4.0, 4.0) [(15, 'away')]                  50  0.673  0.958  1.65   0.86  0.92  0.70  [(21, 1), (38, 1), (43, 1)]
+
+best per ending: {'outlasted': (1.049, 1.213, 0.865, '[]', (2.0, 4.0)), 'outlast': (0.759, 1.047, 0.725, '[]', (4.0, 4.0)), 'behind': (0.692, 0.986, 0.702, "[(17, 'away')]", (4.0, 4.0)), 'help': (0.168, 0.745, 0.225, "[(4, 'away'), (5, 'help')]", (4.0, 4.0))}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 15005.78it/s]
+
+== #1: outlasted, cast (2.0, 4.0), moves [], value 1.049, held 1.213, rise 0.865, round-trip 1.00, judge 0.97, variety 0.62
+  ok  1.65  There was a small wooden box on the table.                              help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  Her brother Leo sat beside her.                                         help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  Her grandfather Ben sat by the window.                                  help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  Leo did not want her to open it.                                        help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  Its lid was shut tight.                                                 help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  A brass latch kept it shut.                                             help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  A flag at the window hung still.                                        help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.65  Mara wanted to open the box.                                            help=0.53 bhnd=0.22 win=0.19 lose=0.05
+  ok  1.59  She pushed the lid hard, but it did not move.                           help=0.57 bhnd=0.24 win=0.14 lose=0.06
+  ok  1.59  "What keeps the lid shut?" Mara asked Leo.                              help=0.57 bhnd=0.24 win=0.14 lose=0.06
+  ok  1.59  "I don't know what keeps the lid shut," Leo said.                       help=0.57 bhnd=0.24 win=0.14 lose=0.06
+  ok  1.62  Mara wondered what the latch did.                                       help=0.57 bhnd=0.19 win=0.16 lose=0.07
+  ok  1.62  She gave the latch a hard push, and it gave way.                        help=0.57 bhnd=0.19 win=0.16 lose=0.07
+  ok  1.62  She was delighted with the latch.                                       help=0.57 bhnd=0.19 win=0.16 lose=0.07
+  ok  1.62  Leo shoved the latch, and it snapped back into place.                   help=0.57 bhnd=0.19 win=0.16 lose=0.07
+  ok  1.62  Leo was delighted with the latch.                                       help=0.57 bhnd=0.19 win=0.16 lose=0.07
+  ok  1.64  Mara pushed the lid hard, but it would not move.                        help=0.57 win=0.20 bhnd=0.15 lose=0.08
+  ok  1.64  She grew frustrated with the lid.                                       help=0.57 win=0.20 bhnd=0.15 lose=0.08
+  ok  1.60  She gave the latch a hard push, and it gave way.                        help=0.58 win=0.23 lose=0.10 bhnd=0.09
+  ok  1.50  Leo grew angry with Mara.                                               help=0.62 lose=0.20 bhnd=0.11 win=0.06
+  ok  1.50  Leo shoved the latch, and it snapped back into place.                   help=0.62 lose=0.20 bhnd=0.11 win=0.06
+  ok  1.33  Mara grew tired of the latch.                                           help=0.49 lose=0.43 bhnd=0.09
+  ok  1.33  She grew angry with Leo.                                                help=0.49 lose=0.43 bhnd=0.09
+  ok  1.33  She wondered what the lid did.                                          help=0.49 lose=0.43 bhnd=0.09
+  ok  1.33  She pressed the lid, but it did not budge.                              help=0.49 lose=0.43 bhnd=0.09
+  ok  1.40  Again and again she tried the lid, but nothing gave.                    lose=0.49 help=0.39 bhnd=0.12
+  ok  1.42  She wondered what the flag did.                                         lose=0.52 help=0.34 bhnd=0.14
+  ok  1.42  She pushed the flag hard, and it swung and hung still again.            lose=0.52 help=0.34 bhnd=0.14
+  ok  1.42  She was delighted with the flag.                                        lose=0.52 help=0.34 bhnd=0.14
+  ok  1.43  She gave the lid a hard push, but nothing happened.                     lose=0.55 help=0.28 bhnd=0.17
+  ok  0.98  She kept trying the lid and the flag, but nothing came of it.           lose=0.77 help=0.15 bhnd=0.07
+  ok  0.40  She shoved the latch, and it gave way.                                  lose=0.92 help=0.08
+  ok  0.40  Leo grew tired of the latch.                                            lose=0.92 help=0.08
+  ok  0.40  Leo pushed the latch hard, and it snapped back into place.              lose=0.92 help=0.08
+  ok  -0.00  Mara gave up, resigned.                                                 lose=1.00

@@ -1,0 +1,38 @@
+task 200 (mug_b): the mind sees handle toward the right; rim mark on the near; something close on the ['left']
+task 201 (mug_b): the mind sees handle toward the left; rim mark on the far; something close on the ['right']
+task 202 (mug_c): the mind sees handle toward the far; rim mark on the None; something close on the ['near']
+
+attempts to the first hold, over 20 tie orders (mean, and the worst):
+                learning, task 200  constraints learned  the same mug turned    another mug
+  fixed                4.3 (max  8)            3.4            5.0 (max  9)      2.5 (max  6)
+  relational           4.0 (max  6)            3.0            2.1 (max  4)      1.8 (max  5)
+
+one run of each, shown in full (the first tie order):
+  ---- fixed
+  learning, task 200:
+   1. left  handle pinch  reach 31 steps  ->  bottle knocked tipping        constraint found: knocked-from-left
+   2. right handle wrap   reach 32 steps  ->  burning                       constraint found: body
+   3. far   rim    hook   reach 41 steps  ->  spilling                      constraint found: rim
+   4. far   handle pinch  reach 41 steps  ->  slipping                      constraint found: handle-pinch
+   5. far   handle hook   reach 41 steps  ->  held                        
+  constraints: ['knocked-from-left', 'body', 'rim', 'handle-pinch']
+  task 201:
+   1. far   handle hook   reach 30 steps  ->  bottle knocked tipping        constraint found: knocked-from-far
+   2. right handle hook   reach 28 steps  ->  bottle knocked tipping        constraint found: knocked-from-right
+   3. near  handle hook   reach 32 steps  ->  edge-on                       constraint found: handle-from-near
+   4. near  body   pinch  reach 32 steps  ->  burning                       (known)
+   5. left  handle hook   reach 42 steps  ->  held                        
+  task 202:
+   1. far   handle hook   reach 43 steps  ->  held                        
+  ---- relational
+  learning, task 200:
+   1. left  handle pinch  reach 31 steps  ->  bottle knocked tipping        constraint found: in-the-way
+   2. right handle wrap   reach 32 steps  ->  burning                       constraint found: body
+   3. far   rim    hook   reach 41 steps  ->  spilling                      constraint found: rim
+   4. far   handle pinch  reach 41 steps  ->  slipping                      constraint found: handle-pinch
+   5. far   handle hook   reach 41 steps  ->  held                        
+  constraints: ['in-the-way', 'body', 'rim', 'handle-pinch']
+  task 201:
+   1. left  handle hook   reach 42 steps  ->  held                        
+  task 202:
+   1. far   handle hook   reach 43 steps  ->  held                        

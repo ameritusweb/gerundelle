@@ -1,0 +1,51 @@
+> Where does theory of mind fit into the system?
+
+● Here's where it lands in the running system.
+
+  Theory of mind (Premack & Woodruff, 1978; Baron-Cohen, Leslie & Frith, 1985): the ability to attribute mental states — beliefs, desires, intentions — to other agents, and
+  to understand that others' mental states may differ from one's own. A child who passes the false-belief test (Sally-Anne) understands that Sally will look for her marble
+  where she left it, not where Anne moved it, because Sally doesn't know about the move. The child represents Sally's belief as different from reality.
+
+  Several mechanisms in the running system implement aspects of theory of mind, each measured in the fiction or chess ladders:
+
+  1. Perceiving another's wants. In the fiction ladder's rung 3, Leo wants the toy inside the box. Mara asks Leo for help. The lie mechanism (fiction LADDER.md, rung 3):
+     "Asked by a mind that wants what it wants (a contested want: a true answer would hand the region to the other), a teller Attests a counterfeit way." For Leo to lie,
+     he must represent that Mara wants the toy — that her want is the same as his. This is not a separate theory-of-mind module. It's the territory register: Leo's ownership
+     slots show Mara's claim on the same region. A contested slot means two agents want the same thing. The lie follows from the structure.
+
+  2. Attributing beliefs to others. The fiction ladder's rung 3 dramatic irony: "But Leo knew that the latch kept the lid shut." The narrator can tell the reader what Leo
+     holds (his understanding register's funded conditions) while Mara's register has that slot open. The reader's ledger holds a truth the character's does not — the irony
+     span (16 sentences) is measured as the gap between the reveal and the character's realization. The system represents two minds with different funded slots, and the
+     difference is what makes the lie, the irony, and the eventual realization possible.
+
+  3. Trust as a computed quantity. The fiction ladder's rung 3: after a told way fails (Mara presses the lid gently, as Leo said; it doesn't move), "the told receipt is
+     retracted, the teller's reliability record is marked down." Trust = (confirmed + KAPPA/2) / (told + KAPPA), updated by each interaction. A second telling from the
+     same teller is discounted by this reliability. A teller whose word keeps failing approaches zero reliability.
+
+  4. Recognizing that a lie was a lie. Rung 3: "Mara realized that Leo had lied." Her own tries later give the real condition (the latch holds the lid shut). The learn beat
+     compares what she discovered with what Leo told her — a realization that matches what the liar held exposes him. The detection is structural: her funded condition
+     contradicts Leo's told way, and the told way came from Leo.
+
+  5. Perceiving another's actions and attributing outcomes. The chess ladder's rung 3 (two minds on one board): each mind perceives what changed since its own last look and
+     attributes it to whoever acted (a mover is visible). What the other mind did in between — its experiments, its sub-wants, its planning — is not seen. Only the visible
+     act and its consequences reach the perceiving mind.
+
+  6. A helper's act is recognized. The fiction ladder's rung 6: "Mara thanked Ben." A want met by a non-rival's act (the wanted change by someone whose want is not contested)
+     is met, not taken: gratitude forms. A want met by a rival's act (the wanted change by someone who wants the same thing) is taken: sadness and anger at the taker. The
+     attribution of help vs taking depends on the perceived want structure — whether the other's want is contested or not.
+
+  The chess ladder's rung 3 showed the limits: "Why Black doesn't defend: likely its want." Black's want (standing_black_up) is met only by winning material, and taking back
+  after a capture only restores even — nothing pays for defence. Black meets its want only on White's mistakes. Each mind acts on its own evidence and wants; neither models
+  the other's strategy. White adapts to the opponent it HAS (empirically: this Black doesn't retake), not to the opponent it INFERS.
+
+  How it differs from theory of mind specifically:
+
+  - Theory of mind is typically described as a module or capacity: either you have it or you don't (Baron-Cohen's "mindblindness" model of autism). Here, the components are
+    separable mechanisms: perceiving contested wants, computing trust, detecting lies by comparing registers, attributing outcomes. A mind could have some and not others.
+  - The false-belief test requires representing that another agent's belief differs from reality. Here, each mind has its own understanding register with its own funded slots.
+    The registers are not shared — Mara's register and Leo's register are separate data structures. The "representation" of another's belief is just the fact that the
+    other register exists and can be read (by the narrator, for irony; by the asker, for Pose/Attest). The difference between registers IS the false belief.
+  - Theory of mind is typically studied as the ability to INFER another's mental state. Here, inference is limited: a mind sees another's ACTIONS and their consequences, not
+    their beliefs, conditions, or plans. The lie is detected not by inferring Leo's mental state but by the world contradicting his word. Mara doesn't figure out that Leo is
+    lying; she discovers the truth herself and the contradiction between what she found and what Leo said is the exposure. The theory-of-mind work is done by the world's
+    feedback, not by mentalizing.

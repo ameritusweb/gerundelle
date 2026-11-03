@@ -1,0 +1,130 @@
+
+################ hard readings, whole profiles
+scene A (seed7): profiles stored
+  profile:2   [mug_d     ] 1 keys: middle outside yellow
+  profile:3   [mug_e     ] 1 keys: blue middle outside
+  profile:4   [mug_b     ] 7 keys: brown inside lower; brown inside upper; edge grey middle; grey middle outside; middle orange outside; lower orange top-bottom; orange rim top-bottom
+  profile:5   [mug_a     ] 3 keys: cream inside lower; cream inside middle; cream lower top-bottom
+  profile:6   [book_birds] 2 keys: edge middle red; lower red top-bottom
+  profile:7   [book_quiet] 3 keys: brown edge middle; brown rim top-bottom; lower top-bottom yellow
+  profile:8   [book_salt ] 4 keys: brown lower outside; edge middle yellow; lower top-bottom yellow; rim top-bottom yellow
+  profile:10  [mug_c     ] 3 keys: brown lower top-bottom; middle orange outside; middle outside red
+
+scene seed7_layout3: each thing attended to in turn
+  thing  0 [mug_a     ]  5 marks, 1 reopened -> RIGHT   best: mug_a 0.34 (keys 0.67)
+  thing  3 [mug_c     ]  3 marks, 2 reopened -> RIGHT   best: mug_c 0.34 (keys 0.67), book_birds 0.00 (keys 0.00)
+  thing  5 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  6 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  7 [book_quiet]  3 marks, 2 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), book_salt 0.07 (keys 0.25)
+  thing  9 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing 10 [mug_b     ] 12 marks, 2 reopened -> RIGHT   best: mug_b 0.38 (keys 0.71), mug_c 0.00 (keys 0.00)
+  recognized 7 of 7
+
+scene seed7_layout5: each thing attended to in turn
+  thing  0 [mug_b     ]  7 marks, 3 reopened -> RIGHT   best: mug_b 0.06 (keys 0.29), mug_c 0.05 (keys 0.33), mug_a 0.00 (keys 0.00)
+  thing  2 [mug_c     ]  1 marks, 0 reopened -> -----   best: 
+  thing  3 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  4 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  6 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing  9 [book_quiet]  4 marks, 2 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), book_salt 0.05 (keys 0.25)
+  thing 10 [mug_a     ]  5 marks, 1 reopened -> RIGHT   best: mug_a 0.27 (keys 0.33)
+  recognized 6 of 7
+
+################ hard readings, compressed profiles
+scene A (seed7): profiles stored
+  profile:2   [mug_d     ] 1 keys: middle outside yellow
+  profile:3   [mug_e     ] 1 keys: blue middle outside
+  profile:4   [mug_b     ] 6 keys: brown inside lower; brown inside upper; edge grey middle; grey middle outside; lower orange top-bottom; orange rim top-bottom
+  profile:5   [mug_a     ] 3 keys: cream inside lower; cream inside middle; cream lower top-bottom
+  profile:6   [book_birds] 2 keys: edge middle red; lower red top-bottom
+  profile:7   [book_quiet] 3 keys: brown edge middle; brown rim top-bottom; lower top-bottom yellow
+  profile:8   [book_salt ] 4 keys: brown lower outside; edge middle yellow; lower top-bottom yellow; rim top-bottom yellow
+  profile:10  [mug_c     ] 2 keys: brown lower top-bottom; middle outside red
+
+scene seed7_layout3: each thing attended to in turn
+  thing  0 [mug_a     ]  5 marks, 1 reopened -> RIGHT   best: mug_a 0.34 (keys 0.67)
+  thing  3 [mug_c     ]  3 marks, 2 reopened -> RIGHT   best: mug_c 0.52 (keys 1.00), book_birds 0.00 (keys 0.00)
+  thing  5 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  6 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  7 [book_quiet]  3 marks, 3 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), book_salt 0.07 (keys 0.25), mug_c 0.00 (keys 0.00)
+  thing  9 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing 10 [mug_b     ] 12 marks, 2 reopened -> RIGHT   best: mug_b 0.44 (keys 0.83), mug_c 0.00 (keys 0.00)
+  recognized 7 of 7
+
+scene seed7_layout5: each thing attended to in turn
+  thing  0 [mug_b     ]  7 marks, 3 reopened -> wrong   best: mug_c 0.08 (keys 0.50), mug_b 0.07 (keys 0.33), mug_a 0.00 (keys 0.00)
+  thing  2 [mug_c     ]  1 marks, 1 reopened -> RIGHT   best: mug_c 0.50 (keys 0.50)
+  thing  3 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  4 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  6 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing  9 [book_quiet]  4 marks, 3 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), book_salt 0.05 (keys 0.25), mug_c 0.00 (keys 0.00)
+  thing 10 [mug_a     ]  5 marks, 1 reopened -> RIGHT   best: mug_a 0.27 (keys 0.33)
+  recognized 6 of 7
+
+################ soft readings, whole profiles
+scene A (seed7): profiles stored
+  profile:2   [mug_d     ] 1 keys: middle outside yellow
+  profile:3   [mug_e     ] 1 keys: blue middle outside
+  profile:4   [mug_b     ] 7 keys: brown inside lower; brown inside upper; edge grey middle; grey middle outside; middle orange outside; lower orange top-bottom; orange rim top-bottom
+  profile:5   [mug_a     ] 3 keys: cream inside lower; cream inside middle; cream lower top-bottom
+  profile:6   [book_birds] 2 keys: edge middle red; lower red top-bottom
+  profile:7   [book_quiet] 3 keys: brown edge middle; brown rim top-bottom; lower top-bottom yellow
+  profile:8   [book_salt ] 4 keys: brown lower outside; edge middle yellow; lower top-bottom yellow; rim top-bottom yellow
+  profile:10  [mug_c     ] 3 keys: brown lower top-bottom; middle orange outside; middle outside red
+
+scene seed7_layout3: each thing attended to in turn
+  thing  0 [mug_a     ]  5 marks, 3 reopened -> RIGHT   best: mug_a 0.68 (keys 1.00), book_salt 0.04 (keys 0.25), mug_d 0.00 (keys 0.00)
+  thing  3 [mug_c     ]  3 marks, 6 reopened -> wrong   best: mug_b 0.57 (keys 0.57), mug_c 0.52 (keys 1.00), mug_a 0.16 (keys 0.33)
+  thing  5 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  6 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  7 [book_quiet]  3 marks, 5 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), mug_c 0.10 (keys 0.33), book_salt 0.07 (keys 0.25)
+  thing  9 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing 10 [mug_b     ] 12 marks, 6 reopened -> RIGHT   best: mug_b 0.58 (keys 0.86), mug_d 0.15 (keys 1.00), book_salt 0.10 (keys 0.50)
+  recognized 6 of 7
+
+scene seed7_layout5: each thing attended to in turn
+  thing  0 [mug_b     ]  7 marks, 7 reopened -> RIGHT   best: mug_b 0.77 (keys 0.86), mug_c 0.60 (keys 1.00), mug_d 0.43 (keys 1.00)
+  thing  2 [mug_c     ]  1 marks, 1 reopened -> RIGHT   best: mug_c 0.67 (keys 0.67)
+  thing  3 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  4 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  6 [mug_d     ]  1 marks, 1 reopened -> RIGHT   best: mug_d 1.00 (keys 1.00)
+  thing  9 [book_quiet]  4 marks, 3 reopened -> RIGHT   best: book_quiet 1.00 (keys 1.00), book_salt 0.05 (keys 0.25), mug_d 0.00 (keys 0.00)
+  thing 10 [mug_a     ]  5 marks, 2 reopened -> RIGHT   best: mug_a 0.27 (keys 0.33), book_birds 0.00 (keys 0.00)
+  recognized 7 of 7
+
+################ soft readings, compressed profiles
+scene A (seed7): profiles stored
+  profile:2   [mug_d     ] 0 keys: 
+  profile:3   [mug_e     ] 1 keys: blue middle outside
+  profile:4   [mug_b     ] 5 keys: brown inside lower; brown inside upper; edge grey middle; lower orange top-bottom; orange rim top-bottom
+  profile:5   [mug_a     ] 3 keys: cream inside lower; cream inside middle; cream lower top-bottom
+  profile:6   [book_birds] 2 keys: edge middle red; lower red top-bottom
+  profile:7   [book_quiet] 2 keys: brown rim top-bottom; lower top-bottom yellow
+  profile:8   [book_salt ] 4 keys: brown lower outside; edge middle yellow; lower top-bottom yellow; rim top-bottom yellow
+  profile:10  [mug_c     ] 1 keys: brown lower top-bottom
+
+scene seed7_layout3: each thing attended to in turn
+  thing  0 [mug_a     ]  5 marks, 3 reopened -> RIGHT   best: mug_a 0.68 (keys 1.00), book_quiet 0.08 (keys 0.50), book_salt 0.04 (keys 0.25)
+  thing  3 [mug_c     ]  3 marks, 6 reopened -> wrong   best: mug_b 0.44 (keys 0.60), mug_c 0.24 (keys 1.00), mug_a 0.16 (keys 0.33)
+  thing  5 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  6 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  7 [book_quiet]  3 marks, 4 reopened -> RIGHT   best: book_quiet 0.64 (keys 1.00), mug_c 0.29 (keys 1.00), book_salt 0.07 (keys 0.25)
+  thing  9 [mug_d     ]  1 marks, 0 reopened -> -----   best: 
+  thing 10 [mug_b     ] 12 marks, 5 reopened -> RIGHT   best: mug_b 0.42 (keys 0.80), book_salt 0.10 (keys 0.50), book_birds 0.04 (keys 0.50)
+  recognized 5 of 7
+
+scene seed7_layout5: each thing attended to in turn
+  thing  0 [mug_b     ]  7 marks, 6 reopened -> RIGHT   best: mug_b 0.54 (keys 0.80), book_salt 0.20 (keys 0.50), mug_c 0.16 (keys 1.00)
+  thing  2 [mug_c     ]  1 marks, 0 reopened -> -----   best: 
+  thing  3 [book_birds]  1 marks, 1 reopened -> RIGHT   best: book_birds 0.50 (keys 0.50)
+  thing  4 [mug_e     ]  1 marks, 1 reopened -> RIGHT   best: mug_e 1.00 (keys 1.00)
+  thing  6 [mug_d     ]  1 marks, 0 reopened -> -----   best: 
+  thing  9 [book_quiet]  4 marks, 3 reopened -> RIGHT   best: book_quiet 0.71 (keys 1.00), mug_c 0.20 (keys 1.00), book_salt 0.05 (keys 0.25)
+  thing 10 [mug_a     ]  5 marks, 2 reopened -> RIGHT   best: mug_a 0.27 (keys 0.33), book_birds 0.00 (keys 0.00)
+  recognized 5 of 7
+
+################ summary (the diner mugs: mug_a new, mug_b chipped, mug_c printed)
+  hard readings, whole profiles        layout3: 7/7 (a RIGHT, b RIGHT, c RIGHT)   layout5: 6/7 (a RIGHT, b RIGHT, c none)
+  hard readings, compressed profiles   layout3: 7/7 (a RIGHT, b RIGHT, c RIGHT)   layout5: 6/7 (a RIGHT, b as mug_c, c RIGHT)
+  soft readings, whole profiles        layout3: 6/7 (a RIGHT, b RIGHT, c as mug_b)   layout5: 7/7 (a RIGHT, b RIGHT, c RIGHT)
+  soft readings, compressed profiles   layout3: 5/7 (a RIGHT, b RIGHT, c as mug_b)   layout5: 5/7 (a RIGHT, b RIGHT, c none)

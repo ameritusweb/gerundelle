@@ -1,0 +1,44 @@
+> Where does Vygotsky's Zone of Proximal Development fit into the system?
+
+● Here's where it lands in the running system.
+
+  Vygotsky's ZPD (1978): what a learner can do alone, what they can do with help, and what they cannot do even with help. The zone of proximal development is the middle band
+  — what the learner can accomplish with guidance from someone more knowledgeable. Learning happens when the teacher scaffolds the learner through tasks in this zone, then
+  gradually withdraws.
+
+  Told knowledge at half weight is the mechanism. In the understanding register (molecules.py, Understanding.funding), every receipt carries provenance: lived (1.0), worked
+  out (1.0), told (0.5 × Params.credulity), imagined (0.0). What someone tells you enters at half weight. You don't own it until you test it. The Lean proof
+  (replay_mass_le) guarantees that no operation can raise the weight — only a Fit event (an interaction with the world) mints lived receipts.
+
+  The chess ladder's rung 2 measured this directly. A mind coached by Stockfish at depth 8:
+
+  - The coach's word enters as told knowledge, funded at half, believed by the planner as far as the mind's credulity goes.
+  - When the world contradicts the coach's word, the told way is refuted, the coach's reliability record is marked down, and anger forms at the teller.
+  - The mind's own lived records come first: a move the mind has tried and seen do nothing is read off its own record, and the coach's word for it no longer counts.
+
+  The measured result was that coaching hurt: Stockfish made the mind worse (671 defended wins vs 773 alone) because the coach determined which experiences came first, and the
+  easy wins it handed over prevented the failures the mind needed to learn the conditions. But — and this is the ZPD point — coaching helped when it saved search the mind
+  could not do alone. Rung 2b's book (a mate in two whose first move is quiet) showed the right case: 112 of 120 positions mated with the book vs 37 alone. A told line whose
+  steps chain into a plan the mind could not have found by itself is the zone of proximal development: what the learner can do with help.
+
+  The fiction ladder measured the withdrawal. Rung 6: Mara watches her grandfather Ben open the box. His pushes enter as seen receipts (learned by watching: the other's push
+  contrasted with her own failure teaches the condition). In the second scene, alone with a cupboard whose bolt plays the latch's role, she recalls the episode by shape
+  (Case 2, structure transfers across domains) and holds the condition as recalled — funded at half, a hypothesis to test. Her own tries confirm it: the told receipt becomes
+  lived.
+
+  The chess ladder's rung 1b measured what happens when the coach is withdrawn: every Stockfish-trained mind lost the exchange exactly once after imagination was turned off,
+  learned the condition from that one lived loss, and went on winning. "The gap between alone and courted": courted plays better sooner, alone ends with more of its own.
+
+  The temperament system gives credulity as a parameter (Params.credulity): how much a mind trusts what it's told. A credulous mind acts on told knowledge at once. A
+  skeptical mind tests the alternatives first. On fiction rung 2, skeptical Mara tests the alternatives to Ben's word before acting on it; dogged Mara asks, tests, and is
+  right in 26 sentences. Different minds in the same zone, scaffolded differently by the same teacher.
+
+  How it differs from Vygotsky specifically:
+
+  - Vygotsky's ZPD is a zone: tasks inside it are learnable with help, tasks outside it are not. Here, the boundary is structural: told knowledge helps when it saves search
+    the mind can't do alone (rung 2b: a quiet first move the mind would never try), and hurts when it shortcuts a failure the mind needed (rung 2: the contrast that teaches
+    the condition). The zone is defined by what the mind's own search can reach, not by task difficulty.
+  - Vygotsky says nothing about what happens to the scaffolding after it's withdrawn. Here, the withdrawal is measured: one lived failure to recover, then everything the coach
+    answered has to be re-asked. The cost of withdrawal is proportional to how much the coach answered that the mind never tested.
+  - The provenance is conserved: told stays told. Vygotsky's model has the learner eventually "owning" what the teacher provided. Here, ownership requires a Fit event — the
+    learner must test it. The Lean proof says this cannot be bypassed.

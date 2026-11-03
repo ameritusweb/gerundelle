@@ -1,0 +1,51 @@
+> Where does surprise and free energy fit into the system?
+
+  Searched for 5 patterns, read 1 file (ctrl+o to expand)
+
+● Now let me look at the actual surprise and bid computation in the code.
+
+  Searched for 6 patterns (ctrl+o to expand)
+
+● Now let me find the actual bid computation — the compete/think method where surprise feeds into which molecules win.
+
+  Searched for 1 pattern (ctrl+o to expand)
+
+● Here's where it lands in the running system.
+
+  Surprise is a bid term, not something the system minimizes. A molecule's bid for a working-memory slot is:
+
+  activation × (1 + binding_score) + open_site_tension + w_pred × forward + support
+
+  The forward term (line 422 of molecules.py) is the molecule's current surprise level plus a novelty term that shrinks as the molecule accumulates a record of what follows
+  it. So surprise makes a thought more competitive for attention — the opposite of Friston's free energy principle, where surprise is minimized. Here, surprising things get
+  attended to.
+
+  Two kinds of surprise are computed:
+
+  1. Arrival surprise — when a molecule is perceived, its surprise is set to the information-theoretic measure -log(base_rate) / log(vocab): how unexpected its appearance is
+     right now, given how often it's appeared before. This decays by 0.7 per tick (s_keep).
+  2. Outcome surprise — when a learning event happens, the prediction error |outcome - mu| / 2 is stored as surprise for the molecules involved. A Dirichlet prior (1, 1, 1)
+     over (good, neutral, bad) is updated by counting, and info_gain() computes the expected information gain from one more observation — a proper Bayesian calculation using
+     the digamma function.
+
+  Expected information gain is the forward-looking term: the concept map says it explicitly — "not how much surprise was reduced in the past, but how much would be reduced by
+  attending now." A molecule that has been fully explored (its Dirichlet is concentrated) scores low on this term even with a great track record. This is close to active
+  inference's epistemic value, but it's one factor in a competitive market, not a single quantity being optimized.
+
+  Contradiction is the prediction-error mechanism: a stored belief predicts something; if the world answers and the prediction is wrong, the belief reopens with surprise set
+  to 0.5 + 0.5 × understanding — the better understood it was, the more surprising its failure. That puts it at the top of the tournament immediately. This is the closest
+  thing to predictive processing's prediction error, but it's structural: it doesn't update a generative model by gradient — it unseals a stored box, forces it back into the
+  competition, and the mind re-examines it.
+
+  How it differs from FEP specifically:
+
+  - FEP minimizes one variational quantity. Here there's no single quantity — it's a market with many bidders and scarce slots.
+  - FEP says organisms act to make predictions true (or update models to match the world). Here, surprise raises a thought's bid, so the system actively attends to what's
+    unexpected, then the resulting experience updates the Dirichlet counts, which reduces future surprise naturally. The surprise reduction is a consequence of acting, not
+    the objective.
+  - Provenance is conserved. FEP updates a generative model indifferently to where the evidence came from. Here, lived evidence counts full, told at half, imagined at zero —
+    and no operator can change that (proved in Lean).
+
+  Where they overlap: the forward term is genuinely expected information gain from a Bayesian model, and contradiction is genuinely prediction-error-driven revision. The
+  system's attention allocation by surprise, and its experiments driven by open questions (inquiry), look like active inference's epistemic foraging. But the architecture
+  frames these as market phenomena (competition under scarcity with empirical feedback), not as optimization of a free energy functional.

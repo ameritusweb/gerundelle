@@ -1,0 +1,7 @@
+== grievance 0,0,0,0: population ['steady', 'steady', 'steady', 'steady']; wants met 0 of 4; slices 8000; conservation HOLDS
+Ada   steady    concedes reached    no; sealed own/others 0/9; locked out 26; anger at -; sadness over {'jar1': 1}; told {'frustration': 11, 'joy': 9, 'anxiety': 14, 'sadness': 1}
+Ben   steady    concedes reached    no; sealed own/others 0/8; locked out 27; anger at -; sadness over -; told {'frustration': 7, 'joy': 6}
+Cal   steady    concedes reached    no; sealed own/others 0/0; locked out 61; anger at -; sadness over -; told {'frustration': 33, 'anxiety': 51, 'joy': 3}
+Dee   steady    concedes reached    no; sealed own/others 0/6; locked out 46; anger at -; sadness over {'hollow3': 1}; told {'frustration': 11, 'joy': 7, 'anxiety': 31, 'sadness': 1, 'fading': 1}
+   jars sealed at the end: {'jar1': 'Ada', 'jar3': 'Ada', 'jar4': 'Ben'}
+   reached: []

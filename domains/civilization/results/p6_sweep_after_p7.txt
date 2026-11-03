@@ -1,0 +1,36 @@
+[moon_off_steady] reached False; ticks 1500; pushes 48; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_on_steady] reached True; ticks 362; pushes 55; gave up False; sub-wants set 1, met 1, dropped 0; conservation HOLDS
+    t261 set flask_charged | t266 met flask_charged | t267 tried hard_push:skiff_lit
+[moon_off_restless] reached False; ticks 1500; pushes 63; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_on_restless] reached True; ticks 384; pushes 57; gave up False; sub-wants set 1, met 1, dropped 0; conservation HOLDS
+    t288 tried hard_push:skiff_moored | t347 tried hard_push:skiff_lit | t353 tried hard_push:skiff_lit | t359 set flask_brimming | t370 met flask_brimming | t371 tried hard_push:skiff_lit
+[moon_off_dogged] reached False; ticks 1500; pushes 52; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_on_dogged] reached False; ticks 1500; pushes 52; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_off_impatient] reached False; ticks 79; pushes 12; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_on_impatient] reached False; ticks 79; pushes 12; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_off_patient] reached False; ticks 203; pushes 31; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[moon_on_patient] reached False; ticks 203; pushes 31; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_off_steady] reached True; ticks 265; pushes 41; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_on_steady] reached True; ticks 213; pushes 33; gave up False; sub-wants set 1, met 1, dropped 0; conservation HOLDS
+    t188 set jar_brimming | t199 met jar_brimming | t200 tried hard_push:skiff_resting
+[voyage_off_restless] reached False; ticks 1500; pushes 43; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_on_restless] reached True; ticks 283; pushes 44; gave up False; sub-wants set 1, met 1, dropped 0; conservation HOLDS
+    t258 set jar_brimming | t269 met jar_brimming | t270 tried hard_push:skiff_resting
+[voyage_off_dogged] reached True; ticks 67; pushes 10; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_on_dogged] reached True; ticks 67; pushes 10; gave up False; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_off_impatient] reached False; ticks 83; pushes 13; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_on_impatient] reached False; ticks 83; pushes 13; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_off_patient] reached False; ticks 135; pushes 21; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+[voyage_on_patient] reached False; ticks 135; pushes 21; gave up True; sub-wants set 0, met 0, dropped 0; conservation HOLDS
+
+world   temper               off             on  sub-wants (set/met/dropped)
+moon    steady          no 1500t       yes 362t  1/1/0
+moon    restless        no 1500t       yes 384t  1/1/0
+moon    dogged          no 1500t       no 1500t  0/0/0
+moon    impatient    gave up 79t    gave up 79t  0/0/0
+moon    patient     gave up 203t   gave up 203t  0/0/0
+voyage  steady          yes 265t       yes 213t  1/1/0
+voyage  restless        no 1500t       yes 283t  1/1/0
+voyage  dogged           yes 67t        yes 67t  0/0/0
+voyage  impatient    gave up 83t    gave up 83t  0/0/0
+voyage  patient     gave up 135t   gave up 135t  0/0/0

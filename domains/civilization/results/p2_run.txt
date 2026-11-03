@@ -1,0 +1,145 @@
+  model.load_state_dict(torch.load(filelike, map_location=device))
+[steady] alone: reached True, ticks 46, pushes 14  |  told: reached True, ticks 52, pushes 16; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'model', 'jar']; told ['model_nesting', None, None]; confirmed by her own tries []
+  her forming conditions: {'hard_push:hollow_open': 'model_nesting'}
+  pushes: [('hard hollow', 5), ('hard jar', 2), ('light model', 2), ('hard model', 2), ('light jar', 2), ('hard shell', 1), ('hard boulder', 1), ('hard skiff', 1)]
+    t12   ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t12   tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t14   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t16   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t16   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t37   ask      Ada  jar        {'to': 'Wen', 'slot': 'conditions'}
+    t37   tell     Wen  jar        {'to': 'Ada', 'condition': None}
+    t41   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t52   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 12284.99it/s]
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. She was delighted with the shell. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada wondered what the hollow needed. She felt sad about the boulder. She was delighted with the carved boat. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada pushed the hollow hard. A shell-shaped cup took shape beside the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada shook the jar, and it went dark. She was delighted with the jar. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada shoved the hollow, but it would not move. She felt anxious about the cup. She shook the jar, but it did not budge. She felt anxious about the jar. She felt sad about the cup. She pushed the hollow hard, but nothing happened. In time, she stopped thinking about the boulder. She grew frustrated with the hollow. She felt sad about the jar. She moved the carved boat, and it came out of the hollow. She dipped the jar into the spring, and it began to glow. She was delighted with the jar. "What fills the jar?" Ada asked Wen. "I don't know what fills the jar," Wen said. Ada moved the carved boat, and it settled into the hollow. She pushed the hollow hard. A small skiff took shape beside the hollow. Ada gave the skiff a hard push, and it rose into the air and came down on the far hill. The carved boat came out of the hollow. Ada laughed with joy.
+  round-trip 1.00; sentences 46
+
+[restless] alone: reached True, ticks 63, pushes 19  |  told: reached True, ticks 63, pushes 19; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['shell', 'model']; told [None, None]; confirmed by her own tries []
+  her forming conditions: {'hard_push:hollow_open': 'model_nesting', 'light_push:hollow_open': 'shell_nesting'}
+  pushes: [('light hollow', 3), ('hard shell', 3), ('light shell', 3), ('hard hollow', 2), ('hard model', 2), ('light model', 2), ('hard boulder', 1), ('hard jar', 1), ('light jar', 1), ('hard skiff', 1)]
+    t23   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t23   learn    Ada  hollow     {'condition': 'model_nesting', 'confirms': None, 'exposes': None, 'watched': None}
+    t41   ask      Ada  shell      {'to': 'Wen', 'slot': 'conditions'}
+    t41   tell     Wen  shell      {'to': 'Ada', 'condition': None}
+    t46   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t46   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t48   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t48   learn    Ada  hollow     {'condition': 'shell_nesting', 'confirms': None, 'exposes': None, 'watched': None}
+    t63   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada felt sad about the boulder. She was delighted with the carved boat. She shook the jar, and it went dark. She was delighted with the jar. She dipped the jar into the spring, and it began to glow. She touched the hollow, but it would not move. She grew frustrated with the hollow. She moved the carved boat, and it settled into the hollow. She pushed the hollow hard. A small skiff took shape beside the hollow. Ada realized that the hollow made a boat only when the carved boat lay in it. She pressed on the hollow, but it did not budge. In time, she stopped thinking about the boulder. She moved the carved boat, and it came out of the hollow. She moved the shell, and it settled into the hollow. She was delighted with the shell. She moved the shell, and it came out of the hollow. She wondered what came with the shell. She moved the shell again, and it settled into the hollow. She grew frustrated with the hollow again. "What moves the shell?" Ada asked Wen. "I don't know what moves the shell," Wen said. Ada moved the shell, and it came out of the hollow. She moved the shell again, and it settled into the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada touched the hollow. A shell-shaped cup took shape beside the hollow. Ada realized that the hollow made a cup only when the shell lay in it. She moved the shell, and it came out of the hollow. She shoved the skiff, and it rose into the air and came down on the far hill. The carved boat settled into the hollow. Ada laughed with joy.
+  round-trip 1.00; sentences 44
+
+[dogged] alone: reached False, ticks 800, pushes 48  |  told: reached True, ticks 117, pushes 33; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'boulder', 'jar', 'model', 'skiff']; told ['model_nesting', None, None, None, None]; confirmed by her own tries ['model_nesting']
+  her forming conditions: {'light_push:hollow_open': 'model_nesting'}
+  pushes: [('hard boulder', 8), ('light hollow', 6), ('light boulder', 4), ('hard hollow', 3), ('hard jar', 3), ('hard shell', 2), ('light shell', 2), ('light jar', 2), ('hard model', 2), ('hard skiff', 1)]
+    t8    ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t8    tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t20   ask      Ada  boulder    {'to': 'Wen', 'slot': 'conditions'}
+    t20   tell     Wen  boulder    {'to': 'Ada', 'condition': None}
+    t73   ask      Ada  jar        {'to': 'Wen', 'slot': 'conditions'}
+    t73   tell     Wen  jar        {'to': 'Ada', 'condition': None}
+    t100  surprise Ada  boulder    {'expected': ['no_change'], 'got': ['boulder_cleaving', 'boulder_gone', 'model_resting', 'pebbles_piling']}
+    t100  learn    Ada  boulder    {'condition': 'jar_charged', 'confirms': None, 'exposes': None, 'watched': None}
+    t103  ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t103  tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t106  surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t106  learn    Ada  hollow     {'condition': 'model_nesting', 'confirms': 'Wen', 'exposes': None, 'watched': None}
+    t109  ask      Ada  skiff      {'to': 'Wen', 'slot': 'conditions'}
+    t109  tell     Wen  skiff      {'to': 'Ada', 'condition': None}
+    t117  reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada was delighted with the shell. She wondered what the shell did. She moved the shell again, and it came out of the hollow. She wondered what the hollow needed. She touched the hollow, but it would not move. She grew frustrated with the hollow. She pressed on the boulder, but it did not budge. She wondered what the boulder needed. "What breaks the boulder?" Ada asked Wen. "I don't know what breaks the boulder," Wen said. Ada touched the boulder again, but nothing happened. She grew frustrated with the boulder. She shook the jar, and it went dark. She was delighted with the jar. She gave the boulder a hard push, but it did not move. She moved the shell, and it settled into the hollow. She shoved the boulder, but it would not move. Again and again she tried the boulder, the hollow and the jar, but nothing gave. She felt anxious about the jar. She pushed the boulder hard, but it did not budge. "What fills the jar?" Ada asked Wen. "I don't know what fills the jar," Wen said. Ada gave the boulder a hard push again, but nothing happened. She shook the jar, but it did not move. She grew frustrated with the jar. She moved the shell, and it came out of the hollow. She pressed on the boulder, but it would not move. She shoved the boulder, but it did not budge. She dipped the jar into the spring, and it began to glow. She was delighted with the jar. She dipped the jar into the spring again, but nothing happened. She pushed the boulder hard. But this time the boulder split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada realized that the boulder moved only if the jar began to glow. She was delighted with the carved boat. She moved the carved boat, and it settled into the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada touched the hollow. A small skiff took shape beside the hollow. Ada realized that Wen had been right. "What lifts the skiff?" Ada asked Wen. "I don't know what lifts the skiff," Wen said. Ada pushed the skiff hard, and it rose into the air and came down on the far hill. The carved boat came out of the hollow. Ada laughed with joy. She felt anxious about the skiff.
+  round-trip 1.00; sentences 60
+
+[trusting] alone: reached True, ticks 46, pushes 14  |  told: reached True, ticks 88, pushes 27; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'model', 'jar']; told ['model_nesting', None, None]; confirmed by her own tries ['model_nesting']
+  her forming conditions: {'hard_push:hollow_open': 'model_nesting'}
+  pushes: [('hard jar', 7), ('light jar', 7), ('hard hollow', 5), ('hard shell', 3), ('hard model', 3), ('hard boulder', 1), ('hard skiff', 1)]
+    t12   ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t12   tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t14   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t16   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t16   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t41   ask      Ada  jar        {'to': 'Wen', 'slot': 'conditions'}
+    t41   tell     Wen  jar        {'to': 'Ada', 'condition': None}
+    t49   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t49   learn    Ada  hollow     {'condition': 'model_nesting', 'confirms': 'Wen', 'exposes': None, 'watched': None}
+    t71   surprise Ada  hollow     {'expected': ['hollow_forming', 'hollow_open', 'skiff_resting'], 'got': ['no_change']}
+    t88   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. She was delighted with the shell. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada wondered what the hollow needed. She felt sad about the boulder. She was delighted with the carved boat. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada pushed the hollow hard. A shell-shaped cup took shape beside the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada shook the jar, and it went dark. She was delighted with the jar. She wondered what the jar did. She shook the jar again, but it would not move. She felt anxious about the jar. She shook the jar again, but it did not budge. She felt sad about the jar. She moved the shell, and it came out of the hollow. She dipped the jar into the spring, and it began to glow. In time, she stopped thinking about the boulder. She dipped the jar into the spring again, but nothing happened. She moved the carved boat, and it settled into the hollow. She dipped the jar into the spring, but it did not move. She shook the jar, and it went dark. "What fills the jar?" Ada asked Wen. "I don't know what fills the jar," Wen said. Ada dipped the jar into the spring, and it began to glow. She pushed the hollow hard. A small skiff took shape beside the hollow. Ada realized that Wen had been right. She felt anxious about the cup. She dipped the jar into the spring, but it would not move. She felt sad about the cup. She moved the shell, and it settled into the hollow. The carved boat came out of the hollow. Ada dipped the jar into the spring, but it did not budge. She shook the jar, and it went dark. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada shook the jar, but nothing happened. She pushed the hollow hard. But this time the hollow did not move. Ada dipped the jar into the spring, and it began to glow. She moved the carved boat, and it came out of the hollow. She shoved the skiff, and it rose into the air and came down on the far hill. She laughed with joy. She felt anxious about the skiff. She felt sad about the skiff.
+  round-trip 1.00; sentences 60
+
+[skeptical] alone: reached True, ticks 46, pushes 14  |  told: reached True, ticks 94, pushes 29; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'model', 'skiff']; told ['model_nesting', None, None]; confirmed by her own tries ['model_nesting']
+  her forming conditions: {'light_push:hollow_open': 'model_nesting'}
+  pushes: [('hard hollow', 9), ('hard jar', 4), ('hard shell', 3), ('light hollow', 3), ('hard model', 3), ('light jar', 2), ('hard skiff', 2), ('hard boulder', 1), ('light shell', 1), ('light model', 1)]
+    t12   ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t12   tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t14   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t16   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t16   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t83   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t83   learn    Ada  hollow     {'condition': 'model_nesting', 'confirms': 'Wen', 'exposes': None, 'watched': None}
+    t86   ask      Ada  skiff      {'to': 'Wen', 'slot': 'conditions'}
+    t86   tell     Wen  skiff      {'to': 'Ada', 'condition': None}
+    t94   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. She was delighted with the shell. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada wondered what the hollow needed. She felt sad about the boulder. She was delighted with the carved boat. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada pushed the hollow hard. A shell-shaped cup took shape beside the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada shook the jar, and it went dark. She was delighted with the jar. She wondered what the jar did. She shook the jar again, but it would not move. She felt anxious about the jar. She shoved the hollow, but it did not budge. She felt anxious about the cup. She felt sad about the jar. She moved the shell, and it came out of the hollow. She felt sad about the cup. She dipped the jar into the spring, and it began to glow. In time, she stopped thinking about the boulder. She touched the hollow, but nothing happened. She grew frustrated with the hollow. She pushed the hollow hard, but it did not move. She gave the hollow a hard push again, but it would not move. She shook the jar, and it went dark. She moved the shell, and it settled into the hollow. In time, she stopped thinking about the jar. She pressed on the hollow, but it did not budge. Again and again she tried the hollow and the jar, but nothing gave. She felt anxious about the jar again. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada shoved the hollow, but nothing happened. She moved the carved boat, and it came out of the hollow. She pushed the hollow hard, but it did not move. She dipped the jar into the spring, and it began to glow. She was delighted with the jar. She moved the shell, and it settled into the hollow. She gave the hollow a hard push, but it would not move. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada touched the hollow. A small skiff took shape beside the hollow. Ada realized that Wen had been right. "What lifts the skiff?" Ada asked Wen. "I don't know what lifts the skiff," Wen said. Ada wondered what the skiff did. She shoved the skiff, and it rose into the air and came down on the far hill. The carved boat came out of the hollow. Ada laughed with joy.
+  round-trip 1.00; sentences 64
+
+[impatient] alone: reached True, ticks 46, pushes 14  |  told: reached True, ticks 52, pushes 16; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'model', 'jar']; told ['model_nesting', None, None]; confirmed by her own tries []
+  her forming conditions: {'hard_push:hollow_open': 'model_nesting'}
+  pushes: [('hard hollow', 5), ('hard jar', 2), ('light model', 2), ('hard model', 2), ('light jar', 2), ('hard shell', 1), ('hard boulder', 1), ('hard skiff', 1)]
+    t12   ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t12   tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t14   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t16   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t16   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t37   ask      Ada  jar        {'to': 'Wen', 'slot': 'conditions'}
+    t37   tell     Wen  jar        {'to': 'Ada', 'condition': None}
+    t41   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t52   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. She was delighted with the shell. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada wondered what the hollow needed. She felt sad about the boulder. She was delighted with the carved boat. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada pushed the hollow hard. A shell-shaped cup took shape beside the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada shook the jar, and it went dark. She was delighted with the jar. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada shoved the hollow, but it would not move. She felt anxious about the cup. She shook the jar, but it did not budge. She felt anxious about the jar. She felt sad about the cup. She pushed the hollow hard, but nothing happened. In time, she stopped thinking about the boulder. She grew frustrated with the hollow. She felt sad about the jar. She moved the carved boat, and it came out of the hollow. She dipped the jar into the spring, and it began to glow. She was delighted with the jar. "What fills the jar?" Ada asked Wen. "I don't know what fills the jar," Wen said. Ada moved the carved boat, and it settled into the hollow. She pushed the hollow hard. A small skiff took shape beside the hollow. Ada gave the skiff a hard push, and it rose into the air and came down on the far hill. The carved boat came out of the hollow. Ada laughed with joy.
+  round-trip 1.00; sentences 46
+
+[patient] alone: reached True, ticks 46, pushes 14  |  told: reached True, ticks 52, pushes 16; conservation HOLDS
+  Wen knows {'hard_push:hollow_open': 'model_nesting'}
+  asked about ['hollow', 'model', 'jar']; told ['model_nesting', None, None]; confirmed by her own tries []
+  her forming conditions: {'hard_push:hollow_open': 'model_nesting'}
+  pushes: [('hard hollow', 5), ('hard jar', 2), ('light model', 2), ('hard model', 2), ('light jar', 2), ('hard shell', 1), ('hard boulder', 1), ('hard skiff', 1)]
+    t12   ask      Ada  hollow     {'to': 'Wen', 'slot': 'conditions'}
+    t12   tell     Wen  hollow     {'to': 'Ada', 'condition': 'model_nesting'}
+    t14   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['cup_resting', 'hollow_forming', 'hollow_open']}
+    t16   ask      Ada  model      {'to': 'Wen', 'slot': 'conditions'}
+    t16   tell     Wen  model      {'to': 'Ada', 'condition': None}
+    t37   ask      Ada  jar        {'to': 'Wen', 'slot': 'conditions'}
+    t37   tell     Wen  jar        {'to': 'Ada', 'condition': None}
+    t41   surprise Ada  hollow     {'expected': ['no_change'], 'got': ['hollow_forming', 'hollow_open', 'skiff_resting']}
+    t52   reach    Ada  skiff      {'change': 'skiff_flying', 'inv': ('hard', 'skiff', 'resting')}
+
+There was a spring of light at the foot of a hill. Old Wen sat on a stone nearby. A clay jar glowed beside it. A smooth hollow lay open in the rock. A spiral shell lay on the slope. A boulder sat on the slope. Ada wanted to send a boat into the sky. She pushed the hollow hard, but it did not move. She moved the shell, and it settled into the hollow. She was delighted with the shell. She gave the boulder a hard push, and it split apart. A little carved boat lay among the pieces. A heap of pebbles lay on the ground. Ada wondered what the hollow needed. She felt sad about the boulder. She was delighted with the carved boat. "What belongs in the hollow?" Ada asked Wen. "The carved boat belongs in the hollow," Wen said. Ada pushed the hollow hard. A shell-shaped cup took shape beside the hollow. "What moves the carved boat?" Ada asked Wen. "I don't know what moves the carved boat," Wen said. Ada shook the jar, and it went dark. She was delighted with the jar. She moved the carved boat, and it settled into the hollow. The shell came out of the hollow. Ada shoved the hollow, but it would not move. She felt anxious about the cup. She shook the jar, but it did not budge. She felt anxious about the jar. She felt sad about the cup. She pushed the hollow hard, but nothing happened. In time, she stopped thinking about the boulder. She grew frustrated with the hollow. She felt sad about the jar. She moved the carved boat, and it came out of the hollow. She dipped the jar into the spring, and it began to glow. She was delighted with the jar. "What fills the jar?" Ada asked Wen. "I don't know what fills the jar," Wen said. Ada moved the carved boat, and it settled into the hollow. She pushed the hollow hard. A small skiff took shape beside the hollow. Ada gave the skiff a hard push, and it rose into the air and came down on the far hill. The carved boat came out of the hollow. Ada laughed with joy.
+  round-trip 1.00; sentences 46
+
+temper              alone           told  confirmed
+steady     yes  14p   46t yes  16p   52t  []
+restless   yes  19p   63t yes  19p   63t  []
+dogged     no   48p  800t yes  33p  117t  ['model_nesting']
+trusting   yes  14p   46t yes  27p   88t  ['model_nesting']
+skeptical  yes  14p   46t yes  29p   94t  ['model_nesting']
+impatient  yes  14p   46t yes  16p   52t  []
+patient    yes  14p   46t yes  16p   52t  []

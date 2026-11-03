@@ -1,0 +1,54 @@
+> Where does confirmation bias fit into the system?
+
+● Here's where it lands in the running system.
+
+  Confirmation bias (Wason, 1960; Nickerson, 1998): the tendency to search for, interpret, and recall information that confirms one's preexisting beliefs, while ignoring or
+  discounting information that contradicts them. People test their hypotheses by looking for confirming evidence rather than disconfirming evidence. The bias is not a design
+  flaw in any one system — it appears robustly across tasks, ages, and cultures.
+
+  The self-confirming sub-want loop is the architecture's own version, found empirically three times in the chess ladder, each time as a failure first:
+
+  1. Rung 1c, seed 5: the mind learned "Re8 mates when the f7 pawn is attacked" (a coincidental correlation from the first contrast). It set the sub-want "f7 attacked" and
+     met it with Rd7, 326 times. Every episode. The condition was never tested without the behavior because the behavior always created the condition. Contradiction had
+     nothing to catch: the move never failed in the context it created.
+
+  2. Rung 1, seed 6 (after the label fix): learned "Rxd5 wins when my bishop on a6 is hanging." Lost the exchange 43 times making its bishop hang — because in the
+     undefended configuration (where Rxd5 wins anyway), the bishop could be made to hang via Bb7, and Rxd5 always won there. Self-confirmation: the belief held 52 of 52
+     times where it was tested, because the test that would refute it (Rxd5 without the bishop hanging) was preempted by the sub-want always making the bishop hang first.
+
+  3. Rung 1b, Stockfish seed 2: learned "Bxc8 needs my bishop hanging." Lost 37 exchanges acting on it.
+
+  The concept map's section on contradiction: "A stored belief whose prediction fails reopens with full surprise, forcing revision. The mind can't ignore a failed prediction."
+  But here the belief never fails — the mind's own actions create the condition it expects every time. The confirmation bias is not a filter on incoming evidence. It's a
+  structural loop: the hypothesis generates the actions that generate the evidence that confirms the hypothesis.
+
+  The traced diagnosis (chess LADDER.md, rung 1c): "The belief was never wrong where it was tested. The test that refutes it was playable, but its sub-want always made the
+  condition hold first: self-confirmation, so contradiction had nothing to catch."
+
+  The architecture's fixes, each discovered as a principle from the failure:
+
+  1. sub_tested (Params.sub_tested): what a way needs (needs) counts a split's condition only where the split's other half holds records — a condition never seen absent is not
+     known to matter. The trace: "material down" was a sub-want from a nested split whose other half was empty; every record of Rd8 with e8 held also had material down,
+     because the only way e8 became held was by sacrificing a rook. A condition the mind has never observed absent is not funded as a requirement.
+
+  2. sub_cost (Params.sub_cost): while a sub-want is served, a push whose outcome moved the root want's object away from the root want is no means to it. A means that costs
+     what it's supposed to help is blocked.
+
+  3. Weight by receipts (rung 1d): each constraint's weight is 1 - 1/2^n for the n failures of its kind that carried it. A constraint seen once weighs half. This means a
+     coincidental constraint from one contrast has less influence than one confirmed by many failures. The worst case fell from 37 to 25 attempts.
+
+  The fiction ladder's rung 1 found confirmation bias in story form: "Tom thought his push had moved the crate" — a success with no known condition credited to the push
+  (a worked receipt: believe). A later failure contradicts it (surprise, belief retracted). The fix: a success whose condition is unknown is believed provisionally; a single
+  failure retracts it and the contrast teaches the real condition. The architecture CAN be wrong, but it doesn't stay wrong once the world contradicts it — unless the
+  self-confirming loop prevents the contradiction from ever occurring.
+
+  How it differs from confirmation bias in the literature specifically:
+
+  - Wason's confirmation bias is about how people test hypotheses: they seek confirming cases and neglect disconfirming ones. Here, the bias is not about which evidence the
+    mind seeks — the Inquiry mechanism suggests experiments that test conditions, including disconfirming ones. The bias is about which evidence the mind can encounter: the
+    sub-want's actions create the condition before the test runs, so the disconfirming case never arises.
+  - Nickerson's review describes confirmation bias as a pervasive cognitive tendency. Here, it's a specific structural failure with specific structural fixes. The bias is not
+    in the mind's interpretation of evidence (the Dirichlet counts are updated honestly) but in the mind's actions shaping which evidence is available. The fix is in the
+    action selection (sub_tested, sub_cost, weight by receipts), not in the evidence evaluation.
+  - The architecture demonstrates that an honest evidence processor — one that updates its beliefs correctly from every datum it receives — can still exhibit confirmation
+    bias if its actions are controlled by its beliefs. The bias is in the loop, not in the processing.

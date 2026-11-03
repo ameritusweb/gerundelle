@@ -1,0 +1,1423 @@
+[
+ {
+  "config": "P7",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6718,
+  "conservation": true,
+  "met": 4,
+  "met_by": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.302,
+  "changed_others": 110,
+  "gave_up": 0,
+  "seconds": 162,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6389,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.308,
+  "changed_others": 96,
+  "gave_up": 0,
+  "seconds": 202,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 5621,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.315,
+  "changed_others": 47,
+  "gave_up": 0,
+  "seconds": 214,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 2894,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "own_share": 0.372,
+  "changed_others": 41,
+  "gave_up": 1,
+  "seconds": 66,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 5903,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.31,
+  "changed_others": 61,
+  "gave_up": 0,
+  "seconds": 233,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6470,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.339,
+  "changed_others": 66,
+  "gave_up": 0,
+  "seconds": 264,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 7059,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.315,
+  "changed_others": 136,
+  "gave_up": 0,
+  "seconds": 291,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 5065,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.297,
+  "changed_others": 48,
+  "gave_up": 0,
+  "seconds": 301,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 5811,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.292,
+  "changed_others": 60,
+  "gave_up": 0,
+  "seconds": 318,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6165,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.539,
+  "changed_others": 30,
+  "gave_up": 0,
+  "seconds": 185,
+  "locked_own": 3,
+  "locked_others": 12,
+  "locked_out": 100,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 7494,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.382,
+  "changed_others": 68,
+  "gave_up": 0,
+  "seconds": 244,
+  "locked_own": 12,
+  "locked_others": 22,
+  "locked_out": 243,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.423,
+  "changed_others": 56,
+  "gave_up": 0,
+  "seconds": 284,
+  "locked_own": 16,
+  "locked_others": 16,
+  "locked_out": 225,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6165,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.532,
+  "changed_others": 46,
+  "gave_up": 0,
+  "seconds": 220,
+  "locked_own": 5,
+  "locked_others": 20,
+  "locked_out": 103,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 6610,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.337,
+  "changed_others": 52,
+  "gave_up": 1,
+  "seconds": 315,
+  "locked_own": 6,
+  "locked_others": 20,
+  "locked_out": 271,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 5219,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.312,
+  "changed_others": 41,
+  "gave_up": 1,
+  "seconds": 748,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 6792,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.448,
+  "changed_others": 57,
+  "gave_up": 1,
+  "seconds": 493,
+  "locked_own": 7,
+  "locked_others": 15,
+  "locked_out": 142,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6425,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.358,
+  "changed_others": 116,
+  "gave_up": 1,
+  "seconds": 793,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6165,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.346,
+  "changed_others": 90,
+  "gave_up": 0,
+  "seconds": 593,
+  "locked_own": 14,
+  "locked_others": 26,
+  "locked_out": 142,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 5756,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "dogged"
+  ],
+  "own_share": 0.283,
+  "changed_others": 169,
+  "gave_up": 1,
+  "seconds": 840,
+  "anger": 1,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 4211,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "restless"
+  ],
+  "own_share": 0.331,
+  "changed_others": 58,
+  "gave_up": 1,
+  "seconds": 650,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P7",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 5195,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "dogged"
+  ],
+  "own_share": 0.352,
+  "changed_others": 62,
+  "gave_up": 1,
+  "seconds": 858,
+  "anger": 1,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 4190,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.497,
+  "changed_others": 47,
+  "gave_up": 1,
+  "seconds": 627,
+  "locked_own": 11,
+  "locked_others": 17,
+  "locked_out": 28,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.336,
+  "changed_others": 66,
+  "gave_up": 0,
+  "seconds": 216,
+  "locked_own": 12,
+  "locked_others": 26,
+  "locked_out": 317,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6165,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.353,
+  "changed_others": 75,
+  "gave_up": 0,
+  "seconds": 261,
+  "locked_own": 15,
+  "locked_others": 22,
+  "locked_out": 168,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 7282,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.384,
+  "changed_others": 49,
+  "gave_up": 0,
+  "seconds": 456,
+  "locked_own": 17,
+  "locked_others": 15,
+  "locked_out": 244,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 6473,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.31,
+  "changed_others": 46,
+  "gave_up": 1,
+  "seconds": 1027,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 4190,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.504,
+  "changed_others": 60,
+  "gave_up": 1,
+  "seconds": 277,
+  "locked_own": 19,
+  "locked_others": 28,
+  "locked_out": 45,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6105,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.298,
+  "changed_others": 42,
+  "gave_up": 0,
+  "seconds": 243,
+  "locked_own": 0,
+  "locked_others": 8,
+  "locked_out": 13,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.338,
+  "changed_others": 69,
+  "gave_up": 0,
+  "seconds": 285,
+  "locked_own": 0,
+  "locked_others": 23,
+  "locked_out": 160,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 6355,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.269,
+  "changed_others": 65,
+  "gave_up": 1,
+  "seconds": 174,
+  "locked_own": 0,
+  "locked_others": 26,
+  "locked_out": 124,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P4",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 6833,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.348,
+  "changed_others": 198,
+  "gave_up": 1,
+  "seconds": 1129,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P9",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6484,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.297,
+  "changed_others": 69,
+  "gave_up": 1,
+  "seconds": 821,
+  "locked_own": 5,
+  "locked_others": 22,
+  "locked_out": 138,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 6638,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "steady",
+   "restless",
+   "dogged"
+  ],
+  "own_share": 0.253,
+  "changed_others": 140,
+  "gave_up": 1,
+  "seconds": 229,
+  "locked_own": 0,
+  "locked_others": 46,
+  "locked_out": 159,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.338,
+  "changed_others": 82,
+  "gave_up": 0,
+  "seconds": 364,
+  "locked_own": 0,
+  "locked_others": 23,
+  "locked_out": 191,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6411,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.336,
+  "changed_others": 84,
+  "gave_up": 1,
+  "seconds": 219,
+  "locked_own": 0,
+  "locked_others": 17,
+  "locked_out": 127,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 7239,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.367,
+  "changed_others": 62,
+  "gave_up": 0,
+  "seconds": 297,
+  "locked_own": 0,
+  "locked_others": 16,
+  "locked_out": 60,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "patient"
+  ],
+  "own_share": 0.352,
+  "changed_others": 81,
+  "gave_up": 0,
+  "seconds": 403,
+  "locked_own": 7,
+  "locked_others": 31,
+  "locked_out": 330,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 6792,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.412,
+  "changed_others": 78,
+  "gave_up": 1,
+  "seconds": 482,
+  "locked_own": 7,
+  "locked_others": 25,
+  "locked_out": 125,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P10",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6484,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.308,
+  "changed_others": 78,
+  "gave_up": 1,
+  "seconds": 454,
+  "locked_own": 12,
+  "locked_others": 26,
+  "locked_out": 134,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P11",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 7113,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.238,
+  "changed_others": 136,
+  "gave_up": 1,
+  "seconds": 236,
+  "locked_own": 0,
+  "locked_others": 38,
+  "locked_out": 139,
+  "anger": 0,
+  "feuds": 0
+ },
+ {
+  "config": "P12",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6105,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.29,
+  "changed_others": 43,
+  "gave_up": 0,
+  "seconds": 178,
+  "locked_own": 0,
+  "locked_others": 7,
+  "locked_out": 37,
+  "anger": 2,
+  "feuds": 0
+ },
+ {
+  "config": "P12",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 5791,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "dogged",
+   "steady"
+  ],
+  "own_share": 0.239,
+  "changed_others": 67,
+  "gave_up": 0,
+  "seconds": 138,
+  "locked_own": 0,
+  "locked_others": 19,
+  "locked_out": 101,
+  "anger": 4,
+  "feuds": 0
+ },
+ {
+  "config": "P12",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.307,
+  "changed_others": 61,
+  "gave_up": 0,
+  "seconds": 279,
+  "locked_own": 0,
+  "locked_others": 15,
+  "locked_out": 163,
+  "anger": 3,
+  "feuds": 0
+ },
+ {
+  "config": "P12",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.3,
+  "changed_others": 68,
+  "gave_up": 0,
+  "seconds": 238,
+  "locked_own": 0,
+  "locked_others": 22,
+  "locked_out": 146,
+  "anger": 8,
+  "feuds": 1
+ },
+ {
+  "config": "P12",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6429,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.391,
+  "changed_others": 69,
+  "gave_up": 1,
+  "seconds": 207,
+  "locked_own": 0,
+  "locked_others": 18,
+  "locked_out": 80,
+  "anger": 8,
+  "feuds": 2
+ },
+ {
+  "config": "P13",
+  "pop": "steady",
+  "order": 1,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 6225,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "steady",
+   "steady"
+  ],
+  "own_share": 0.312,
+  "changed_others": 44,
+  "gave_up": 0,
+  "seconds": 179,
+  "locked_own": 0,
+  "locked_others": 11,
+  "locked_out": 22,
+  "anger": 4,
+  "feuds": 0,
+  "retaliations": 2,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P12",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 7037,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "dogged"
+  ],
+  "own_share": 0.254,
+  "changed_others": 60,
+  "gave_up": 1,
+  "seconds": 277,
+  "locked_own": 0,
+  "locked_others": 20,
+  "locked_out": 104,
+  "anger": 6,
+  "feuds": 1
+ },
+ {
+  "config": "P13",
+  "pop": "mixed",
+  "order": 1,
+  "tempers": [
+   "restless",
+   "patient",
+   "dogged",
+   "steady"
+  ],
+  "slices": 5389,
+  "conservation": true,
+  "met": 3,
+  "met_by": [
+   "restless",
+   "dogged",
+   "steady"
+  ],
+  "own_share": 0.241,
+  "changed_others": 69,
+  "gave_up": 1,
+  "seconds": 150,
+  "locked_own": 0,
+  "locked_others": 22,
+  "locked_out": 94,
+  "anger": 8,
+  "feuds": 0,
+  "retaliations": 4,
+  "retaliations_met": 1
+ },
+ {
+  "config": "P13",
+  "pop": "mixed",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "restless",
+   "patient",
+   "dogged"
+  ],
+  "slices": 7727,
+  "conservation": true,
+  "met": 2,
+  "met_by": [
+   "restless",
+   "dogged"
+  ],
+  "own_share": 0.244,
+  "changed_others": 63,
+  "gave_up": 1,
+  "seconds": 174,
+  "locked_own": 0,
+  "locked_others": 21,
+  "locked_out": 198,
+  "anger": 6,
+  "feuds": 1,
+  "retaliations": 4,
+  "retaliations_met": 1
+ },
+ {
+  "config": "P13",
+  "pop": "steady",
+  "order": 2,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.294,
+  "changed_others": 69,
+  "gave_up": 0,
+  "seconds": 196,
+  "locked_own": 0,
+  "locked_others": 15,
+  "locked_out": 98,
+  "anger": 5,
+  "feuds": 1,
+  "retaliations": 3,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P12",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.344,
+  "changed_others": 89,
+  "gave_up": 0,
+  "seconds": 300,
+  "locked_own": 0,
+  "locked_others": 19,
+  "locked_out": 80,
+  "anger": 8,
+  "feuds": 3
+ },
+ {
+  "config": "P13",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 6897,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "restless"
+  ],
+  "own_share": 0.277,
+  "changed_others": 83,
+  "gave_up": 1,
+  "seconds": 153,
+  "locked_own": 0,
+  "locked_others": 25,
+  "locked_out": 193,
+  "anger": 6,
+  "feuds": 1,
+  "retaliations": 2,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P13",
+  "pop": "steady",
+  "order": 0,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.369,
+  "changed_others": 59,
+  "gave_up": 0,
+  "seconds": 212,
+  "locked_own": 0,
+  "locked_others": 17,
+  "locked_out": 122,
+  "anger": 3,
+  "feuds": 0,
+  "retaliations": 2,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P13",
+  "pop": "steady",
+  "order": 3,
+  "tempers": [
+   "steady",
+   "steady",
+   "steady",
+   "steady"
+  ],
+  "slices": 8000,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "steady"
+  ],
+  "own_share": 0.354,
+  "changed_others": 80,
+  "gave_up": 0,
+  "seconds": 219,
+  "locked_own": 0,
+  "locked_others": 19,
+  "locked_out": 117,
+  "anger": 5,
+  "feuds": 1,
+  "retaliations": 3,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P13",
+  "pop": "mixed",
+  "order": 2,
+  "tempers": [
+   "patient",
+   "dogged",
+   "steady",
+   "restless"
+  ],
+  "slices": 6429,
+  "conservation": true,
+  "met": 0,
+  "met_by": [],
+  "own_share": 0.368,
+  "changed_others": 102,
+  "gave_up": 1,
+  "seconds": 187,
+  "locked_own": 0,
+  "locked_others": 18,
+  "locked_out": 41,
+  "anger": 7,
+  "feuds": 0,
+  "retaliations": 3,
+  "retaliations_met": 0
+ },
+ {
+  "config": "P12",
+  "pop": "mixed",
+  "order": 3,
+  "tempers": [
+   "dogged",
+   "steady",
+   "restless",
+   "patient"
+  ],
+  "slices": 6897,
+  "conservation": true,
+  "met": 1,
+  "met_by": [
+   "restless"
+  ],
+  "own_share": 0.288,
+  "changed_others": 114,
+  "gave_up": 1,
+  "seconds": 246,
+  "locked_own": 0,
+  "locked_others": 41,
+  "locked_out": 221,
+  "anger": 2,
+  "feuds": 0
+ }
+]

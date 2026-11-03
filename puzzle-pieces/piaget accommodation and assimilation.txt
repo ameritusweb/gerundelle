@@ -1,0 +1,50 @@
+> Where does Piaget's accommodation and assimilation fit into the system?
+
+● Here's where it lands in the running system.
+
+  Piaget's genetic epistemology (1952, 1970): a child builds understanding through two complementary processes. Assimilation: fitting new experience into existing schemas
+  (the world conforms to what you already know). Accommodation: changing your schemas when new experience doesn't fit (your knowledge conforms to the world). Equilibrium
+  is the balance between them; disequilibrium — a mismatch between schema and experience — drives learning.
+
+  Both are implemented. The distinction maps onto two different code paths in the same architecture:
+
+  Assimilation is confirmation. A molecule wins the tournament, the mind acts on it, and the outcome matches what the Dirichlet prior predicted. The experience record is
+  updated (a count added to the good, neutral, or bad bucket), the molecule's precision improves, and its half-life is extended by the a_success modulator. The schema absorbed
+  the new experience. Nothing restructured. This is what happens on most ticks when the mind is acting in a well-understood domain.
+
+  Accommodation is contradiction. A stored belief (a box in Mind.boxes) predicts something: whenever its "when" tags appear among the winners, it expects its "expect" tag in
+  the world's answer. If the world answers and the expectation is wrong, Mind.contradict fires: the box reopens with surprise set to 0.5 + 0.5 × understanding. The better
+  understood the belief was, the more surprising its failure — the more violent the disequilibrium. The reopened molecule re-enters the pool with its original sites (its open
+  questions), competing again, forced to be revised by new evidence.
+
+  The concept map: "A stored belief whose prediction fails reopens with full surprise, forcing revision. The mind can't ignore a failed prediction — the surprise injection
+  puts the contradicted belief at the top of the tournament. Not a rule. A structural consequence of the reopen mechanism."
+
+  The fiction ladder's rung 1 showed the full cycle: Tom pushes the crate, it moves (assimilation: his belief "my push moves the crate" is confirmed). Later he pushes and
+  it doesn't move (disequilibrium: the prediction fails). The belief is contradicted. The surprise injection forces it into the competition. The contrast between the success
+  and the failure reveals the condition: the crate moved only when the flag was swinging (a hidden driver, the wind). The schema accommodates: "my push moves the crate when
+  the wind blows." The belief and retraction arc: "Tom thought his push had moved the crate... But this time the crate did not move... The crate moved only if the flag swung."
+
+  Piaget's object permanence is in the embodied cognition architecture (EMBODIED_COGNITION.md): "A baby who has not yet funded the condition 'objects persist when out of sight'
+  loses the object molecule when it leaves the gerund field. The Piaget finding: a baby stops reaching for a hidden object because the molecule left the field and the bond
+  dissolved. The condition funds when the baby acts on a hidden object and it reappears — a lived receipt."
+
+  The distinction (Meta class in molecules.py) refines accommodation further. When a molecule's outcomes are bimodal — good in some situations, bad in others — the conflation
+  detector fires. The meta layer splits the concept on a boundary condition: half the outcomes with the condition, half without. If the halves are unimodal and opposite, the
+  split is confirmed. If they behave the same, the split is collapsed and another boundary is tried. The concept map: "When a thought's outcomes are bimodal (good and bad both
+  above 25%), the conflation detector fires and splits it on a boundary condition." This is accommodation with a mechanism: the schema doesn't just change — it splits into two
+  schemas, each valid in its own context, the boundary learned from evidence.
+
+  How it differs from Piaget specifically:
+
+  - Piaget's schemas are described in terms of actions and operations but have no formal structure. Here, the schema is the understanding register: typed relation slots, each
+    with provenance-weighted funding, open slots as unknowns with measurable pull. Accommodation is a specific code path (contradict, split, reopen) with measurable
+    consequences (the surprise level, the number of reopened sites, the learning that follows).
+  - Piaget's equilibrium is a tendency. Here, it's a measurable state: a concept with all slots funded, whose predictions hold, is in equilibrium. A failed prediction is
+    quantified (surprise = 0.5 + 0.5 × understanding). The disequilibrium has a magnitude.
+  - Piaget's stages (sensorimotor, preoperational, concrete, formal) are age-gated developmental periods. Here, the development is a ladder: each rung adds a capability
+    (conditions, sub-wants, constraint convergence, told knowledge, social exchange), and the transition is measured (how many tries, which conditions learned, what the mind
+    does with what it knows). The stages are capabilities, not ages, and a mind can be at different stages for different concepts.
+  - Piaget doesn't distinguish provenance. Here, a schema funded by lived experience (full weight) is structurally different from one funded by told experience (half weight),
+    even if they contain the same knowledge. Accommodation from a lived contradiction is immediate and high-surprise. Accommodation from a told contradiction (someone tells
+    you your belief is wrong) is at the teller's reliability, not at full weight.

@@ -1,0 +1,836 @@
+{
+ "label": "carried_impatient",
+ "reached": false,
+ "gave_up": true,
+ "ticks": 32,
+ "pushes": 5,
+ "conservation": true,
+ "powers": {
+  "drew": 1,
+  "hopped": 1
+ },
+ "splits": {
+  "hard_push:skiff_resting": "jar_charged",
+  "hard_push:skiff_resting|not_jar_charged": "jar_brimming",
+  "hard_push:skiff_moored": "flask_empty"
+ },
+ "ledger": [
+  {
+   "t": 0,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 1,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 2,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 3,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 4,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 5,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 6,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 7,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 8,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 9,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 10,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 11,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 12,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 13,
+   "field": 0.0,
+   "store": 2.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 14,
+   "field": 0.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 15,
+   "field": 0.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 16,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 17,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 18,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 19,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 20,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 21,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 22,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 23,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 24,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 25,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 26,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 27,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 28,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 29,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 30,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 31,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 32,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  }
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "pool",
+   "detail": {
+    "gerund": "dry"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "flask",
+   "detail": {
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "basin",
+   "detail": {
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "husk",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "skiff",
+   "detail": {
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_returning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 4,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    7
+   ]
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.875,
+   "refs": []
+  },
+  {
+   "t": 9,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    9
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    11
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 16,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 17,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "moored",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_moored",
+     "skiff_propelling"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    21
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    17
+   ]
+  },
+  {
+   "t": 26,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.55,
+   "refs": []
+  },
+  {
+   "t": 27,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    10
+   ]
+  },
+  {
+   "t": 31,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    27
+   ]
+  },
+  {
+   "t": 32,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "resignation",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.8947368421052633,
+   "refs": []
+  }
+ ]
+}

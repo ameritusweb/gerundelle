@@ -1,0 +1,54 @@
+> Where does the Zeigarnik effect fit into the system?
+
+● Here's where it lands in the running system.
+
+  The Zeigarnik effect (Bluma Zeigarnik, 1927): people remember uncompleted or interrupted tasks better than completed ones. An unfinished task lingers in the mind; once
+  completed, it fades. The waiter remembers the unpaid orders and forgets the paid ones. The effect is attentional: the unfinished task keeps pulling for attention until
+  closure is reached.
+
+  Open-site tension is the mechanism. Params.T in molecules.py: a constant (default 1.0) added to the force between an open molecule and anything that could fill its sites,
+  and added to an incomplete molecule's bid on every tick. The tension does not decay. The concept map states it directly: "An open slot with unfilled binding sites adds a
+  constant, non-decaying tension to the molecule's bid every tick. The incomplete thought keeps returning to consciousness not because it's surprising but because it's
+  unfinished. That's the earworm mechanism."
+
+  And: "Open-site tension: a constant added to an incomplete molecule's bid on every tick until the site is filled. It doesn't decay. The yearning for the missing piece is
+  the pull of an unfilled slot, and it persists until the piece arrives or the thought is parked."
+
+  The three elements of the Zeigarnik effect map precisely:
+
+  1. Uncompleted tasks are remembered better: a molecule with open sites has constant tension in its bid, making it win slots more often. It stays in the pool, stays active,
+     stays conscious — because its bid is structurally higher than a completed thought's. The tension term is additive: it doesn't depend on the molecule's activation, its
+     surprise, or its novelty. An old, unsurprising, familiar thought with one open site still competes harder than a completed thought with the same activation. Remembered
+     better = wins slots more often = stays accessible.
+
+  2. Completed tasks are forgotten: a molecule with no open sites and no remaining surprise (flat precision for Params.dwell = 3 ticks) precipitates into storage
+     (Mind.settled). It becomes a box with cooling keys. Completed = no tension, no surprise, settled, cooling. The concept map: "A memory is complete because the thought had
+     nothing left to learn." Its keys cool by half-life (Params.h_site = 20 ticks), and eventually it's below Params.cold (0.1) — functionally gone unless a strong resonance
+     or a contradiction reopens it. The waiter forgets the paid orders because they have nothing left to learn.
+
+  3. Interruption prevents closure: if a molecule is parked (removed from competition because it was blocked too long — Params.park_after), it doesn't settle into storage
+     with closed sites. It's parked with its sites still open. If its source comes back (the interrupted task becomes available again), it re-enters the pool with its tension
+     intact. The interruption preserved the openness. This is why the Zeigarnik effect is stronger for interrupted tasks than for tasks that were never started: a started task
+     has sites that were opened by engagement; a never-started one has no molecule in the pool at all.
+
+  The fiction ladder showed it. Rung 5: after the toy is taken, its lost slot stays open — pull = 1 + held. The lost toy keeps pulling for attention, tick after tick, until
+  either it returns (the slot closes: forgiveness), the keys cool past reach (forgotten: no forgiveness, no access), or the thought is parked (expired open: a grief stored
+  with its sites open, ready to reopen on resonance). "Mara remembered how she had played with the toy" — the reopened grief, a Zeigarnik task brought back by resonance.
+
+  The earworm is the degenerate case: a molecule whose open site cannot be filled by anything in the pool or the world. It keeps bidding, keeps winning slots (its tension
+  doesn't decay), and nothing can close it. The fiction ladder's rung 0 found this as a failure first: "An unanswerable slot captures a lean mind. Pushing the flag always
+  did the same two flips, its conditions slot could never fill, and it pulled forever (95 beats of flag)." The fix: "a hole is paid by the want only while it could be the
+  way" — a question that nothing could answer stops pulling. Without that fix, the Zeigarnik effect becomes pathological: the earworm.
+
+  How it differs from the Zeigarnik effect specifically:
+
+  - Zeigarnik's original finding was about recall (uncompleted tasks are recalled more in a list). Here, the effect is about attention, not recall: the open molecule wins
+    slots more often, keeping the thought conscious. The recall advantage follows from the attention advantage: a thought that stays conscious longer has more experience
+    records, more bonds, more keys, and is easier to retrieve later.
+  - The Zeigarnik effect has been difficult to replicate reliably (the meta-analytic evidence is mixed). Here, the mechanism is deterministic: open-site tension is a constant,
+    it doesn't decay, and it adds to the bid. The effect's size depends on Params.T relative to the other bid terms (activation, binding score, novelty, support). If T is
+    small relative to the pool's activity, the effect is weak. The replication question becomes a parameter question.
+  - Modern accounts (Masicampo & Baumeister, 2011) link the Zeigarnik effect to goal-related processing: it's unmet goals, not just unfinished tasks, that persist. Here,
+    a want (tagged "goal" in the pool) is never parked — it's pursued through action. Open-site tension and goal status are separate mechanisms. An unfinished task without a
+    goal (idle curiosity) pulls by tension alone. An unfinished task with a goal (a want) pulls by tension and by the territory register's served slots. Both exhibit the
+    Zeigarnik effect; the goal-related one pulls harder.

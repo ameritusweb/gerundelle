@@ -1,0 +1,37 @@
+> Where does process philosophy (Whitehead) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Whitehead's process philosophy (Process and Reality, 1929): the world is not made of things with properties. It is made of processes — "actual occasions of experience" that
+  are happenings, not substances. An entity is what it is doing, not what it is made of. Reality is a web of becomings, not a collection of beings.
+
+  The world model is a direct implementation. The paper says it (gerundelle.tex, line ~182): "The ontology is Whitehead's: things are what they are doing." In force_world.py,
+  every object is described by a gerund — a doing. A jar is "charged" (it holds potential drawn from a spring). A boulder is "resting" (its weight balances the ground's
+  support). A lid is "fastened" (the latch's grip exceeds the spring's push). There are no coordinates, no distances, no materials. Each object is a balance of external
+  forces against internal reserves (grip, capacity, seal), and when a force crosses a reserve the gerund flips: charged becomes empty, resting becomes falling, fastened
+  becomes free.
+
+  The concept map (center-left column): "Gerund ASTs: every node is a gerund with typed force slots, not a noun with properties. A stone arch and a steel beam share one
+  skeleton. Material doesn't appear in the representation; only what things are doing under forces."
+
+  The concept map (right column): "Gerunds name what things are doing, not what they are made of. A stone arch and a steel beam both 'support.' Material invariance means one
+  vocabulary covers every domain. The 102-gerund set was chosen to close: a small number of primitives covering the space."
+
+  This is what makes the architecture domain-independent. The fiction ladder's rung 6 showed recall by shape: a mind that learned a latch holds a box shut transfers that
+  structure to a bolt holding a cupboard shut — the gerund skeleton matches (a fastening holding a container), even though the objects are different. "The company moved to
+  London" and "the family emigrated to Canada" share one skeleton. strip() removes names from a gerund tree, leaving typed slots where names were: two programs doing the same
+  operations on the same shape of data flow land on the same skeleton, whatever their variable names or domain.
+
+  How it differs from Whitehead specifically:
+
+  - Whitehead's process philosophy is metaphysical — it describes ultimate reality. Here it's computational: the gerund representation is a data structure (an AST with typed
+    force slots), and its consequences are measured (recall by shape transfers across domains, material invariance lets one mind run in story, code, chess, and civilization
+    worlds).
+  - Whitehead's "actual occasions" are momentary and perish. Here, a gerund persists as long as the force balance holds — "resting" continues until the support gives way.
+    The flip (resting → falling) is the event; the gerund between flips is ongoing.
+  - Whitehead's process philosophy has no mechanism for composition. Here, gerund ASTs nest: narrating contains explaining contains describing. The nesting with names
+    stripped is the skeleton. Composition combines a header from one seed with a growth from another (cognitivecode rung 7), producing programs search never found. The
+    generative power is combinatorial: a small set of gerunds and a nesting rule produce a space of structures large enough to cover both natural language and code.
+  - The vocabulary of forces and reserves follows Talmy's force dynamics (Talmy 1988) — an excavation of how people already represent causation in language. The 15 relation
+    forms (RELATION_TYPES.md) are laid out by primitive and field (after Jackendoff). So the system takes Whitehead's ontology ("things are doings"), Talmy's dynamics ("doings
+    are force balances"), and Jackendoff's primitives ("force balances decompose into BE, STAY, GO, CAUSE, LET") and implements all three.

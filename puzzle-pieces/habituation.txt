@@ -1,0 +1,50 @@
+> Where does habituation fit into the system?
+
+● Here's where it lands in the running system.
+
+  Habituation (Thompson & Spencer, 1966): the simplest form of learning. Repeated exposure to a stimulus reduces the response to it. A loud noise startles you the first time.
+  By the tenth time, you barely notice. The novel gets attention; the repeated doesn't. Dishabituation: a change in the stimulus, or an intervening novel stimulus, restores
+  the response. Habituation is not fatigue — it's specific to the stimulus, and it recovers with time.
+
+  Three mechanisms in molecules.py implement habituation at different levels:
+
+  1. Arrival surprise decays with frequency. Mind.perceive (line ~319): when a molecule is perceived, its surprise is set to -log(base_rate) / log(vocab), where base_rate is
+     how often it has appeared relative to all percepts. The first appearance of a rare molecule gets high surprise. The hundredth appearance of a common one gets nearly zero.
+     This is habituation to a percept: the more often you see it, the less surprising it is, the less it contributes to the bid's forward-looking term. The decay is
+     monotonic with exposure count — exactly habituation's response decrement with repeated stimulation.
+
+  2. The novelty term shrinks with experience. Mind.force (line ~345): the pull between two molecules includes n × info_gain(a) / IG0, where info_gain is the expected
+     information gain from one more observation of the pair's Dirichlet. A never-formed pair has maximal novelty. Each observation moves the Dirichlet away from the prior,
+     reducing info_gain. After enough observations the pair is fully explored and the novelty term is near zero. This is habituation to a pairing: "I've seen these two
+     together enough; there's nothing left to learn from watching them again."
+
+  3. Half-life decay without winning. A molecule that doesn't win a slot decays by its half-life every tick: act *= 0.5 ** (1 / half_life). A molecule that keeps appearing but
+     never wins fades below Params.floor and is swept from the pool. This is habituation at the competition level: a stimulus that keeps arriving but never wins attention
+     becomes too quiet to compete. The concept map: "A molecule cooled past its half-life is functionally invisible — not gone, just too quiet to compete."
+
+  Dishabituation maps onto three recovery mechanisms:
+
+  - Contradiction: a stored belief whose prediction fails reopens with surprise set to 0.5 + 0.5 × understanding. A habituated stimulus that suddenly does something
+    unexpected is dishabituated — its surprise is restored, proportional to how well the mind understood it. The more habituated (the better understood), the more surprising
+    the violation.
+  - The novelty boost: when boredom stays below 0.05 for five ticks, the meta layer emits "bored" and novelty is doubled (boost_until). An intervening novel event — anything
+    that raises the mean surprise of the winners — resets the boredom counter. This is dishabituation by a novel intervening stimulus: a change in the environment restores the
+    novelty term.
+  - Re-entry: a molecule that was conscious before and comes back gets an activation boost: act × (1 + reentry × log(1 + top_wins)). A molecule that was once important, faded
+    by habituation, and returns after an absence gets a recognition boost. This is spontaneous recovery — the habituated response partially returning after a rest period.
+
+  The Inquiry mechanism adds stimulus-specific habituation. Params.persistence: the value of repeating an experiment decays as q / (q + times done). The first time you try
+  something in a given context is fully valued. The fifth time in the same context is worth a fifth. This is habituation to a specific action in a specific situation — "I've
+  tried this here enough" — not to the action in general (the same action in a new context is fully valued again). The fiction ladder's rung 1 measured the failure of this
+  before it was built: the mind pushed the door 77 times because the inquiry term ("try at another moment") refreshed every three ticks in a world where nothing changed.
+  Adding the persistence decay solved the rumination.
+
+  How it differs from habituation research specifically:
+
+  - Habituation in neuroscience is typically studied as a response decrement in a single pathway (e.g., gill withdrawal in Aplysia). Here, habituation operates at three
+    levels simultaneously: percept frequency (arrival surprise), pairwise experience (the novelty term), and competition (half-life decay). Each has its own time course.
+  - The dual-process theory of habituation (Groves & Thompson, 1970) posits two opposing processes: habituation (response decrement) and sensitization (response increment).
+    Here, sensitization maps onto the surprise injection from contradiction (response increases when the habituated stimulus violates a prediction) and the novelty boost
+    (response increases when boredom is detected). Both are specific mechanisms, not a general "sensitization process."
+  - Habituation's stimulus specificity (habituating to tone A doesn't habituate to tone B) is structural here: arrival surprise is per-molecule, the novelty term is per-pair,
+    and persistence decay is per-action-per-context. Habituating to one molecule's frequency doesn't affect another's.

@@ -1,0 +1,58 @@
+> Where does metacognition (Flavell, Nelson, etc.) fit into the system?
+
+● Here's where it lands in the running system.
+
+  Metacognition (Flavell, 1979; Nelson & Narens, 1990): thinking about thinking. Monitoring: knowing what you know, noticing when you're confused, detecting when a strategy
+  isn't working. Control: deciding to switch strategies, allocating more effort to a hard problem, pausing to reflect. Nelson & Narens' model: a meta-level that monitors an
+  object-level and controls it through actions like "terminate," "allocate," and "change strategy."
+
+  The Meta class (molecules.py, line ~1150) is a direct implementation. Meta molecules are thoughts about thinking. They compete in their own track (Params.meta_slots:
+  3 → 2 → 2), separate from regular thoughts, so they neither crowd out nor are crowded by the thoughts they're about.
+
+  Each kind of meta molecule is formed when a specific cognitive state is detected:
+
+  | kind       | formed when                                  | predicts                           | operation           |
+  | stuck      | subject blocked 3 ticks running               | still open at the deadline         | park it             |
+  | looping    | blocked and at the top 3 of the last 5        | at the top again                   | park it             |
+  | wrong      | a box of the subject was contradicted          | not re-closed on the same keys     | -                   |
+  | torn       | its top binding nearly tied (within 5%)        | its top binding flips              | -                   |
+  | surprised  | surprise >= 0.8 while it holds a slot          | another event involving it          | -                   |
+  | resolved   | it closed                                     | not re-opened                      | -                   |
+  | bored      | mean surprise of winners < 0.05, 5 ticks       | no events                          | novelty doubled     |
+  | conflated  | its outcomes bimodal (good and bad both > 25%) | a boundary splits it               | differentiate it    |
+
+  Monitoring is the detection: the meta layer observes the tournament's output (Meta.observe, called every tick in Mind.think) and detects stuck thoughts, contradicted
+  beliefs, near-ties, high surprise, closures, boredom, and bimodal outcomes. Each detection creates a meta molecule that enters the meta track's pool.
+
+  Control is the operation: meta molecules that have an operation (Meta.OPERATES: stuck, looping, bored, conflated, distinction, same) compete for the meta track's slots.
+  When an operable meta molecule wins the top of its track, its operation fires (Meta.operate):
+  - stuck/looping → park the subject (remove from competition, key it so it returns when circumstances change)
+  - bored → double novelty for 5 ticks
+  - conflated → split the concept on a boundary condition (differentiate)
+
+  Each meta molecule makes a prediction about what happens next (its "predicts" column). The prediction is scored: if confirmed within the meta horizon (Params.meta_horizon =
+  5 ticks), the meta molecule's activation is refreshed. If refuted, it fades. This is the meta-level earning its keep: a meta observation that correctly predicts what happens
+  next persists. One that doesn't, doesn't.
+
+  Meta molecules bind only to their subjects (Meta.about: meta id → subject id). A "stuck" molecule about the latch binds to the latch, not to the flag. At the top of the
+  meta track, a meta molecule about a regular thought is a thought-about-that-thought winning a slot — metacognition as a competitive process, not a separate homunculus.
+
+  The meta layer also gates operations: inquiry (testing a hypothesis) fires only when its meta molecule wins a slot (the user, 2026-10-24: "capability without receptor is
+  latent"). An operation that exists but whose meta molecule never wins the competition is latent — the mind has the capability but not the metacognitive awareness to use it.
+
+  The concept map's what_ifs.txt (the thoughts-as-molecules idea): "Some of the thoughts are meta-thoughts exhibiting meta-cognition." This is exactly what the Meta class
+  implements: meta-thoughts that are molecules in their own right, competing in their own tournament, binding to their subjects, earning their keep by prediction.
+
+  How it differs from metacognition theory specifically:
+
+  - Nelson & Narens' model has two levels (object-level and meta-level) with monitoring flowing up and control flowing down. Here, meta molecules compete in the same
+    architecture as regular molecules, just in their own track. There's no separate "meta-level" — meta molecules ARE molecules, with the same bid computation, the same
+    half-life, the same decay. The distinction is in what they're about (a cognitive state, not a percept) and in their separate slots.
+  - Params.meta_depth = 2 allows meta-about-meta: a molecule that detects a meta molecule's state (e.g., "the stuck detection itself is stuck"). The recursion is bounded by
+    funding — a meta-meta molecule has to earn its keep by correct predictions, same as any meta molecule.
+  - Flavell describes metacognitive knowledge (what you know about your own cognition) and metacognitive experience (the feeling of knowing, the feeling of confusion). Here,
+    the knowledge is in the meta molecule's kind and prediction ("I notice this thought is stuck, and I predict it will stay open"). The experience is the meta molecule
+    winning the top — being conscious of one's own confusion is the "stuck" molecule beating all other meta molecules for its slot.
+  - The ablation (Params.mute_meta): meta molecules enter the pool but never bid. They're present but silent. The fiction ladder and chess ladder measured the cost of turning
+    off meta: without it, the conflation detector never fires (bimodal outcomes are never split), bored states are never detected (novelty never boosted), and stuck thoughts
+    are never parked. Metacognition is load-bearing.

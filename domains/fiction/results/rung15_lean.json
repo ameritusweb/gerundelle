@@ -1,0 +1,921 @@
+{
+ "rung": "15",
+ "arm": "lean",
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "prop",
+   "detail": {
+    "gerund": "supporting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "marble",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "lever",
+   "detail": {
+    "gerund": "leaning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "gate",
+   "detail": {
+    "gerund": "leaning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "bead",
+   "detail": {
+    "gerund": "leaning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Mara",
+   "hole": "",
+   "obj": "flag",
+   "detail": {
+    "gerund": "leaning"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Mara",
+   "hole": "want:bead_falling",
+   "obj": "bead",
+   "detail": {
+    "change": "bead_falling"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "feel",
+   "actor": "Mara",
+   "hole": "own:unclaimed:prop",
+   "obj": "prop",
+   "detail": {
+    "phase": "curiosity",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "try",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "prop",
+   "detail": {
+    "strength": "hard",
+    "gerund": "supporting"
+   },
+   "prov": "lived",
+   "pull": 1.0,
+   "refs": []
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "prop",
+   "detail": {
+    "from": "supporting",
+    "to": "tipping",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "marble",
+   "detail": {
+    "from": "resting",
+    "to": "falling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "prop",
+   "detail": {
+    "from": "tipping",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "marble",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "lever",
+   "detail": {
+    "from": "leaning",
+    "to": "falling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "lever",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "gate",
+   "detail": {
+    "from": "leaning",
+    "to": "falling",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "flag",
+   "detail": {
+    "from": "leaning",
+    "to": "falling",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "gate",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "bead",
+   "detail": {
+    "from": "leaning",
+    "to": "falling",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "flag",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "change",
+   "actor": "Mara",
+   "hole": "effect:hard:prop",
+   "obj": "bead",
+   "detail": {
+    "from": "falling",
+    "to": "piling",
+    "slice": 4
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 6,
+   "kind": "reach",
+   "actor": "Mara",
+   "hole": "want:bead_falling",
+   "obj": "prop",
+   "detail": {
+    "change": "bead_falling",
+    "inv": [
+     "hard",
+     "prop",
+     "supporting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  }
+ ],
+ "plans": [
+  {
+   "kind": "frame",
+   "stage": "setup",
+   "fill": {
+    "objs": [
+     "prop",
+     "bead"
+    ],
+    "states": {
+     "prop": "supporting",
+     "bead": "leaning"
+    },
+    "people": [],
+    "rivals": []
+   },
+   "beats": [
+    0,
+    4
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "want",
+   "stage": "setup",
+   "fill": {
+    "obj": "bead",
+    "change": "bead_falling"
+   },
+   "beats": [
+    6
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "feel",
+   "stage": "tension",
+   "fill": {
+    "phase": "curiosity",
+    "unexpected": [],
+    "anchor": "prop",
+    "who": "Mara",
+    "reopened": null,
+    "pull": 0.0
+   },
+   "beats": [
+    7
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "attempt",
+   "stage": "turn",
+   "fill": {
+    "try": {
+     "obj": "prop",
+     "strength": "hard",
+     "again": false,
+     "who": "Mara"
+    },
+    "outcome": "change",
+    "result": {
+     "obj": "prop",
+     "flips": [
+      [
+       "supporting",
+       "tipping"
+      ],
+      [
+       "tipping",
+       "resting"
+      ]
+     ],
+     "new": false,
+     "contrast": false
+    },
+    "obj": "prop",
+    "who": "Mara"
+   },
+   "beats": [
+    8,
+    9,
+    11
+   ],
+   "refs": [],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "bead",
+    "flips": [
+     [
+      "leaning",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": false,
+    "contrast": false
+   },
+   "beats": [
+    18,
+    20
+   ],
+   "refs": [
+    3
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "marble",
+    "flips": [
+     [
+      "resting",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    10,
+    12
+   ],
+   "refs": [
+    3
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "lever",
+    "flips": [
+     [
+      "leaning",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    13,
+    14
+   ],
+   "refs": [
+    3
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "gate",
+    "flips": [
+     [
+      "leaning",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    15,
+    17
+   ],
+   "refs": [
+    3
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  },
+  {
+   "kind": "change",
+   "stage": "turn",
+   "fill": {
+    "obj": "flag",
+    "flips": [
+     [
+      "leaning",
+      "falling"
+     ],
+     [
+      "falling",
+      "piling"
+     ]
+    ],
+    "new": true,
+    "contrast": false
+   },
+   "beats": [
+    16,
+    19
+   ],
+   "refs": [
+    3
+   ],
+   "text": "",
+   "shape": "",
+   "reading": ""
+  }
+ ],
+ "measures": {
+  "round_trip": 1.0,
+  "rows": [
+   {
+    "plan": 0,
+    "text": "There was a row of odd things on the shelf.",
+    "shape": "narrating|describing",
+    "reading": "describing(attribute, detail)",
+    "ok": true,
+    "readings": [
+     "describing(attribute, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A wooden wedge held up a marble.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, patient)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, patient)",
+     "narrating(agent, event, patient)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 0,
+    "text": "A glass bead stood on its edge.",
+    "shape": "narrating|describing",
+    "reading": "describing(agent, event, place)",
+    "ok": true,
+    "readings": [
+     "describing(agent, event, place)",
+     "disambiguating(agent, event, place)",
+     "narrating(agent, event, place)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 1,
+    "text": "Mara wanted to knock the bead off the shelf.",
+    "shape": "narrating",
+    "reading": "narrating(agent, event, patient, detail)",
+    "ok": true,
+    "readings": [
+     "narrating(agent, event, patient, detail)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 2,
+    "text": "She was curious about the wedge.",
+    "shape": "expressing_curiosity",
+    "reading": "expressing_curiosity(agent, quality)",
+    "ok": true,
+    "readings": [
+     "describing(agent, quality)",
+     "expressing_curiosity(agent, quality)"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 3,
+    "text": "She pushed the wedge hard, and it tipped over.",
+    "shape": "elaborating(main=narrating, detail=narrating)|narrating(first=narrating, then=narrating)",
+    "reading": "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event, patient), detail=narrating(agent, event))",
+     "narrating(first=narrating(agent, event, patient), then=narrating(agent, event))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 4,
+    "text": "The bead toppled over and dropped onto the floor.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 5,
+    "text": "A marble rolled off and dropped onto the floor.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 6,
+    "text": "A ruler toppled over and dropped onto the floor.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 7,
+    "text": "A playing card toppled over and dropped onto the floor.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   },
+   {
+    "plan": 8,
+    "text": "A paper flag toppled over and dropped onto the floor.",
+    "shape": "narrating(first=narrating, then=narrating)|elaborating(main=narrating, detail=narrating)",
+    "reading": "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+    "ok": true,
+    "readings": [
+     "elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail))",
+     "narrating(first=narrating(agent, event), then=narrating(agent, event, detail))"
+    ],
+    "why": ""
+   }
+  ],
+  "exact_theory": "testimony",
+  "exact_coverage": 0.5,
+  "exact_theories": {
+   "analogy-bridge": 0.5,
+   "narrative-arc": 0.5,
+   "testimony": 0.5,
+   "compare-contrast": 0.4,
+   "problem-solution-result": 0.33
+  },
+  "unmatched": [],
+  "matched_share": 1.0,
+  "best_theory": "narrative-arc",
+  "best_coverage": 1.0,
+  "theories": {
+   "narrative-arc": 1.0,
+   "concept-explanation": 0.75,
+   "analogy-bridge": 0.75,
+   "instruction": 0.75
+  },
+  "variety": 0.7272727272727273,
+  "judge_rows": [
+   {
+    "text": "There was a row of odd things on the shelf.",
+    "skeleton": "describing(attribute, detail)",
+    "cosine": 0.7217910289764404,
+    "score": 0.4459632635116577,
+    "margin": 0.016877174377441406,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "disambiguating",
+     "elaborating"
+    ]
+   },
+   {
+    "text": "A wooden wedge held up a marble.",
+    "skeleton": "narrating(main=describing(agent, event, patient), meanwhile=elaborating(main=claiming(agent, event, hedge, detail), detail=narrating(agent, event, patient, detail)))",
+    "cosine": 0.6827429533004761,
+    "score": 0.37345069646835327,
+    "margin": 0.006781399250030518,
+    "matched": true,
+    "gerunds": [
+     "claiming",
+     "decomposing",
+     "describing",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A glass bead stood on its edge.",
+    "skeleton": "describing(agent, event, place)",
+    "cosine": 0.6930803060531616,
+    "score": 0.5097087621688843,
+    "margin": 0.02544426918029785,
+    "matched": true,
+    "gerunds": [
+     "decomposing",
+     "describing",
+     "disambiguating",
+     "expressing_patience",
+     "narrating"
+    ]
+   },
+   {
+    "text": "Mara wanted to knock the bead off the shelf.",
+    "skeleton": "narrating(agent, event, patient, detail)",
+    "cosine": 0.5865718126296997,
+    "score": 0.2951843738555908,
+    "margin": 0.009939432144165039,
+    "matched": true,
+    "gerunds": [
+     "disambiguating",
+     "elaborating",
+     "expressing_love",
+     "narrating"
+    ]
+   },
+   {
+    "text": "She was curious about the wedge.",
+    "skeleton": "describing(agent, quality)",
+    "cosine": 0.6716043949127197,
+    "score": 0.4007203280925751,
+    "margin": 0.030632436275482178,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "describing",
+     "explaining",
+     "expressing_determination"
+    ]
+   },
+   {
+    "text": "She pushed the wedge hard, and it tipped over.",
+    "skeleton": "narrating(main=narrating(agent, event, patient, content=narrating(agent, event)), meanwhile=elaborating(main=narrating(agent, event), detail=narrating(agent, event, detail)))",
+    "cosine": 0.6729455590248108,
+    "score": 0.5321100801229477,
+    "margin": 0.003130018711090088,
+    "matched": true,
+    "gerunds": [
+     "comparing",
+     "contrasting",
+     "describing",
+     "disambiguating",
+     "elaborating",
+     "narrating"
+    ]
+   },
+   {
+    "text": "The bead toppled over and dropped onto the floor.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=narrating(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=describing(agent, quality)))))",
+    "cosine": 0.699891209602356,
+    "score": 0.5126055479049683,
+    "margin": 0.0005349516868591309,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A marble rolled off and dropped onto the floor.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=describing(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=expressing_anger(agent, quality)))))",
+    "cosine": 0.693789005279541,
+    "score": 0.5210667550563812,
+    "margin": 0.001766979694366455,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A ruler toppled over and dropped onto the floor.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=narrating(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=describing(agent, quality)))))",
+    "cosine": 0.6979888677597046,
+    "score": 0.501245304942131,
+    "margin": 0.0002454519271850586,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A playing card toppled over and dropped onto the floor.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=describing(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=expressing_anger(agent, quality)))))",
+    "cosine": 0.6976231336593628,
+    "score": 0.5079309940338135,
+    "margin": 0.00022912025451660156,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   },
+   {
+    "text": "A paper flag toppled over and dropped onto the floor.",
+    "skeleton": "narrating(first=describing(event, detail, content=narrating(agent, event)), then=narrating(agent, event, content=describing(agent, event, quality, content=elaborating(main=describing(agent, event, not, detail), detail=expressing_anger(agent, quality)))))",
+    "cosine": 0.696071982383728,
+    "score": 0.4927046447992325,
+    "margin": 8.559226989746094e-05,
+    "matched": true,
+    "gerunds": [
+     "describing",
+     "elaborating",
+     "expressing_anger",
+     "narrating"
+    ]
+   }
+  ],
+  "history": {
+   "dependent": 0.5555555555555556,
+   "chain": 2,
+   "reach": 5
+  },
+  "irony": 0,
+  "reader": {
+   "satisfaction": 0.0,
+   "memorability": 0.0,
+   "relevance": 0.0,
+   "deus": false,
+   "debt": false
+  }
+ }
+}

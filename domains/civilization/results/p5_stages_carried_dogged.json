@@ -1,0 +1,7283 @@
+{
+ "stages": [
+  [
+   "pool_glimmering",
+   true,
+   13,
+   0
+  ],
+  [
+   "skiff_lit",
+   true,
+   144,
+   0
+  ],
+  [
+   "skiff_returning",
+   true,
+   207,
+   0
+  ]
+ ],
+ "sentences": [
+  "The moon was silent and grey.",
+  "A shallow pool lay dry.",
+  "A glass flask stood empty beside it.",
+  "A round basin lay open in the dust.",
+  "An old husk lay in the dust.",
+  "The skiff was moored at the edge of the pool.",
+  "Ada wanted to fill the pool with light.",
+  "She pushed the basin hard, but it did not move.",
+  "She gave the husk a hard push, and it crumbled into light.",
+  "The pool began to glimmer.",
+  "Ada laughed with joy.",
+  "She was delighted with the husk.",
+  "She grew frustrated with the skiff.",
+  "She grew frustrated with the skiff again.",
+  "She grew frustrated with the skiff again.",
+  "She grew frustrated with the skiff again.",
+  "She grew frustrated with the skiff again.",
+  "She dipped the flask into the pool, and it began to glow.",
+  "She was delighted with the flask.",
+  "She shoved the skiff, and it hopped and fell back to its mooring.",
+  "The flask went dark.",
+  "In time, Ada stopped thinking about the skiff.",
+  "Then she pushed the skiff hard again.",
+  "But this time the skiff did not move.",
+  "Ada realized that the skiff moved only if the flask began to glow.",
+  "She felt anxious about the flask.",
+  "She grew frustrated with the skiff again.",
+  "She pushed the basin hard, but it would not move.",
+  "She grew frustrated with the basin.",
+  "She touched the basin, but it did not budge.",
+  "She grew frustrated with the skiff again.",
+  "She dipped the flask into the pool, and it began to glow.",
+  "She was delighted with the flask.",
+  "She pushed the basin hard.",
+  "But this time the basin began to glow.",
+  "A small lantern took shape in the basin.",
+  "Ada realized that the basin moved only if the flask began to glow.",
+  "She was delighted with the lantern.",
+  "She dipped the flask into the pool, and it brimmed with light.",
+  "She grew frustrated with the skiff again.",
+  "She gave the basin a hard push, but nothing happened.",
+  "She grew frustrated with the basin again.",
+  "She shook the flask, and it went dark.",
+  "She grew frustrated with the skiff again.",
+  "She pressed on the basin, but it did not move.",
+  "Again and again she tried the skiff, the basin and the lantern, but nothing gave.",
+  "She felt anxious about the lantern.",
+  "She touched the skiff, but it would not move.",
+  "She shoved the skiff, but it did not budge.",
+  "She grew frustrated with the flask.",
+  "She pressed on the basin, but nothing happened.",
+  "She pushed the basin hard, but it did not move.",
+  "She felt anxious about the flask again.",
+  "She dipped the flask into the pool, and it began to glow.",
+  "She touched the skiff, but it would not move.",
+  "She kept trying the basin, but nothing gave.",
+  "She felt sad about the lantern.",
+  "She gave the lantern a hard push, and it melted into the skiff.",
+  "The skiff began to shine.",
+  "The basin lay empty again.",
+  "Ada felt sad about the lantern.",
+  "She was delighted with the lantern.",
+  "In time, she stopped thinking about the skiff.",
+  "She shook the flask, and it went dark.",
+  "She pressed on the skiff, but it did not budge.",
+  "She grew frustrated with the skiff.",
+  "She grew frustrated with the skiff again.",
+  "She shook the flask, but nothing happened.",
+  "She felt anxious about the flask.",
+  "She shoved the skiff, but it did not move.",
+  "She dipped the flask into the pool, and it began to glow.",
+  "She was delighted with the flask.",
+  "She touched the skiff, but it would not move.",
+  "At last she touched the basin.",
+  "But this time the basin began to glow.",
+  "The lantern took shape in the basin.",
+  "Ada pushed the skiff hard.",
+  "But this time the skiff hopped.",
+  "The flask went dark.",
+  "Ada pushed the lantern hard.",
+  "But this time the lantern did not move.",
+  "Ada felt anxious about the lantern.",
+  "She felt anxious about the lantern again.",
+  "She pressed on the skiff, but it did not budge.",
+  "She pushed the basin hard, but nothing happened.",
+  "She grew frustrated with the basin.",
+  "She shook the flask, but it did not move.",
+  "Again and again she tried the basin, the skiff and the lantern, but nothing gave.",
+  "She grew frustrated with the lantern.",
+  "She gave the basin a hard push, but it would not move.",
+  "She shoved the skiff, but it did not budge.",
+  "She grew frustrated with the flask.",
+  "She felt anxious about the lantern again.",
+  "She pushed the lantern hard, but nothing happened.",
+  "She touched the skiff, but it did not move.",
+  "She felt anxious about the lantern again.",
+  "She pressed on the basin, but it would not move.",
+  "She gave the basin a hard push, but it did not budge.",
+  "She felt anxious about the lantern again.",
+  "She touched the basin, but nothing happened.",
+  "She shoved the lantern, but it did not move.",
+  "She felt anxious about the lantern again.",
+  "She pushed the basin hard, but it would not move.",
+  "She dipped the flask into the pool, and it began to glow.",
+  "She dipped the flask into the pool again, and it brimmed with light.",
+  "She felt anxious about the lantern again.",
+  "She felt sad about the lantern.",
+  "She pushed the lantern hard.",
+  "But this time the lantern melted into the skiff.",
+  "The basin lay empty again.",
+  "Ada realized that the lantern moved only if the flask brimmed with light.",
+  "She dipped the flask into the pool, but it did not budge.",
+  "She dipped the flask into the pool again, but nothing happened.",
+  "In time, she stopped thinking about the lantern.",
+  "She grew frustrated with the basin again.",
+  "She dipped the flask into the pool again, but it did not move.",
+  "At last she pushed the skiff hard.",
+  "The skiff climbed past the stars and came down on the hillside at home.",
+  "The flask went dark.",
+  "Ada realized that the skiff went home only when the flask was full.",
+  "She felt sad about the skiff.",
+  "She grew angry with the flask."
+ ],
+ "round_trip": 1.0,
+ "ledger": [
+  {
+   "t": 0,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 1,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 2,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 3,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 4,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 5,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 6,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 7,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 8,
+   "field": 2.0,
+   "store": 0.0,
+   "embodied": 33.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 9,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 10,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 11,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 12,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 13,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 14,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 15,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 16,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 17,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 18,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 19,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 20,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 5.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 21,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 5.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 22,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 23,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 24,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 25,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 26,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 27,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 28,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 29,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 30,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 31,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 32,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 33,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 34,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 35,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 36,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 37,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 38,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 39,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 40,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 41,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 42,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 43,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 44,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 45,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 46,
+   "field": 32.0,
+   "store": 0.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 47,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 48,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 49,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 50,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 51,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 52,
+   "field": 27.0,
+   "store": 5.0,
+   "embodied": 3.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 53,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 3.0,
+   "motion": 3.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 54,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 55,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 56,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 57,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 58,
+   "field": 27.0,
+   "store": 2.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 59,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 60,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 61,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 62,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 63,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 64,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 65,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 66,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 67,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 68,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 69,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 70,
+   "field": 22.0,
+   "store": 7.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 71,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 72,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 73,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 74,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 75,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 76,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 77,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 78,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 79,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 80,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 81,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 82,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 83,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 84,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 85,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 86,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 87,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 88,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 89,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 90,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 91,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 92,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 93,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 94,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 95,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 96,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 97,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 98,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 99,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 100,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 101,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 102,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 103,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 104,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 105,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 106,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 107,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 108,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 109,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 110,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 111,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 112,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 113,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 114,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 115,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 116,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 117,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 118,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 119,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 120,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 121,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 122,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 123,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 124,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 125,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 126,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 127,
+   "field": 29.0,
+   "store": 0.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 128,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 129,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 130,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 131,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 132,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 133,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 134,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 135,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 136,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 137,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 138,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 139,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 140,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 141,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 142,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 143,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 144,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 145,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 146,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 147,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 148,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 149,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 150,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 151,
+   "field": 24.0,
+   "store": 5.0,
+   "embodied": 6.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 152,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 6.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 153,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 154,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 155,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 156,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 157,
+   "field": 24.0,
+   "store": 3.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 158,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 159,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 160,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 161,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 162,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 163,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 164,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 165,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 166,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 167,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 168,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 169,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 170,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 171,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 172,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 173,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 174,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 175,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 176,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 177,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 178,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 179,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 180,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 181,
+   "field": 27.0,
+   "store": 0.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 182,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 183,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 184,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 185,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 186,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 187,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 188,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 189,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 190,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 191,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 192,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 193,
+   "field": 22.0,
+   "store": 5.0,
+   "embodied": 8.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 194,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 8.0,
+   "motion": 3.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 195,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 196,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 197,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 198,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 199,
+   "field": 22.0,
+   "store": 2.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 200,
+   "field": 22.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 201,
+   "field": 22.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 202,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 203,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 204,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 205,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 206,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 207,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 208,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 209,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 210,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 211,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 212,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 213,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 214,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 215,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 216,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 217,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 218,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 219,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 220,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 221,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 222,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 223,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 224,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 225,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 226,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 227,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 228,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 229,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 230,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 231,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 232,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 233,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 234,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 235,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 236,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 237,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 238,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 239,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 240,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 241,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 242,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 243,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 244,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 245,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 246,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 247,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 248,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 249,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 250,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 251,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 252,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 253,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 254,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 255,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 256,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 257,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 258,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 259,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 260,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 261,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 262,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 263,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 264,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 265,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 266,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 267,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 268,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 269,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 270,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 271,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 272,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 273,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 274,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 275,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 276,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 277,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 278,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 279,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 280,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 281,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 282,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 283,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 284,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 285,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 286,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 287,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 288,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 289,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 290,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 291,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 292,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 293,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 294,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 295,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 296,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 297,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 298,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 299,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 300,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 301,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 302,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 303,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 304,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 305,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 306,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 307,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 308,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 309,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 310,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 311,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 312,
+   "field": 24.0,
+   "store": 0.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 313,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 314,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 315,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 316,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 317,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 318,
+   "field": 19.0,
+   "store": 5.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 319,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 320,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 321,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 322,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 323,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 324,
+   "field": 14.0,
+   "store": 10.0,
+   "embodied": 11.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 325,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 11.0,
+   "motion": 2.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 326,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 327,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 328,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 329,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 330,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 331,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 332,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 333,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 334,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 335,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 336,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 337,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 338,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 339,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 340,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 341,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 342,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 343,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 344,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 345,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 346,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 347,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 348,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 349,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 350,
+   "field": 14.0,
+   "store": 8.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 351,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 8.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 352,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 8.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 353,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 8.0,
+   "elsewhere": {
+    "home": 1000.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 354,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 355,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 356,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 357,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 358,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 359,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 360,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 361,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 362,
+   "field": 14.0,
+   "store": 0.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 363,
+   "field": 9.0,
+   "store": 5.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  },
+  {
+   "t": 364,
+   "field": 9.0,
+   "store": 5.0,
+   "embodied": 13.0,
+   "motion": 0,
+   "elsewhere": {
+    "home": 1008.0
+   },
+   "total": 1035.0
+  }
+ ],
+ "beats": [
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "pool",
+   "detail": {
+    "gerund": "dry"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "flask",
+   "detail": {
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "basin",
+   "detail": {
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "husk",
+   "detail": {
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "see",
+   "actor": "Ada",
+   "hole": "",
+   "obj": "skiff",
+   "detail": {
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 0,
+   "kind": "want",
+   "actor": "Ada",
+   "hole": "own:control:pool",
+   "obj": "pool",
+   "detail": {
+    "change": "pool_glimmering"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 7,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    6
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "resting",
+    "to": "unmaking",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "husk",
+   "detail": {
+    "from": "unmaking",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:husk_resting",
+   "obj": "pool",
+   "detail": {
+    "from": "dry",
+    "to": "glimmering",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 13,
+   "kind": "reach",
+   "actor": "Ada",
+   "hole": "own:control:pool",
+   "obj": "husk",
+   "detail": {
+    "change": "pool_glimmering",
+    "inv": [
+     "hard",
+     "husk",
+     "resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    8
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:pool",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.3333333333333333,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:husk",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.875,
+   "refs": []
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    15
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    16
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    17
+   ]
+  },
+  {
+   "t": 14,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    18
+   ]
+  },
+  {
+   "t": 19,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 19,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    20
+   ]
+  },
+  {
+   "t": 20,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 25,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 25,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "moored",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    23
+   ]
+  },
+  {
+   "t": 30,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 31,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 31,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_moored",
+     "skiff_propelling"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    29
+   ]
+  },
+  {
+   "t": 31,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    24
+   ]
+  },
+  {
+   "t": 32,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5586206896551724,
+   "refs": []
+  },
+  {
+   "t": 32,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    19
+   ]
+  },
+  {
+   "t": 37,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 37,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    35
+   ]
+  },
+  {
+   "t": 38,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 45,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    38
+   ]
+  },
+  {
+   "t": 48,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    34
+   ]
+  },
+  {
+   "t": 52,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 52,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    41
+   ]
+  },
+  {
+   "t": 53,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6311475409836067,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.28,
+   "refs": []
+  },
+  {
+   "t": 58,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "shaping",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "forming",
+    "to": "cradling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "lantern",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "basin_cradling",
+     "basin_forming",
+     "lantern_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    44
+   ]
+  },
+  {
+   "t": 58,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "condition": "flask_charged",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    7
+   ]
+  },
+  {
+   "t": 59,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:unclaimed:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 64,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 64,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    51
+   ]
+  },
+  {
+   "t": 64,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    40
+   ]
+  },
+  {
+   "t": 70,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 70,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    54
+   ]
+  },
+  {
+   "t": 74,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "basin",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "basin"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    37
+   ]
+  },
+  {
+   "t": 76,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 76,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    57
+   ]
+  },
+  {
+   "t": 81,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    53
+   ]
+  },
+  {
+   "t": 82,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 82,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    60
+   ]
+  },
+  {
+   "t": 83,
+   "kind": "wonder",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "slot": "conditions"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 88,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.28,
+   "refs": []
+  },
+  {
+   "t": 88,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    63
+   ]
+  },
+  {
+   "t": 94,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 94,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    65
+   ]
+  },
+  {
+   "t": 100,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 100,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    67
+   ]
+  },
+  {
+   "t": 101,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.4471830985915493,
+   "refs": []
+  },
+  {
+   "t": 106,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 106,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    70
+   ]
+  },
+  {
+   "t": 112,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.28,
+   "refs": []
+  },
+  {
+   "t": 112,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    72
+   ]
+  },
+  {
+   "t": 113,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5756756756756758,
+   "refs": []
+  },
+  {
+   "t": 119,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 119,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    75
+   ]
+  },
+  {
+   "t": 126,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 126,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    77
+   ]
+  },
+  {
+   "t": 127,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "flask",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "flask"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    33
+   ]
+  },
+  {
+   "t": 133,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 133,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    80
+   ]
+  },
+  {
+   "t": 139,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "moored"
+   },
+   "prov": "lived",
+   "pull": 0.3571428571428571,
+   "refs": []
+  },
+  {
+   "t": 139,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_moored",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    82
+   ]
+  },
+  {
+   "t": 145,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 145,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    84
+   ]
+  },
+  {
+   "t": 151,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 151,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    86
+   ]
+  },
+  {
+   "t": 154,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 2.0,
+   "refs": []
+  },
+  {
+   "t": 157,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 157,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "resting",
+    "to": "fusing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 157,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "fusing",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 157,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "skiff",
+   "detail": {
+    "from": "moored",
+    "to": "lit",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 157,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "basin",
+   "detail": {
+    "from": "cradling",
+    "to": "shaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 157,
+   "kind": "reach",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "lantern",
+   "detail": {
+    "change": "skiff_lit",
+    "inv": [
+     "hard",
+     "lantern",
+     "resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 157,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": [
+     "lantern_fusing",
+     "lantern_gone",
+     "basin_shaping"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    89
+   ]
+  },
+  {
+   "t": 158,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 3.0,
+   "refs": []
+  },
+  {
+   "t": 158,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 163,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 163,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    98
+   ]
+  },
+  {
+   "t": 169,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 169,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    100
+   ]
+  },
+  {
+   "t": 173,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.9166666666666665,
+   "refs": []
+  },
+  {
+   "t": 173,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "skiff"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    102
+   ]
+  },
+  {
+   "t": 175,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.5,
+   "refs": []
+  },
+  {
+   "t": 175,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    104
+   ]
+  },
+  {
+   "t": 176,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5974955277280858,
+   "refs": []
+  },
+  {
+   "t": 181,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 181,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    107
+   ]
+  },
+  {
+   "t": 187,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.30000000000000004,
+   "refs": []
+  },
+  {
+   "t": 187,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    109
+   ]
+  },
+  {
+   "t": 188,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "joy",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.6266233766233766,
+   "refs": []
+  },
+  {
+   "t": 193,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.38,
+   "refs": []
+  },
+  {
+   "t": 193,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    112
+   ]
+  },
+  {
+   "t": 199,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "shaping"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 199,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "shaping",
+    "to": "forming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    114
+   ]
+  },
+  {
+   "t": 199,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "from": "forming",
+    "to": "cradling",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    114
+   ]
+  },
+  {
+   "t": 199,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "lantern",
+   "detail": {
+    "from": "unformed",
+    "to": "resting",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    114
+   ]
+  },
+  {
+   "t": 199,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_shaping",
+   "obj": "basin",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "basin_cradling",
+     "basin_forming",
+     "lantern_resting"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    114
+   ]
+  },
+  {
+   "t": 205,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 205,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "lit",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 205,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "hopping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 205,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 205,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "hopping",
+    "to": "lit",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 205,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "flask_empty",
+     "skiff_hopping",
+     "skiff_lit",
+     "skiff_propelling"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    119
+   ]
+  },
+  {
+   "t": 211,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 211,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    125
+   ]
+  },
+  {
+   "t": 211,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "expected": [
+     "basin_shaping",
+     "lantern_fusing",
+     "lantern_gone",
+     "skiff_lit"
+    ],
+    "got": [
+     "no_change"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    125
+   ]
+  },
+  {
+   "t": 212,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5416666666666665,
+   "refs": []
+  },
+  {
+   "t": 212,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    128
+   ]
+  },
+  {
+   "t": 217,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.36571428571428577,
+   "refs": []
+  },
+  {
+   "t": 217,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    130
+   ]
+  },
+  {
+   "t": 223,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 223,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    132
+   ]
+  },
+  {
+   "t": 224,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.8823529411764706,
+   "refs": []
+  },
+  {
+   "t": 230,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 230,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    135
+   ]
+  },
+  {
+   "t": 237,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 237,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    137
+   ]
+  },
+  {
+   "t": 244,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.36571428571428577,
+   "refs": []
+  },
+  {
+   "t": 244,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    139
+   ]
+  },
+  {
+   "t": 251,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 251,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    141
+   ]
+  },
+  {
+   "t": 252,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.468137254901961,
+   "refs": []
+  },
+  {
+   "t": 258,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 258,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    144
+   ]
+  },
+  {
+   "t": 264,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.3857142857142857,
+   "refs": []
+  },
+  {
+   "t": 264,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    146
+   ]
+  },
+  {
+   "t": 265,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:flask",
+   "obj": "",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 1.5719887955182072,
+   "refs": []
+  },
+  {
+   "t": 266,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    129
+   ]
+  },
+  {
+   "t": 270,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3285714285714285,
+   "refs": []
+  },
+  {
+   "t": 270,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    150
+   ]
+  },
+  {
+   "t": 277,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.36571428571428577,
+   "refs": []
+  },
+  {
+   "t": 277,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    152
+   ]
+  },
+  {
+   "t": 281,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    149
+   ]
+  },
+  {
+   "t": 284,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 284,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    155
+   ]
+  },
+  {
+   "t": 291,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 291,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    157
+   ]
+  },
+  {
+   "t": 296,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    154
+   ]
+  },
+  {
+   "t": 298,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.5857142857142856,
+   "refs": []
+  },
+  {
+   "t": 298,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    160
+   ]
+  },
+  {
+   "t": 305,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.3285714285714285,
+   "refs": []
+  },
+  {
+   "t": 305,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    162
+   ]
+  },
+  {
+   "t": 311,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    159
+   ]
+  },
+  {
+   "t": 312,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard",
+    "gerund": "cradling"
+   },
+   "prov": "lived",
+   "pull": 0.37142857142857144,
+   "refs": []
+  },
+  {
+   "t": 312,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:hard_push:basin_cradling",
+   "obj": "basin",
+   "detail": {
+    "strength": "hard"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    165
+   ]
+  },
+  {
+   "t": 318,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "empty"
+   },
+   "prov": "lived",
+   "pull": 0.2875,
+   "refs": []
+  },
+  {
+   "t": 318,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_empty",
+   "obj": "flask",
+   "detail": {
+    "from": "empty",
+    "to": "charged",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    167
+   ]
+  },
+  {
+   "t": 324,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "charged"
+   },
+   "prov": "lived",
+   "pull": 0.4,
+   "refs": []
+  },
+  {
+   "t": 324,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_charged",
+   "obj": "flask",
+   "detail": {
+    "from": "charged",
+    "to": "brimming",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    169
+   ]
+  },
+  {
+   "t": 326,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:contested:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "anxiety",
+    "unexpected": [],
+    "reopened": true,
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    164
+   ]
+  },
+  {
+   "t": 327,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 4.0,
+   "refs": []
+  },
+  {
+   "t": 330,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "strength": "hard",
+    "gerund": "resting"
+   },
+   "prov": "lived",
+   "pull": 0.22857142857142854,
+   "refs": []
+  },
+  {
+   "t": 330,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "resting",
+    "to": "fusing",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 330,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "from": "fusing",
+    "to": "gone",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 330,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "basin",
+   "detail": {
+    "from": "cradling",
+    "to": "shaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 330,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "basin_shaping",
+     "lantern_fusing",
+     "lantern_gone"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    173
+   ]
+  },
+  {
+   "t": 330,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:lantern_resting",
+   "obj": "lantern",
+   "detail": {
+    "condition": "flask_brimming",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    90
+   ]
+  },
+  {
+   "t": 336,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.7,
+   "refs": []
+  },
+  {
+   "t": 336,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    179
+   ]
+  },
+  {
+   "t": 342,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 342,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    181
+   ]
+  },
+  {
+   "t": 343,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:lantern",
+   "obj": "lantern",
+   "detail": {
+    "phase": "fading",
+    "unexpected": [],
+    "region": "lantern"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": []
+  },
+  {
+   "t": 347,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:control:basin",
+   "obj": "basin",
+   "detail": {
+    "phase": "frustration",
+    "unexpected": [],
+    "reopened": true,
+    "region": "basin"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    134
+   ]
+  },
+  {
+   "t": 350,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light",
+    "gerund": "brimming"
+   },
+   "prov": "lived",
+   "pull": 0.6,
+   "refs": []
+  },
+  {
+   "t": 350,
+   "kind": "nothing",
+   "actor": "Ada",
+   "hole": "sov:light_push:flask_brimming",
+   "obj": "flask",
+   "detail": {
+    "strength": "light"
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    185
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "try",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "strength": "hard",
+    "gerund": "lit"
+   },
+   "prov": "lived",
+   "pull": 0.24285714285714288,
+   "refs": []
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "lit",
+    "to": "propelling",
+    "slice": 0
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "propelling",
+    "to": "escaping",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "flask",
+   "detail": {
+    "from": "brimming",
+    "to": "empty",
+    "slice": 1
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "escaping",
+    "to": "drifting",
+    "slice": 2
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "drifting",
+    "to": "returning",
+    "slice": 3
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "change",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "from": "returning",
+    "to": "beached",
+    "slice": 4
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "surprise",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "expected": [
+     "no_change"
+    ],
+    "got": [
+     "flask_empty",
+     "skiff_beached",
+     "skiff_drifting",
+     "skiff_escaping",
+     "skiff_propelling",
+     "skiff_returning"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "learn",
+   "actor": "Ada",
+   "hole": "sov:hard_push:skiff_lit",
+   "obj": "skiff",
+   "detail": {
+    "condition": "flask_brimming",
+    "confirms": null,
+    "exposes": null,
+    "watched": null
+   },
+   "prov": "worked",
+   "pull": 0.0,
+   "refs": [
+    108,
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "reach",
+   "actor": "Ada",
+   "hole": "own:control:skiff",
+   "obj": "skiff",
+   "detail": {
+    "change": "skiff_returning",
+    "inv": [
+     "hard",
+     "skiff",
+     "lit"
+    ]
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "own:lost:skiff",
+   "obj": "",
+   "detail": {
+    "phase": "sadness",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  },
+  {
+   "t": 364,
+   "kind": "feel",
+   "actor": "Ada",
+   "hole": "other:flask",
+   "obj": "",
+   "detail": {
+    "phase": "anger",
+    "unexpected": []
+   },
+   "prov": "lived",
+   "pull": 0.0,
+   "refs": [
+    187
+   ]
+  }
+ ]
+}

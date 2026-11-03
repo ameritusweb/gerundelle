@@ -1,0 +1,63 @@
+> Where does the idea of understanding as a structured graph with typed relations, filled slots, and unknowns fit into the system?
+
+● Here's where it lands in the running system.
+
+  The idea: understanding isn't a number or a weight — it's a graph. Each concept is a node. Each node has typed relation slots (what causes it, what it causes, what
+  co-occurs with it, what role it plays, what conditions it). Some slots are filled (funded by evidence). Some are open (unknowns). The shape of what's open tells the mind
+  what kind of evidence it needs. The graph is the understanding, and it's inspectable: you can look at any concept and see exactly what's known, what's unknown, and where the
+  evidence came from.
+
+  This is the Understanding register (class Understanding in molecules.py, line ~1634). Every concept the mind encounters gets an entry in the register. Each entry holds typed
+  relations, each with receipts by provenance:
+
+  Understanding.RELS = ("causes", "caused_by", "co_occurs", "role", "conditions")
+
+  Each relation slot for a concept holds a list of (other_concept, [seen, told, worked]) triples. The funding of a slot is computed with provenance weights
+  (Understanding.funding): lived and worked-out receipts at full weight, told at the mind's credulity (Params.credulity, default 0.5). A concept's level of understanding
+  (Understanding.level) is the mean over relation types of their funding, capped at sov_m0 each, as a share of sov_m0.
+
+  The open slots are the unknowns (Understanding.open_slots): relation types whose funding is below 1.0. An open slot has a shape — it's a typed question ("what causes this?"
+  or "what conditions this?"). The concept map says it: "An open slot surrounded by known bonds has a shape — it pulls for what would fill it, and the shape tells the mind
+  what kind of evidence it needs. Remove the bonds and the unknown vanishes."
+
+  The unknowns pull. An open slot on a concept the mind is attending to generates an SOV molecule (a question) that enters the tournament and competes for attention in its own
+  track (Params.sov_slots: 3 → 2 → 2). An SOV molecule binds only to knowns the concept has evidence with in the raw records (co-wins, what followed what in the experience
+  records). When it wins together with a known, that relation is written back to the register. At the top, an SOV molecule poses a question for each open slot; a question
+  closes when the register fills its slot. The concept map: "Why uncertainty or a lack of understanding should generate thought molecules. An open slot with unfilled binding
+  sites adds a constant, non-decaying tension to the molecule's bid every tick until the site is filled. The incomplete thought keeps returning to consciousness not because
+  it's surprising but because it's unfinished. That's the earworm mechanism."
+
+  Relations are written in two ways:
+
+  1. Directly, from what the pool already discovered: a split's boundary conditions the split thought (a contrast reveals what matters); a recognition's clause conditions an
+     action's goal; a filler has a role in what it filled; a part has a role in its composite; an explanation heard with its keys gives told co-occurrences.
+  2. By working it out: a concept in play (an instance wins the top while the concept is not fully understood) is cued into the pool as an SOV molecule whose sites are its
+     open slots. It binds to knowns it has evidence with, and when it wins together with one, that relation is written.
+
+  How understanding is used:
+
+  - Inspectability: Understanding.relations(c) returns every filled relation for a concept. The concept map: "Every slot has receipts. Every receipt has provenance. Every
+    condition has the failures that revealed it. Expertise is a cached constraint convergence, and the cache is legible."
+  - Incremental update: "A contradiction reopens the one slot it contradicted, not the whole web. Everything not contradicted stays funded." A version update, a rule change, a
+    new discovery — each reopens locally and the rest holds.
+  - Complexity as depth: "Complexity is bonding depth, not an atomic bottom layer. A half-formed thought is a molecule with open binding sites. A complex thought is fragments
+    bonded to fragments bonded to fragments. There is no simplest; there is only shallower and deeper."
+  - The learning curve: a concept with all slots filled is fully understood (level 1.0). The mind stops searching for evidence about it. A concept with many open slots pulls
+    hard for attention. The cost of search is proportional to the open slots — the mind's ignorance — not to the size of the problem.
+
+  The 15 relation forms (RELATION_TYPES.md) extend the five register types into the theory's full vocabulary: identity/type-of, part/whole, relation-to, duration, motion,
+  possession transfer, status transfer, transformation, exchange, communication, opposition, competition, cause, enable, prevent — each decomposed into a primitive (BE, STAY,
+  GO, force, CAUSE, LET) and a field (identificational, compositional, relational, temporal, spatial, possessional, social, mental). The register's five types are what the
+  code measures; the 15 forms are what the theory says understanding consists of.
+
+  How it differs from knowledge graphs and semantic networks:
+
+  - A knowledge graph (Sowa's conceptual graphs, RDF, OWL) is a static database: nodes and edges, with types, filled by assertion or extraction. Here, the graph is grown by
+    the mind's own experience: each relation is funded by specific evidence (seen, told, worked out), and funding determines how well understood the concept is. An unfunded
+    relation doesn't exist in the graph — it's an open slot, not a missing edge.
+  - Minsky's frames have typed slots with defaults. Here, there are no defaults — an unfilled slot is an unknown, and it pulls for evidence. The pull is structural (open-site
+    tension, constant, non-decaying), not a missing value filled by a best guess.
+  - A semantic network doesn't distinguish provenance. Here, every receipt carries where it came from: the same relation "A causes B" has different standing if it was lived
+    (full weight), told (half weight), or worked out from evidence (full weight). The Lean proof guarantees that told can never become lived without a Fit event.
+  - The graph is not read-only. Contradiction reopens a slot. A split refines a concept into two halves. Unification merges halves back. The graph is a living structure that
+    tracks the mind's understanding as it grows, retracts, and restructures.
