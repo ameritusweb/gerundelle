@@ -34,21 +34,35 @@ comprises **24 files**, **301 theorems**, and **no unfinished proofs**.
 The architecture is domain-independent: one mind and one algebra run in story, code, chess
 and population worlds, with no domain-specific machinery. Only the world changes.
 
-## The three ideas
+## The four ideas
 
 **The world is a tree of doings.** Objects are described by what they are doing (gerunds),
 not by what they are made of. A jar is *charged*. A boulder is *resting*. The world has no
 coordinates. Where a configuration invites a force that has not been applied, the world has
 an *open force slot*: the question "what would happen?" is itself a structure.
 
-**Cognition is a market.** A mind is a marketplace whose scarce resource is commitment.
-Hypotheses, patterns and wants compete for slots, and the competition is settled by evidence
-from acting in the world. What the agent lived through counts in full, what it was told
-counts at a discount, and what it imagined counts not at all.
+**Understanding is a graph with its own algebra.** Known and unknown concepts are nodes,
+connected by typed relations — causes, caused by, co-occurs, role, conditions, etc. An unknown is a node
+defined by its relations to what is already known.
+Just like x in an equation is defined by its relations to the known numbers through
+operators. The unknown's identity is its topology — how it relates to what surrounds it.
+Unknowns are not gaps waiting to be eliminated; they are structural citizens that persist
+and pull for attention. The graph has its own operators (Constrain,
+Relabel, Fit, Archaize) and its own theorems. Classical algebra — equations with knowns,
+unknowns, and operators — is a special case.
 
-**Ownership is the foundational motivation.** What the agent acts for is territory: whatever
-it perceives as its own. Emotions are how this territory reads. Frustration is a claim that
-keeps failing. Curiosity is an unclaimed region. Joy is a claim that took.
+**Cognition is a thought molecule tournament.** A mind is a marketplace whose scarce
+resource is commitment. Hypotheses, patterns, meta-recognitions, and wants are thought
+molecules that compete for slots, and the competition is settled by evidence from acting
+in the world. The tournament runs in separate tracks — thoughts, meta-cognition,
+understanding, emotions, experiments, and ownership — each with its own scarce slots, so
+one faculty cannot drown the others. What the agent lived through counts in full, what it
+was told counts at a discount, and what it imagined counts not at all.
+
+**Ownership is the foundational motivation.** What the agent acts for is territory: unique
+concepts it perceives as its own — and being a slot in someone else's understanding is
+itself a form of territory. Emotions are how this territory reads. Frustration is when
+the mind acts and nothing moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is when the mind acted on something and the result was what it wanted.
 
 ## Why it matters
 
