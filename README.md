@@ -58,11 +58,11 @@ compete for those limited slots. Molecules bind with each other — each has bin
 and two molecules that bond form a composite that competes as one. A bond holds two
 thoughts together. The winners of each level (7 → 5 → 4 slots) are the argmax of:
 
-`activation × (1 + binding_score) + open_site_tension + w_pred × forward + support`
+`activation × (1 + binding_score) + open_site_tension + w × forward + support`
 
 where **activation** is how alive the thought is (decays when it doesn't win, boosted
 when it does), **binding_score** is how well it fits with its current partner,
-**open_site_tension** is the pull of an unfilled unknown, **forward** is how much the
+**open_site_tension** is the pull of an unfilled unknown, **w** is a weighting term, **forward** is how much the
 mind would still learn by attending to it (expected information gain from its Dirichlet
 prior), and **support** is how many conditions, each learned from a different experience, this
 thought alone satisfies at once. The tournament runs in separate tracks — thoughts, meta-cognition,
@@ -74,7 +74,8 @@ was told counts at a discount, and what it imagined counts not at all.
 concepts it perceives as its own — and being a slot in someone else's understanding is
 itself a form of territory. Emotions are what the mind feels about what it holds, what
 it's losing, and what it doesn't yet have. Frustration is when the mind acts and nothing
-moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is when the mind acted on something and the result was what it wanted.
+moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is
+when the mind acted on something and the result was what it wanted.
 
 ## Why it matters
 
@@ -176,6 +177,21 @@ lived through funds at full weight. What it was told funds at half. What it imag
 funds at zero. No operation can promote told to lived — this is proved in Lean as a
 type error in a graded writer monad. Provenance is conserved the way energy is
 conserved: structurally, not by policy.
+
+### Temperament: different minds from the same algebra
+
+Each parameter enters a formula:
+
+| Parameter | What it controls | Formula |
+| --- | --- | --- |
+| patience | how many failures before giving up on a want | give up after `patience` failed actions on the wanted state |
+| persistence | how slowly a repeated question loses its pull | experiment value decays by `q / (q + times_done)` where q = persistence |
+| curiosity | the pull of things no goal pays for | pull of unknowns multiplied by `curiosity` |
+| credulity | how much weight given to what others say | told receipts fund at `credulity` (default 0.5: half weight) |
+| stubbornness | how many times another can undo what you hold | resolve starts at `stubbornness`, drains by `1 / pull` per undoing |
+
+An impatient mind and a dogged mind are both working minds — different people, not a
+broken one and a fixed one.
 
 ### Ownership, emotion, and the will
 
