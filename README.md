@@ -179,7 +179,7 @@ matches or fails to match the world's answer, paired with the reliability tracki
 Concrete and abstract, physical and social, scientific and moral — the same kind of
 thing, the same machinery, the same atom.
 
-### Why it's cheap
+### Why it's computationally cheap
 
 The atom is small. A stored concept is not a running simulation. It is a handful of
 typed relations and a handful of force balances, sealed in a box with cooling keys.
