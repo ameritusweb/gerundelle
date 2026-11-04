@@ -90,13 +90,44 @@ This is intentionality in Brentano's philosophical sense: directedness toward so
 without containing it. Classical AI has never cracked intentionality. Statistical AI
 sidesteps it. Symbolic AI simulates it poorly. Here, intentionality is structural.
 
-The architecture subsumes classical algebra. An equation with knowns, unknowns, and
-operators is a special case: the operators are a restricted kind of relation, and the
-unknowns exist to be solved. Gerundelle extends this by letting unknowns persist
-productively — shaping the structure, pulling for evidence, participating in bonds —
-without ever resolving. It is to classical algebra what complex numbers were to real
-numbers: not a rejection, but an extension that makes previously inexpressible things
-tractable.
+The architecture subsumes classical algebra. Classical algebra is a special case of
+the SOV algebra where three constraints are artificially imposed: the domain is
+restricted to quantities and the relations to arithmetic operators; every statement
+must already be closed around an equality sign before you can manipulate it; and an
+unknown is a passive placeholder whose only role is to be isolated and eliminated —
+once x = 5, the variable disappears and the algebra's work is done.
+
+The SOV lifts all three while keeping the core insight that makes algebra powerful:
+defining an unknown by the topology of its relations to what is known.
+
+*From operators to typed relation slots.* Instead of numbers linked by +, ×, and =,
+an SOV is a graph of concepts linked by typed relations — causal triggers,
+preconditions, force-reserve thresholds, ownership claims, counterfactual boundaries.
+Classical equations are the subset where the nodes are scalars and the edges are
+arithmetic.
+
+*From passive blanks to active structural citizens.* In classical algebra, x does
+nothing on its own; an external mathematician rearranges the equation. In an SOV, an
+unfilled slot is an active causal agent in the mind. It exerts a constant, non-decaying
+pull in the attention tournament every tick. It shapes what experiments the agent runs
+and which thought molecules bond with it.
+
+*Productive persistence.* An unknown in Gerundelle does not exist merely to be
+eliminated. Even while a slot remains open, the SOV participates in bonds, forms
+higher-level composites, and constrains planning. You can manipulate, compose, and
+reason with structured ignorance as a first-class mathematical object.
+
+*Equations that grow by acting in the world.* In classical algebra, the equations are
+handed to you; if the system is underdetermined, you are stuck. An SOV with unfunded
+slots is an underdetermined system that goes out and generates its own new equations.
+Its open slots pull the agent to apply a force in the world; the world's failure or
+flip returns a new constraint (funded by lived provenance), which narrows the open slot
+until the constraints converge and the answer is simply noticed.
+
+An algebraic equation is a static constraint on values. An SOV is a living constraint
+graph over doings — where the unknowns themselves drive the search for the missing
+constraints. It is to classical algebra what complex numbers were to real numbers: not
+a rejection, but an extension that makes previously inexpressible things tractable.
 
 A mind built on this algebra is a marketplace. Thought molecules — fragments of
 understanding, each carrying its bonds, its open sites, its evidence — compete for
