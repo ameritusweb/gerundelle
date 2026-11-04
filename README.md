@@ -161,6 +161,30 @@ rules about feelings. They are phase transitions in a graph read off the ownersh
 register — the same mathematical structure as perception, factored through a different
 view.
 
+### Planning: what the mind does when the path is long
+
+The motivation to plan comes from the same place all motivation comes from in the
+architecture: territory. A want is a territorial claim on a state the mind doesn't
+hold yet. It sits in the ownership register as an open slot. Open-site tension — the
+constant, non-decaying pull — keeps it in the tournament every tick. The mind can't
+ignore it; the slot keeps bidding.
+
+A plan arises when there's a gap: the want is unmet and no single action achieves it.
+The planner is invoked not because a "planning module" was triggered, but because the
+want won the top, the mind tried to act on it, and there was no direct way. The planner
+looks for a sequence of actions that reaches the wanted state, reading off what the mind
+already knows about what leads to what.
+
+When the planner finds no way either, sub-wants decompose the gap backward: what
+conditions does the known way need? What facts must hold that don't hold now? Each
+becomes a nearer want, held on a stack. Each sub-want is reachable. The chain is built
+from what the mind already knows. Action on the nearest sub-want closes the gap one
+step at a time.
+
+Planning isn't a separate module. It's the pull of an unfilled territorial slot — the
+same pull that drives curiosity, frustration, and grief — meeting a gap too wide for
+one action.
+
 ### The atom of representation: the minimal (SOV, world) pair
 
 From all of this, one atom emerges. A known concept is not a symbol, not a weight
