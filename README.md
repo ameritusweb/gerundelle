@@ -37,9 +37,10 @@ and population worlds, with no domain-specific machinery. Only the world changes
 ## The four ideas
 
 **The world is a tree of doings.** Objects are described by what they are doing (gerunds),
-not by what they are made of. A jar is *charged*. A boulder is *resting*. The world has no
-coordinates. Where a configuration invites a force that has not been applied, the world has
-an *open force slot*: the question "what would happen?" is itself a structure.
+not by what they are made of. A jar is *charged*. A boulder is *resting*. Materials,
+distances, and positions are inferred from the force structure, not given. Where a
+configuration invites a force that has not been applied, the world has an *open force slot*:
+the question "what would happen?" is itself a structure.
 
 **Understanding is a graph with its own algebra.** Known and unknown concepts are nodes,
 connected by typed relations — causes, caused by, co-occurs, role, conditions, etc. An unknown is a node
