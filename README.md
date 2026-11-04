@@ -61,8 +61,9 @@ was told counts at a discount, and what it imagined counts not at all.
 
 **Ownership is the foundational motivation.** What the agent acts for is territory: unique
 concepts it perceives as its own — and being a slot in someone else's understanding is
-itself a form of territory. Emotions are how this territory reads. Frustration is when
-the mind acts and nothing moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is when the mind acted on something and the result was what it wanted.
+itself a form of territory. Emotions are what the mind feels about what it holds, what
+it's losing, and what it doesn't yet have. Frustration is when the mind acts and nothing
+moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is when the mind acted on something and the result was what it wanted.
 
 ## Why it matters
 
