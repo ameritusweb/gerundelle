@@ -485,6 +485,24 @@ every possible input.
 
 Aristotle was right that understanding is real and distinct. He just didn't have Lean 4.
 
+### Nous-Orexis-Entelechy Formalization
+
+Aristotle didn't just say understanding grasps things. He connected it to orexis —
+desire, striving, the pull toward completion. Things move toward their form the way an
+unknown strains toward its resolution.
+
+The architecture formalizes three connected Aristotelian ideas at once:
+
+- **Nous** (understanding as direct grasp): the minimal (SOV, world) pair. An unknown
+  defined by its relations to what is known. When the constraints converge and only one
+  thing fits, the mind grasps it directly — not by searching, by noticing.
+- **Orexis** (desire as structural pull toward completion): the open-site tension in the
+  tournament formula. A constant, non-decaying pull, every tick, until the slot closes.
+  The unknown literally pulls, in a way that can be measured and proved.
+- **Entelechy** (the extinguishing of potential once realized): the moment the slot
+  closes, the tension goes to zero. The unknown no longer bids. The yearning
+  extinguishes itself by being fulfilled. The acorn doesn't strive once it's an oak.
+
 ### Next token prediction vs structural similarity: an example
 
 I was thinking about the minimal (SOV, world) pair for representing the concept of an 
