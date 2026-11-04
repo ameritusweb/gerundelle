@@ -1,7 +1,8 @@
 # Gerundelle
 
 A formally verified architecture of mind. Twelve layers, from world physics to narrative,
-machine-checked in Lean 4.
+machine-checked in Lean 4. Gerundelle learns though interaction with a world model, such that 
+it exhibits recursive self-improvement without human intervention or a text corpus.
 
 ## What this is
 
