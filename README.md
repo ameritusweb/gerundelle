@@ -51,9 +51,9 @@ and pull for attention. The graph has its own operators (Constrain,
 Relabel, Fit, Archaize) and its own theorems. Classical algebra — equations with knowns,
 unknowns, and operators — is a special case.
 
-**Cognition is a thought molecule tournament.** A mind is a marketplace whose scarce
-resource is commitment. Hypotheses, patterns, meta-recognitions, and wants are thought
-molecules that compete for slots, and the competition is settled by evidence from acting
+**Cognition is a thought molecule tournament.** A mind can only attend to a few things
+at once. Hypotheses, patterns, meta-recognitions, and wants are thought molecules that
+compete for those limited slots, and the competition is settled by evidence from acting
 in the world. The tournament runs in separate tracks — thoughts, meta-cognition,
 understanding, emotions, experiments, and ownership — each with its own scarce slots, so
 one faculty cannot drown the others. What the agent lived through counts in full, what it
