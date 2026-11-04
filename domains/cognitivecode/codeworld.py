@@ -43,7 +43,7 @@ from types import SimpleNamespace
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FICTION = os.path.join(os.path.dirname(HERE), "fiction")
-ANALOGY = os.environ.get("ANALOGY", "E:/vscode/analogy")
+ANALOGY = os.environ.get("ANALOGY", os.path.dirname(os.path.dirname(HERE)))   # the folder holding poc2 and poc3
 sys.path.insert(0, FICTION)
 sys.path.insert(0, os.path.join(ANALOGY, "poc2"))
 

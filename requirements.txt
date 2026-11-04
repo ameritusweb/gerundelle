@@ -1,0 +1,5 @@
+chess>=1.11
+numpy>=1.26
+scipy>=1.11
+spacy>=3.8,<4
+nltk>=3.9

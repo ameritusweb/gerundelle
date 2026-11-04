@@ -13,7 +13,9 @@ import sys
 from collections import Counter
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ARTICLES = "E:/vscode/analogy/text/results/articles_a.jsonl"
+# The parsed Wikipedia articles this compares against aren't in the repo: set ANALOGY_TEXT to a folder that has them.
+ARTICLES = os.path.join(os.environ.get("ANALOGY_TEXT", os.path.join(os.path.dirname(os.path.dirname(HERE)), "text")),
+                        "results", "articles_a.jsonl")
 NEW = ("realizing", "asking", "telling", "instructing", "iterating")
 
 

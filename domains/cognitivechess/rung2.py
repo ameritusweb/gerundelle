@@ -37,7 +37,7 @@ import chess.engine  # noqa: E402
 import rung1  # noqa: E402
 import rung1d  # noqa: E402
 import rung1e  # noqa: E402
-from chessworld import RUNG1, STOCKFISH, ChessWorld  # noqa: E402
+from chessworld import RUNG1, ChessWorld, open_engine  # noqa: E402
 from gerundelle_arm import GerundelleMind  # noqa: E402
 from force_world import inv_id  # noqa: E402
 
@@ -58,7 +58,7 @@ class Coach:
         if self.kind == "ignorant":
             return offered[self.rng.choice(sorted(offered))]
         if self.engine is None:
-            self.engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH)
+            self.engine = open_engine()
         board = chess.Board(world.board.fen())   # the position only (its history holds the passes)
         depth = int(self.kind.replace("stockfish", ""))
         move = self.engine.play(board, chess.engine.Limit(depth=depth)).move

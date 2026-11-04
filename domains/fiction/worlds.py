@@ -4,7 +4,8 @@ flip between gerunds is said. The world is shared by both arms; only the mind di
 import os
 import sys
 
-MOLECULES = os.environ.get("GERUNDELLE", "E:/vscode/analogy/molecules")
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+MOLECULES = os.environ.get("GERUNDELLE", os.path.join(REPO, "reference"))
 sys.path.insert(0, MOLECULES)
 import curriculum_worlds as C  # noqa: E402
 from force_world import HIDDEN  # noqa: E402

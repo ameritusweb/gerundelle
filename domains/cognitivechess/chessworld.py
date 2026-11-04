@@ -29,13 +29,22 @@ The plan is chess-sov-plan.md ("The chess world"). My choices (named, to be revi
   finds its move again). `last`: moves given the largest rank, the last Gerundelle tries (its untried preparations are
   taken smallest first).
 """
+import os
 import random
+import shutil
 from types import SimpleNamespace
 
 import chess
 import chess.engine
 
-STOCKFISH = "E:/vscode/vitchess/ParallelReverseAutoDiff/bin/Debug/net6.0/Stockfish15/stockfish-windows-2022-x86-64-avx2.exe"
+STOCKFISH = os.environ.get("STOCKFISH") or shutil.which("stockfish")   # only the rungs that use an engine need it
+
+
+def open_engine():
+    if not STOCKFISH:
+        raise RuntimeError("This run uses Stockfish: install it on your PATH, or set STOCKFISH to its executable.")
+    return chess.engine.SimpleEngine.popen_uci(STOCKFISH)
+
 
 IDLE = 6   # slices without a move of White's that end an episode begun (a still world: waiting brings nothing)
 VALUE = {chess.PAWN: 1, chess.KNIGHT: 3, chess.BISHOP: 3, chess.ROOK: 5, chess.QUEEN: 9, chess.KING: 0}
@@ -328,7 +337,7 @@ class ChessWorld:
         if self.board.is_game_over():
             return None
         if self.engine is None:
-            self.engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH)
+            self.engine = open_engine()
         board = chess.Board(self.board.fen())   # the position only (its history holds the passes)
         board.turn = chess.BLACK
         if not board.is_valid():

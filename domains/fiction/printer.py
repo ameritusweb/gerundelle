@@ -13,7 +13,8 @@ import os
 import re
 import sys
 
-TEXT_DIR = os.environ.get("ANALOGY_TEXT", "E:/vscode/analogy/text")
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "text"))
 sys.path.insert(0, TEXT_DIR)
 from clip import parse  # noqa: E402
 
