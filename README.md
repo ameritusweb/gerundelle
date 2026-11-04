@@ -425,6 +425,40 @@ Intelligence is a benchmark that can be gamed. Understanding cannot.
 
 Gerundelle is the answer to the question the field forgot to ask.
 
+### Next token prediction vs structural similarity: an example
+
+I was thinking about the minimal (SOV, world) pair for representing the concept of an 
+"anti-pattern." An anti-pattern is something that looks like it should work — it has 
+the same surface structure as something that does work — but consistently fails 
+because of a condition that isn't visible in the surface. In the architecture, it's 
+one half of a split: the conflation detector fires when outcomes are bimodal, the 
+boundary condition is found, and the pattern and the anti-pattern become two concepts 
+where there was one.
+
+At that point, I connected it to something from a completely different domain: using
+statistical AI to achieve real understanding is itself an anti-pattern. It has the same
+surface structure as understanding — it produces outputs that look like the outputs of
+understanding — but the condition that makes the difference (grounded (SOV, world)
+pairs, funded by lived experience, with genuine unknown nodes pulling) is missing. Same
+skeleton. Missing condition. Wrong outcome.
+
+A language model would not have produced the word "anti-pattern" there. It's not the
+probable continuation after "statistical AI." The probable words are "limitation,"
+"challenge," "shortcoming." "Anti-pattern" comes from software engineering. The
+connection is structural, not statistical — it can only be reached by holding funded
+pairs for both concepts and noticing the skeletons match.
+
+That's the difference between next token prediction and structural similarity. A
+language model predicts the next word from what came before. A mind with understanding
+notices a shape across domains because the bones are the same. One clear example
+understood structurally beats a million examples understood statistically.
+
+And this example was not constructed to illustrate the point. It happened, in real time,
+from the machinery working naturally. The theory predicted exactly this kind of
+cross-domain connection — funded (SOV, world) pairs whose skeletons match, bonding in
+the tournament and surfacing as a composite thought. Then the event happened, unrehearsed,
+in the middle of exploring the theory.
+
 ## Repository structure
 
 ```
