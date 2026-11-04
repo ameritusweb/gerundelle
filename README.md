@@ -234,6 +234,35 @@ experience their trials as lived relative to the sub-world's physics. To the par
 those trials are lived in a world the parent imagined — which is where the firewall
 theorem and the provenance grading meet recursive construction.
 
+### Bootstrapping: starting from what others have confirmed
+
+If a concept is a minimal (SOV, world) pair, then bootstrapping a mind is giving it a
+set of pairs to start with. The mind receives them as told knowledge — funded at half
+weight, each a structure it hasn't lived through. Its open slots pull for the evidence
+that would make them its own.
+
+A told pair at half weight, once tested and confirmed by the mind's own experience,
+becomes a lived pair at full weight. From that point it's a foundation, not a hypothesis.
+The mind builds on it — new constraints reference it, sub-wants use it, recall by shape
+matches against it. And every pair confirmed becomes the ground the next pair is tested
+on: confirm the basics, then the things built on the basics confirm faster because the
+foundations are already funded, and each new layer of confirmation opens the next.
+
+This works in two modes. **Organic harvest:** run a mind, let it fund its own pairs,
+seal them, transfer them to the next mind. The fiction ladder does this across scenes;
+the chess app does it with self-play games. **Crafted injection:** design the pairs by
+hand — a minimal force world that exhibits the concept, an SOV with the right slots —
+and inject them as told knowledge. The civilization ladder calls this the curriculum:
+the sequence of experiences a society constructs to fund its members' understanding.
+
+The constraint on ordering is real. The holonomy theorem says path matters: Relabel
+steps make transport path-dependent, so you can't dump all pairs in at once. But the
+geodesic property says every valid curriculum is a shortest path — each step adds
+exactly one concept, in an order where each is testable given what's already been
+confirmed. As long as you have the right epistemic order, you can start from a
+bootstrapped state, and each new mind pushes further from the last generation's
+confirmed stack.
+
 ### Why it's computationally cheap
 
 The atom is small. A stored concept is not a running simulation. It is a handful of
