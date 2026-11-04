@@ -2,7 +2,8 @@
 
 A formally verified architecture of mind. Twelve layers, from world physics to narrative,
 machine-checked in Lean 4. Gerundelle minds learn though interaction with a world model, such that 
-they exhibit recursive self-improvement without human intervention or a text corpus.
+they exhibit recursive self-improvement without human intervention or a text corpus. Their 
+understanding is structural and algebraic rather than locked away in high-dimensional vectors.
 
 ## What this is
 
