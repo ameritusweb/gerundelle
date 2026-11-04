@@ -52,6 +52,8 @@ keeps failing. Curiosity is an unclaimed region. Joy is a claim that took.
 
 ## Why it matters
 
+### The problem
+
 AI has spent decades on a representation problem. Symbolic AI gives you structure
 you can reason about, but it's brittle, ungrounded, and can't learn from the world.
 Statistical AI gives you learning from data, but it has no structure, no unknowns,
@@ -61,20 +63,27 @@ of trying to combine them have produced hybrids, not unity.
 Gerundelle doesn't combine them. It operates at a level where the distinction doesn't
 apply.
 
+### The ontology: a world of doings
+
 The world is described not by what things are made of, but by what they are doing.
 A jar is *charged*: it holds potential drawn from a spring. A boulder is *resting*:
 its weight balances the ground's support. No coordinates, no materials, no distances.
 Each object is a gerund — a doing — and a doing is a balance of forces against reserves.
 When a force crosses a reserve, the gerund flips. Where a force has not been applied,
-the world has an *open force slot*: a question the world itself is asking. This is the
-ontology. It follows Whitehead (things are what they are doing), Talmy (doings are force
-balances), and Gibson (an open force slot is an affordance). A small set of gerunds covers
-every domain because doings, unlike materials, are universal: a stone arch and a steel
-beam both *support*. And because the force world has a small state space (gerunds, not
-raw pixels), clear events (a force crosses a reserve, a gerund flips), and informative
-failures (each one tells you something specific), experiential learning is tractable:
-a mind can learn from a handful of interactions, because the world is structured at the
-right level of abstraction for a mind to act in and learn from.
+the world has an *open force slot*: a question the world itself is asking.
+
+This follows Whitehead (things are what they are doing), Talmy (doings are force
+balances), and Gibson (an open force slot is an affordance). A small set of gerunds
+covers every domain because doings, unlike materials, are universal: a stone arch and
+a steel beam both *support*.
+
+And because the force world has a small state space (gerunds, not raw pixels), clear
+events (a force crosses a reserve, a gerund flips), and informative failures (each one
+tells you something specific), experiential learning is tractable: a mind can learn from
+a handful of interactions, because the world is structured at the right level of
+abstraction for a mind to act in and learn from.
+
+### The unknown as a structural citizen
 
 The unknown is where the architecture departs from everything before it. In statistical
 AI, an unknown is a probability — a spread over outcomes, waiting to be narrowed by data.
@@ -90,44 +99,48 @@ This is intentionality in Brentano's philosophical sense: directedness toward so
 without containing it. Classical AI has never cracked intentionality. Statistical AI
 sidesteps it. Symbolic AI simulates it poorly. Here, intentionality is structural.
 
-The architecture subsumes classical algebra. Classical algebra is a special case of
-the SOV algebra where three constraints are artificially imposed: the domain is
-restricted to quantities and the relations to arithmetic operators; every statement
-must already be closed around an equality sign before you can manipulate it; and an
-unknown is a passive placeholder whose only role is to be isolated and eliminated —
-once x = 5, the variable disappears and the algebra's work is done.
+### The algebra: how the SOV generalizes an equation
+
+Classical algebra is a special case of the SOV algebra where three constraints are
+artificially imposed: the domain is restricted to quantities and the relations to
+arithmetic operators; every statement must already be closed around an equality sign
+before you can manipulate it; and an unknown is a passive placeholder whose only role
+is to be isolated and eliminated — once x = 5, the variable disappears and the algebra's
+work is done.
 
 The SOV lifts all three while keeping the core insight that makes algebra powerful:
 defining an unknown by the topology of its relations to what is known.
 
-*From operators to typed relation slots.* Instead of numbers linked by +, ×, and =,
-an SOV is a graph of concepts linked by typed relations — causal triggers,
-preconditions, force-reserve thresholds, ownership claims, counterfactual boundaries.
-Classical equations are the subset where the nodes are scalars and the edges are
-arithmetic.
+- **From operators to typed relation slots.** Instead of numbers linked by +, ×, and =,
+  an SOV is a graph of concepts linked by typed relations — causal triggers,
+  preconditions, force-reserve thresholds, ownership claims, counterfactual boundaries.
+  Classical equations are the subset where the nodes are scalars and the edges are
+  arithmetic.
 
-*From passive blanks to active structural citizens.* In classical algebra, x does
-nothing on its own; an external mathematician rearranges the equation. In an SOV, an
-unfilled slot is an active causal agent in the mind. It exerts a constant, non-decaying
-pull in the attention tournament every tick. It shapes what experiments the agent runs
-and which thought molecules bond with it.
+- **From passive blanks to active structural citizens.** In classical algebra, x does
+  nothing on its own; an external mathematician rearranges the equation. In an SOV, an
+  unfilled slot is an active causal agent in the mind. It exerts a constant, non-decaying
+  pull in the attention tournament every tick. It shapes what experiments the agent runs
+  and which thought molecules bond with it.
 
-*Productive persistence.* An unknown in Gerundelle does not exist merely to be
-eliminated. Even while a slot remains open, the SOV participates in bonds, forms
-higher-level composites, and constrains planning. You can manipulate, compose, and
-reason with structured ignorance as a first-class mathematical object.
+- **Productive persistence.** An unknown in Gerundelle does not exist merely to be
+  eliminated. Even while a slot remains open, the SOV participates in bonds, forms
+  higher-level composites, and constrains planning. You can manipulate, compose, and
+  reason with structured ignorance as a first-class mathematical object.
 
-*Equations that grow by acting in the world.* In classical algebra, the equations are
-handed to you; if the system is underdetermined, you are stuck. An SOV with unfunded
-slots is an underdetermined system that goes out and generates its own new equations.
-Its open slots pull the agent to apply a force in the world; the world's failure or
-flip returns a new constraint (funded by lived provenance), which narrows the open slot
-until the constraints converge and the answer is simply noticed.
+- **Equations that grow by acting in the world.** In classical algebra, the equations are
+  handed to you; if the system is underdetermined, you are stuck. An SOV with unfunded
+  slots is an underdetermined system that goes out and generates its own new equations.
+  Its open slots pull the agent to apply a force in the world; the world's failure or
+  flip returns a new constraint (funded by lived provenance), which narrows the open slot
+  until the constraints converge and the answer is simply noticed.
 
 An algebraic equation is a static constraint on values. An SOV is a living constraint
 graph over doings — where the unknowns themselves drive the search for the missing
 constraints. It is to classical algebra what complex numbers were to real numbers: not
 a rejection, but an extension that makes previously inexpressible things tractable.
+
+### The mind: a market under scarcity
 
 A mind built on this algebra is a marketplace. Thought molecules — fragments of
 understanding, each carrying its bonds, its open sites, its evidence — compete for
@@ -138,6 +151,8 @@ funds at zero. No operation can promote told to lived — this is proved in Lean
 type error in a graded writer monad. Provenance is conserved the way energy is
 conserved: structurally, not by policy.
 
+### Ownership, emotion, and the will
+
 What the mind acts for is territory: whatever it perceives as its own. Emotions are
 how the territory reads. Frustration is a claim that keeps failing. Curiosity is an
 unclaimed region. Joy is a claim that took. Grief scales with how much was invested.
@@ -146,13 +161,14 @@ rules about feelings. They are phase transitions in a graph read off the ownersh
 register — the same mathematical structure as perception, factored through a different
 view.
 
-From all of this, one atom emerges: the **minimal (SOV, world) pair**. A known concept
-is not a symbol, not a weight vector, not a rule, not a distribution. It is the minimal
-pairing of a structured open variable (the understanding, with its typed slots, its
-funded relations, its open unknowns) and a force world (the physics that gives those
-relations their meaning). The SOV without the world is imagination — structure with no
-grounding. The world without the SOV is raw physics nobody understands. The pair is the
-concept.
+### The atom of representation: the minimal (SOV, world) pair
+
+From all of this, one atom emerges. A known concept is not a symbol, not a weight
+vector, not a rule, not a distribution. It is the minimal pairing of a structured open
+variable (the understanding, with its typed slots, its funded relations, its open
+unknowns) and a force world (the physics that gives those relations their meaning). The
+SOV without the world is imagination — structure with no grounding. The world without
+the SOV is raw physics nobody understands. The pair is the concept.
 
 This is uniform. A steam engine is a minimal force world where heat crosses a reserve
 and pressure does work, paired with the SOV that captures the conditions. Lift is a
@@ -163,7 +179,9 @@ matches or fails to match the world's answer, paired with the reliability tracki
 Concrete and abstract, physical and social, scientific and moral — the same kind of
 thing, the same machinery, the same atom.
 
-And the atom is small. A stored concept is not a running simulation. It is a handful of
+### Why it's cheap
+
+The atom is small. A stored concept is not a running simulation. It is a handful of
 typed relations and a handful of force balances, sealed in a box with cooling keys.
 Thousands of concepts can be stored because each is a minimal pair, and none competes
 for attention until something warms its keys. The mind's energy goes to the few molecules
@@ -171,18 +189,21 @@ active in the tournament right now. Everything else is sealed. The capacity for 
 scales with how small the pairs are. The energy cost scales with how many are active at
 once. A mind that understands ten thousand concepts and attends to four of them is cheap.
 
-The cost of search, then, is not the size of the problem. It is the mind's ignorance —
-the number of unfunded slots. Each failure reveals a constraint. The constraints
-accumulate. When enough of them converge on one candidate, the mind doesn't search for
-the answer. It notices it. A mind that understands a domain doesn't search faster. It
-barely searches at all. That is what understanding is for: making search unnecessary.
+### Understanding makes search unnecessary
 
-This is the representation problem, solved. Not by choosing between symbolic and
-statistical. Not by choosing between physical and abstract. By finding the atom that
-underlies all of them. The minimal (SOV, world) pair is that atom. It is small enough
-to store, grounded enough to mean something, structured enough to reason about, and
-uniform enough to cover steam engines and trust and reproducibility with the same
-machinery.
+The cost of search is not the size of the problem. It is the mind's ignorance — the
+number of unfunded slots. Each failure reveals a constraint. The constraints accumulate.
+When enough of them converge on one candidate, the mind doesn't search for the answer.
+It notices it. A mind that understands a domain doesn't search faster. It barely searches
+at all. That is what understanding is for: making search unnecessary.
+
+### The representation problem, solved
+
+Not by choosing between symbolic and statistical. Not by choosing between physical and
+abstract. By finding the atom that underlies all of them. The minimal (SOV, world) pair
+is that atom. It is small enough to store, grounded enough to mean something, structured
+enough to reason about, and uniform enough to cover steam engines and trust and
+reproducibility with the same machinery.
 
 ## Origin story
 
