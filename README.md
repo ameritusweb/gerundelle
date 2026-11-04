@@ -425,6 +425,26 @@ Intelligence is a benchmark that can be gamed. Understanding cannot.
 
 Gerundelle is the answer to the question the field forgot to ask.
 
+### Grounded Semantic AI
+
+Statistical AI: semantics as co-occurrence. The meaning is in the geometry of the vector
+space. Ungrounded — no world, just text about the world.
+
+Symbolic AI: semantics as formal relations between symbols. Structural but ungrounded.
+The symbols point at each other, not at anything outside the system.
+
+Grounded Semantic AI: semantics as the minimal (SOV, world) pair. The symbol points at a
+force world where something actually happens. The grounding is real, checkable,
+structural. The meaning isn't derived from other symbols or from co-occurrence. It's
+anchored in a world that exhibits the phenomenon.
+
+"Grounded" has a history in the field — the symbol grounding problem (Harnad, 1990).
+Harnad asked how symbols get their meaning, argued that you can't ground symbols in other
+symbols, and proposed sensorimotor grounding as the answer. He was pointing at the world
+half without having the algebra to formalize it. Grounded Semantic AI is the answer to
+Harnad's question. Not sensorimotor grounding — that's too biological, too narrow. Force
+world grounding. The (SOV, world) pair as the atom.
+
 ### The two contributions
 
 **The unknown as a first-class citizen.** Every prior architecture treats the unknown as
