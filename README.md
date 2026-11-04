@@ -370,6 +370,26 @@ them win the tournament and get conscious attention. So, in this theory, conscio
 isn't some mysticism, but is just related to thought molecules winning their tournament
 and getting the attention they deserve.
 
+## The answer
+
+It turned out to be the wrong question. "How do higher-level thoughts form?" assumes
+something builds them — some mechanism that takes lower-level pieces and assembles them
+into a higher-level thing. Nothing forms them. Understanding is the substrate, not
+thoughts. You build understanding from experience: each interaction with the world funds
+a relation, fills a slot, reveals a condition. When enough funded (SOV, world) pairs are
+active in the tournament at once, and their open slots point at each other, they bond.
+The composite that emerges is the higher-level thought. It wasn't constructed. It was
+noticed — because the conditions converged and only one thing satisfied all of them.
+
+You don't build higher-level thoughts from lower-level ones by aggregation. You build
+understanding from experience, and the higher-level thoughts emerge from that
+understanding the way solutions emerge from a well-constrained algebra. Not searched for.
+Noticed.
+
+The question contained a hidden assumption — that thoughts are the primary thing and
+understanding is derived from them. It's the other way around. Understanding is the
+substrate. Thoughts are what surface when the substrate is rich enough.
+
 ## Repository structure
 
 ```
