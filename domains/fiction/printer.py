@@ -14,7 +14,7 @@ import re
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "text"))
+TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "reference", "text"))
 sys.path.insert(0, TEXT_DIR)
 from clip import parse  # noqa: E402
 

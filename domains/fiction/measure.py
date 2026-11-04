@@ -15,15 +15,25 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
 from printer import alternatives, shape_of  # noqa: E402
 from probe import skeletons  # noqa: E402
+from theories import gerunds_of, theory_coverage  # noqa: E402
 
+NAN = float("nan")   # a judge score that wasn't measured: never a real 0
 _JUDGE = None
+_WARNED = False
 
 
 def judge():
-    global _JUDGE
+    """The structural judge, or None where it isn't available: it needs torch and trained models that aren't in the repo.
+    Everything else here runs without it, and its scores read nan."""
+    global _JUDGE, _WARNED
     if _JUDGE is None:
-        from judge import Judge
-        _JUDGE = Judge(backend="tower")
+        try:
+            from judge import Judge
+            _JUDGE = Judge(backend="tower")
+        except (ImportError, OSError) as e:
+            if not _WARNED:
+                print(f"(the structural judge isn't available, so its scores read nan: {e})", file=sys.stderr)
+                _WARNED = True
     return _JUDGE
 
 
@@ -53,10 +63,11 @@ def history(scene):
 
 def evaluate(scene, sentences):
     rows = round_trip(sentences)
-    j = judge().judge(" ".join(r["text"] for r in rows), sentences=[r["text"] for r in rows])
+    tower = judge()
+    j = tower.judge(" ".join(r["text"] for r in rows), sentences=[r["text"] for r in rows]) if tower else dict(
+        sentences=[], matched_share=NAN, best_theory=None, theories={}, variety=NAN)
     # theory coverage from the exact labels (the tower's own coverage takes the gerunds of the five
     # nearest skeletons per sentence, which saturates: every theory reads 1.0 on any passage)
-    from judge import gerunds_of, theory_coverage
     exact = theory_coverage([set(gerunds_of(r["reading"])) for r in rows])
     best = max(exact.items(), key=lambda kv: (kv[1], -len(kv[0])))
     return {"round_trip": sum(r["ok"] for r in rows) / max(1, len(rows)), "rows": rows,

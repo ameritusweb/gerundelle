@@ -575,10 +575,10 @@ def why_undetermined(doc):
     return "unknown", doc[0]
 
 
-# The parser: en_core_web_trf (a transformer, on the GPU when there is one); set
-# TEXT_PARSER=en_core_web_sm for the small model. The small model's named-entity errors were
-# the most common reason a mapping wasn't confident (TEXT_EMBEDDING.md).
-PARSER = os.environ.get("TEXT_PARSER", "en_core_web_trf")
+# The parser: en_core_web_sm, the small model; set TEXT_PARSER=en_core_web_trf for the transformer (on the GPU when
+# there is one). The small model's named-entity errors were the most common reason a mapping wasn't confident
+# (TEXT_EMBEDDING.md).
+PARSER = os.environ.get("TEXT_PARSER", "en_core_web_sm")
 _NLP = None
 
 

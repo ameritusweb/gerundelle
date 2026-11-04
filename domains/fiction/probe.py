@@ -7,7 +7,7 @@ import os
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "text"))
+TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "reference", "text"))
 sys.path.insert(0, TEXT_DIR)
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import grammar  # noqa: E402,F401  (the fiction templates; FICTION_GRAMMAR=0 reads with the Wikipedia ones only)

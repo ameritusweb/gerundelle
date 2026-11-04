@@ -20,7 +20,7 @@ import re
 from itertools import combinations
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "forces"))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "forces"))
 import poc  # noqa: E402
 from molecules import Mind, Params, clause, concept_of  # noqa: E402
 
