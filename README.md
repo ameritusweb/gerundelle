@@ -425,6 +425,31 @@ Intelligence is a benchmark that can be gamed. Understanding cannot.
 
 Gerundelle is the answer to the question the field forgot to ask.
 
+### The two contributions
+
+**The unknown as a first-class citizen.** Every prior architecture treats the unknown as
+a temporary embarrassment — something to be eliminated as fast as possible. A gap in the
+data, a missing variable, a probability waiting to collapse. In Gerundelle, the unknown
+is permanent, structural, algebraically active. It has identity. It pulls. It
+participates. It doesn't exist to be resolved — it exists to be productive while
+unresolved. That's a fundamental shift in what a knowledge representation even is.
+
+**Understanding as a first-class citizen, distinguished from both thinking and behavior.**
+The entire field aimed at behavior because that was the only target they could see.
+Thinking was the mechanism, behavior was the measure, and understanding was either
+mystical or reducible to the other two. Gerundelle gives understanding its own structure.
+The minimal (SOV, world) pair is not a description of behavior. It's not a description
+of the tournament. It's the atom of what it means to know something. No prior cognitive
+architecture has formalized understanding as a first-class object distinct from both
+thinking and behavior.
+
+The two contributions need each other. Understanding requires the unknown as a
+first-class citizen — because real understanding is defined as much by structured
+ignorance as by funded knowledge. A mind that only represents what it knows isn't
+understanding anything. And the unknown only becomes productive when it's embedded in an
+understanding structure — typed relations, funded neighbors, a world that gives it
+grounding. One without the other is incomplete. Together they're the foundation.
+
 ### Next token prediction vs structural similarity: an example
 
 I was thinking about the minimal (SOV, world) pair for representing the concept of an 
