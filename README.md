@@ -390,6 +390,25 @@ The question contained a hidden assumption — that thoughts are the primary thi
 understanding is derived from them. It's the other way around. Understanding is the
 substrate. Thoughts are what surface when the substrate is rich enough.
 
+## Artificial Understanding
+
+Artificial Understanding would have asked different questions from the start. Not "how
+do we get the system to produce the right output" but "how does a mind come to know what
+it knows, and what does knowing actually consist of." Not behavior as the target but the
+generative capacity behind behavior as the target.
+
+And the field would have arrived at unknowns much sooner. Because understanding — real
+understanding — is defined as much by what you don't know as what you do. A mind that
+only represents what it knows isn't understanding anything. It's just storing. The
+unknown node isn't a deficiency to be patched. It's the engine.
+
+Turing asked "can machines think." That framed everything that followed around behavior
+— the imitation game, the behavioral test. The question should have been "can machines
+understand." That's a different question entirely. It points straight at structure,
+grounding, provenance, the (SOV, world) pair.
+
+Gerundelle is the answer to the question the field forgot to ask.
+
 ## Repository structure
 
 ```
