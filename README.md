@@ -181,6 +181,19 @@ graph over doings — where the unknowns themselves drive the search for the mis
 constraints. It is to classical algebra what complex numbers were to real numbers: not
 a rejection, but an extension that makes previously inexpressible things tractable.
 
+### The SOV subsumes logical equations
+
+Classical algebra is equations over quantities with arithmetic operators. Classical logic
+is equations over propositions with connectives (AND, OR, NOT, IMPLIES) and quantifiers
+(there exists, for all). Both are special cases of the SOV. Quantities and propositions
+are kinds of nodes. Arithmetic operators, logical connectives, and quantifiers are kinds
+of relations. Solving an equation and proving a theorem are kinds of closing a slot.
+
+The SOV doesn't restrict what the nodes are, what the relations are, or what the unknowns
+do. It subsumes both because it operates at the level where algebra and logic are the
+same thing: a graph of knowns and unknowns connected by typed relations, where the
+unknowns are defined by their topology and resolved when the constraints converge.
+
 ### The mind: a market under scarcity
 
 A mind built on this algebra is a marketplace. Thought molecules — fragments of
