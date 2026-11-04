@@ -179,6 +179,37 @@ matches or fails to match the world's answer, paired with the reliability tracki
 Concrete and abstract, physical and social, scientific and moral — the same kind of
 thing, the same machinery, the same atom.
 
+### Recursive world-building: minds that create their own worlds
+
+Because the atom of a concept is a (SOV, world) pair, any rule system the mind has
+already funded — like the rules of chess — already contains a minimal force world.
+Instantiating that inner world and dropping sub-minds into it turns mental simulation
+and game play into recursive world-building, using the exact same machinery as the
+base layer.
+
+- **Rules become the physics of the sub-world.** To the parent mind, the rules of
+  chess are a funded (SOV, world) structure. When the parent spins up a chess sub-world
+  from that structure, those rules become Layer 1 physics — forces, reserves, and legal
+  flips — for the sub-minds inside it.
+
+- **Sub-minds do real experiential work.** Inside that constructed world, the sub-minds
+  aren't doing brute-force tree search. They are full Gerundelle minds with their own
+  attention tournaments, open slots, sub-wants, and territorial claims. When White and
+  Black sub-minds play against each other, each failure reveals a constraint and each
+  tactical surprise exposes a conflation boundary.
+
+- **Recursive growth of understanding.** The parent mind doesn't just get a move
+  evaluation back from the sub-minds; it harvests the SOVs and converged constraints
+  the sub-minds discovered while contending with each other. A tactical motif (a fork,
+  a pin) or an opponent's behavioral quirk emerges as a newly structured (SOV, world)
+  atom that feeds back into the parent mind's understanding.
+
+This also raises a question about provenance. When a parent mind constructs an internal
+world from its own understanding and lets sub-minds act inside it, the sub-minds
+experience their trials as lived relative to the sub-world's physics. To the parent,
+those trials are lived in a world the parent imagined — which is where the firewall
+theorem and the provenance grading meet recursive construction.
+
 ### Why it's computationally cheap
 
 The atom is small. A stored concept is not a running simulation. It is a handful of
