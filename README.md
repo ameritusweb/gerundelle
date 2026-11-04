@@ -470,6 +470,21 @@ understanding anything. And the unknown only becomes productive when it's embedd
 understanding structure — typed relations, funded neighbors, a world that gives it
 grounding. One without the other is incomplete. Together they're the foundation.
 
+### Aristotle's nous is now a Lean type
+
+Aristotle said understanding was a real thing, distinct from behavior — nous, the direct
+grasp of what something is and why. For 2,400 years it stayed philosophical. The
+behaviorists dismissed it as mentalism. The AI field operationalized it away: if the
+output looks right, the rest doesn't matter.
+
+The (SOV, world) pair formalizes it. Understanding is a graph of funded relations
+anchored in a force world, with typed unknowns that pull. It has 301 machine-checked
+theorems. It is the least mystical thing anyone has said about understanding — because
+it says exactly what understanding is, structurally, and proves properties about it for
+every possible input.
+
+Aristotle was right that understanding is real and distinct. He just didn't have Lean 4.
+
 ### Next token prediction vs structural similarity: an example
 
 I was thinking about the minimal (SOV, world) pair for representing the concept of an 
