@@ -48,9 +48,15 @@ defined by its relations to what is already known.
 Just like x in an equation is defined by its relations to the known numbers through
 operators. The unknown's identity is its topology — how it relates to what surrounds it.
 Unknowns are not gaps waiting to be eliminated; they are structural citizens that persist
-and pull for attention. The graph has its own operators (Constrain,
-Relabel, Fit, Archaize) and its own theorems. Classical algebra — equations with knowns,
+and pull for attention. The graph has its own algebra of seventeen operators (Constrain, Relabel, Fit, Archaize,
+Exclude, Evict, Pose, Attest, Bill, Tell, Individuate, Retract, Compose, Abstract, Bind,
+Quote, Anneal) and its own theorems. Classical algebra — equations with knowns,
 unknowns, and operators — is a special case.
+
+This graph is called an **SOV** — Structured Open Variables. "Structured" because the
+relations are typed. "Open" because the unknowns remain open, pulling, participating.
+"Variables" because they are defined by their relations to what is known, the same way
+variables in an equation are defined by the operators around them.
 
 **Cognition is a thought molecule tournament.** A mind can only attend to a few things
 at once. Hypotheses, patterns, meta-recognitions, and wants are thought molecules that
