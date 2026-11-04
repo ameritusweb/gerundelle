@@ -415,6 +415,8 @@ Turing asked "can machines think." That framed everything that followed around b
 understand." That's a different question entirely. It points straight at structure,
 grounding, provenance, the (SOV, world) pair.
 
+Intelligence is a benchmark that can be gamed. Understanding cannot.
+
 Gerundelle is the answer to the question the field forgot to ask.
 
 ## Repository structure
