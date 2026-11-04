@@ -34,7 +34,7 @@ comprises **24 files**, **301 theorems**, and **no unfinished proofs**.
 The architecture is domain-independent: one mind and one algebra run in story, code, chess
 and population worlds, with no domain-specific machinery. Only the world changes.
 
-## The four ideas
+## The five ideas
 
 **The world is a tree of doings.** Objects are described by what they are doing (gerunds),
 not by what they are made of. A jar is *charged*. A boulder is *resting*. Materials,
@@ -76,6 +76,14 @@ itself a form of territory. Emotions are what the mind feels about what it holds
 it's losing, and what it doesn't yet have. Frustration is when the mind acts and nothing
 moves. Curiosity is when the mind encounters something it doesn't understand yet. Joy is
 when the mind acted on something and the result was what it wanted.
+
+**Understanding, thinking, and behavior are three different things.** Behavior is what the
+system does. Thinking is the competition in the tournament — molecules bidding, winning,
+binding. Understanding is the funded (SOV, world) pairs the thinking operates on. You can
+have behavior without thinking. You can have thinking without understanding. You need
+understanding for the thinking to produce behavior that means something. The field
+conflated all three for seventy years because there was no structural definition of
+understanding that would separate them. The SOV provides one.
 
 ## Why it matters
 
