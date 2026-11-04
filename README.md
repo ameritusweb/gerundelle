@@ -56,7 +56,7 @@ unknowns, and operators — is a special case.
 at once. Hypotheses, patterns, meta-recognitions, and wants are thought molecules that
 compete for those limited slots. Molecules bind with each other — each has binding sites,
 and two molecules that bond form a composite that competes as one. A bond holds two
-thoughts together. The winner of each slot is the argmax of:
+thoughts together. The winners of each level (7 → 5 → 4 slots) are the argmax of:
 
 `activation × (1 + binding_score) + open_site_tension + w_pred × forward + support`
 
