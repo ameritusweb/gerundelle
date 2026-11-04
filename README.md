@@ -64,7 +64,8 @@ where **activation** is how alive the thought is (decays when it doesn't win, bo
 when it does), **binding_score** is how well it fits with its current partner,
 **open_site_tension** is the pull of an unfilled unknown, **forward** is how much the
 mind would still learn by attending to it (expected information gain from its Dirichlet
-prior), and **support** is how many constraints from other thoughts' failures point to it. The tournament runs in separate tracks — thoughts, meta-cognition,
+prior), and **support** is how many conditions, each learned from a different experience, this
+thought alone satisfies at once. The tournament runs in separate tracks — thoughts, meta-cognition,
 understanding, emotions, experiments, and ownership — each with its own scarce slots, so
 one faculty cannot drown the others. What the agent lived through counts in full, what it
 was told counts at a discount, and what it imagined counts not at all.
