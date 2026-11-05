@@ -755,6 +755,10 @@ If you use Gerundelle in your research, please cite:
 }
 ```
 
+## What a Mind is Doing
+
+[![What a Mind is Doing](images/mind.png)](https://gerundelle.com/)
+
 ## License
 
 LGPL v2.1 (code, proofs, and reference implementation). See [LICENSE](LICENSE).
