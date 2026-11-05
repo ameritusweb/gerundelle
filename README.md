@@ -36,6 +36,15 @@ comprises **24 files**, **301 theorems**, and **no unfinished proofs**.
 The architecture is domain-independent: one mind and one algebra run in story, code, chess
 and population worlds, with no domain-specific machinery. Only the world changes.
 
+## Play it
+
+[![Playing Nim against a Gerundelle mind, with what it wants, what it's attending to, and what it has lived through](images/play-nim.png)](https://gerundelle.com/play/)
+
+**[Play Nim against a Gerundelle mind](https://gerundelle.com/play/)**, in your browser. It was never told the
+rules or the strategy: it tried things, the game refused what its rules don't allow, and it found the rest by
+playing. The page shows what it wants, what it's attending to, what it's wondering, and why it made each move,
+all read from its own records.
+
 ## The five ideas
 
 **The world is a tree of doings.** Objects are described by what they are doing (gerunds),
