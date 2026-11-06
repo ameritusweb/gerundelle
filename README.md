@@ -115,6 +115,37 @@ of trying to combine them have produced hybrids, not unity.
 Gerundelle doesn't combine them. It operates at a level where the distinction doesn't
 apply.
 
+### Clouds and fluid dynamics
+
+Statistical AI looked at human creativity — the cloud formations — and built a system
+that *generates* creatively. But what it should have built is a system with rigid
+primitives and rich dynamics. Instead of capturing the law, it captured the weather.
+
+A large language model is an enormous compression of cloud formations. It can produce
+new clouds because it has seen so many clouds. But it doesn't know F=ma. It can't
+derive the clouds from first principles. It can't say *why* this cloud and not that one.
+It pattern-matches against a vast library of previous weather. When it's asked something
+genuinely new — outside the weather it's seen — it doesn't have the law to fall back on.
+It improvises. It hallucinates. Because improvisation is all a cloud-compressor can do
+at the edge of its training distribution.
+
+And every weight that "learned creativity" is a weight spent trying to store the output
+of a process that should have been computed. It's like memorizing every cloud formation
+instead of learning fluid dynamics. The space of possible clouds is larger than what any
+training set can cover. The compression is not just inefficient — it's fundamentally
+incomplete. There will always be clouds it hasn't seen. Fluid dynamics generates all
+possible clouds, including ones that have never existed yet.
+
+The scaling question follows. The field's intuition has been: more weights, more data,
+more compute, closer to general intelligence. But if creativity is a dynamic byproduct
+of simple primitives interacting, then scaling the cloud-memorizer doesn't converge on
+understanding. It converges on a better cloud library. Which is useful. But it's not the
+same thing. It hits a ceiling that's invisible from inside the paradigm.
+
+Gerundelle's 102 gerunds is a provocation in this context. Not 102 billion parameters.
+102 primitives. The bet is that the right 102 beats the wrong 100 billion — because
+the creativity isn't designed in. It's what happens when the law meets the world.
+
 ### The ontology: a world of doings
 
 The world is described not by what things are made of, but by what they are doing.
