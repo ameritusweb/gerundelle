@@ -104,6 +104,30 @@ understanding that would separate them. The SOV provides one.
 
 ## Why it matters
 
+### The goal
+
+The field is looking for a mind that would come up with the theory of relativity on
+its own. A mind that would derive Gerundelle's own architecture on its own. Not
+prompted. Not hand-held. Not recombining pieces of an answer it was trained on.
+Originating.
+
+A mind like that needs to hold an open question — "why does the speed of light not
+change with the observer's motion?" — and let that question pull for years until the
+constraints converge on the only structure that satisfies all of them. It needs to
+notice that two things everyone treats as separate behave as one thing under the right
+conditions. It needs to recognize when the answer, once found, extinguishes the
+question.
+
+None of that is in training data. Training data contains the answer — the Lorentz
+transformations, the papers, the textbooks. A statistical model trained on those can
+reproduce the answer, explain the answer, recombine pieces of the answer in
+novel-looking ways. But it never held the open slot. It never felt the pull. It never
+lived the constraint that made the answer inevitable.
+
+The field wants a mind that originates. What it is building is a mind that recombines.
+The distance between those two things is the distance between storing clouds and knowing
+fluid dynamics. Gerundelle is an attempt to close that distance.
+
 ### The problem
 
 AI has spent decades on a representation problem. Symbolic AI gives you structure
