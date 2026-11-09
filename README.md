@@ -633,11 +633,13 @@ book/                   The Museum of Gerundelle (the book)
   gerundelle.pdf        Print edition (262 pages)
   gerundelle.epub       EPUB edition
 
-reference/              The reference implementation
-  molecules.py          The thought-molecule tournament
-  sov_agent.py          The SOV agent
-  force_world.py        The force world
-  curriculum_worlds.py  The curriculum
+reference/              The reference implementation, versioned
+  v1/                   As of 2026-11-03 (the domains below but the maze run on it)
+  v2/                   With the switches the Warp chess and maze work added (all off by default)
+    molecules.py        The thought-molecule tournament
+    sov_agent.py        The SOV agent
+    force_world.py      The force world
+    curriculum_worlds.py  The curriculum
 
 domains/                Domain-specific worlds and ladders
   fiction/              The fiction pipeline (rungs 0-7, both arms)
@@ -645,6 +647,7 @@ domains/                Domain-specific worlds and ladders
   cognitivechess/       The chess ladder (rungs 0-3)
   civilization/         The civilization track (rungs P0-P14)
   embodied/             Embodied cognition (distinctiveness, recognition, grasping)
+  mysterymaze/          A grounded maze: a mind learns to find the cheese (reference/v2)
 
 puzzle-pieces/          How external concepts map onto the running system
 ```
@@ -729,6 +732,17 @@ python -X utf8 p0.py     # the spring of light: one mind, one want
 python -X utf8 p4.py     # a population of four: curiosity, interference, accidental help
 python -X utf8 p13.py    # retaliation and the first feud
 python -X utf8 p14.py    # ranges: which findings survive across turn orders
+```
+
+**Mystery maze**: a mind wants the cheese at the end of a maze built only of forces: positions
+it can walk onto, walls that yield only to their own word, a controller that points it. It
+learns which word opens which kind of wall through the force each word would exert on it,
+dreams between trips of approaches it never took, and gets faster trip after trip (78 cheeses
+over five mazes; on one maze its last fifteen trips take 42-86 slices). Runs on `reference/v2`.
+
+```bash
+cd domains/mysterymaze
+python -X utf8 run.py --seed 0 --slices 2000 --dreams --acceptance 6
 ```
 
 ## The paper

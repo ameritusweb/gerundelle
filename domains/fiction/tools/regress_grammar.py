@@ -14,7 +14,7 @@ from collections import Counter
 
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # The parsed Wikipedia articles this compares against aren't in the repo: set ANALOGY_TEXT to a folder that has them.
-ARTICLES = os.path.join(os.environ.get("ANALOGY_TEXT", os.path.join(os.path.dirname(os.path.dirname(HERE)), "reference", "text")),
+ARTICLES = os.path.join(os.environ.get("ANALOGY_TEXT", os.path.join(os.path.dirname(os.path.dirname(HERE)), "reference", "v1", "text")),
                         "results", "articles_a.jsonl")
 NEW = ("realizing", "asking", "telling", "instructing", "iterating")
 

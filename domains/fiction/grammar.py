@@ -25,7 +25,7 @@ import os
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "reference", "text"))
+TEXT_DIR = os.environ.get("ANALOGY_TEXT", os.path.join(REPO, "reference", "v1", "text"))
 sys.path.insert(0, TEXT_DIR)
 import determine as D  # noqa: E402
 import templates as T  # noqa: E402

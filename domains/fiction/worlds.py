@@ -5,7 +5,7 @@ import os
 import sys
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-MOLECULES = os.environ.get("GERUNDELLE", os.path.join(REPO, "reference"))
+MOLECULES = os.environ.get("GERUNDELLE", os.path.join(REPO, "reference", "v1"))
 sys.path.insert(0, MOLECULES)
 import curriculum_worlds as C  # noqa: E402
 from force_world import HIDDEN  # noqa: E402
