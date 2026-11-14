@@ -20,26 +20,16 @@ every square. Positions are memoized by the engine's hash. A two-move plan's can
 passed; a gain my every move would create for them and a pass wouldn't isn't seen (my reading; check_plans.py measures it).
 (First version, plans.py.v1: every reply recomputed every gain, and the check never finished its first position.)
 """
-import os
-
+from rustboard import KING, WarpMove, flip_square, square_file, square_rank  # noqa: F401
 from warpworld import rehash
-from WarpOneChess.move import KING, WarpMove, flip_square, square_file, square_rank
 
 BLACK, WHITE = False, True
 
-try:   # the Rust board for legal moves (the user, 2026-11-13: "Build the Rust board"; check_rust_board.py: the same legal moves as the
-    import warp_board as _wb   # Python board on 7,200 positions, and the same board after all 288,327 moves made, after its castling
-except ImportError:            # fix; 20 times faster). Its moves come in another order: every reading here is a set or a search
-    _wb = None                 # for any one, so which move is named first can differ. WARP_PURE=1: the Python board, as before
-RUST = _wb is not None and os.environ.get("WARP_PURE") != "1"
-
 
 def legal(b):
-    """b's legal moves, as the Python board's WarpMove (pushed, compared and named as before)."""
-    if not RUST:
-        return list(b.legal_moves)
-    return [WarpMove(m.from_square, m.to_square, m.promotion, m.flip_type, m.flip_from, m.flip_to)
-            for m in _wb.PyWarpBoard.from_fen(b.to_fen()).legal_moves]
+    """b's legal moves (the Rust board's, rustboard.py; check_rust_board.py: the same moves as the Python board's, in another order:
+    every reading here is a set or a search for any one, so which move is named first can differ)."""
+    return list(b.legal_moves)
 
 
 def turned(board, colour):

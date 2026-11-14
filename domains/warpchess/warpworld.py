@@ -1,4 +1,4 @@
-"""Warp 1 Chess behind the interface Gerundelle's SovAgent reads (cognitivechess/chessworld.py is the precedent). The rules are the user's engine, WarpOneChess/board.py.
+"""Warp 1 Chess behind the interface Gerundelle's SovAgent reads (cognitivechess/chessworld.py is the precedent). The rules are the Rust board's (rustboard.py; the user, 2026-11-14: "it needs to only use the rust board").
 
     objs           every piece by identity ('black_knight_Ld5'), its safety ('<piece>_safety'), and 'material'
     states()       a piece 'present' or 'captured'; its safety 'safe', 'attacked', 'hanging'; material 'even', 'up', 'down'
@@ -8,14 +8,10 @@
 
 A move not on offer does nothing: the world pushes back. Piece values appear only to read material, the want's own fact. They never reach the mind as values.
 """
-import os
 import random
-import sys
 from types import SimpleNamespace
 
-sys.path.insert(0, os.environ.get("WARP", __import__("paths").warp()))
-from WarpOneChess.board import WarpBoard  # noqa: E402
-from WarpOneChess.move import BLACK, PIECE_VALUES, TOTAL_SQUARES, WHITE, flip_square, square_file, square_name, square_rank, square_side  # noqa: E402
+from rustboard import BLACK, PIECE_VALUES, TOTAL_SQUARES, WHITE, WarpBoard, flip_square, square_file, square_name, square_rank, square_side
 
 NAMES = {1: "pawn", 2: "knight", 3: "bishop", 4: "rook", 5: "queen", 6: "king", 7: "crab"}
 
@@ -34,8 +30,8 @@ FILE_PRESSED = 3   # squares of a file a side must press for the file to be unde
 
 
 def rehash(board):
-    """After setting a board's turn or en passant square directly: the engine caches legal moves by its Zobrist hash, which only push and pop keep up to date. Without this, a board turned to the other side is served the first side's moves."""
-    board._hash = board._compute_hash()
+    """After setting a board's turn or en passant square directly. The Python engine cached legal moves by a hash only push and pop kept up
+    to date, so this recomputed it; the Rust board (rustboard.py) is made again on every write, with its own hash: nothing to do."""
 
 class WarpWorld:
     still = True    # nothing moves between the mind's pushes unless it acts

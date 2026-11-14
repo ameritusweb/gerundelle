@@ -73,7 +73,7 @@ class MindTool:
 
     def __init__(self, world, tool=None):
         from plansworld import SQUARES
-        from WarpOneChess.move import square_name
+        from rustboard import square_name
         self.world, self.tool = world, tool or Tool()
         self.predicted = []   # (the board's hash when asked, the prediction item)
         self.squares = {square_name(sq): sq for sq in SQUARES}

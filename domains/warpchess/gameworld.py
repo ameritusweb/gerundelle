@@ -52,7 +52,7 @@ class GameWorld(WarpDuel):
         return diffs
 
 
-def opening_rooms(root=__import__("paths").warp('mini_games')):
+def opening_rooms(root=__import__("paths").MINI_GAMES):
     """The user's self-play openings (warp_self_play.py): each iteration's game starts from one opening and the engine's best move after it, and
     every mini game of that iteration is a proven line from that one position. -> [(iteration, the start's FEN)], in iteration order."""
     import glob

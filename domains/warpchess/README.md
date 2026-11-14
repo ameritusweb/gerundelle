@@ -2,8 +2,9 @@
 
 **The track's question:** what does a Gerundelle mind come to understand of Warp 1 Chess by playing it, with nothing written into it?
 
-Warp 1 Chess is the author's game: two 8x7 boards back to back, pieces that flip between them, and crabs. Its engine (`WarpOneChess`,
-found at `$WARP`; not in this repository) is the world's physics. No rules, piece values, strategy or engine evaluation reach the mind:
+Warp 1 Chess is the author's game: two 8x7 boards back to back, pieces that flip between them, and crabs. Its Rust board (`rust_board/`,
+the game engine's move generator, built as a Python module; `rustboard.py` puts it behind the interface used here) is the world's
+physics. No rules, piece values, strategy or engine evaluation reach the mind:
 it is offered the legal moves and perceives what they do. Setting up a position is setting up a room, as fiction does, and what the mind
 comes away with is its own. The rules below are for the reader.
 
@@ -64,20 +65,32 @@ results and residue).
 
 | Files | What they hold |
 | --- | --- |
+| `rust_board/`, `rustboard.py` | The rules: the Rust board's source (with the castling fix, and the setters and plain reads this domain uses, both 2026-11-14), and the board, moves and square helpers on it |
 | `warpworld.py`, `gameworld.py`, `duel.py` | Warp 1 Chess behind the interface a mind reads: rooms, full games, two sides |
 | `plans.py`, `plansworld.py`, `plansgame.py` | The opponent's plans (a gain of a piece, a square, an outpost); territory as those plans thwarted: none there is held, one the mind can stop is contested, one it can't is lost |
 | `tool.py` | The search tool the mind can ask about plans, in told answers and two-move lines |
 | `dream.py`, `imagine.py`, `carry.py`, `shoes.py` | The dream planner, imagined lines, carrying experience by force structure, the opponent's reply as the mind would make it |
 | `rung0.py` ... `rung4p.py` | The rungs (`LADDER.md`) |
-| `check_*.py` | Checks with no mind: the world, the plans, the tool, the lines, the Rust board against the Python board |
+| `check_*.py`, `test_warpchess.py` | Checks with no mind: the world, the plans, the tool, the lines |
 | `trace_*.py` | The traces each finding in `PLAN.md` / `LADDER.md` came from |
 
 ## Run
 
-Needs the engine (`WarpOneChess`) at `$WARP` and its Rust board (`warp_board`, a wheel built from the engine's `rust_board`).
+First build the Rust board and install it (needs Rust and `pip install maturin`):
+
+```bash
+cd domains/warpchess/rust_board
+maturin build --release
+pip install target/wheels/warp_board-*.whl
+```
+
+Then:
 
 ```bash
 cd domains/warpchess
 python -X utf8 rung0.py                                    # rung 0
-WARP=/path/to/warponechess PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
+PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
 ```
+
+`rung4.py --room <iteration>` also reads the game's self-play openings (`$MINI_GAMES`), which aren't in this repository; the default
+room, the chevron start, doesn't need them.

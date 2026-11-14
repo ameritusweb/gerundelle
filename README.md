@@ -784,13 +784,13 @@ or two of their moves away; where they have none the mind holds the square, a pl
 stop is contested, and one it can't stop is lost. A search tool answers the mind's questions about those plans, in told answers and
 two-move lines it can commit to; when the mind is stuck on something no longer on offer, it dreams
 at once while the game waits. Over games 8-20 of one seeded run, no game ended behind and every
-commit came; games 19 and 20 ended +33 and +24 in material within 50 half-moves. Needs the Warp
-chess engine (`WarpOneChess`, not in this repository) at `$WARP`, and its Rust board (`warp_board`).
-Runs on `reference/v3`. Games with dreams are slow (minutes a dream).
+commit came; games 19 and 20 ended +33 and +24 in material within 50 half-moves. The rules are
+the game's Rust board (`domains/warpchess/rust_board/`), built once as a Python module (needs Rust
+and maturin). Runs on `reference/v3`. Games with dreams are slow (minutes a dream).
 
 ```bash
-cd domains/warpchess
-WARP=/path/to/warponechess PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
+cd domains/warpchess/rust_board && maturin build --release && pip install target/wheels/warp_board-*.whl && cd ..
+PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
 ```
 
 ## The paper

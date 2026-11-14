@@ -12,7 +12,7 @@ Held by reading only (read_held). Potential effects (push_predictions, PLAN.md s
 claimable (a placed want, rung 1's, is about it).
 """
 import plans
-from WarpOneChess.move import TOTAL_SQUARES, square_name, square_rank
+from rustboard import TOTAL_SQUARES, square_name, square_rank
 from warpworld import WarpWorld
 
 KINDS = ("piece", "square", "outpost")
@@ -66,7 +66,7 @@ class PlansWorld(WarpWorld):
         on the same board, "x" across), and what presses the square after the move (`p0` the piece moved, `mine` the mind's others,
         `theirs` the opponent's). Whether a plan already there becomes stoppable is not predicted here: it is the tool's (tool.MindTool
         stands its answers as predictions). Checked by check_plans_effects.py. -> [(effect, 2, force structure, relative effect, (the move's push id,))]."""
-        from WarpOneChess.move import square_file, square_rank, square_side
+        from rustboard import square_file, square_rank, square_side
         invs = self.invitations()
         if not invs:
             return []
@@ -102,7 +102,7 @@ class PlansWorld(WarpWorld):
     def plan_effect(g, new, land, pm, pt, push):
         """A plan's change as a potential effect: (as the world will show it, 2 slices, the force structure relative to the move, the
         relative effect, (the push,))."""
-        from WarpOneChess.move import square_file, square_rank, square_side
+        from rustboard import square_file, square_rank, square_side
         kind, sq = g
         d = (max(abs(square_file(sq) - square_file(land)), abs(square_rank(sq) - square_rank(land)))
              if square_side(sq) == square_side(land) else "x")
