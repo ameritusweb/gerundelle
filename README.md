@@ -636,6 +636,7 @@ book/                   The Museum of Gerundelle (the book)
 reference/              The reference implementation, versioned
   v1/                   As of 2026-11-03 (the domains below but the maze run on it)
   v2/                   With the switches the Warp chess and maze work added (all off by default)
+  v3/                   With the switches the tetris, Go and Warp chess work added, and exact speed-ups (all off by default)
     molecules.py        The thought-molecule tournament
     sov_agent.py        The SOV agent
     force_world.py      The force world
@@ -648,6 +649,10 @@ domains/                Domain-specific worlds and ladders
   civilization/         The civilization track (rungs P0-P14)
   embodied/             Embodied cognition (distinctiveness, recognition, grasping)
   mysterymaze/          A grounded maze: a mind learns to find the cheese (reference/v2)
+  tetris/               A tetris force world: open space as territory, predictions, commit (reference/v3)
+  go/                   7x7 Go: territory as the opponent's dead opportunity forces; a league (reference/v3)
+  warpchess/            Warp chess: the opponent's plans thwarted as territory, a search tool, dreams in play (reference/v3)
+  structuralsimilarity/ Only the two modules Warp chess's mind borrows (forward.py, pair.py)
 
 puzzle-pieces/          How external concepts map onto the running system
 ```
@@ -745,6 +750,49 @@ cd domains/mysterymaze
 python -X utf8 run.py --seed 0 --slices 2000 --dreams --acceptance 6
 ```
 
+**Tetris**: a mind in a tetris force world, with no goal placed. Its territory is the open space
+(empty rows held while empty), the rows and blocks it clears (its for good), and pieces resting on
+the floor. It predicts by following the forces, owns a correct prediction, and commits to a
+sequence of pushes it saves in the prediction SOV. Luck (a piece forming where it lands best) falls
+only for clears it predicted and made itself: from 0.7 to 0 by slice 6,400 in `clean5`. Runs on
+`reference/v3`.
+
+```bash
+cd domains/tetris
+PYTHONHASHSEED=0 python -u -X utf8 trace_decisions.py 10000 --prefix clean   # checkpoints in checkpoints/
+python -X utf8 watch_mind.py checkpoints/clean_10000.pkl                      # watch it play (tkinter)
+```
+
+**Go** (7x7, against random replies): territory is what the opponent can't do. Each point carries
+White's opportunity force there (could a white stone hold, or would it hang?), and the mind holds
+the points where it is dead. Placements report the opportunities they would kill or revive as
+potential effects. With the switches the Go work added (`run.GO_SWITCHES`), seed 0 kept 7 games of
+7 (one stone lost in one), each 49-0, the mind passing after 56-66 stones. Also a two-mind world, a
+temperament league with Elo, and an evolution of temperaments. Runs on `reference/v3`.
+
+```bash
+cd domains/go
+PYTHONHASHSEED=0 python -u -X utf8 run.py --seed 0 --slices 1500
+PYTHONHASHSEED=0 python -u -X utf8 league.py --rounds 3 --workers 11    # the temperament league
+```
+
+**Warp chess** (Warp 1 Chess, the author's game: two boards, pieces that flip between them, crabs; the
+rules are in `domains/warpchess/README.md`, with the official rulebook in `domains/warpchess/rulebook/`).
+Against random Black, from the rulebook's start:
+territory is the opponent's plans thwarted. A plan is a gain of a piece, a square or an outpost one
+or two of their moves away; where they have none the mind holds the square, a plan it can still
+stop is contested, and one it can't stop is lost. A search tool answers the mind's questions about those plans, in told answers and
+two-move lines it can commit to; when the mind is stuck on something no longer on offer, it dreams
+at once while the game waits. Over games 8-20 of one seeded run, no game ended behind and every
+commit came; games 19 and 20 ended +33 and +24 in material within 50 half-moves. Needs the Warp
+chess engine (`WarpOneChess`, not in this repository) at `$WARP`, and its Rust board (`warp_board`).
+Runs on `reference/v3`. Games with dreams are slow (minutes a dream).
+
+```bash
+cd domains/warpchess
+WARP=/path/to/warponechess PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
+```
+
 ## The paper
 
 **GERUNDELLE: A Formally Verified Architecture of Mind**
@@ -784,6 +832,10 @@ exist as physical exhibits. The chapters name what the galleries showed.
 | Chess | A mind learning tactics from contrast and playing combinations | 0-1c, sub-wants, polarity, lookahead |
 | Civilization | Populations of minds in worlds with configurable physics | P0-P5, voyages, told blueprints, populations |
 | Embodied | Distinctiveness space, recognition, grasping | Recognition 28/30, constraint discovery |
+| Mystery maze | A grounded maze: which word opens which wall, learned from forces | 78 cheeses over five mazes |
+| Tetris | Open space as territory, predictions by force, commit | Luck 0.7 to 0 by slice 6,400 |
+| Go | Territory as the opponent's dead opportunity forces | 7 of 7 games kept (seed 0); league, evolution |
+| Warp chess | The opponent's plans thwarted as territory, a search tool, dreams in play | +33 and +24 against random within 50 half-moves |
 
 ## The formal guarantees
 
