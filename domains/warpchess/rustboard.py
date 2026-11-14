@@ -12,7 +12,10 @@ helpers and constants, and a board with the fields and methods read here. The Py
 - Legal moves come as tuples, each made into a WarpMove once (the same move is the same object).
 - Speed (2026-11-14): the first version read every field from the FEN and rebuilt the board from a FEN on every write; 15 slices of
   rung 4p took 15.7 s a slice under the profiler, 104 s of it in reading the FEN. The Rust board's setters, arrays and move tuples
-  were added for this (rust_board/src/lib.rs).
+  were added for this (rust_board/src/lib.rs), and so were press_map and reach, the pressure plans.py and the world read (their
+  Python readings stay as plans.press_py, plans.reach_py and WarpWorld.pressure_py; check_rustboard.py checks they agree). The same
+  15 slices, the same game: 3.9 s a slice on the Python engine (with the Rust board for plans.py's legal moves), 7.8 s with the first
+  version, 3.3 s with the setters, 1.9 s with press_map and reach.
 - Pickled as its FEN (the Rust board can't be pickled; checkpoints pickle the world). A move history isn't kept across a pickle.
 check_rustboard.py checks it against the Python engine, field by field, on random positions.
 """
@@ -221,6 +224,14 @@ class WarpBoard:
     def push(self, move):
         self._rb.push(_to_rust(move))
         self._moved()
+
+    def press_map(self, colour, need_kings=True):
+        """square -> the squares colour's pieces press it from (the Rust board's; plans.press, warpworld.WarpWorld.pressure)."""
+        return self._rb.press_map(colour, need_kings)
+
+    def reach(self, me):
+        """Every square some move of me's would leave pressed by me (the Rust board's; plans.reach)."""
+        return self._rb.reach(me)
 
     def zobrist_hash(self):
         return self._rb.zobrist_hash()

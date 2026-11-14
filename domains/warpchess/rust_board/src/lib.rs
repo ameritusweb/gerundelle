@@ -5,7 +5,7 @@
 
 use pyo3::prelude::*;
 use pyo3::exceptions::PyValueError;
-use std::collections::HashMap;
+use std::collections::{HashMap, HashSet};
 use std::sync::LazyLock;
 
 mod types;
@@ -199,6 +199,30 @@ impl PyWarpBoard {
             self.inner.set_piece_at(s, piece_type, color, orig_side);
         }
         self.inner.hash = self.inner.compute_hash();
+    }
+
+    /// The squares a colour's pieces press, each with the squares pressing it from (Gerundelle's Warp chess, plans.press and
+    /// warpworld.WarpWorld.pressure): the colour's legal moves with the turn set to it and no en passant square, by where each move
+    /// ends (a post-flip's flip square); a pawn's push and a king's or crab's two-square jump press nothing (they can't capture).
+    /// need_kings: nothing is pressed on a board missing a king (plans.py: the game is over).
+    #[pyo3(signature = (colour, need_kings=true))]
+    fn press_map(&self, colour: bool, need_kings: bool) -> HashMap<u8, HashSet<u8>> {
+        press_map(&self.inner, colour, need_kings)
+    }
+
+    /// Every square some move of `me`'s (turn set to me) would leave pressed by me, as press_map reads it after the move (plans.reach).
+    fn reach(&self, me: bool) -> HashSet<u8> {
+        let mut out = HashSet::new();
+        if !both_kings(&self.inner) {
+            return out;
+        }
+        let t = turned(&self.inner, me);
+        for m in movegen::legal_moves(&t) {
+            let mut c = t.clone();
+            c.push(&m);
+            out.extend(press_map(&c, me, true).into_keys());
+        }
+        out
     }
 
     /// The legal moves as plain tuples (from, to, promotion or 0, flip_type, flip_from, flip_to): cheaper to read than move objects.
@@ -462,4 +486,48 @@ fn warp_board(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add("RIGHT", RIGHT)?;
 
     Ok(())
+}
+
+
+// ── For Gerundelle's Warp chess domain (press_map, reach; 2026-11-14) ──
+
+fn turned(b: &WarpBoardInner, colour: bool) -> WarpBoardInner {
+    let mut c = b.clone();
+    c.turn = colour;
+    c.en_passant = -1;
+    c.hash = c.compute_hash();
+    c
+}
+
+fn both_kings(b: &WarpBoardInner) -> bool {
+    let (mut w, mut k) = (false, false);
+    for sq in 0..TOTAL_SQUARES {
+        if b.pieces[sq] == KING {
+            if b.colors[sq] { w = true } else { k = true }
+        }
+    }
+    w && k
+}
+
+fn press_map(b: &WarpBoardInner, colour: bool, need_kings: bool) -> HashMap<u8, HashSet<u8>> {
+    let mut out: HashMap<u8, HashSet<u8>> = HashMap::new();
+    if need_kings && !both_kings(b) {
+        return out;
+    }
+    let t = turned(b, colour);
+    for m in movegen::legal_moves(&t) {
+        let kind = t.pieces[m.from_sq as usize];
+        let (f0, r0) = ((m.from_sq & 7) as i16, ((m.from_sq >> 3) & 7) as i16);
+        let (f1, r1) = ((m.to_sq & 7) as i16, ((m.to_sq >> 3) & 7) as i16);
+        let (d_file, d_rank) = ((f0 - f1).abs(), (r0 - r1).abs());
+        if kind == PAWN && d_file == 0 {
+            continue;
+        }
+        if (kind == KING || kind == CRAB) && (d_file == 2 || d_rank == 2) && (d_file == 0 || d_rank == 0) {
+            continue;
+        }
+        let fin = if m.flip_type == POST_FLIP { m.flip_to as u8 } else { m.to_sq };
+        out.entry(fin).or_default().insert(m.from_sq);
+    }
+    out
 }

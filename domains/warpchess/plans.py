@@ -67,8 +67,17 @@ def moves(board, colour, memo):
 
 
 def press(board, colour, memo):
-    """square -> the squares a colour's pieces press it from (warpworld.WarpWorld.pressure, on any board)."""
+    """square -> the squares a colour's pieces press it from (warpworld.WarpWorld.pressure, on any board). Read by the Rust board
+    (press_map, 2026-11-14: press_py's reading, which took most of a slice's time; check_rustboard.py checks they agree)."""
     key = ("press", board.zobrist_hash(), colour)
+    if key not in memo:
+        memo[key] = board.press_map(colour)
+    return memo[key]
+
+
+def press_py(board, colour, memo):
+    """press, read in Python (as before the Rust board's press_map)."""
+    key = ("press_py", board.zobrist_hash(), colour)
     if key in memo:
         return memo[key]
     b, ms = moves(board, colour, memo)
@@ -86,13 +95,22 @@ def press(board, colour, memo):
 
 
 def reach(board, me, memo):
-    """Every square some move of mine (me to move) would leave pressed by me: what 'could press' reads, once per position."""
+    """Every square some move of mine (me to move) would leave pressed by me: what 'could press' reads, once per position. Read by
+    the Rust board (reach, 2026-11-14; reach_py is the Python reading, check_rustboard.py checks they agree)."""
     key = ("reach", board.zobrist_hash(), me)
+    if key not in memo:
+        memo[key] = board.reach(me)
+    return memo[key]
+
+
+def reach_py(board, me, memo):
+    """reach, read in Python (as before the Rust board's reach)."""
+    key = ("reach_py", board.zobrist_hash(), me)
     if key not in memo:
         b, ms = moves(board, me, memo)
         out = set()
         for x in ms:
-            out |= set(press(_after(b, x), me, memo))
+            out |= set(press_py(_after(b, x), me, memo))
         memo[key] = out
     return memo[key]
 

@@ -72,7 +72,12 @@ class WarpWorld:
         return sum(PIECE_VALUES[self.board.pieces[sq]] * (1 if self.board.colors[sq] else -1) for sq in range(TOTAL_SQUARES) if self.board.pieces[sq])
 
     def pressure(self, colour):
-        """The squares a side's pieces put a force on: square -> the squares the force comes from. A move that can't capture exerts none."""
+        """The squares a side's pieces put a force on: square -> the squares the force comes from. A move that can't capture exerts none.
+        Read by the Rust board (press_map, 2026-11-14; pressure_py is the Python reading, check_rustboard.py checks they agree)."""
+        return self.board.press_map(colour, False)
+
+    def pressure_py(self, colour):
+        """pressure, read in Python (as before the Rust board's press_map)."""
         b = self.board.copy()
         b.turn = colour; rehash(b)
         b.en_passant = -1; rehash(b)
