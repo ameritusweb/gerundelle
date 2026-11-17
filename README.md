@@ -616,6 +616,50 @@ cross-domain connection — funded (SOV, world) pairs whose skeletons match, bon
 the tournament and surfacing as a composite thought. Then the event happened, unrehearsed,
 in the middle of exploring the theory.
 
+### Emotions are territorial phase states
+
+Every emotion is a signal about the state of your territory. Fear is a threat to
+territory you hold. Anger is a violation — someone crossed a boundary. Grief is
+territory permanently lost. Jealousy is a third party threatening your territorial
+claim on a relationship. Pride is a territorial claim successfully made or defended.
+Shame is a territorial claim publicly failed. Curiosity is an open slot — unclaimed
+territory that could be yours. Without "mine," none of these emotions has an object.
+
+Standard psychology treats these as separate mechanisms — appraisal theories, action
+tendencies, valence/arousal axes. In this architecture they are all the same mechanism
+at different phases of the same underlying territorial dynamic. The ownership register
+is the substrate. The emotions are what it feels like when the register changes.
+
+The lineage: Robert Ardrey (*The Territorial Imperative*, 1966) argued that territorial
+ownership was a foundational biological drive, but kept it animal and physical.
+Jon L. Pierce et al. (2001) extended territory to immaterial things — ideas, roles,
+identity — but stayed within organizational psychology. This architecture treats
+territorial ownership as the vector that orients cognition itself. Each step gets
+closer to the deeper claim, but no prior work made the full leap from "animals are
+territorial" to "territory is the primitive that makes cognition goal-oriented."
+
+### Relationships and the territorial map
+
+If emotions are signals about territory, then understanding another person's emotions
+reduces to understanding what they perceive as theirs — what they are trying to preserve
+and what they believe has changed. The word "perceived" is crucial: a spouse doesn't
+need to objectively own something to experience its loss or violation.
+
+The same event can affect different perceived territories, producing different emotional
+responses. A partner making an important decision without consulting the other could
+touch agency ("I thought I had a say"), belonging ("I thought we made decisions
+together"), competence ("I thought you trusted my judgment"), or identity ("I thought
+being an equal partner was part of who I am"). The appropriate response differs in each
+case. Treating the emotion directly is working on the wrong level — the intervention
+that matters is upstream: which territory?
+
+Territory can be relational. "Our marriage," "our home," "our future" are jointly held
+territory. Ownership need not imply domination or possessiveness — it can produce
+cooperation, responsibility, attachment, and mutual protection. A person may experience
+another person's success as their own because they perceive the relationship as shared
+territory. That gives the model an explanation for pride, loyalty, and emotional
+investment alongside conflict and jealousy — from the same root.
+
 ## Repository structure
 
 ```
