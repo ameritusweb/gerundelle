@@ -38,6 +38,18 @@ and population worlds, with no domain-specific machinery. Only the world changes
 
 ## Play it
 
+**[Play chess against a fresh Gerundelle mind](https://gerundelle.com/chess/)**, in your browser. It starts
+knowing the rules of chess and nothing else, and learns as it plays you. What it acts for is territory: the
+opponent's plans (each one it can still stop is contested, one it can't is lost), its own pieces' safety (a
+piece left hanging is territory lost, weighed by what that piece alone holds up and what it can reach), and
+the forced mates it reaches. A predicted loss of territory is felt before it is ever lived. After each of its
+moves it tells you why, read from its own records: how it chose the move (its tournament's top pick, the
+first step of a sequence it committed to, a step toward a want, or an experiment), what it wanted and what it
+was avoiding, what it predicted the move would do, and what else was at the top of its thinking. You pick its
+temperament (patient, restless, skeptical, scientific, ...). The mind is the same code as the research runs,
+running in your browser under Pyodide; the board is a Rust chess engine compiled to WebAssembly, and forced
+mates are read by Stockfish, also in WebAssembly.
+
 [![Playing Nim against a Gerundelle mind, with what it wants, what it's attending to, and what it has lived through](images/play-nim.png)](https://gerundelle.com/play/)
 
 **[Play Nim against a Gerundelle mind](https://gerundelle.com/play/)**, in your browser. It was never told the
@@ -836,6 +848,7 @@ exist as physical exhibits. The chapters name what the galleries showed.
 | Tetris | Open space as territory, predictions by force, commit | Luck 0.7 to 0 by slice 6,400 |
 | Go | Territory as the opponent's dead opportunity forces | 7 of 7 games kept (seed 0); league, evolution |
 | Warp chess | The opponent's plans thwarted as territory, a search tool, dreams in play | +33 and +24 against random within 50 half-moves |
+| Chess v2 | Standard chess: the opponent's plans and its own pieces' safety as territory, losses felt before they are lived, forced mates | [Playable in the browser](https://gerundelle.com/chess/), every move explained |
 
 ## The formal guarantees
 
