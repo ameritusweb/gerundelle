@@ -693,6 +693,7 @@ reference/              The reference implementation, versioned
   v1/                   As of 2026-11-03 (the domains below but the maze run on it)
   v2/                   With the switches the Warp chess and maze work added (all off by default)
   v3/                   With the switches the tetris, Go and Warp chess work added, and exact speed-ups (all off by default)
+  v4/                   With the switches the clean code, balance and cognitive chess v2 work added (all off by default)
     molecules.py        The thought-molecule tournament
     sov_agent.py        The SOV agent
     force_world.py      The force world
@@ -708,6 +709,8 @@ domains/                Domain-specific worlds and ladders
   tetris/               A tetris force world: open space as territory, predictions, commit (reference/v3)
   go/                   7x7 Go: territory as the opponent's dead opportunity forces; a league (reference/v3)
   warpchess/            Warp chess: the opponent's plans thwarted as territory, a search tool, dreams in play (reference/v3)
+  cleancode/            Clean code: programs as feed-forward graphs of wheels, values as unit forces (reference/v4)
+  cognitivechess_v2/    Standard chess on Warp chess's mind; a play app with explanations, a league (reference/v4)
   structuralsimilarity/ Only the two modules Warp chess's mind borrows (forward.py, pair.py)
 
 puzzle-pieces/          How external concepts map onto the running system
@@ -847,6 +850,30 @@ and maturin). Runs on `reference/v3`. Games with dreams are slow (minutes a drea
 ```bash
 cd domains/warpchess/rust_board && maturin build --release && pip install target/wheels/warp_board-*.whl && cd ..
 PYTHONHASHSEED=0 python -u -X utf8 rung4p.py --start --half-moves 50 --dreams --stop-at-dream 14 --games 20
+```
+
+**Clean code**: a program is a feed-forward graph of wheels (each connection an operation, turned one step at a time); the mind
+never writes code, it turns wheels until every test passes, nothing is invalid or lint, and the setting is the simplest, then it
+settles. Values are stacks of unit forces, perceived at every place on the graph for every test, with a pulse when one changes:
+the terms the mind's understanding builds the program's equation from. On rung 2 (two inputs joined, 486 settings), 12 seeds,
+72 of 135 problems settled (53%), where fifteen variants without the force world settled 17-33%. Runs on `reference/v4`.
+
+```bash
+cd domains/cleancode
+PYTHONHASHSEED=0 python -u -X utf8 run.py --rung 2 --seed 0 --slices 2000 --dream --quiet
+```
+
+**Chess** (cognitive chess v2): Warp chess's mind on standard chess, from the start, against random Black or another mind. Its
+territory is the opponent's plans thwarted, its own pieces' bearings (a piece left hanging is lost territory, weighed by what it
+holds up and what it can reach), the rules' win condition, and every distinct forced mate it reaches (Stockfish reads them after a
+capture, check or promotion). A play app (`play_mind.py`) lets you play a fresh mind and shows a readable explanation of each of its
+moves; a temperament league (`league.py`) and its watch window (`watch_league.py`). The board is a Rust crate
+(`domains/cognitivechess_v2/chess_board/`), built once as a Python module. Stockfish: set `STOCKFISH`, or have it on PATH. Runs on
+`reference/v4`.
+
+```bash
+cd domains/cognitivechess_v2/chess_board && maturin build --release && pip install target/wheels/chess_board-*.whl && cd ..
+PYTHONHASHSEED=0 python -X utf8 play_mind.py
 ```
 
 ## The paper

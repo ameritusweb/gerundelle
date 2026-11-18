@@ -1,0 +1,375 @@
+[
+ {
+  "fen": "1r1k4/3pn1br/ppb3pp/n1pp1p1P/P2NP3/1PPQ3P/5PB1/RNBKR3 w - - 2 25",
+  "walk": [
+   "d4b5",
+   "d4c2",
+   "d4e2",
+   "d4f3",
+   "d4f5"
+  ],
+  "moves": 48
+ },
+ {
+  "fen": "1nbqk1nr/r1p5/p2p2Pb/Pp2pp1p/1P6/N2P3N/R1P1PPP1/2BQKB1R w K - 1 13",
+  "walk": [
+   "c2c4",
+   "d3d4",
+   "e2e4"
+  ],
+  "moves": 27
+ },
+ {
+  "fen": "r1b1kbn1/1ppp2pr/n3Np2/p3p3/PP6/N6p/2PPPKPP/R1B1QB1R w q - 0 12",
+  "walk": [
+   "e6c5",
+   "e6d4",
+   "e6d8",
+   "e6f4",
+   "e6f8",
+   "e6g5"
+  ],
+  "moves": 31
+ },
+ {
+  "fen": "r1bq2nr/pp1k4/6pp/2pPp3/1n1PP1p1/4BP2/PP2Q1BP/RN2K1NR w KQ - 1 16",
+  "walk": [
+   "d5d6",
+   "e2d2",
+   "e2f2"
+  ],
+  "moves": 35
+ },
+ {
+  "fen": "r1b1k1n1/3n1pp1/ppp2r2/5p1p/2P1p2Q/N3K1P1/Pb4BP/R2q2NR w q - 2 22",
+  "walk": [
+   "e3f4",
+   "g2e4",
+   "g3g4",
+   "h4g5",
+   "h4h3"
+  ],
+  "moves": 25
+ },
+ {
+  "fen": "r1bqkbnr/1p1ppppp/p7/2p5/nP4PP/P7/2PPPP1R/RNBQKBN1 w Qkq - 0 6",
+  "walk": [
+   "b1c3",
+   "c1b2",
+   "c2c3"
+  ],
+  "moves": 22
+ },
+ {
+  "fen": "5br1/2rkp1p1/1pp3Pp/3p4/n4P1P/R2P1b2/1B1Q4/1N2KBR1 w - - 2 29",
+  "walk": [
+   "f1e2",
+   "g1g2",
+   "g1g4"
+  ],
+  "moves": 36
+ },
+ {
+  "fen": "rnbq1bnr/2p1kppp/1p1pp3/8/B4N2/4P3/PBPPKPPP/RN1Q3R w - - 2 10",
+  "walk": [
+   "f4e6"
+  ],
+  "moves": 42
+ },
+ {
+  "fen": "1r1k1b2/4p1pr/p1b2n2/1pN5/4Bp1p/2P4P/qPKB1PPR/1R4N1 w - - 4 25",
+  "walk": [
+   "c5a4",
+   "c5a6",
+   "c5b3",
+   "c5d3",
+   "c5d7"
+  ],
+  "moves": 33
+ },
+ {
+  "fen": "r1q1kbnr/p1p1p1pp/3p2N1/1N1P4/5pP1/3QP3/pPPB1P1P/R3KBR1 w Qkq - 2 17",
+  "walk": [
+   "g6e7",
+   "g6f8"
+  ],
+  "moves": 47
+ },
+ {
+  "fen": "rnb1kbn1/p1p1pppr/3q3p/1p1p4/4PP2/1PP4N/P2P2PP/RNBQKB1R w KQq - 1 6",
+  "walk": [
+   "c3c4",
+   "d2d3",
+   "e1e2"
+  ],
+  "moves": 29
+ },
+ {
+  "fen": "r1bq1br1/p1pk1p2/4pn2/1p1p3B/1n1NN2p/2P2PP1/PP1PP3/R1BQ1RK1 w - - 1 15",
+  "walk": [
+   "e4d6",
+   "e4f2",
+   "e4g5"
+  ],
+  "moves": 34
+ },
+ {
+  "fen": "rn1qkbnr/p1p1ppp1/3p4/1p5p/6bP/P4P2/RPPPP1P1/1NBQKBNR w Kkq - 0 5",
+  "walk": [
+   "a3a4",
+   "c2c4"
+  ],
+  "moves": 18
+ },
+ {
+  "fen": "1N4nr/p1p3kp/4B3/1r6/2P3PN/PP1PbPP1/8/R1BQK2R w - - 1 30",
+  "walk": [
+   "e6f7",
+   "e6g8",
+   "h4g6"
+  ],
+  "moves": 33
+ },
+ {
+  "fen": "r1q3nr/p1p3pp/npb2k2/3Ppp2/2P4P/P1bP4/4KPP1/RNB2BNR w - - 0 14",
+  "walk": [
+   "c1b2",
+   "e2e3"
+  ],
+  "moves": 26
+ },
+ {
+  "fen": "1rb2bnr/3pkp1p/1qp1n1pB/pp2pB2/4P3/1PNP2P1/P1P2P1P/1R1Q1KNR w - - 8 17",
+  "walk": [
+   "f5e6"
+  ],
+  "moves": 40
+ },
+ {
+  "fen": "r1b1kb1r/p3p2p/2n5/1pP3p1/P1Pp1pn1/1q1Q2P1/2NPPP1P/RNBK1B1R w kq - 0 18",
+  "walk": [
+   "d3b3",
+   "d3c3",
+   "e2e4"
+  ],
+  "moves": 28
+ },
+ {
+  "fen": "r1b2k1r/pp2n2p/3p1b2/2q1pp1p/N1p1P1R1/PP3PPN/2QPB3/R1B1K3 w - - 3 20",
+  "walk": [
+   "g4f4",
+   "g4h4"
+  ],
+  "moves": 36
+ },
+ {
+  "fen": "1nbq2nr/1p1kppb1/r2p4/p1p3Np/4PP2/P1NP4/1PP1Q1PP/R1BK1B1R w - - 0 10",
+  "walk": [
+   "g2g4"
+  ],
+  "moves": 34
+ },
+ {
+  "fen": "2q2kr1/r1pp1p2/b1nNp2p/p6P/1P6/PP1BP3/1BP1p1P1/RN2K1R1 w - - 6 28",
+  "walk": [
+   "b1c3",
+   "b2c1",
+   "c2c3",
+   "d6e8",
+   "d6f7"
+  ],
+  "moves": 39
+ },
+ {
+  "fen": "r1b1n1kr/Np1p4/2n3p1/2b1p1qp/2p2N1P/4P1P1/PPPP1PQR/R1B2K2 w - - 2 19",
+  "walk": [
+   "e3e4",
+   "f2f3",
+   "f4e6",
+   "g2g1"
+  ],
+  "moves": 34
+ },
+ {
+  "fen": "1qbk1br1/4p3/rppp4/p2P1ppp/4QP1P/P2P2P1/RPP1B2n/1NBK2NR w - - 3 24",
+  "walk": [
+   "e4a4",
+   "e4c4",
+   "e4f3",
+   "e4g2"
+  ],
+  "moves": 35
+ },
+ {
+  "fen": "rnb1k1nr/ppp4p/q4bp1/3ppp2/3PP2P/N4PPR/PPP5/R1BQKBN1 w kq - 1 10",
+  "walk": [
+   "f1g2",
+   "g1e2"
+  ],
+  "moves": 33
+ },
+ {
+  "fen": "rnbq2nr/p2pp1bp/1p3p2/P1p3P1/5k2/RPP5/3PPKPP/1NBQ1BNR w - - 1 11",
+  "walk": [
+   "g2g4"
+  ],
+  "moves": 23
+ },
+ {
+  "fen": "r1bq1bnr/p1pp1ppp/1p6/3kp1B1/1n1PN3/PP5P/2P1PPP1/R2QKBNR w KQ - 1 11",
+  "walk": [
+   "d1b1",
+   "d1c1",
+   "e1d2",
+   "e4d2",
+   "g5d2"
+  ],
+  "moves": 36
+ },
+ {
+  "fen": "r1b1kbnr/p1ppP1p1/1pn5/7p/P1P1q3/1B1PBNP1/1P2KP1P/RN1Q3R w kq - 5 15",
+  "walk": [
+   "e7f8b",
+   "e7f8n"
+  ],
+  "moves": 37
+ },
+ {
+  "fen": "rnbqnb1r/pp2k1pp/B2ppp2/2p5/4N3/4PN2/PPPPQPPP/R1B1K2R w KQ - 0 8",
+  "walk": [
+   "b2b4",
+   "d2d4",
+   "e4c5",
+   "e4g5",
+   "f3g5"
+  ],
+  "moves": 38
+ },
+ {
+  "fen": "r2qkbnr/pp3ppp/n1pp4/3PN3/2P5/3P4/PP2BPPP/R1BQK1NR w KQkq - 1 10",
+  "walk": [
+   "b2b4",
+   "c1g5",
+   "c1h6",
+   "c4c5",
+   "d5c6",
+   "e5g6",
+   "h2h4"
+  ],
+  "moves": 37
+ },
+ {
+  "fen": "r4k2/pbp1bp1r/nP1pp1p1/6p1/R2Qn3/1PP1K2B/3P1N2/1NB2R1q w - - 0 24",
+  "walk": [
+   "d4b4",
+   "d4c4",
+   "d4c5",
+   "d4d3",
+   "d4d5",
+   "d4e4"
+  ],
+  "moves": 41
+ },
+ {
+  "fen": "rn3bnr/p3p1pp/1p2kpb1/2p5/PP5P/3PPNP1/1N3Pq1/R1B1KB2 w - - 3 21",
+  "walk": [
+   "f3d2",
+   "f3e5",
+   "f3g1",
+   "f3h2"
+  ],
+  "moves": 24
+ },
+ {
+  "fen": "rnbqkb1r/1pp1p1Bp/3p1n2/1p3pp1/8/N3P3/P1PP1PPP/R2QKBNR w KQkq - 2 8",
+  "walk": [
+   "e1e2",
+   "g1e2",
+   "g7f8"
+  ],
+  "moves": 34
+ },
+ {
+  "fen": "4qb1r/rp2pp1p/pPkp2pn/2p5/1P1RP3/N2P1PPb/3BN1BP/3QK2R w K - 1 19",
+  "walk": [
+   "a3b5",
+   "b4c5",
+   "d4c4"
+  ],
+  "moves": 36
+ },
+ {
+  "fen": "1nb1k1nr/rpppbpp1/p7/2P1p2p/7Q/3P3N/PP1KPPPP/RN3B1R w k - 1 9",
+  "walk": [
+   "h3g5"
+  ],
+  "moves": 36
+ },
+ {
+  "fen": "rnbqkb1r/1p1p1ppp/p1p2n2/4p3/3P3P/2N1P1P1/PPP1KP2/R1BQ1BNR w k - 0 7",
+  "walk": [
+   "a2a3",
+   "b2b4",
+   "g3g4",
+   "h4h5"
+  ],
+  "moves": 31
+ },
+ {
+  "fen": "r3kb1r/p4p2/np3n1p/2pqp1PR/4P3/1PP3PB/P1QPN3/R1BK4 w - - 1 17",
+  "walk": [
+   "g3g4",
+   "h3f1",
+   "h3g2"
+  ],
+  "moves": 30
+ },
+ {
+  "fen": "rnbk1bnr/1p2p1p1/p1q5/2pp1p1p/5PQP/PP2P3/R1PP2P1/1NB1KBNR w - - 1 14",
+  "walk": [
+   "a3a4",
+   "b3b4",
+   "c2c4",
+   "d2d4",
+   "e3e4",
+   "f1a6",
+   "f1b5",
+   "f1c4"
+  ],
+  "moves": 35
+ },
+ {
+  "fen": "1nb2bnr/Qq5p/r1P2p1B/1p2p1pk/2N1P2P/p1PP4/P4PP1/R3K1NR w KQ - 0 18",
+  "walk": [
+   "g1h3",
+   "h1h3"
+  ],
+  "moves": 40
+ },
+ {
+  "fen": "1rbn2nr/1q2k1b1/1p1p3p/1Qp2p1P/p1PPp1p1/5P2/PP2B1PR/1R2K3 w - - 4 25",
+  "walk": [
+   "b5a5",
+   "b5b3",
+   "b5b4"
+  ],
+  "moves": 32
+ },
+ {
+  "fen": "r5nr/ppp4p/2nRpqpk/8/PP2p3/N1B3P1/5PRP/4KB2 w - - 7 29",
+  "walk": [
+   "c3a1",
+   "d6d2",
+   "e1d2",
+   "f2f4"
+  ],
+  "moves": 35
+ },
+ {
+  "fen": "2b1kb1r/2p4p/1Q2pq1n/Bn3pp1/P4rP1/1P1PpP2/1RPN1N1P/3K2RB w k - 4 29",
+  "walk": [
+   "b6a7"
+  ],
+  "moves": 38
+ }
+]

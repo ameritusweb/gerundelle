@@ -8,4 +8,19 @@
   - **Optional Rust kernels** (`rust/gerundelle_fast/`): the same results, faster, when built and installed (`maturin build` in that folder); without them, or with `GERUNDELLE_PURE=1`, the Python runs.
   - With every switch off, `v3`'s suite matches `v1`'s and `v2`'s (72/80, 2 pending).
 
+- **`v4/`**: Gerundelle as of 2026-11-18, with what the clean code, balance and cognitive chess v2 work added. The clean code and
+  cognitive chess v2 domains run on it (`domains/<name>/paths.py`, or set `GERUNDELLE`).
+  - **Switches**, every one off by default (each domain turns on its own): `meta_territory`, `anti_unbinds`, `reset_clears_plan`,
+    `reconsider`, `tenacity`, `dreamed_conditions`, `faithful_choice`, `counted_pull`, `held_edges`, `abstract_grows`, `undo_loops`,
+    `condition_subwants`, `dream_reach`, `dream_for_want`, `plan_asks_world`, `loop_unbinds`, `defense_still`, `explained_needs`
+    (a need is one the mind's own record explains, never a conflation of what held), `patience_reach` (patience also counts slices a
+    want is out of reach), `plan_as_pull` (a want's planned step pulls in the tournament instead of overriding it), `push_slots` (the
+    pushes on offer in a lane of their own), `ask_once_here`, `defense_gains` (the felt defense counts gains as well as losses),
+    `region_weights` (regions summed by the world's weights). Two temperament parameters: `experimentation` (how much at stake the
+    mind sets aside to go on experimenting; unset, experiments go first as before) and `tenacity`.
+  - A world can now say what a push would do to its territory (`effects_after`, read by `defense_still`) and what a region weighs
+    (`region_weight`, read with `region_weights`).
+  - Unchanged from `v3`: `force_world.py`, `forces/`, the Rust kernels (`rust/gerundelle_fast/`), and the other modules.
+  - With every switch off, `v4`'s suite matches `v1`'s, `v2`'s and `v3`'s (72/80, 2 pending).
+
 Each version runs its own suite: `cd v1 && python -X utf8 test_molecules.py` (likewise in `v2` and `v3`), with `PYTHONHASHSEED=0`.
