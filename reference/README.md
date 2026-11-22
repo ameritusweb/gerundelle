@@ -23,4 +23,26 @@
   - Unchanged from `v3`: `force_world.py`, `forces/`, the Rust kernels (`rust/gerundelle_fast/`), and the other modules.
   - With every switch off, `v4`'s suite matches `v1`'s, `v2`'s and `v3`'s (72/80, 2 pending).
 
+- **`v5/`**: Gerundelle as of 2026-11-22, with what the evidence campaign, the zodiac, codecraft and cognitive chess v2 work added.
+  - **Switches**, every one off by default (each domain turns on its own):
+    - wants and slots: `slot_bound_wants`, `control_spares_want`, `experiment_spares_want`, `starved_experiments_go`, `no_loss_wants`
+    - felt territory: `held_losses_by_state`, `held_state_no_loss`, `contested_losses`, `new_region_gains`, `open_loss_blame`,
+      `lived_loss_lessons` (each held region lost in a slice is a lesson, nothing lived thrown away)
+    - improvement as territory: `improvement_territory`, `improvement_options` (the mind creates options that would improve it),
+      `improvement_contests`, `improvement_retested`, `imagined_regions`
+    - assumptions: `challenge_assumptions` (a loss the mind's own reading takes as forced is challenged with a tool)
+    - exploration: `side_forces`, `unknown_slots` (a location never in view is its own kind of ownership slot, which pulls),
+      `force_support`, `force_walks`, `plan_discovery`, `stack_pushes`
+    - the watch and the meta layer: `others_not_caused`, `commit_facts_now`, `mode_same`, `split_keeps_boundary`
+  - **Temperament parameters**, unset by default: `open_mindedness` (how far "assumed" safety is trusted), `thoroughness` (a tool
+    search's budget), `anneal_rate` (SOV's Anneal), `watchfulness` (the watch before acting, apart from patience).
+  - **Operator ablations**, on by default so every domain is unchanged; an ablation arm sets one off: `differentiate`, `retract`,
+    `territory`.
+  - A world can now also say: which contested regions count as losses (`contested_loss_regions`), what is a gain
+    (`is_gain`, `gain_prefixes`), what it shows the mind (`shown`), its forces and locations (`forces`, `locations`, read by the
+    exploration switches) and what an unknown would be seen as (`unknown_state`), what is in view (`view_reach`), regions held once
+    reached (`held_once_reached`), a loss's kind relative to the last move (`lived_rel`), and `kind_of`, `games`.
+  - Unchanged from `v4`: `force_world.py`, `forces/`, the Rust kernels (`rust/gerundelle_fast/`), and the other modules.
+  - With every switch off, `v5`'s suite matches `v1`'s through `v4`'s (72/80, 2 pending; the same eight fail).
+
 Each version runs its own suite: `cd v1 && python -X utf8 test_molecules.py` (likewise in `v2` and `v3`), with `PYTHONHASHSEED=0`.

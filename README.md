@@ -694,6 +694,7 @@ reference/              The reference implementation, versioned
   v2/                   With the switches the Warp chess and maze work added (all off by default)
   v3/                   With the switches the tetris, Go and Warp chess work added, and exact speed-ups (all off by default)
   v4/                   With the switches the clean code, balance and cognitive chess v2 work added (all off by default)
+  v5/                   With the switches the evidence campaign, zodiac, codecraft and cognitive chess v2 work added (all off by default)
     molecules.py        The thought-molecule tournament
     sov_agent.py        The SOV agent
     force_world.py      The force world
